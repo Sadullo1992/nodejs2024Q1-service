@@ -6,9 +6,18 @@ import { v4 as uuidv4 } from 'uuid';
 
 @Injectable()
 export class UserDatabase {
-  private readonly users: IUser[] = [];
+  private readonly users: IUser[] = [
+    {
+      id: 'd39117cd-e966-40ef-ae15-37ee87eb84be',
+      login: 'Sadullo',
+      password: '13245',
+      version: 1,
+      createdAt: 1709915850632,
+      updatedAt: 1709915850632,
+    },
+  ];
 
-  create(createUserDto: CreateUserDto): UserNoPassword | undefined {
+  create(createUserDto: CreateUserDto) {
     const hasUserLogin = this.users.some(
       ({ login }) => login === createUserDto.login,
     );
@@ -42,15 +51,16 @@ export class UserDatabase {
     return users;
   }
 
-  findOne(id: number) {
-    return `This action returns a #${id} user`;
+  findOne(id: string) {
+    const user = this.users.find((item) => item.id === id);
+    return user;
   }
 
-  update(id: number, updateUserDto: UpdateUserDto) {
+  update(id: string, updateUserDto: UpdateUserDto) {
     return `This action updates a #${id} user`;
   }
 
-  remove(id: number) {
+  remove(id: string) {
     return `This action removes a #${id} user`;
   }
 }
