@@ -1,9 +1,10 @@
 import { HttpException, HttpStatus, Inject, Injectable } from '@nestjs/common';
-import { genHashPassword } from 'src/helpers/genHashPassword';
+import { genHashPassword, isMatchPassword } from 'src/helpers/hashPassword';
 import { uuidValidateV4 } from 'src/helpers/uuidValidateV4';
 import { CreateUserDto } from './dto/create-user.dto';
-import { UpdateUserDto } from './dto/update-user.dto';
+import { UpdatePasswordDto } from './dto/update-password.tdo';
 import { UserDatabase } from './user.database';
+import { IUser, UserNoPassword } from './user.interface';
 
 @Injectable()
 export class UserService {
@@ -20,14 +21,7 @@ export class UserService {
         HttpStatus.CONFLICT,
       );
     }
-
-    return {
-      id: modelUser.id,
-      login: modelUser.login,
-      version: modelUser.version,
-      createdAt: modelUser.createdAt,
-      updatedAt: modelUser.updatedAt,
-    };
+    return this.userNoPassword(modelUser);
   }
 
   getAll() {
@@ -44,6 +38,45 @@ export class UserService {
 
     const user = this.userDatabase.findOne(id);
     if (!user) throw new HttpException('User not found', HttpStatus.NOT_FOUND);
+    this.userNoPassword(user);
+  }
+
+  async update(id: string, updatePasswordDto: UpdatePasswordDto) {
+    const { oldPassword, newPassword } = updatePasswordDto;
+    const isUUID = uuidValidateV4(id);
+    if (!isUUID)
+      throw new HttpException(
+        'User ID is invalid (not uuidv4)',
+        HttpStatus.BAD_REQUEST,
+      );
+
+    const user = this.userDatabase.findOne(id);
+    if (!user) throw new HttpException('User not found', HttpStatus.NOT_FOUND);
+
+    const isMatch = await isMatchPassword(oldPassword, user.password);
+    if (!isMatch)
+      throw new HttpException('Old password is wrong', HttpStatus.FORBIDDEN);
+
+    const hash = await genHashPassword(newPassword);
+    const updatedUser = this.userDatabase.update(id, hash);
+    return this.userNoPassword(updatedUser);
+  }
+
+  remove(id: string) {
+    const isUUID = uuidValidateV4(id);
+    if (!isUUID)
+      throw new HttpException(
+        'User ID is invalid (not uuidv4)',
+        HttpStatus.BAD_REQUEST,
+      );
+
+    const isDeleted = this.userDatabase.remove(id);
+    if (!isDeleted) {
+      throw new HttpException('User not found', HttpStatus.NOT_FOUND);
+    }
+  }
+
+  private userNoPassword(user: IUser): UserNoPassword {
     return {
       id: user.id,
       login: user.login,
@@ -51,13 +84,5 @@ export class UserService {
       createdAt: user.createdAt,
       updatedAt: user.updatedAt,
     };
-  }
-
-  update(id: string, updateUserDto: UpdateUserDto) {
-    return `This action updates a #${id} user`;
-  }
-
-  remove(id: string) {
-    return `This action removes a #${id} user`;
   }
 }

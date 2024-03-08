@@ -1,7 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { CreateUserDto } from './dto/create-user.dto';
-import { UpdateUserDto } from './dto/update-user.dto';
-import { IUser, UserNoPassword } from './user.interface';
+import { IUser } from './user.interface';
 import { v4 as uuidv4 } from 'uuid';
 
 @Injectable()
@@ -56,11 +55,23 @@ export class UserDatabase {
     return user;
   }
 
-  update(id: string, updateUserDto: UpdateUserDto) {
-    return `This action updates a #${id} user`;
+  update(id: string, newPassword: string) {
+    const d = new Date();
+    const now = d.getTime();
+
+    const index = this.users.findIndex((user) => user.id === id);
+    const user = this.users[index];
+    user.password = newPassword;
+    user.version += 1;
+    user.updatedAt = now;
+    return user;
   }
 
   remove(id: string) {
-    return `This action removes a #${id} user`;
+    const index = this.users.findIndex((user) => user.id === id);
+    if (index === -1) return false;
+
+    this.users.splice(index, 1);
+    return true;
   }
 }
