@@ -1,4 +1,5 @@
-import { Inject, Injectable } from '@nestjs/common';
+import { HttpException, HttpStatus, Inject, Injectable } from '@nestjs/common';
+import { uuidValidateV4 } from 'src/helpers/uuidValidateV4';
 import { CreateTrackDto } from './dto/create-track.dto';
 import { UpdateTrackDto } from './dto/update-track.dto';
 import { TrackDatabase } from './track.database';
@@ -16,14 +17,45 @@ export class TrackService {
   }
 
   findOne(id: string) {
-    return `This action returns a #${id} track`;
+    const isUUID = uuidValidateV4(id);
+    if (!isUUID)
+      throw new HttpException(
+        'Track ID is invalid (not uuidv4)',
+        HttpStatus.BAD_REQUEST,
+      );
+
+    const track = this.trackDatabase.findOne(id);
+    if (!track)
+      throw new HttpException('Track not found', HttpStatus.NOT_FOUND);
+    return track;
   }
 
   update(id: string, updateTrackDto: UpdateTrackDto) {
-    return `This action updates a #${id} track`;
+    const isUUID = uuidValidateV4(id);
+    if (!isUUID)
+      throw new HttpException(
+        'Track ID is invalid (not uuidv4)',
+        HttpStatus.BAD_REQUEST,
+      );
+
+    const updatedTrack = this.trackDatabase.update(id, updateTrackDto);
+    if (!updatedTrack)
+      throw new HttpException('Track not found', HttpStatus.NOT_FOUND);
+
+    return updatedTrack;
   }
 
   remove(id: string) {
-    return `This action removes a #${id} track`;
+    const isUUID = uuidValidateV4(id);
+    if (!isUUID)
+      throw new HttpException(
+        'Track ID is invalid (not uuidv4)',
+        HttpStatus.BAD_REQUEST,
+      );
+
+    const isDeleted = this.trackDatabase.remove(id);
+    if (!isDeleted) {
+      throw new HttpException('Track not found', HttpStatus.NOT_FOUND);
+    }
   }
 }

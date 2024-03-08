@@ -38,7 +38,7 @@ export class UserService {
 
     const user = this.userDatabase.findOne(id);
     if (!user) throw new HttpException('User not found', HttpStatus.NOT_FOUND);
-    this.userNoPassword(user);
+    return this.userNoPassword(user);
   }
 
   async update(id: string, updatePasswordDto: UpdatePasswordDto) {
