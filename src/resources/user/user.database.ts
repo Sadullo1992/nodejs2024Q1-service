@@ -5,16 +5,7 @@ import { v4 as uuidv4 } from 'uuid';
 
 @Injectable()
 export class UserDatabase {
-  private readonly users: IUser[] = [
-    {
-      id: 'd39117cd-e966-40ef-ae15-37ee87eb84be',
-      login: 'Sadullo',
-      password: '13245',
-      version: 1,
-      createdAt: 1709915850632,
-      updatedAt: 1709915850632,
-    },
-  ];
+  private readonly users: IUser[] = [];
 
   create(createUserDto: CreateUserDto) {
     const hasUserLogin = this.users.some(
