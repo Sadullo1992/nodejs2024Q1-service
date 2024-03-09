@@ -64,4 +64,14 @@ export class AlbumService {
       throw new HttpException('Album not found', HttpStatus.NOT_FOUND);
     }
   }
+
+  updateAlbumByArtistId(artistId: string) {
+    const allAlbums = this.albumDatabase.findAll();
+    const albumWithTracks = allAlbums.filter(
+      (album) => album.artistId === artistId,
+    );
+    albumWithTracks.forEach((track) => {
+      this.albumDatabase.update(track.id, { artistId: null });
+    });
+  }
 }

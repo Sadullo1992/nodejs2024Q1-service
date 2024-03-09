@@ -1,5 +1,6 @@
 import { HttpException, HttpStatus, Inject, Injectable } from '@nestjs/common';
 import { uuidValidateV4 } from 'src/helpers/uuidValidateV4';
+import { AlbumService } from '../album/album.service';
 import { TrackService } from '../track/track.service';
 import { ArtistDatabase } from './artist.database';
 import { CreateArtistDto } from './dto/create-artist.dto';
@@ -10,6 +11,7 @@ export class ArtistService {
   constructor(
     @Inject('ArtistDatabase') private artistDatabase: ArtistDatabase,
     private trackService: TrackService,
+    private albumService: AlbumService,
   ) {}
 
   create(createArtistDto: CreateArtistDto) {
@@ -60,6 +62,7 @@ export class ArtistService {
     const isDeleted = this.artistDatabase.remove(id);
     if (isDeleted) {
       this.trackService.updateTrackByArtistId(id);
+      this.albumService.updateAlbumByArtistId(id);
     } else {
       throw new HttpException('Artist not found', HttpStatus.NOT_FOUND);
     }
