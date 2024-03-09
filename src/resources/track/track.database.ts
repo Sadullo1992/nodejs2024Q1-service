@@ -8,10 +8,10 @@ import { ITrack } from './track.interface';
 export class TrackDatabase {
   private readonly tracks: ITrack[] = [];
 
-  create(createUserDto: CreateTrackDto) {
+  create(createTrackDto: CreateTrackDto) {
     const track = {
       id: uuidv4(),
-      ...createUserDto,
+      ...createTrackDto,
     };
     this.tracks.push(track);
 
