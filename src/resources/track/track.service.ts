@@ -68,4 +68,14 @@ export class TrackService {
       this.trackDatabase.update(track.id, { artistId: null });
     });
   }
+
+  updateTrackByAlbumId(albumId: string) {
+    const allTracks = this.trackDatabase.findAll();
+    const albumWithTracks = allTracks.filter(
+      (track) => track.albumId === albumId,
+    );
+    albumWithTracks.forEach((track) => {
+      this.trackDatabase.update(track.id, { albumId: null });
+    });
+  }
 }
