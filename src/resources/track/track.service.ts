@@ -58,4 +58,14 @@ export class TrackService {
       throw new HttpException('Track not found', HttpStatus.NOT_FOUND);
     }
   }
+
+  updateTrackByArtistId(artistId: string) {
+    const allTracks = this.trackDatabase.findAll();
+    const artistWithTracks = allTracks.filter(
+      (track) => track.artistId === artistId,
+    );
+    artistWithTracks.forEach((track) => {
+      this.trackDatabase.update(track.id, { artistId: null });
+    });
+  }
 }

@@ -12,5 +12,6 @@ import { TrackDatabase } from './track.database';
       useClass: TrackDatabase,
     },
   ],
+  exports: [TrackService],
 })
 export class TrackModule {}
