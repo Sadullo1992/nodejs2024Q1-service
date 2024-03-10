@@ -1,10 +1,10 @@
 import { Injectable } from '@nestjs/common';
-import { CreateUserDto } from './dto/create-user.dto';
-import { IUser } from './user.interface';
+import { CreateUserDto } from 'src/resources/user/dto/create-user.dto';
+import { IUser } from 'src/resources/user/user.interface';
 import { v4 as uuidv4 } from 'uuid';
 
 @Injectable()
-export class UserDatabase {
+export class UserDatabaseService {
   private readonly users: IUser[] = [];
 
   create(createUserDto: CreateUserDto) {

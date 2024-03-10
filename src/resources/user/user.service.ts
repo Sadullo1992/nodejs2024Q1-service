@@ -1,14 +1,14 @@
-import { HttpException, HttpStatus, Inject, Injectable } from '@nestjs/common';
+import { HttpException, HttpStatus, Injectable } from '@nestjs/common';
+import { UserDatabaseService } from 'src/database/user-database.service';
 import { genHashPassword, isMatchPassword } from 'src/helpers/hashPassword';
 import { uuidValidateV4 } from 'src/helpers/uuidValidateV4';
 import { CreateUserDto } from './dto/create-user.dto';
 import { UpdatePasswordDto } from './dto/update-password.tdo';
-import { UserDatabase } from './user.database';
 import { IUser, UserNoPassword } from './user.interface';
 
 @Injectable()
 export class UserService {
-  constructor(@Inject('UserDatabase') private userDatabase: UserDatabase) {}
+  constructor(private userDatabase: UserDatabaseService) {}
 
   async create(createUserDto: CreateUserDto) {
     const { login, password } = createUserDto;
