@@ -1,11 +1,11 @@
 import { Injectable } from '@nestjs/common';
 import { v4 as uuidv4 } from 'uuid';
-import { IAlbum } from './album.interface';
-import { CreateAlbumDto } from './dto/create-album.dto';
-import { UpdateAlbumDto } from './dto/update-album.dto';
+import { IAlbum } from 'src/resources/album/album.interface';
+import { CreateAlbumDto } from 'src/resources/album/dto/create-album.dto';
+import { UpdateAlbumDto } from 'src/resources/album/dto/update-album.dto';
 
 @Injectable()
-export class AlbumDatabase {
+export class AlbumDatabaseService {
   private readonly albums: IAlbum[] = [];
 
   create(createAlbumDto: CreateAlbumDto) {

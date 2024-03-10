@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 
 @Injectable()
-export class FavsDatabase {
+export class FavsDatabaseService {
   private readonly artists: string[] = [];
   private readonly albums: string[] = [];
   private readonly tracks: string[] = [];

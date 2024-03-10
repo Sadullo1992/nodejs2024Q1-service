@@ -1,14 +1,16 @@
 import { HttpException, HttpStatus, Inject, Injectable } from '@nestjs/common';
+import { AlbumDatabaseService } from 'src/database/album-database.service';
+import { FavsDatabaseService } from 'src/database/favs-database.service';
 import { uuidValidateV4 } from 'src/helpers/uuidValidateV4';
 import { TrackService } from '../track/track.service';
-import { AlbumDatabase } from './album.database';
 import { CreateAlbumDto } from './dto/create-album.dto';
 import { UpdateAlbumDto } from './dto/update-album.dto';
 
 @Injectable()
 export class AlbumService {
   constructor(
-    @Inject('AlbumDatabase') private albumDatabase: AlbumDatabase,
+    private albumDatabase: AlbumDatabaseService,
+    private favsDatabase: FavsDatabaseService,
     private trackService: TrackService,
   ) {}
 
@@ -60,6 +62,7 @@ export class AlbumService {
     const isDeleted = this.albumDatabase.remove(id);
     if (isDeleted) {
       this.trackService.updateTrackByAlbumId(id);
+      this.favsDatabase.removeAlbumId(id);
     } else {
       throw new HttpException('Album not found', HttpStatus.NOT_FOUND);
     }

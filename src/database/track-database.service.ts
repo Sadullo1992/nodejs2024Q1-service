@@ -1,11 +1,11 @@
 import { Injectable } from '@nestjs/common';
 import { v4 as uuidv4 } from 'uuid';
-import { CreateTrackDto } from './dto/create-track.dto';
-import { UpdateTrackDto } from './dto/update-track.dto';
-import { ITrack } from './track.interface';
+import { CreateTrackDto } from 'src/resources/track/dto/create-track.dto';
+import { ITrack } from 'src/resources/track/track.interface';
+import { UpdateTrackDto } from 'src/resources/track/dto/update-track.dto';
 
 @Injectable()
-export class TrackDatabase {
+export class TrackDatabaseService {
   private readonly tracks: ITrack[] = [];
 
   create(createTrackDto: CreateTrackDto) {

@@ -1,12 +1,16 @@
-import { HttpException, HttpStatus, Inject, Injectable } from '@nestjs/common';
+import { HttpException, HttpStatus, Injectable } from '@nestjs/common';
+import { FavsDatabaseService } from 'src/database/favs-database.service';
+import { TrackDatabaseService } from 'src/database/track-database.service';
 import { uuidValidateV4 } from 'src/helpers/uuidValidateV4';
 import { CreateTrackDto } from './dto/create-track.dto';
 import { UpdateTrackDto } from './dto/update-track.dto';
-import { TrackDatabase } from './track.database';
 
 @Injectable()
 export class TrackService {
-  constructor(@Inject('TrackDatabase') private trackDatabase: TrackDatabase) {}
+  constructor(
+    private trackDatabase: TrackDatabaseService,
+    private favsDatabase: FavsDatabaseService,
+  ) {}
 
   create(createTrackDto: CreateTrackDto) {
     return this.trackDatabase.create(createTrackDto);
@@ -54,7 +58,9 @@ export class TrackService {
       );
 
     const isDeleted = this.trackDatabase.remove(id);
-    if (!isDeleted) {
+    if (isDeleted) {
+      this.favsDatabase.removeTrackId(id);
+    } else {
       throw new HttpException('Track not found', HttpStatus.NOT_FOUND);
     }
   }

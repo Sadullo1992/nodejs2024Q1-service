@@ -1,34 +1,33 @@
-import { HttpException, HttpStatus, Inject, Injectable } from '@nestjs/common';
+import { HttpException, HttpStatus, Injectable } from '@nestjs/common';
+import { AlbumDatabaseService } from 'src/database/album-database.service';
+import { ArtistDatabaseService } from 'src/database/artist-database.service';
+import { FavsDatabaseService } from 'src/database/favs-database.service';
+import { TrackDatabaseService } from 'src/database/track-database.service';
 import { uuidValidateV4 } from 'src/helpers/uuidValidateV4';
-import { AlbumService } from '../album/album.service';
-import { ArtistService } from '../artist/artist.service';
-import { TrackService } from '../track/track.service';
-import { UpdateFavDto } from './dto/update-fav.dto';
-import { FavsDatabase } from './favs.database';
 
 @Injectable()
 export class FavsService {
   constructor(
-    @Inject('FavsDatabase') private favsDatabase: FavsDatabase,
-    private artistService: ArtistService,
-    private albumService: AlbumService,
-    private trackService: TrackService,
+    private favsDatabase: FavsDatabaseService,
+    private artistDatabase: ArtistDatabaseService,
+    private albumDatabase: AlbumDatabaseService,
+    private trackDatabase: TrackDatabaseService,
   ) {}
 
   findAll() {
     const allFavsIds = this.favsDatabase.getAllFavs();
 
-    const allArtists = this.artistService.findAll();
+    const allArtists = this.artistDatabase.findAll();
     const artists = allArtists.filter((artist) =>
       allFavsIds.artists.some((artistId) => artistId === artist.id),
     );
 
-    const allAlbums = this.albumService.findAll();
+    const allAlbums = this.albumDatabase.findAll();
     const albums = allAlbums.filter((album) =>
       allFavsIds.albums.some((albumId) => albumId === album.id),
     );
 
-    const allTracks = this.trackService.findAll();
+    const allTracks = this.trackDatabase.findAll();
     const tracks = allTracks.filter((track) =>
       allFavsIds.tracks.some((trackId) => trackId === track.id),
     );
@@ -44,8 +43,7 @@ export class FavsService {
         HttpStatus.BAD_REQUEST,
       );
 
-    const allTracks = this.trackService.findAll();
-    const track = allTracks.find((track) => track.id === id);
+    const track = this.trackDatabase.findOne(id);
     if (!track)
       throw new HttpException(
         'Track ID not found',
@@ -78,8 +76,7 @@ export class FavsService {
         HttpStatus.BAD_REQUEST,
       );
 
-    const allAlbums = this.albumService.findAll();
-    const album = allAlbums.find((album) => album.id === id);
+    const album = this.albumDatabase.findOne(id);
     if (!album)
       throw new HttpException(
         'Album ID not found',
@@ -112,8 +109,7 @@ export class FavsService {
         HttpStatus.BAD_REQUEST,
       );
 
-    const allArtists = this.artistService.findAll();
-    const artist = allArtists.find((artist) => artist.id === id);
+    const artist = this.artistDatabase.findOne(id);
     if (!artist)
       throw new HttpException(
         'Artist ID not found',

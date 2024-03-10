@@ -1,11 +1,11 @@
 import { Injectable } from '@nestjs/common';
 import { v4 as uuidv4 } from 'uuid';
-import { IArtist } from './artist.interface';
-import { CreateArtistDto } from './dto/create-artist.dto';
-import { UpdateArtistDto } from './dto/update-artist.dto';
+import { IArtist } from 'src/resources/artist/artist.interface';
+import { CreateArtistDto } from 'src/resources/artist/dto/create-artist.dto';
+import { UpdateArtistDto } from 'src/resources/artist/dto/update-artist.dto';
 
 @Injectable()
-export class ArtistDatabase {
+export class ArtistDatabaseService {
   private readonly artists: IArtist[] = [];
 
   create(createArtistDto: CreateArtistDto) {
