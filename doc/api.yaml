@@ -151,6 +151,8 @@ paths:
                 $ref: '#/components/schemas/User'
         400:
           description: Bad request. body does not contain required fields
+        409:
+          description: Conflict. User login already exists
   /user/{userId}:
     parameters:
       - name: userId
