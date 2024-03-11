@@ -4,9 +4,6 @@ info:
   description: Home music library service
   version: 1.0.0
 
-servers:
-  - url: http://localhost:4000
-
 components:
   schemas:
     User:
