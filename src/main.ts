@@ -3,6 +3,7 @@ import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 
 async function bootstrap() {
+  const PORT = process.env.PORT || 4000;
   const app = await NestFactory.create(AppModule);
   app.useGlobalPipes(
     new ValidationPipe({
@@ -11,6 +12,7 @@ async function bootstrap() {
       forbidUnknownValues: true,
     }),
   );
-  await app.listen(4000);
+  console.log('App listened port: ', PORT);
+  await app.listen(PORT);
 }
 bootstrap();
