@@ -1,4 +1,4 @@
-import { HttpException, HttpStatus, Inject, Injectable } from '@nestjs/common';
+import { HttpException, HttpStatus, Injectable } from '@nestjs/common';
 import { ArtistDatabaseService } from 'src/database/artist-database.service';
 import { FavsDatabaseService } from 'src/database/favs-database.service';
 import { uuidValidateV4 } from 'src/helpers/uuidValidateV4';
