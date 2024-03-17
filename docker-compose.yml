@@ -1,0 +1,23 @@
+version: '3'
+services:
+  node:
+    container_name: hl-service-app
+    restart: always
+    build: .
+    ports:
+      - ${PORT}:${PORT}
+    depends_on:
+      - db
+    environment: 
+      - PORT=4000
+    command: [ "npm", "run", "start:dev" ]    
+  db:
+    container_name: hl-service-db
+    restart: always
+    build: ./database/
+    ports:  
+      - ${POSTGRES_PORT}:${POSTGRES_PORT}
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
