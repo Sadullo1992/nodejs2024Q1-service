@@ -10,7 +10,9 @@ services:
       - db
     environment: 
       - PORT=4000
-    command: [ "npm", "run", "start:dev" ]    
+    command: [ "npm", "run", "start:dev" ]   
+    volumes:
+      - ./src:/usr/app/src 
   db:
     container_name: hl-service-db
     restart: always
