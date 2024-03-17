@@ -8,23 +8,32 @@ services:
       - ${PORT}:${PORT}
     depends_on:
       - db
-    environment: 
+    environment:
       - PORT=4000
-    command: [ "npm", "run", "start:dev" ]   
+    command: ['npm', 'run', 'start:dev']
     volumes:
       - ./src:/usr/app/src
     networks:
-      - app-network 
+      - app-network
   db:
     container_name: hl-service-db
     restart: always
     build: ./database/
-    ports:  
+    ports:
       - ${POSTGRES_PORT}:${POSTGRES_PORT}
     environment:
       POSTGRES_USER: ${POSTGRES_USER}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
       POSTGRES_DB: ${POSTGRES_DB}
+    command: ['-c', 'logging_collector=on']
     networks:
-      app-network:       
-        driver: bridge
+      - app-network
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+networks:
+  app-network:
+    driver: bridge
+
+volumes:
+  pgdata:
