@@ -8,9 +8,9 @@ import { ArtistModule } from './resources/artist/artist.module';
 import { AlbumModule } from './resources/album/album.module';
 import { FavsModule } from './resources/favs/favs.module';
 import { typeOrmConfig } from './ormconfig';
+import { User } from './resources/user/entities/user.entity';
 
 const ormConfig = typeOrmConfig();
-
 @Module({
   imports: [
     ConfigModule.forRoot({
@@ -19,7 +19,10 @@ const ormConfig = typeOrmConfig();
     }),
     TypeOrmModule.forRoot({
       ...ormConfig,
-      entities: ['./resources/**/**.entity{.ts,.js}'],
+      entities: [
+        User,
+        // `${__dirname}/resources/**/**.entity{.ts,.js}`
+      ],
       migrations: [],
     }),
     UserModule,

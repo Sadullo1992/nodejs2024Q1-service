@@ -20,7 +20,8 @@
     "test:watch": "jest --watch",
     "test:cov": "jest --coverage",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
-    "docker:cve": "docker scout cves nodejs2024q1-service-node && docker scout cves nodejs2024q1-service-db"
+    "docker:cve": "docker scout cves nodejs2024q1-service-node && docker scout cves nodejs2024q1-service-db",
+    "docker:compose": "docker compose up"
   },
   "dependencies": {
     "@nestjs/common": "^8.0.0",
