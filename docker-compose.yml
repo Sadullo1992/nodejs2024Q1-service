@@ -1,35 +1,51 @@
-version: '3'
+version: '3.7'
 services:
   node:
-    container_name: hl-service-app
+    container_name: app
     restart: unless-stopped
     build: .
     ports:
       - ${PORT}:${PORT}
     depends_on:
       - db
+    env_file:
+      - .env
     environment:
       - PORT=4000
     volumes:
       - ./src:/usr/app/src
-      - /usr/app/node_modules  
+      - /usr/app/node_modules
     networks:
       - app-network
   db:
-    container_name: hl-service-db
+    container_name: db
     restart: unless-stopped
     build: ./database/
     ports:
       - ${POSTGRES_PORT}:${POSTGRES_PORT}
+    env_file:
+      - .env
     environment:
       POSTGRES_USER: ${POSTGRES_USER}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
       POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_HOST: ${POSTGRES_HOST}
     command: ['-c', 'logging_collector=on']
     networks:
       - app-network
     volumes:
       - pgdata:/var/lib/postgresql/data
+  pg-admin:
+    image: dpage/pgadmin4:6
+    container_name: pg-admin
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=admin@email.com
+      - PGADMIN_DEFAULT_PASSWORD=admin
+      - PGADMIN_LISTEN_PORT=5050
+    ports:
+      - '5050:5050'
+    networks:
+      - app-network
 
 networks:
   app-network:
