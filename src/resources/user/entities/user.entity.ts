@@ -1,11 +1,14 @@
 import { IsNotEmpty, IsNumber, IsString, IsUUID } from 'class-validator';
-import {
-  BaseEntity,
-  Column,
-  CreateDateColumn,
-  Entity,
-  PrimaryGeneratedColumn,
-} from 'typeorm';
+import { BaseEntity, Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
+
+export interface IUser {
+  id: string;
+  login: string;
+  password: string;
+  version: number;
+  createdAt: number;
+  updatedAt: number;
+}
 
 @Entity('user')
 export class User extends BaseEntity {
@@ -23,14 +26,16 @@ export class User extends BaseEntity {
   @IsString()
   password: string;
 
-  @Column()
-  @IsNotEmpty()
+  @Column({
+    type: 'integer',
+    default: 1,
+  })
   @IsNumber()
   version: number;
 
-  @CreateDateColumn({ type: 'timestamptz', default: () => 'CURRENT_TIMESTAMP' })
-  createdAt: Date;
+  @Column({ type: 'bigint', default: Date.now() })
+  createdAt: number;
 
-  @CreateDateColumn({ type: 'timestamptz', default: () => 'CURRENT_TIMESTAMP' })
-  updatedAt: Date;
+  @Column({ type: 'bigint', default: Date.now() })
+  updatedAt: number;
 }
