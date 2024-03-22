@@ -1,71 +1,61 @@
 import { HttpException, HttpStatus, Injectable } from '@nestjs/common';
+import { InjectRepository } from '@nestjs/typeorm';
 import { AlbumDatabaseService } from 'src/database/album-database.service';
 import { FavsDatabaseService } from 'src/database/favs-database.service';
-import { uuidValidateV4 } from 'src/helpers/uuidValidateV4';
+import { Repository } from 'typeorm';
 import { TrackService } from '../track/track.service';
 import { CreateAlbumDto } from './dto/create-album.dto';
 import { UpdateAlbumDto } from './dto/update-album.dto';
+import { Album } from './entities/album.entity';
 
 @Injectable()
 export class AlbumService {
   constructor(
+    @InjectRepository(Album) private albumRepository: Repository<Album>,
     private albumDatabase: AlbumDatabaseService,
     private favsDatabase: FavsDatabaseService,
     private trackService: TrackService,
   ) {}
 
-  create(createAlbumDto: CreateAlbumDto) {
-    return this.albumDatabase.create(createAlbumDto);
+  async create(createAlbumDto: CreateAlbumDto) {
+    const modelAlbum = await this.albumRepository.create(createAlbumDto).save();
+    return modelAlbum;
   }
 
-  findAll() {
-    return this.albumDatabase.findAll();
+  async findAll() {
+    const albums = await this.albumRepository.find();
+    return albums;
   }
 
-  findOne(id: string) {
-    const isUUID = uuidValidateV4(id);
-    if (!isUUID)
-      throw new HttpException(
-        'Album ID is invalid (not uuidv4)',
-        HttpStatus.BAD_REQUEST,
-      );
-
-    const album = this.albumDatabase.findOne(id);
+  async findOne(id: string) {
+    const album = await this.albumRepository.findOne({ where: { id } });
     if (!album)
       throw new HttpException('Album not found', HttpStatus.NOT_FOUND);
     return album;
   }
 
-  update(id: string, updateAlbumDto: UpdateAlbumDto) {
-    const isUUID = uuidValidateV4(id);
-    if (!isUUID)
-      throw new HttpException(
-        'Album ID is invalid (not uuidv4)',
-        HttpStatus.BAD_REQUEST,
-      );
-
-    const updatedAlbum = this.albumDatabase.update(id, updateAlbumDto);
-    if (!updatedAlbum)
+  async update(id: string, updateAlbumDto: UpdateAlbumDto) {
+    const album = await this.albumRepository.findOne({ where: { id } });
+    if (!album)
       throw new HttpException('Album not found', HttpStatus.NOT_FOUND);
 
-    return updatedAlbum;
+    Object.keys(updateAlbumDto).forEach((key) => {
+      album[key] = updateAlbumDto[key];
+    });
+    const data = await album.save();
+
+    return data;
   }
 
-  remove(id: string) {
-    const isUUID = uuidValidateV4(id);
-    if (!isUUID)
-      throw new HttpException(
-        'Album ID is invalid (not uuidv4)',
-        HttpStatus.BAD_REQUEST,
-      );
-
-    const isDeleted = this.albumDatabase.remove(id);
-    if (isDeleted) {
-      this.trackService.updateTrackByAlbumId(id);
-      this.favsDatabase.removeAlbumId(id);
-    } else {
+  async remove(id: string) {
+    const album = await this.albumRepository.findOne({ where: { id } });
+    if (!album)
       throw new HttpException('Album not found', HttpStatus.NOT_FOUND);
-    }
+    await album.remove();
+
+    // should update and remove by albumId
+    this.trackService.updateTrackByAlbumId(id);
+    this.favsDatabase.removeAlbumId(id);
   }
 
   updateAlbumByArtistId(artistId: string) {

@@ -11,6 +11,7 @@ import { typeOrmConfig } from './ormconfig';
 import { User } from './resources/user/entities/user.entity';
 import { Track } from './resources/track/entities/track.entity';
 import { Artist } from './resources/artist/entities/artist.entity';
+import { Album } from './resources/album/entities/album.entity';
 
 const ormConfig = typeOrmConfig();
 @Module({
@@ -25,6 +26,7 @@ const ormConfig = typeOrmConfig();
         User,
         Track,
         Artist,
+        Album,
         // `${__dirname}/resources/**/**.entity{.ts,.js}`
       ],
       migrations: [],
