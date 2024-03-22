@@ -9,6 +9,7 @@ import { AlbumModule } from './resources/album/album.module';
 import { FavsModule } from './resources/favs/favs.module';
 import { typeOrmConfig } from './ormconfig';
 import { User } from './resources/user/entities/user.entity';
+import { Track } from './resources/track/entities/track.entity';
 
 const ormConfig = typeOrmConfig();
 @Module({
@@ -21,6 +22,7 @@ const ormConfig = typeOrmConfig();
       ...ormConfig,
       entities: [
         User,
+        Track
         // `${__dirname}/resources/**/**.entity{.ts,.js}`
       ],
       migrations: [],
