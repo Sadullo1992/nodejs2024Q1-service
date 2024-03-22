@@ -1,73 +1,63 @@
 import { HttpException, HttpStatus, Injectable } from '@nestjs/common';
-import { ArtistDatabaseService } from 'src/database/artist-database.service';
+import { InjectRepository } from '@nestjs/typeorm';
 import { FavsDatabaseService } from 'src/database/favs-database.service';
-import { uuidValidateV4 } from 'src/helpers/uuidValidateV4';
+import { Repository } from 'typeorm';
 import { AlbumService } from '../album/album.service';
 import { TrackService } from '../track/track.service';
 import { CreateArtistDto } from './dto/create-artist.dto';
 import { UpdateArtistDto } from './dto/update-artist.dto';
+import { Artist } from './entities/artist.entity';
 
 @Injectable()
 export class ArtistService {
   constructor(
-    private artistDatabase: ArtistDatabaseService,
+    @InjectRepository(Artist) private artistRepository: Repository<Artist>,
     private trackService: TrackService,
     private albumService: AlbumService,
     private favsDatabase: FavsDatabaseService,
   ) {}
 
-  create(createArtistDto: CreateArtistDto) {
-    return this.artistDatabase.create(createArtistDto);
+  async create(createArtistDto: CreateArtistDto) {
+    const modelArtist = await this.artistRepository
+      .create(createArtistDto)
+      .save();
+    return modelArtist;
   }
 
-  findAll() {
-    return this.artistDatabase.findAll();
+  async findAll() {
+    const artists = await this.artistRepository.find();
+    return artists;
   }
 
-  findOne(id: string) {
-    const isUUID = uuidValidateV4(id);
-    if (!isUUID)
-      throw new HttpException(
-        'Artist ID is invalid (not uuidv4)',
-        HttpStatus.BAD_REQUEST,
-      );
-
-    const artist = this.artistDatabase.findOne(id);
+  async findOne(id: string) {
+    const artist = await this.artistRepository.findOne({ where: { id } });
     if (!artist)
       throw new HttpException('Artist not found', HttpStatus.NOT_FOUND);
     return artist;
   }
 
-  update(id: string, updateArtistDto: UpdateArtistDto) {
-    const isUUID = uuidValidateV4(id);
-    if (!isUUID)
-      throw new HttpException(
-        'Artist ID is invalid (not uuidv4)',
-        HttpStatus.BAD_REQUEST,
-      );
-
-    const updatedArtist = this.artistDatabase.update(id, updateArtistDto);
-    if (!updatedArtist)
+  async update(id: string, updateArtistDto: UpdateArtistDto) {
+    const artist = await this.artistRepository.findOne({ where: { id } });
+    if (!artist)
       throw new HttpException('Artist not found', HttpStatus.NOT_FOUND);
 
-    return updatedArtist;
+    Object.keys(updateArtistDto).forEach((key) => {
+      artist[key] = updateArtistDto[key];
+    });
+    const data = await artist.save();
+
+    return data;
   }
 
-  remove(id: string) {
-    const isUUID = uuidValidateV4(id);
-    if (!isUUID)
-      throw new HttpException(
-        'Artist ID is invalid (not uuidv4)',
-        HttpStatus.BAD_REQUEST,
-      );
-
-    const isDeleted = this.artistDatabase.remove(id);
-    if (isDeleted) {
-      this.trackService.updateTrackByArtistId(id);
-      this.albumService.updateAlbumByArtistId(id);
-      this.favsDatabase.removeArtistId(id);
-    } else {
+  async remove(id: string) {
+    const artist = await this.artistRepository.findOne({ where: { id } });
+    if (!artist)
       throw new HttpException('Artist not found', HttpStatus.NOT_FOUND);
-    }
+    await artist.remove();
+
+    // should update and remove artistId
+    this.trackService.updateTrackByArtistId(id);
+    this.albumService.updateAlbumByArtistId(id);
+    this.favsDatabase.removeArtistId(id);
   }
 }

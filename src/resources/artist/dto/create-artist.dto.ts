@@ -1,10 +1,7 @@
-import { IsBoolean, IsNotEmpty, IsString } from 'class-validator';
+import { PickType } from '@nestjs/mapped-types';
+import { Artist } from '../entities/artist.entity';
 
-export class CreateArtistDto {
-  @IsNotEmpty()
-  @IsString()
-  name: string;
-
-  @IsBoolean()
-  grammy: boolean;
-}
+export class CreateArtistDto extends PickType(Artist, [
+  'name',
+  'grammy',
+] as const) {}

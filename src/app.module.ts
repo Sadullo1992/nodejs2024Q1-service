@@ -10,6 +10,7 @@ import { FavsModule } from './resources/favs/favs.module';
 import { typeOrmConfig } from './ormconfig';
 import { User } from './resources/user/entities/user.entity';
 import { Track } from './resources/track/entities/track.entity';
+import { Artist } from './resources/artist/entities/artist.entity';
 
 const ormConfig = typeOrmConfig();
 @Module({
@@ -23,6 +24,7 @@ const ormConfig = typeOrmConfig();
       entities: [
         User,
         Track,
+        Artist,
         // `${__dirname}/resources/**/**.entity{.ts,.js}`
       ],
       migrations: [],
