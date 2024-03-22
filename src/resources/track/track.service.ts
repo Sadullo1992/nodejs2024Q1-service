@@ -1,68 +1,57 @@
 import { HttpException, HttpStatus, Injectable } from '@nestjs/common';
+import { InjectRepository } from '@nestjs/typeorm';
 import { FavsDatabaseService } from 'src/database/favs-database.service';
 import { TrackDatabaseService } from 'src/database/track-database.service';
-import { uuidValidateV4 } from 'src/helpers/uuidValidateV4';
+import { Repository } from 'typeorm';
 import { CreateTrackDto } from './dto/create-track.dto';
 import { UpdateTrackDto } from './dto/update-track.dto';
+import { Track } from './entities/track.entity';
 
 @Injectable()
 export class TrackService {
   constructor(
+    @InjectRepository(Track) private trackRepository: Repository<Track>,
     private trackDatabase: TrackDatabaseService,
     private favsDatabase: FavsDatabaseService,
   ) {}
 
-  create(createTrackDto: CreateTrackDto) {
-    return this.trackDatabase.create(createTrackDto);
+  async create(createTrackDto: CreateTrackDto) {
+    const modelTrack = await this.trackRepository.create(createTrackDto).save();
+    return modelTrack;
   }
 
-  findAll() {
-    return this.trackDatabase.findAll();
+  async findAll() {
+    const tracks = await this.trackRepository.find();
+    return tracks;
   }
 
-  findOne(id: string) {
-    const isUUID = uuidValidateV4(id);
-    if (!isUUID)
-      throw new HttpException(
-        'Track ID is invalid (not uuidv4)',
-        HttpStatus.BAD_REQUEST,
-      );
-
-    const track = this.trackDatabase.findOne(id);
+  async findOne(id: string) {
+    const track = await this.trackRepository.findOne({ where: { id } });
     if (!track)
       throw new HttpException('Track not found', HttpStatus.NOT_FOUND);
     return track;
   }
 
-  update(id: string, updateTrackDto: UpdateTrackDto) {
-    const isUUID = uuidValidateV4(id);
-    if (!isUUID)
-      throw new HttpException(
-        'Track ID is invalid (not uuidv4)',
-        HttpStatus.BAD_REQUEST,
-      );
-
-    const updatedTrack = this.trackDatabase.update(id, updateTrackDto);
-    if (!updatedTrack)
+  async update(id: string, updateTrackDto: UpdateTrackDto) {
+    const track = await this.trackRepository.findOne({ where: { id } });
+    if (!track)
       throw new HttpException('Track not found', HttpStatus.NOT_FOUND);
 
-    return updatedTrack;
+    Object.keys(updateTrackDto).forEach((key) => {
+      track[key] = updateTrackDto[key];
+    });
+    const data = await track.save();
+
+    return data;
   }
 
-  remove(id: string) {
-    const isUUID = uuidValidateV4(id);
-    if (!isUUID)
-      throw new HttpException(
-        'Track ID is invalid (not uuidv4)',
-        HttpStatus.BAD_REQUEST,
-      );
-
-    const isDeleted = this.trackDatabase.remove(id);
-    if (isDeleted) {
-      this.favsDatabase.removeTrackId(id);
-    } else {
+  async remove(id: string) {
+    const track = await this.trackRepository.findOne({ where: { id } });
+    if (!track)
       throw new HttpException('Track not found', HttpStatus.NOT_FOUND);
-    }
+    await track.remove();
+    // should remove from fav
+    this.favsDatabase.removeTrackId(id);
   }
 
   updateTrackByArtistId(artistId: string) {

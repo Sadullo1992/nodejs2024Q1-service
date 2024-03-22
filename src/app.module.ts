@@ -22,7 +22,7 @@ const ormConfig = typeOrmConfig();
       ...ormConfig,
       entities: [
         User,
-        Track
+        Track,
         // `${__dirname}/resources/**/**.entity{.ts,.js}`
       ],
       migrations: [],
