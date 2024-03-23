@@ -2,8 +2,6 @@ import { HttpException, HttpStatus, Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { FavsDatabaseService } from 'src/database/favs-database.service';
 import { Repository } from 'typeorm';
-import { AlbumService } from '../album/album.service';
-import { TrackService } from '../track/track.service';
 import { CreateArtistDto } from './dto/create-artist.dto';
 import { UpdateArtistDto } from './dto/update-artist.dto';
 import { Artist } from './entities/artist.entity';
@@ -12,8 +10,6 @@ import { Artist } from './entities/artist.entity';
 export class ArtistService {
   constructor(
     @InjectRepository(Artist) private artistRepository: Repository<Artist>,
-    private trackService: TrackService,
-    private albumService: AlbumService,
     private favsDatabase: FavsDatabaseService,
   ) {}
 
@@ -55,9 +51,7 @@ export class ArtistService {
       throw new HttpException('Artist not found', HttpStatus.NOT_FOUND);
     await artist.remove();
 
-    // should update and remove artistId
-    this.trackService.updateTrackByArtistId(id);
-    this.albumService.updateAlbumByArtistId(id);
+    // remove artistId
     this.favsDatabase.removeArtistId(id);
   }
 }

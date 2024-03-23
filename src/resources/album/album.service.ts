@@ -1,9 +1,7 @@
 import { HttpException, HttpStatus, Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { AlbumDatabaseService } from 'src/database/album-database.service';
 import { FavsDatabaseService } from 'src/database/favs-database.service';
 import { Repository } from 'typeorm';
-import { TrackService } from '../track/track.service';
 import { CreateAlbumDto } from './dto/create-album.dto';
 import { UpdateAlbumDto } from './dto/update-album.dto';
 import { Album } from './entities/album.entity';
@@ -12,9 +10,7 @@ import { Album } from './entities/album.entity';
 export class AlbumService {
   constructor(
     @InjectRepository(Album) private albumRepository: Repository<Album>,
-    private albumDatabase: AlbumDatabaseService,
     private favsDatabase: FavsDatabaseService,
-    private trackService: TrackService,
   ) {}
 
   async create(createAlbumDto: CreateAlbumDto) {
@@ -54,17 +50,6 @@ export class AlbumService {
     await album.remove();
 
     // should update and remove by albumId
-    this.trackService.updateTrackByAlbumId(id);
     this.favsDatabase.removeAlbumId(id);
-  }
-
-  updateAlbumByArtistId(artistId: string) {
-    const allAlbums = this.albumDatabase.findAll();
-    const albumWithTracks = allAlbums.filter(
-      (album) => album.artistId === artistId,
-    );
-    albumWithTracks.forEach((track) => {
-      this.albumDatabase.update(track.id, { artistId: null });
-    });
   }
 }

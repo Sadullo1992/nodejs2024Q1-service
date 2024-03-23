@@ -1,7 +1,6 @@
 import { HttpException, HttpStatus, Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { FavsDatabaseService } from 'src/database/favs-database.service';
-import { TrackDatabaseService } from 'src/database/track-database.service';
 import { Repository } from 'typeorm';
 import { CreateTrackDto } from './dto/create-track.dto';
 import { UpdateTrackDto } from './dto/update-track.dto';
@@ -11,7 +10,6 @@ import { Track } from './entities/track.entity';
 export class TrackService {
   constructor(
     @InjectRepository(Track) private trackRepository: Repository<Track>,
-    private trackDatabase: TrackDatabaseService,
     private favsDatabase: FavsDatabaseService,
   ) {}
 
@@ -52,25 +50,5 @@ export class TrackService {
     await track.remove();
     // should remove from fav
     this.favsDatabase.removeTrackId(id);
-  }
-
-  updateTrackByArtistId(artistId: string) {
-    const allTracks = this.trackDatabase.findAll();
-    const artistWithTracks = allTracks.filter(
-      (track) => track.artistId === artistId,
-    );
-    artistWithTracks.forEach((track) => {
-      this.trackDatabase.update(track.id, { artistId: null });
-    });
-  }
-
-  updateTrackByAlbumId(albumId: string) {
-    const allTracks = this.trackDatabase.findAll();
-    const albumWithTracks = allTracks.filter(
-      (track) => track.albumId === albumId,
-    );
-    albumWithTracks.forEach((track) => {
-      this.trackDatabase.update(track.id, { albumId: null });
-    });
   }
 }
