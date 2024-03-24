@@ -1,7 +1,7 @@
 import { HttpException, HttpStatus, Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { FavsDatabaseService } from 'src/database/favs-database.service';
 import { Repository } from 'typeorm';
+import { Fav } from '../favs/entities/fav.entity';
 import { CreateArtistDto } from './dto/create-artist.dto';
 import { UpdateArtistDto } from './dto/update-artist.dto';
 import { Artist } from './entities/artist.entity';
@@ -10,8 +10,18 @@ import { Artist } from './entities/artist.entity';
 export class ArtistService {
   constructor(
     @InjectRepository(Artist) private artistRepository: Repository<Artist>,
-    private favsDatabase: FavsDatabaseService,
   ) {}
+
+  async isExist(id: string) {
+    const resp = await this.artistRepository.findOne({ where: { id } });
+    if (!resp) {
+      throw new HttpException(
+        'Artist ID not found',
+        HttpStatus.UNPROCESSABLE_ENTITY,
+      );
+    }
+    return !!resp;
+  }
 
   async create(createArtistDto: CreateArtistDto) {
     const modelArtist = await this.artistRepository
@@ -51,7 +61,18 @@ export class ArtistService {
       throw new HttpException('Artist not found', HttpStatus.NOT_FOUND);
     await artist.remove();
 
-    // remove artistId
-    this.favsDatabase.removeArtistId(id);
+    // remove artistId from fav
+    this.removeAlbumIdFromFavs(id);
+  }
+
+  private async removeAlbumIdFromFavs(id: string) {
+    await this.artistRepository
+      .createQueryBuilder('favs')
+      .update(Fav)
+      .set({
+        artists: () => `array_remove(artists, '${id}')`,
+      })
+      .where({ id: 'favs' })
+      .execute();
   }
 }

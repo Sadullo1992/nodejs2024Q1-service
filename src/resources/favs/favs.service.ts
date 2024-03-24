@@ -1,33 +1,39 @@
 import { HttpException, HttpStatus, Injectable } from '@nestjs/common';
-import { AlbumDatabaseService } from 'src/database/album-database.service';
-import { ArtistDatabaseService } from 'src/database/artist-database.service';
-import { FavsDatabaseService } from 'src/database/favs-database.service';
-import { TrackDatabaseService } from 'src/database/track-database.service';
-import { uuidValidateV4 } from 'src/helpers/uuidValidateV4';
+import { InjectRepository } from '@nestjs/typeorm';
+import { ArrayContains, Repository } from 'typeorm';
+import { AlbumService } from '../album/album.service';
+import { ArtistService } from '../artist/artist.service';
+import { TrackService } from '../track/track.service';
+import { Fav } from './entities/fav.entity';
 
 @Injectable()
 export class FavsService {
   constructor(
-    private favsDatabase: FavsDatabaseService,
-    private artistDatabase: ArtistDatabaseService,
-    private albumDatabase: AlbumDatabaseService,
-    private trackDatabase: TrackDatabaseService,
-  ) {}
+    @InjectRepository(Fav) private favsRepository: Repository<Fav>,
+    private trackRepository: TrackService,
+    private albumRepository: AlbumService,
+    private artistRepository: ArtistService,
+  ) {
+    this.favsRepository.create({ id: 'favs' }).save();
+  }
 
-  findAll() {
-    const allFavsIds = this.favsDatabase.getAllFavs();
+  async findAll() {
+    const allFavsIds = await this.favsRepository.findOne({
+      select: ['artists', 'albums', 'tracks'],
+      where: { id: 'favs' },
+    });
 
-    const allArtists = this.artistDatabase.findAll();
+    const allArtists = await this.artistRepository.findAll();
     const artists = allArtists.filter((artist) =>
       allFavsIds.artists.some((artistId) => artistId === artist.id),
     );
 
-    const allAlbums = this.albumDatabase.findAll();
+    const allAlbums = await this.albumRepository.findAll();
     const albums = allAlbums.filter((album) =>
       allFavsIds.albums.some((albumId) => albumId === album.id),
     );
 
-    const allTracks = this.trackDatabase.findAll();
+    const allTracks = await this.trackRepository.findAll();
     const tracks = allTracks.filter((track) =>
       allFavsIds.tracks.some((trackId) => trackId === track.id),
     );
@@ -35,102 +41,81 @@ export class FavsService {
     return { artists, albums, tracks };
   }
 
-  addTrack(id: string) {
-    const isUUID = uuidValidateV4(id);
-    if (!isUUID)
-      throw new HttpException(
-        'Track ID is invalid (not uuidv4)',
-        HttpStatus.BAD_REQUEST,
-      );
-
-    const track = this.trackDatabase.findOne(id);
-    if (!track)
-      throw new HttpException(
-        'Track ID not found',
-        HttpStatus.UNPROCESSABLE_ENTITY,
-      );
-
-    // add track id to db
-    this.favsDatabase.addTrackId(id);
-    return track;
+  async addTrack(id: string) {
+    await this.trackRepository.isExist(id);
+    await this.favsRepository.update(
+      { id: 'favs' },
+      {
+        tracks: () => `array_append(tracks, '${id}')`,
+      },
+    );
+    return id;
   }
 
-  removeTrack(id: string) {
-    const isUUID = uuidValidateV4(id);
-    if (!isUUID)
-      throw new HttpException(
-        'Track ID is invalid (not uuidv4)',
-        HttpStatus.BAD_REQUEST,
-      );
-
-    const isDeleted = this.favsDatabase.removeTrackId(id);
-    if (!isDeleted)
+  async removeTrack(id: string) {
+    const favs = await this.favsRepository.findOneBy({
+      tracks: ArrayContains([`${id}`]),
+    });
+    if (!favs)
       throw new HttpException('Track is not favorite', HttpStatus.NOT_FOUND);
+
+    await this.favsRepository.update(
+      { id: 'favs' },
+      {
+        tracks: () => `array_remove(tracks, '${id}')`,
+      },
+    );
   }
 
-  addAlbum(id: string) {
-    const isUUID = uuidValidateV4(id);
-    if (!isUUID)
-      throw new HttpException(
-        'Album ID is invalid (not uuidv4)',
-        HttpStatus.BAD_REQUEST,
-      );
-
-    const album = this.albumDatabase.findOne(id);
-    if (!album)
-      throw new HttpException(
-        'Album ID not found',
-        HttpStatus.UNPROCESSABLE_ENTITY,
-      );
-
-    // add album id to db
-    this.favsDatabase.addAlbumId(id);
-    return album;
+  async addAlbum(id: string) {
+    await this.albumRepository.isExist(id);
+    await this.favsRepository.update(
+      { id: 'favs' },
+      {
+        albums: () => `array_append(albums, '${id}')`,
+      },
+    );
+    return id;
   }
 
-  removeAlbum(id: string) {
-    const isUUID = uuidValidateV4(id);
-    if (!isUUID)
-      throw new HttpException(
-        'Album ID is invalid (not uuidv4)',
-        HttpStatus.BAD_REQUEST,
-      );
-
-    const isDeleted = this.favsDatabase.removeAlbumId(id);
-    if (!isDeleted)
+  async removeAlbum(id: string) {
+    const favs = await this.favsRepository.findOneBy({
+      albums: ArrayContains([`${id}`]),
+    });
+    if (!favs)
       throw new HttpException('Album is not favorite', HttpStatus.NOT_FOUND);
+
+    await this.favsRepository.update(
+      { id: 'favs' },
+      {
+        albums: () => `array_remove(albums, '${id}')`,
+      },
+    );
   }
 
-  addArtist(id: string) {
-    const isUUID = uuidValidateV4(id);
-    if (!isUUID)
-      throw new HttpException(
-        'Artist ID is invalid (not uuidv4)',
-        HttpStatus.BAD_REQUEST,
-      );
-
-    const artist = this.artistDatabase.findOne(id);
-    if (!artist)
-      throw new HttpException(
-        'Artist ID not found',
-        HttpStatus.UNPROCESSABLE_ENTITY,
-      );
-
-    // add artist id to db
-    this.favsDatabase.addArtistId(id);
-    return artist;
+  async addArtist(id: string) {
+    await this.artistRepository.isExist(id);
+    await this.favsRepository.update(
+      { id: 'favs' },
+      {
+        artists: () => `array_append(artists, '${id}')`,
+      },
+    );
+    return id;
   }
 
-  removeArtist(id: string) {
-    const isUUID = uuidValidateV4(id);
-    if (!isUUID)
-      throw new HttpException(
-        'Artist ID is invalid (not uuidv4)',
-        HttpStatus.BAD_REQUEST,
-      );
-
-    const isDeleted = this.favsDatabase.removeArtistId(id);
-    if (!isDeleted)
+  async removeArtist(id: string) {
+    const favs = await this.favsRepository.findOneBy({
+      artists: ArrayContains([`${id}`]),
+    });
+    if (!favs)
       throw new HttpException('Artist is not favorite', HttpStatus.NOT_FOUND);
+
+    await this.favsRepository.update(
+      { id: 'favs' },
+      {
+        artists: () => `array_remove(artists, '${id}')`,
+      },
+    );
   }
 }

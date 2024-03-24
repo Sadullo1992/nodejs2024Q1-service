@@ -15,9 +15,10 @@ export class UserService {
   async create(createUserDto: CreateUserDto) {
     const { login, password: password } = createUserDto;
     const hash = await genHashPassword(password);
+    const now = Date.now();
 
     const modelUser = await this.userRepository
-      .create({ login, password: hash })
+      .create({ login, password: hash, createdAt: now, updatedAt: now })
       .save();
 
     return this.transformUserData(modelUser);

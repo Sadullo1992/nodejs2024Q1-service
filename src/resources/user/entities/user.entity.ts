@@ -33,9 +33,9 @@ export class User extends BaseEntity {
   @IsNumber()
   version: number;
 
-  @Column({ type: 'bigint', default: Date.now() })
+  @Column({ type: 'bigint' })
   createdAt: number;
 
-  @Column({ type: 'bigint', default: Date.now() })
+  @Column({ type: 'bigint' })
   updatedAt: number;
 }

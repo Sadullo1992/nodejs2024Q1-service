@@ -1,7 +1,7 @@
 import { HttpException, HttpStatus, Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { FavsDatabaseService } from 'src/database/favs-database.service';
 import { Repository } from 'typeorm';
+import { Fav } from '../favs/entities/fav.entity';
 import { CreateTrackDto } from './dto/create-track.dto';
 import { UpdateTrackDto } from './dto/update-track.dto';
 import { Track } from './entities/track.entity';
@@ -10,8 +10,18 @@ import { Track } from './entities/track.entity';
 export class TrackService {
   constructor(
     @InjectRepository(Track) private trackRepository: Repository<Track>,
-    private favsDatabase: FavsDatabaseService,
   ) {}
+
+  async isExist(id: string) {
+    const resp = await this.trackRepository.findOne({ where: { id } });
+    if (!resp) {
+      throw new HttpException(
+        'Track ID not found',
+        HttpStatus.UNPROCESSABLE_ENTITY,
+      );
+    }
+    return !!resp;
+  }
 
   async create(createTrackDto: CreateTrackDto) {
     const modelTrack = await this.trackRepository.create(createTrackDto).save();
@@ -48,7 +58,19 @@ export class TrackService {
     if (!track)
       throw new HttpException('Track not found', HttpStatus.NOT_FOUND);
     await track.remove();
+
     // should remove from fav
-    this.favsDatabase.removeTrackId(id);
+    this.removeTrackIdFromFavs(id);
+  }
+
+  private async removeTrackIdFromFavs(id: string) {
+    await this.trackRepository
+      .createQueryBuilder('favs')
+      .update(Fav)
+      .set({
+        tracks: () => `array_remove(tracks, '${id}')`,
+      })
+      .where({ id: 'favs' })
+      .execute();
   }
 }
