@@ -8,11 +8,6 @@ import { ArtistModule } from './resources/artist/artist.module';
 import { AlbumModule } from './resources/album/album.module';
 import { FavsModule } from './resources/favs/favs.module';
 import { typeOrmConfig } from './ormconfig';
-import { User } from './resources/user/entities/user.entity';
-import { Track } from './resources/track/entities/track.entity';
-import { Artist } from './resources/artist/entities/artist.entity';
-import { Album } from './resources/album/entities/album.entity';
-import { Fav } from './resources/favs/entities/fav.entity';
 
 const ormConfig = typeOrmConfig();
 @Module({
@@ -23,14 +18,7 @@ const ormConfig = typeOrmConfig();
     }),
     TypeOrmModule.forRoot({
       ...ormConfig,
-      entities: [
-        User,
-        Track,
-        Artist,
-        Album,
-        Fav,
-        // `${__dirname}/resources/**/**.entity{.ts,.js}`
-      ],
+      entities: [`${__dirname}/resources/**/**.entity{.ts,.js}`],
       migrations: [],
     }),
     UserModule,
