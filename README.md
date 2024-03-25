@@ -7,8 +7,10 @@ Home Library REST Service! `Users` can create, read, update, delete data about `
 ## Installation
 
 1. Clone the repository: `git clone <repository-url>`
-2. Go to `develop` branch
+2. Go to `docker/db` branch
 3. Install the required dependencies by running `npm install`
+4. Containerization - docker compose: `npm run docker:up`
+5. Put database environment variables to `.env` file
 
 ## Usage
 
@@ -26,6 +28,19 @@ Home Library REST Service! `Users` can create, read, update, delete data about `
 After application running open new terminal and enter:
 
 To run all tests without authorization: `npm run test`
+
+## Docker 
+
+ - docker compose up: `npm run docker:up`
+ - docker compose build: `npm run docker:build`
+ - docker compose down: `npm run docker:down`
+ - vulnerabilities scanning: `npm run docker:cve`
+
+## Typeorm & migrations
+
+ - Generate migration: `npm run migration:generate` 
+ - Running migration: `npm run migration:run` 
+ - Reverting migration: `npm run migration:revert` 
 
 ## API Endpoints
 
@@ -68,4 +83,4 @@ To run all tests without authorization: `npm run test`
 
 ## Technologies Used
 
-- Node.js, Nestjs, Swagger
+- Node.js, Nestjs, Swagger, Typeorm, Postgresql, Docker
