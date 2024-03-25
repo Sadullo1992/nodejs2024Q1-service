@@ -6,14 +6,12 @@ import {
   ValidateIf,
 } from 'class-validator';
 import { Artist } from 'src/resources/artist/entities/artist.entity';
-import { Track } from 'src/resources/track/entities/track.entity';
 import {
   BaseEntity,
   Column,
   Entity,
   JoinColumn,
-  ManyToOne,
-  OneToMany,
+  OneToOne,
   PrimaryGeneratedColumn,
 } from 'typeorm';
 
@@ -34,9 +32,8 @@ export class Album extends BaseEntity {
   year: number;
 
   /** @public artist uuid */
-  @ManyToOne(() => Artist, (artist) => artist.albums, {
+  @OneToOne(() => Artist, {
     onDelete: 'SET NULL',
-    onUpdate: 'CASCADE',
   })
   @JoinColumn({ name: 'artistId' })
   artist!: string | null;
@@ -46,10 +43,4 @@ export class Album extends BaseEntity {
   @IsString()
   @ValidateIf((_, value) => value !== null)
   artistId: string | null;
-
-  @OneToMany(() => Track, (track) => track.album, {
-    onDelete: 'CASCADE',
-    onUpdate: 'CASCADE',
-  })
-  tracks!: Track[];
 }

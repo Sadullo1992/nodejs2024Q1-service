@@ -12,7 +12,7 @@ import {
   Column,
   Entity,
   JoinColumn,
-  ManyToOne,
+  OneToOne,
   PrimaryGeneratedColumn,
 } from 'typeorm';
 
@@ -28,9 +28,8 @@ export class Track extends BaseEntity {
   name: string;
 
   /** @public artist uuid */
-  @ManyToOne(() => Artist, (artist) => artist.tracks, {
+  @OneToOne(() => Artist, {
     onDelete: 'SET NULL',
-    onUpdate: 'CASCADE',
   })
   @JoinColumn({ name: 'artistId' })
   artist!: string | null;
@@ -42,9 +41,8 @@ export class Track extends BaseEntity {
   artistId: string | null;
 
   /** @public album uuid */
-  @ManyToOne(() => Album, (album) => album.tracks, {
+  @OneToOne(() => Album, {
     onDelete: 'SET NULL',
-    onUpdate: 'CASCADE',
   })
   @JoinColumn({ name: 'albumId' })
   album!: string | null;

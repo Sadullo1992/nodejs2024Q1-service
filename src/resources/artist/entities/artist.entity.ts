@@ -1,13 +1,5 @@
 import { IsBoolean, IsNotEmpty, IsString, IsUUID } from 'class-validator';
-import { Album } from 'src/resources/album/entities/album.entity';
-import { Track } from 'src/resources/track/entities/track.entity';
-import {
-  BaseEntity,
-  Column,
-  Entity,
-  OneToMany,
-  PrimaryGeneratedColumn,
-} from 'typeorm';
+import { BaseEntity, Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
 
 @Entity('artist')
 export class Artist extends BaseEntity {
@@ -23,16 +15,4 @@ export class Artist extends BaseEntity {
   @Column()
   @IsBoolean()
   grammy: boolean;
-
-  @OneToMany(() => Track, (track) => track.artist, {
-    onDelete: 'CASCADE',
-    onUpdate: 'CASCADE',
-  })
-  tracks!: Track[];
-
-  @OneToMany(() => Album, (album) => album.artist, {
-    onDelete: 'CASCADE',
-    onUpdate: 'CASCADE',
-  })
-  albums!: Album[];
 }
