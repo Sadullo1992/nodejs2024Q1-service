@@ -1,72 +1,86 @@
 # Home Library Service
 
-## Prerequisites
+## Description
 
-- Git - [Download & Install Git](https://git-scm.com/downloads).
-- Node.js - [Download & Install Node.js](https://nodejs.org/en/download/) and the npm package manager.
+Home Library REST Service! `Users` can create, read, update, delete data about `Artists`, `Tracks` and `Albums`, add them to `Favorites` in their own Home Library!
 
-## Downloading
+## Installation
 
-```
-git clone {repository URL}
-```
+1. Clone the repository: `git clone <repository-url>`
+2. Go to `docker/db` branch
+3. Install the required dependencies by running `npm install`
+4. Containerization - docker compose: `npm run docker:up`
+5. Put database environment variables to `.env` file
 
-## Installing NPM modules
+## Usage
 
-```
-npm install
-```
+1. Start the server by running one of the commands:
 
-## Running application
+	- Development mode: `npm run start:dev`
+	- Production mode: `npm run start:prod`
 
-```
-npm start
-```
+2. Access the API endpoints using a tool like Postman.
 
-After starting the app on port (4000 as default) you can open
-in your browser OpenAPI documentation by typing http://localhost:4000/doc/.
-For more information about OpenAPI/Swagger please visit https://swagger.io/.
+3. The API documented by Swagger (OpenAPI) on `/api` endpoint.
 
 ## Testing
 
 After application running open new terminal and enter:
 
-To run all tests without authorization
+To run all tests without authorization: `npm run test`
 
-```
-npm run test
-```
+## Docker 
 
-To run only one of all test suites
+ - docker compose up: `npm run docker:up`
+ - docker compose build: `npm run docker:build`
+ - docker compose down: `npm run docker:down`
+ - vulnerabilities scanning: `npm run docker:cve`
 
-```
-npm run test -- <path to suite>
-```
+## Typeorm & migrations
 
-To run all test with authorization
+ - Generate migration: `npm run migration:generate` 
+ - Running migration: `npm run migration:run` 
+ - Reverting migration: `npm run migration:revert` 
 
-```
-npm run test:auth
-```
+## API Endpoints
 
-To run only specific test suite with authorization
+#### Users
+* `GET /user` - get all users.
+* `GET /user/:id` - get single user by id
+* `POST /user` - create user
+* `PUT /user/:id` - update user's password
+* `DELETE /user/:id` - delete user
 
-```
-npm run test:auth -- <path to suite>
-```
+#### Tracks
+* `GET /track` - get all tracks
+* `GET /track/:id` - get single track by id
+* `POST /track` - create new track
+* `PUT /track/:id` - update track info
+* `DELETE /track/:id` - delete track
 
-### Auto-fix and format
+#### Artists
+* `GET /artist` - get all artists
+* `GET /artist/:id` - get single artist by id
+* `POST /artist` - create new artist
+* `PUT /artist/:id` - update artist info
+* `DELETE /artist/:id` - delete artist
 
-```
-npm run lint
-```
+#### Albums
+* `GET /album` - get all albums
+* `GET /album/:id` - get single album by id
+* `POST /album` - create new album
+* `PUT /album/:id` - update album info
+* `DELETE /album/:id` - delete album
 
-```
-npm run format
-```
+#### Favorites
+* `GET /favs` - get all favorites
+* `POST /favs/track/:id` - add track to the favorites
+* `DELETE /favs/track/:id` - delete track from favorites
+* `POST /favs/album/:id` - add album to the favorites
+* `DELETE /favs/album/:id` - delete album from favorites
+* `POST /favs/artist/:id` - add artist to the favorites
+* `DELETE /favs/artist/:id` - delete artist from favorites
 
-### Debugging in VSCode
+## Technologies Used
 
-Press <kbd>F5</kbd> to debug.
-
-For more information, visit: https://code.visualstudio.com/docs/editor/debugging
+- Node.js, Nestjs, Swagger, Typeorm, Postgresql, Docker
