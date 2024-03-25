@@ -16,4 +16,4 @@ WORKDIR /usr/app/
 
 COPY --from=build /usr/app /usr/app
 
-CMD npm run start:dev
+CMD npm run typeorm:run && npm run start:dev

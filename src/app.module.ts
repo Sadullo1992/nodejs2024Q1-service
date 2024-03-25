@@ -7,9 +7,9 @@ import { TrackModule } from './resources/track/track.module';
 import { ArtistModule } from './resources/artist/artist.module';
 import { AlbumModule } from './resources/album/album.module';
 import { FavsModule } from './resources/favs/favs.module';
-import { typeOrmConfig } from './ormconfig';
+import { AppDataSource } from '../ormconfig';
 
-const ormConfig = typeOrmConfig();
+const ormConfig = AppDataSource.options;
 @Module({
   imports: [
     ConfigModule.forRoot({
@@ -19,7 +19,7 @@ const ormConfig = typeOrmConfig();
     TypeOrmModule.forRoot({
       ...ormConfig,
       entities: [`${__dirname}/resources/**/**.entity{.ts,.js}`],
-      migrations: [],
+      migrations: [`${__dirname}/migrations/*.ts`],
     }),
     UserModule,
     TrackModule,
