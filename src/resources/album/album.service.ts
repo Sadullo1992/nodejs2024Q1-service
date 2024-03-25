@@ -1,7 +1,7 @@
 import { HttpException, HttpStatus, Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
-import { Fav } from '../favs/entities/fav.entity';
+// import { Fav } from '../favs/entities/fav-album.entity';
 import { CreateAlbumDto } from './dto/create-album.dto';
 import { UpdateAlbumDto } from './dto/update-album.dto';
 import { Album } from './entities/album.entity';
@@ -58,19 +58,5 @@ export class AlbumService {
     if (!album)
       throw new HttpException('Album not found', HttpStatus.NOT_FOUND);
     await album.remove();
-
-    // should remove from fav
-    this.removeAlbumIdFromFavs(id);
-  }
-
-  private async removeAlbumIdFromFavs(id: string) {
-    await this.albumRepository
-      .createQueryBuilder('favs')
-      .update(Fav)
-      .set({
-        albums: () => `array_remove(albums, '${id}')`,
-      })
-      .where({ id: 'favs' })
-      .execute();
   }
 }

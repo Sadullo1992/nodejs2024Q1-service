@@ -1,7 +1,7 @@
 import { HttpException, HttpStatus, Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
-import { Fav } from '../favs/entities/fav.entity';
+// import { Fav } from '../favs/entities/fav-album.entity';
 import { CreateTrackDto } from './dto/create-track.dto';
 import { UpdateTrackDto } from './dto/update-track.dto';
 import { Track } from './entities/track.entity';
@@ -58,19 +58,5 @@ export class TrackService {
     if (!track)
       throw new HttpException('Track not found', HttpStatus.NOT_FOUND);
     await track.remove();
-
-    // should remove from fav
-    this.removeTrackIdFromFavs(id);
-  }
-
-  private async removeTrackIdFromFavs(id: string) {
-    await this.trackRepository
-      .createQueryBuilder('favs')
-      .update(Fav)
-      .set({
-        tracks: () => `array_remove(tracks, '${id}')`,
-      })
-      .where({ id: 'favs' })
-      .execute();
   }
 }
