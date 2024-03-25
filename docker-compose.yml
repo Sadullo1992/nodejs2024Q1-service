@@ -11,11 +11,10 @@ services:
     env_file:
       - .env
     environment:
-      - PORT=4000
+      PORT: ${PORT}
     volumes:
-      - app:/usr/app
-      # - ./src:/usr/app/src
-      - /usr/app/node_modules
+      - ./:/usr/app
+      - ignore:/usr/app/node_modules
     networks:
       - app-network
   db:
@@ -36,22 +35,11 @@ services:
       - app-network
     volumes:
       - pgdata:/var/lib/postgresql/data
-  pg-admin:
-    image: dpage/pgadmin4:6
-    container_name: pg-admin
-    environment:
-      - PGADMIN_DEFAULT_EMAIL=admin@email.com
-      - PGADMIN_DEFAULT_PASSWORD=admin
-      - PGADMIN_LISTEN_PORT=5050
-    ports:
-      - '5050:5050'
-    networks:
-      - app-network
-
+      
 networks:
   app-network:
     driver: bridge
 
 volumes:
-  app:
+  ignore:
   pgdata:
