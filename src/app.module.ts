@@ -8,6 +8,7 @@ import { ArtistModule } from './resources/artist/artist.module';
 import { AlbumModule } from './resources/album/album.module';
 import { FavsModule } from './resources/favs/favs.module';
 import { AppDataSource } from '../ormconfig';
+import { LoggerModule } from './logger/logger.module';
 
 const ormConfig = AppDataSource.options;
 @Module({
@@ -26,6 +27,7 @@ const ormConfig = AppDataSource.options;
     ArtistModule,
     AlbumModule,
     FavsModule,
+    LoggerModule,
   ],
   controllers: [AppController],
 })
