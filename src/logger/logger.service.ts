@@ -1,36 +1,56 @@
-import { Injectable, LoggerService } from '@nestjs/common';
-
+import { Injectable, ConsoleLogger, LogLevel } from '@nestjs/common';
+import { writeMessageToFile } from 'src/helpers/writeMessageToFile';
 @Injectable()
-export class LogService implements LoggerService {
-  /**
-   * Write a 'log' level log.
-   */
-  log(message: any, ...optionalParams: any[]) {
-    console.log(message);
+export class LogService extends ConsoleLogger {
+  log(message?: string, context?: string) {
+    if (!this.isLevelEnabled('log')) {
+      return;
+    }
+    const formattedMessage = this.formattingMessage('log', message);
+    console.log(formattedMessage);
+    // writeMessageToFile(formattedMessage);
+    super.log(message, context);
   }
 
-  /**
-   * Write a 'fatal' level log.
-   */
-  fatal(message: any, ...optionalParams: any[]) {}
+  error(message?: string, context?: string) {
+    if (!this.isLevelEnabled('error')) {
+      return;
+    }
+    const formattedMessage = this.formattingMessage('error', message);
+    console.log(formattedMessage);
+    writeMessageToFile('error', formattedMessage);
+    super.error(message, '', context);
+  }
 
-  /**
-   * Write an 'error' level log.
-   */
-  error(message: any, ...optionalParams: any[]) {}
+  warn(message?: string, context?: string) {
+    if (!this.isLevelEnabled('warn')) {
+      return;
+    }
+    const formattedMessage = this.formattingMessage('warn', message);
+    console.log(formattedMessage);
+    super.warn(message, context);
+  }
 
-  /**
-   * Write a 'warn' level log.
-   */
-  warn(message: any, ...optionalParams: any[]) {}
+  debug(message?: string, context?: string) {
+    if (!this.isLevelEnabled('debug')) {
+      return;
+    }
+    const formattedMessage = this.formattingMessage('debug', message);
+    console.log(formattedMessage);
+    super.debug(message, context);
+  }
 
-  /**
-   * Write a 'debug' level log.
-   */
-  debug?(message: any, ...optionalParams: any[]) {}
+  verbose(message?: string, context?: string) {
+    if (!this.isLevelEnabled('verbose')) {
+      return;
+    }
+    const formattedMessage = this.formattingMessage('verbose', message);
+    console.log(formattedMessage);
+    super.verbose(message, context);
+  }
 
-  /**
-   * Write a 'verbose' level log.
-   */
-  verbose?(message: any, ...optionalParams: any[]) {}
+  formattingMessage(logLevel: LogLevel, message: string) {
+    const pidMessage = this.formatPid(process.pid);
+    return `${pidMessage}${this.getTimestamp()}     ${logLevel.toUpperCase()} ${message}\n`;
+  }
 }

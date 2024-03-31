@@ -15,17 +15,15 @@ export class LoggerInterceptor implements NestInterceptor {
     const { method, url, query, body } = req;
     const { statusCode } = res;
     const now = Date.now();
-    return next.handle().pipe(
-      tap(() =>
-        this.logService.log({
-          method,
-          url,
-          query,
-          body,
-          statusCode,
-          responseTime: `${Date.now() - now}ms`,
-        }),
-      ),
-    );
+
+    const message = ` {${url}, ${method}, query: ${JSON.stringify(
+      query,
+    )}, body: ${JSON.stringify(
+      body,
+    )} } statusCode: ${statusCode}, responseTime: [${Date.now() - now}ms]`;
+
+    return next
+      .handle()
+      .pipe(tap(() => this.logService.log(message, 'LoggerInterceptor')));
   }
 }
