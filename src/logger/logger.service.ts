@@ -2,50 +2,48 @@ import { Injectable, ConsoleLogger, LogLevel } from '@nestjs/common';
 import { writeMessageToFile } from 'src/helpers/writeMessageToFile';
 @Injectable()
 export class LogService extends ConsoleLogger {
-  log(message?: string, context?: string) {
+  async log(message?: string, context?: string) {
     if (!this.isLevelEnabled('log')) {
       return;
     }
     const formattedMessage = this.formattingMessage('log', message);
-    console.log(formattedMessage);
-    // writeMessageToFile(formattedMessage);
+    await writeMessageToFile('log', formattedMessage);
     super.log(message, context);
   }
 
-  error(message?: string, context?: string) {
+  async error(message?: string, context?: string) {
     if (!this.isLevelEnabled('error')) {
       return;
     }
     const formattedMessage = this.formattingMessage('error', message);
-    console.log(formattedMessage);
-    writeMessageToFile('error', formattedMessage);
+    await writeMessageToFile('error', formattedMessage);
     super.error(message, '', context);
   }
 
-  warn(message?: string, context?: string) {
+  async warn(message?: string, context?: string) {
     if (!this.isLevelEnabled('warn')) {
       return;
     }
     const formattedMessage = this.formattingMessage('warn', message);
-    console.log(formattedMessage);
+    await writeMessageToFile('warn', formattedMessage);
     super.warn(message, context);
   }
 
-  debug(message?: string, context?: string) {
+  async debug(message?: string, context?: string) {
     if (!this.isLevelEnabled('debug')) {
       return;
     }
     const formattedMessage = this.formattingMessage('debug', message);
-    console.log(formattedMessage);
+    await writeMessageToFile('debug', formattedMessage);
     super.debug(message, context);
   }
 
-  verbose(message?: string, context?: string) {
+  async verbose(message?: string, context?: string) {
     if (!this.isLevelEnabled('verbose')) {
       return;
     }
     const formattedMessage = this.formattingMessage('verbose', message);
-    console.log(formattedMessage);
+    await writeMessageToFile('verbose', formattedMessage);
     super.verbose(message, context);
   }
 
