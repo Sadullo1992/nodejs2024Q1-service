@@ -1,13 +1,21 @@
 import { Injectable, ConsoleLogger, LogLevel } from '@nestjs/common';
+import { ConfigService } from '@nestjs/config';
 import { writeMessageToFile } from 'src/helpers/writeMessageToFile';
+
 @Injectable()
 export class LogService extends ConsoleLogger {
+  maxFileSize?: string;
+  constructor(private configService: ConfigService) {
+    super();
+    this.maxFileSize = this.configService.get<string>('MAX_FILE_SIZE');
+  }
+
   async log(message?: string, context?: string) {
     if (!this.isLevelEnabled('log')) {
       return;
     }
     const formattedMessage = this.formattingMessage('log', message);
-    await writeMessageToFile('log', formattedMessage);
+    await writeMessageToFile('log', formattedMessage, this.maxFileSize);
     super.log(message, context);
   }
 
@@ -16,7 +24,8 @@ export class LogService extends ConsoleLogger {
       return;
     }
     const formattedMessage = this.formattingMessage('error', message);
-    await writeMessageToFile('error', formattedMessage);
+    await writeMessageToFile('error', formattedMessage, this.maxFileSize);
+    // console.log(this.maxFileSize)
     super.error(message, '', context);
   }
 
@@ -25,7 +34,7 @@ export class LogService extends ConsoleLogger {
       return;
     }
     const formattedMessage = this.formattingMessage('warn', message);
-    await writeMessageToFile('warn', formattedMessage);
+    await writeMessageToFile('warn', formattedMessage, this.maxFileSize);
     super.warn(message, context);
   }
 
@@ -34,7 +43,7 @@ export class LogService extends ConsoleLogger {
       return;
     }
     const formattedMessage = this.formattingMessage('debug', message);
-    await writeMessageToFile('debug', formattedMessage);
+    await writeMessageToFile('debug', formattedMessage, this.maxFileSize);
     super.debug(message, context);
   }
 
@@ -43,7 +52,7 @@ export class LogService extends ConsoleLogger {
       return;
     }
     const formattedMessage = this.formattingMessage('verbose', message);
-    await writeMessageToFile('verbose', formattedMessage);
+    await writeMessageToFile('verbose', formattedMessage, this.maxFileSize);
     super.verbose(message, context);
   }
 
