@@ -9,3 +9,120 @@
 [Nest] 118  - 04/01/2024, 9:17:02 PM     ERROR Unauthorized
 [Nest] 118  - 04/01/2024, 9:17:02 PM     ERROR Unauthorized
 [Nest] 63  - 04/01/2024, 9:54:48 PM     ERROR Cannot GET /favicon.ico
+[Nest] 183  - 04/01/2024, 10:23:57 PM     ERROR Cannot GET /favs/album/57ea0411-cf2c-4c71-9047-099531be38a1
+[Nest] 183  - 04/01/2024, 10:24:03 PM     ERROR Cannot GET /auth/signup
+[Nest] 183  - 04/01/2024, 10:24:04 PM     ERROR Cannot GET /auth/signup
+[Nest] 195  - 04/01/2024, 10:25:30 PM     ERROR Cannot GET /auth/signup
+[Nest] 195  - 04/01/2024, 10:25:36 PM     ERROR Unauthorized
+[Nest] 195  - 04/01/2024, 10:25:38 PM     ERROR Unauthorized
+[Nest] 195  - 04/01/2024, 10:25:43 PM     ERROR Cannot GET /favs/album/57ea0411-cf2c-4c71-9047-099531be38a1
+[Nest] 239  - 04/01/2024, 10:28:46 PM     ERROR Cannot GET /favs/album/57ea0411-cf2c-4c71-9047-099531be38a1
+[Nest] 251  - 04/01/2024, 10:29:46 PM     ERROR Cannot GET /favs/album/57ea0411-cf2c-4c71-9047-099531be38a1
+[Nest] 251  - 04/01/2024, 10:29:50 PM     ERROR Cannot GET /favs/album/57ea0411-cf2c-4c71-9047-099531be38a1
+[Nest] 347  - 04/01/2024, 10:34:29 PM     ERROR Cannot GET /favs/album/57ea0411-cf2c-4c71-9047-099531be38a1
+[Nest] 359  - 04/01/2024, 10:35:06 PM     ERROR Cannot GET /auth/signup
+[Nest] 359  - 04/01/2024, 10:35:08 PM     ERROR Cannot GET /auth/signup
+[Nest] 491  - 04/01/2024, 10:41:53 PM     ERROR Cannot GET /auth/signup
+[Nest] 491  - 04/01/2024, 10:42:02 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 10:44:41 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 10:44:51 PM     ERROR Cannot GET /favs/album/57ea0411-cf2c-4c71-9047-099531be38a1
+[Nest] 86  - 04/01/2024, 10:48:09 PM     ERROR Cannot GET /auth/signup
+[Nest] 86  - 04/01/2024, 10:48:10 PM     ERROR Cannot GET /auth/signup
+[Nest] 86  - 04/01/2024, 10:48:12 PM     ERROR Cannot GET /auth/signup
+[Nest] 174  - 04/01/2024, 10:56:36 PM     ERROR Cannot GET /auth/signup
+[Nest] 174  - 04/01/2024, 10:56:40 PM     ERROR Cannot GET /auth/signup
+[Nest] 174  - 04/01/2024, 10:56:46 PM     ERROR Cannot GET /favs/album/57ea0411-cf2c-4c71-9047-099531be38a1
+[Nest] 214  - 04/01/2024, 10:57:24 PM     ERROR Cannot GET /favs/album/57ea0411-cf2c-4c71-9047-099531be38a1
+[Nest] 214  - 04/01/2024, 10:57:31 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 11:04:06 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 11:04:14 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 11:04:33 PM     ERROR Cannot GET /auth/signup
+[Nest] 62  - 04/01/2024, 11:05:21 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 62  - 04/01/2024, 11:05:21 PM     ERROR User not found
+[Nest] 62  - 04/01/2024, 11:05:21 PM     ERROR Bad Request Exception
+[Nest] 62  - 04/01/2024, 11:05:21 PM     ERROR Bad Request Exception
+[Nest] 62  - 04/01/2024, 11:05:22 PM     ERROR Bad Request Exception
+[Nest] 62  - 04/01/2024, 11:05:22 PM     ERROR Bad Request Exception
+[Nest] 62  - 04/01/2024, 11:05:22 PM     ERROR Old password is wrong
+[Nest] 62  - 04/01/2024, 11:05:22 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 62  - 04/01/2024, 11:05:22 PM     ERROR Bad Request Exception
+[Nest] 62  - 04/01/2024, 11:05:22 PM     ERROR User not found
+[Nest] 62  - 04/01/2024, 11:05:22 PM     ERROR User not found
+[Nest] 62  - 04/01/2024, 11:05:22 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 62  - 04/01/2024, 11:05:22 PM     ERROR User not found
+[Nest] 62  - 04/01/2024, 11:05:24 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 62  - 04/01/2024, 11:05:24 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 62  - 04/01/2024, 11:05:24 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 62  - 04/01/2024, 11:05:24 PM     ERROR Artist ID not found
+[Nest] 62  - 04/01/2024, 11:05:24 PM     ERROR Album ID not found
+[Nest] 62  - 04/01/2024, 11:05:24 PM     ERROR Track ID not found
+[Nest] 62  - 04/01/2024, 11:05:24 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 62  - 04/01/2024, 11:05:25 PM     ERROR Album not found
+[Nest] 62  - 04/01/2024, 11:05:25 PM     ERROR Artist not found
+[Nest] 62  - 04/01/2024, 11:05:25 PM     ERROR Track not found
+[Nest] 62  - 04/01/2024, 11:05:25 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 62  - 04/01/2024, 11:05:25 PM     ERROR Album not found
+[Nest] 62  - 04/01/2024, 11:05:25 PM     ERROR Bad Request Exception
+[Nest] 62  - 04/01/2024, 11:05:25 PM     ERROR Bad Request Exception
+[Nest] 62  - 04/01/2024, 11:05:25 PM     ERROR Bad Request Exception
+[Nest] 62  - 04/01/2024, 11:05:25 PM     ERROR Bad Request Exception
+[Nest] 62  - 04/01/2024, 11:05:26 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 62  - 04/01/2024, 11:05:26 PM     ERROR Bad Request Exception
+[Nest] 62  - 04/01/2024, 11:05:26 PM     ERROR Album not found
+[Nest] 62  - 04/01/2024, 11:05:26 PM     ERROR Album not found
+[Nest] 62  - 04/01/2024, 11:05:26 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 62  - 04/01/2024, 11:05:26 PM     ERROR Album not found
+[Nest] 62  - 04/01/2024, 11:05:27 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 62  - 04/01/2024, 11:05:27 PM     ERROR Artist not found
+[Nest] 62  - 04/01/2024, 11:05:27 PM     ERROR Bad Request Exception
+[Nest] 62  - 04/01/2024, 11:05:27 PM     ERROR Bad Request Exception
+[Nest] 62  - 04/01/2024, 11:05:27 PM     ERROR Bad Request Exception
+[Nest] 62  - 04/01/2024, 11:05:27 PM     ERROR Bad Request Exception
+[Nest] 62  - 04/01/2024, 11:05:27 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 62  - 04/01/2024, 11:05:27 PM     ERROR Bad Request Exception
+[Nest] 62  - 04/01/2024, 11:05:27 PM     ERROR Artist not found
+[Nest] 62  - 04/01/2024, 11:05:27 PM     ERROR Artist not found
+[Nest] 62  - 04/01/2024, 11:05:27 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 62  - 04/01/2024, 11:05:27 PM     ERROR Artist not found
+[Nest] 62  - 04/01/2024, 11:05:28 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 62  - 04/01/2024, 11:05:28 PM     ERROR Track not found
+[Nest] 62  - 04/01/2024, 11:05:28 PM     ERROR Bad Request Exception
+[Nest] 62  - 04/01/2024, 11:05:28 PM     ERROR Bad Request Exception
+[Nest] 62  - 04/01/2024, 11:05:28 PM     ERROR Bad Request Exception
+[Nest] 62  - 04/01/2024, 11:05:28 PM     ERROR Bad Request Exception
+[Nest] 62  - 04/01/2024, 11:05:29 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 62  - 04/01/2024, 11:05:29 PM     ERROR Bad Request Exception
+[Nest] 62  - 04/01/2024, 11:05:29 PM     ERROR Track not found
+[Nest] 62  - 04/01/2024, 11:05:29 PM     ERROR Track not found
+[Nest] 62  - 04/01/2024, 11:05:29 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 62  - 04/01/2024, 11:05:29 PM     ERROR Track not found
+[Nest] 62  - 04/01/2024, 11:05:29 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 11:05:29 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 11:05:29 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 11:05:29 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 11:05:29 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 11:05:29 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 11:05:29 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 11:05:29 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 11:05:29 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 11:05:29 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 11:05:29 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 11:05:29 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 11:05:30 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 11:05:30 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 11:05:30 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 11:05:30 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 11:05:30 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 11:05:30 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 11:05:30 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 11:05:30 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 11:05:30 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 11:05:30 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 11:05:30 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 11:05:30 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 11:05:30 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 11:05:30 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 11:05:30 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 11:05:47 PM     ERROR Refresh token is invalid or expired
+[Nest] 62  - 04/01/2024, 11:05:47 PM     ERROR refreshToken is not exist in body
+[Nest] 62  - 04/01/2024, 11:05:47 PM     ERROR Refresh token is invalid or expired

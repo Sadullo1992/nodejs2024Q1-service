@@ -9,15 +9,12 @@ import {
   HttpStatus,
   Put,
   ParseUUIDPipe,
-  UseGuards,
 } from '@nestjs/common';
 import { UserService } from './user.service';
 import { CreateUserDto } from './dto/create-user.dto';
 import { UpdatePasswordDto } from './dto/update-password.tdo';
-import { AuthGuard } from '../auth/auth.guard';
 
 @Controller('user')
-@UseGuards(AuthGuard)
 export class UserController {
   constructor(private readonly userService: UserService) {}
 
