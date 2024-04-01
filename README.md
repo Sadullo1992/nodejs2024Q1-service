@@ -29,6 +29,10 @@ After application running open new terminal and enter:
 
 To run all tests without authorization: `npm run test`
 
+To run all tests authorization: `npm run test:auth`
+
+To run all tests authorization with refresh token: `npm run test:refresh`
+
 ## Docker 
 
  - docker compose up: `npm run docker:up`
