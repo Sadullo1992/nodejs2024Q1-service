@@ -1,8 +1,6 @@
 import { appendFile, stat, readdir } from 'node:fs/promises';
 import { resolve } from 'node:path';
 
-let filePath: string;
-
 export const writeMessageToFile = async (
   loggingLevel: string,
   message: string,
@@ -11,23 +9,12 @@ export const writeMessageToFile = async (
   const logLevel = loggingLevel === 'error' ? loggingLevel : 'info';
   const maxSize = +maxFileSize * 1024;
 
-  if (!filePath) {
-    filePath = await getFilePath(logLevel, maxSize);
-    await appendFile(filePath, '');
+  try {
+    const filePath = await getFilePath(logLevel, maxSize);
+    await appendFile(filePath, message);
+  } catch (err) {
+    console.log(err);
   }
-
-  if (!!filePath && !filePath.includes(logLevel)) {
-    filePath = await getFilePath(logLevel, maxSize);
-    await appendFile(filePath, '');
-  }
-
-  const { size } = await stat(filePath);
-  if (size > maxSize) {
-    filePath = generateNewFilePath(logLevel);
-    await appendFile(filePath, '');
-  }
-
-  await appendFile(filePath, message);
 };
 
 async function getFilePath(logLevel: string, maxSize: number) {

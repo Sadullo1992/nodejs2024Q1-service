@@ -1,0 +1,784 @@
+[Nest] 62  - 04/01/2024, 8:56:24 PM     LOG Mapped {/favs/album/:id, POST} route
+[Nest] 62  - 04/01/2024, 8:56:24 PM     LOG Mapped {/favs/album/:id, DELETE} route
+[Nest] 62  - 04/01/2024, 8:56:24 PM     LOG Mapped {/favs/artist/:id, POST} route
+[Nest] 62  - 04/01/2024, 8:56:24 PM     LOG Nest application successfully started
+[Nest] 62  - 04/01/2024, 8:56:24 PM     LOG Mapped {/favs/artist/:id, DELETE} route
+[Nest] 74  - 04/01/2024, 8:57:15 PM     LOG AppController {/}:
+[Nest] 74  - 04/01/2024, 8:57:15 PM     LOG UserController {/user}:
+[Nest] 74  - 04/01/2024, 8:57:15 PM     LOG Mapped {/user, POST} route
+[Nest] 74  - 04/01/2024, 8:57:15 PM     LOG Mapped {/, GET} route
+[Nest] 74  - 04/01/2024, 8:57:15 PM     LOG Mapped {/user/:id, PUT} route
+[Nest] 74  - 04/01/2024, 8:57:15 PM     LOG Mapped {/user, GET} route
+[Nest] 74  - 04/01/2024, 8:57:15 PM     LOG Mapped {/user/:id, DELETE} route
+[Nest] 74  - 04/01/2024, 8:57:15 PM     LOG AuthController {/auth}:
+[Nest] 74  - 04/01/2024, 8:57:15 PM     LOG Mapped {/auth/signup, POST} route
+[Nest] 74  - 04/01/2024, 8:57:15 PM     LOG Mapped {/auth/login, POST} route
+[Nest] 74  - 04/01/2024, 8:57:15 PM     LOG Mapped {/user/:id, GET} route
+[Nest] 74  - 04/01/2024, 8:57:15 PM     LOG Mapped {/auth/refresh, POST} route
+[Nest] 74  - 04/01/2024, 8:57:15 PM     LOG TrackController {/track}:
+[Nest] 74  - 04/01/2024, 8:57:15 PM     LOG Mapped {/track, POST} route
+[Nest] 74  - 04/01/2024, 8:57:15 PM     LOG Mapped {/track/:id, GET} route
+[Nest] 74  - 04/01/2024, 8:57:15 PM     LOG Mapped {/track, GET} route
+[Nest] 74  - 04/01/2024, 8:57:15 PM     LOG Mapped {/track/:id, DELETE} route
+[Nest] 74  - 04/01/2024, 8:57:15 PM     LOG Mapped {/artist/:id, GET} route
+[Nest] 74  - 04/01/2024, 8:57:15 PM     LOG ArtistController {/artist}:
+[Nest] 74  - 04/01/2024, 8:57:15 PM     LOG Mapped {/artist, POST} route
+[Nest] 74  - 04/01/2024, 8:57:15 PM     LOG Mapped {/artist/:id, PUT} route
+[Nest] 74  - 04/01/2024, 8:57:15 PM     LOG Mapped {/artist/:id, DELETE} route
+[Nest] 74  - 04/01/2024, 8:57:15 PM     LOG Mapped {/track/:id, PUT} route
+[Nest] 74  - 04/01/2024, 8:57:15 PM     LOG Mapped {/album, POST} route
+[Nest] 74  - 04/01/2024, 8:57:15 PM     LOG Mapped {/artist, GET} route
+[Nest] 74  - 04/01/2024, 8:57:15 PM     LOG AlbumController {/album}:
+[Nest] 74  - 04/01/2024, 8:57:15 PM     LOG Mapped {/album, GET} route
+[Nest] 74  - 04/01/2024, 8:57:15 PM     LOG Mapped {/album/:id, GET} route
+[Nest] 74  - 04/01/2024, 8:57:15 PM     LOG Mapped {/album/:id, PUT} route
+[Nest] 74  - 04/01/2024, 8:57:15 PM     LOG FavsController {/favs}:
+[Nest] 74  - 04/01/2024, 8:57:15 PM     LOG Mapped {/favs, GET} route
+[Nest] 74  - 04/01/2024, 8:57:15 PM     LOG Mapped {/album/:id, DELETE} route
+[Nest] 74  - 04/01/2024, 8:57:15 PM     LOG Mapped {/favs/album/:id, DELETE} route
+[Nest] 74  - 04/01/2024, 8:57:15 PM     LOG Mapped {/favs/album/:id, POST} route
+[Nest] 74  - 04/01/2024, 8:57:15 PM     LOG Mapped {/favs/track/:id, POST} route
+[Nest] 74  - 04/01/2024, 8:57:15 PM     LOG Mapped {/favs/artist/:id, POST} route
+[Nest] 74  - 04/01/2024, 8:57:15 PM     LOG Mapped {/favs/track/:id, DELETE} route
+[Nest] 74  - 04/01/2024, 8:57:15 PM     LOG Nest application successfully started
+[Nest] 74  - 04/01/2024, 8:57:15 PM     LOG Mapped {/favs/artist/:id, DELETE} route
+[Nest] 62  - 04/01/2024, 8:58:17 PM     LOG AppController {/}:
+[Nest] 62  - 04/01/2024, 8:58:17 PM     LOG Mapped {/user/:id, GET} route
+[Nest] 62  - 04/01/2024, 8:58:17 PM     LOG Mapped {/user/:id, PUT} route
+[Nest] 62  - 04/01/2024, 8:58:17 PM     LOG Mapped {/user/:id, DELETE} route
+[Nest] 62  - 04/01/2024, 8:58:17 PM     LOG Mapped {/, GET} route
+[Nest] 62  - 04/01/2024, 8:58:17 PM     LOG Mapped {/user, POST} route
+[Nest] 62  - 04/01/2024, 8:58:17 PM     LOG UserController {/user}:
+[Nest] 62  - 04/01/2024, 8:58:17 PM     LOG Mapped {/user, GET} route
+[Nest] 62  - 04/01/2024, 8:58:17 PM     LOG Mapped {/auth/signup, POST} route
+[Nest] 62  - 04/01/2024, 8:58:17 PM     LOG Mapped {/auth/refresh, POST} route
+[Nest] 62  - 04/01/2024, 8:58:17 PM     LOG AuthController {/auth}:
+[Nest] 62  - 04/01/2024, 8:58:17 PM     LOG TrackController {/track}:
+[Nest] 62  - 04/01/2024, 8:58:17 PM     LOG Mapped {/auth/login, POST} route
+[Nest] 62  - 04/01/2024, 8:58:17 PM     LOG Mapped {/track, GET} route
+[Nest] 62  - 04/01/2024, 8:58:17 PM     LOG Mapped {/track, POST} route
+[Nest] 62  - 04/01/2024, 8:58:17 PM     LOG Mapped {/track/:id, GET} route
+[Nest] 62  - 04/01/2024, 8:58:17 PM     LOG Mapped {/track/:id, PUT} route
+[Nest] 62  - 04/01/2024, 8:58:17 PM     LOG Mapped {/artist, POST} route
+[Nest] 62  - 04/01/2024, 8:58:17 PM     LOG Mapped {/artist, GET} route
+[Nest] 62  - 04/01/2024, 8:58:17 PM     LOG ArtistController {/artist}:
+[Nest] 62  - 04/01/2024, 8:58:17 PM     LOG Mapped {/track/:id, DELETE} route
+[Nest] 62  - 04/01/2024, 8:58:17 PM     LOG Mapped {/artist/:id, GET} route
+[Nest] 62  - 04/01/2024, 8:58:17 PM     LOG Mapped {/artist/:id, PUT} route
+[Nest] 62  - 04/01/2024, 8:58:17 PM     LOG Mapped {/artist/:id, DELETE} route
+[Nest] 62  - 04/01/2024, 8:58:17 PM     LOG AlbumController {/album}:
+[Nest] 62  - 04/01/2024, 8:58:17 PM     LOG Mapped {/album, POST} route
+[Nest] 62  - 04/01/2024, 8:58:17 PM     LOG FavsController {/favs}:
+[Nest] 62  - 04/01/2024, 8:58:17 PM     LOG Mapped {/album, GET} route
+[Nest] 62  - 04/01/2024, 8:58:17 PM     LOG Mapped {/album/:id, DELETE} route
+[Nest] 62  - 04/01/2024, 8:58:17 PM     LOG Mapped {/album/:id, GET} route
+[Nest] 62  - 04/01/2024, 8:58:17 PM     LOG Mapped {/album/:id, PUT} route
+[Nest] 62  - 04/01/2024, 8:58:17 PM     LOG Mapped {/favs/track/:id, POST} route
+[Nest] 62  - 04/01/2024, 8:58:17 PM     LOG Mapped {/favs/album/:id, POST} route
+[Nest] 62  - 04/01/2024, 8:58:17 PM     LOG Mapped {/favs/artist/:id, POST} route
+[Nest] 62  - 04/01/2024, 8:58:17 PM     LOG Mapped {/favs/track/:id, DELETE} route
+[Nest] 62  - 04/01/2024, 8:58:17 PM     LOG Mapped {/favs, GET} route
+[Nest] 62  - 04/01/2024, 8:58:17 PM     LOG Mapped {/favs/artist/:id, DELETE} route
+[Nest] 62  - 04/01/2024, 8:58:17 PM     LOG Mapped {/favs/album/:id, DELETE} route
+[Nest] 62  - 04/01/2024, 8:58:17 PM     LOG Nest application successfully started
+[Nest] 74  - 04/01/2024, 8:59:06 PM     LOG UserController {/user}:
+[Nest] 74  - 04/01/2024, 8:59:06 PM     LOG Mapped {/user, POST} route
+[Nest] 74  - 04/01/2024, 8:59:06 PM     LOG Mapped {/user/:id, PUT} route
+[Nest] 74  - 04/01/2024, 8:59:06 PM     LOG AppController {/}:
+[Nest] 74  - 04/01/2024, 8:59:06 PM     LOG Mapped {/, GET} route
+[Nest] 74  - 04/01/2024, 8:59:06 PM     LOG Mapped {/user, GET} route
+[Nest] 74  - 04/01/2024, 8:59:06 PM     LOG AuthController {/auth}:
+[Nest] 74  - 04/01/2024, 8:59:06 PM     LOG Mapped {/auth/login, POST} route
+[Nest] 74  - 04/01/2024, 8:59:06 PM     LOG Mapped {/user/:id, DELETE} route
+[Nest] 74  - 04/01/2024, 8:59:06 PM     LOG Mapped {/user/:id, GET} route
+[Nest] 74  - 04/01/2024, 8:59:06 PM     LOG Mapped {/auth/signup, POST} route
+[Nest] 74  - 04/01/2024, 8:59:06 PM     LOG Mapped {/auth/refresh, POST} route
+[Nest] 74  - 04/01/2024, 8:59:06 PM     LOG Mapped {/track/:id, GET} route
+[Nest] 74  - 04/01/2024, 8:59:06 PM     LOG Mapped {/track, GET} route
+[Nest] 74  - 04/01/2024, 8:59:06 PM     LOG Mapped {/track, POST} route
+[Nest] 74  - 04/01/2024, 8:59:06 PM     LOG TrackController {/track}:
+[Nest] 74  - 04/01/2024, 8:59:06 PM     LOG Mapped {/track/:id, DELETE} route
+[Nest] 74  - 04/01/2024, 8:59:06 PM     LOG Mapped {/artist/:id, GET} route
+[Nest] 74  - 04/01/2024, 8:59:06 PM     LOG Mapped {/artist, POST} route
+[Nest] 74  - 04/01/2024, 8:59:06 PM     LOG Mapped {/track/:id, PUT} route
+[Nest] 74  - 04/01/2024, 8:59:06 PM     LOG ArtistController {/artist}:
+[Nest] 74  - 04/01/2024, 8:59:06 PM     LOG Mapped {/artist/:id, PUT} route
+[Nest] 74  - 04/01/2024, 8:59:06 PM     LOG Mapped {/artist/:id, DELETE} route
+[Nest] 74  - 04/01/2024, 8:59:06 PM     LOG Mapped {/album, GET} route
+[Nest] 74  - 04/01/2024, 8:59:06 PM     LOG Mapped {/artist, GET} route
+[Nest] 74  - 04/01/2024, 8:59:06 PM     LOG Mapped {/album/:id, PUT} route
+[Nest] 74  - 04/01/2024, 8:59:06 PM     LOG Mapped {/album/:id, GET} route
+[Nest] 74  - 04/01/2024, 8:59:06 PM     LOG Mapped {/album/:id, DELETE} route
+[Nest] 74  - 04/01/2024, 8:59:06 PM     LOG Mapped {/favs, GET} route
+[Nest] 74  - 04/01/2024, 8:59:06 PM     LOG Mapped {/album, POST} route
+[Nest] 74  - 04/01/2024, 8:59:06 PM     LOG Mapped {/favs/track/:id, POST} route
+[Nest] 74  - 04/01/2024, 8:59:06 PM     LOG AlbumController {/album}:
+[Nest] 74  - 04/01/2024, 8:59:06 PM     LOG Mapped {/favs/artist/:id, POST} route
+[Nest] 74  - 04/01/2024, 8:59:06 PM     LOG Mapped {/favs/artist/:id, DELETE} route
+[Nest] 74  - 04/01/2024, 8:59:06 PM     LOG Mapped {/favs/album/:id, DELETE} route
+[Nest] 74  - 04/01/2024, 8:59:06 PM     LOG FavsController {/favs}:
+[Nest] 74  - 04/01/2024, 8:59:06 PM     LOG Mapped {/favs/track/:id, DELETE} route
+[Nest] 74  - 04/01/2024, 8:59:06 PM     LOG Mapped {/favs/album/:id, POST} route
+[Nest] 74  - 04/01/2024, 8:59:06 PM     LOG Nest application successfully started
+[Nest] 62  - 04/01/2024, 9:04:29 PM     LOG UserController {/user}:
+[Nest] 62  - 04/01/2024, 9:04:29 PM     LOG Mapped {/user, POST} route
+[Nest] 62  - 04/01/2024, 9:04:29 PM     LOG AppController {/}:
+[Nest] 62  - 04/01/2024, 9:04:29 PM     LOG Mapped {/, GET} route
+[Nest] 62  - 04/01/2024, 9:04:29 PM     LOG Mapped {/user, GET} route
+[Nest] 62  - 04/01/2024, 9:04:29 PM     LOG Mapped {/user/:id, PUT} route
+[Nest] 62  - 04/01/2024, 9:04:29 PM     LOG Mapped {/user/:id, GET} route
+[Nest] 62  - 04/01/2024, 9:04:29 PM     LOG Mapped {/user/:id, DELETE} route
+[Nest] 62  - 04/01/2024, 9:04:29 PM     LOG AuthController {/auth}:
+[Nest] 62  - 04/01/2024, 9:04:29 PM     LOG Mapped {/auth/login, POST} route
+[Nest] 62  - 04/01/2024, 9:04:29 PM     LOG Mapped {/auth/refresh, POST} route
+[Nest] 62  - 04/01/2024, 9:04:29 PM     LOG Mapped {/auth/signup, POST} route
+[Nest] 62  - 04/01/2024, 9:04:29 PM     LOG Mapped {/track, POST} route
+[Nest] 62  - 04/01/2024, 9:04:29 PM     LOG TrackController {/track}:
+[Nest] 62  - 04/01/2024, 9:04:29 PM     LOG Mapped {/track/:id, GET} route
+[Nest] 62  - 04/01/2024, 9:04:29 PM     LOG Mapped {/track/:id, PUT} route
+[Nest] 62  - 04/01/2024, 9:04:29 PM     LOG Mapped {/track/:id, DELETE} route
+[Nest] 62  - 04/01/2024, 9:04:29 PM     LOG Mapped {/track, GET} route
+[Nest] 62  - 04/01/2024, 9:04:29 PM     LOG ArtistController {/artist}:
+[Nest] 62  - 04/01/2024, 9:04:29 PM     LOG Mapped {/artist, POST} route
+[Nest] 62  - 04/01/2024, 9:04:29 PM     LOG Mapped {/artist, GET} route
+[Nest] 62  - 04/01/2024, 9:04:29 PM     LOG Mapped {/artist/:id, GET} route
+[Nest] 62  - 04/01/2024, 9:04:29 PM     LOG Mapped {/artist/:id, PUT} route
+[Nest] 62  - 04/01/2024, 9:04:29 PM     LOG Mapped {/album, POST} route
+[Nest] 62  - 04/01/2024, 9:04:29 PM     LOG AlbumController {/album}:
+[Nest] 62  - 04/01/2024, 9:04:29 PM     LOG Mapped {/artist/:id, DELETE} route
+[Nest] 62  - 04/01/2024, 9:04:29 PM     LOG Mapped {/album/:id, GET} route
+[Nest] 62  - 04/01/2024, 9:04:29 PM     LOG Mapped {/album, GET} route
+[Nest] 62  - 04/01/2024, 9:04:29 PM     LOG Mapped {/album/:id, PUT} route
+[Nest] 62  - 04/01/2024, 9:04:29 PM     LOG Mapped {/album/:id, DELETE} route
+[Nest] 62  - 04/01/2024, 9:04:29 PM     LOG FavsController {/favs}:
+[Nest] 62  - 04/01/2024, 9:04:29 PM     LOG Mapped {/favs, GET} route
+[Nest] 62  - 04/01/2024, 9:04:29 PM     LOG Mapped {/favs/track/:id, DELETE} route
+[Nest] 62  - 04/01/2024, 9:04:29 PM     LOG Mapped {/favs/track/:id, POST} route
+[Nest] 62  - 04/01/2024, 9:04:29 PM     LOG Mapped {/favs/album/:id, POST} route
+[Nest] 62  - 04/01/2024, 9:04:29 PM     LOG Mapped {/favs/album/:id, DELETE} route
+[Nest] 62  - 04/01/2024, 9:04:29 PM     LOG Mapped {/favs/artist/:id, DELETE} route
+[Nest] 62  - 04/01/2024, 9:04:29 PM     LOG Nest application successfully started
+[Nest] 62  - 04/01/2024, 9:04:29 PM     LOG Mapped {/favs/artist/:id, POST} route
+[Nest] 62  - 04/01/2024, 9:05:45 PM     LOG  {/auth/signup, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 201, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:45 PM     LOG  {/auth/login, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 200, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:45 PM     LOG  {/user, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:45 PM     LOG  {/user, POST, query: {}, body: {"login":"TEST_LOGIN","password":"TEST_PASSWORD"} } statusCode: 201, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:45 PM     LOG  {/user/61f22874-7c9c-4f84-9be6-a3c545c3ed5b, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:45 PM     LOG  {/user/61f22874-7c9c-4f84-9be6-a3c545c3ed5b, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:46 PM     LOG  {/user, POST, query: {}, body: {"login":"TEST_LOGIN","password":"TEST_PASSWORD"} } statusCode: 201, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:46 PM     LOG  {/user/7c8d2538-0b2b-4048-b1b2-34c9fd7bf312, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:46 PM     LOG  {/user, POST, query: {}, body: {"login":"TEST_LOGIN","password":"TEST_PASSWORD"} } statusCode: 201, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:46 PM     LOG  {/user/48c94d7d-fa62-4045-b038-8092543d28f5, PUT, query: {}, body: {"oldPassword":"TEST_PASSWORD","newPassword":"NEW_PASSWORD"} } statusCode: 200, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:46 PM     LOG  {/user/48c94d7d-fa62-4045-b038-8092543d28f5, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:47 PM     LOG  {/user, POST, query: {}, body: {"login":"TEST_LOGIN","password":"TEST_PASSWORD"} } statusCode: 201, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:47 PM     LOG  {/user/c6a65d8e-a27b-4faf-a85b-68407b3cf8f8, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:47 PM     LOG  {/user/829e0276-564b-44f0-a5da-3ac00c26f6e6, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:47 PM     LOG  {/auth/signup, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 201, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:47 PM     LOG  {/auth/login, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 200, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:47 PM     LOG  {/favs, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:47 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:47 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_ALBUM","year":2022,"artistId":"ecb9df7d-71dd-4006-81f2-b62780c4f080"} } statusCode: 201, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:48 PM     LOG  {/track, POST, query: {}, body: {"name":"Test track","duration":335,"artistId":"ecb9df7d-71dd-4006-81f2-b62780c4f080","albumId":"e91a6401-0b6f-4083-8516-9d54122d44a3"} } statusCode: 201, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:48 PM     LOG  {/favs/track/4e56d8d2-77ea-4d9a-9aa3-cdf132ddc786, POST, query: {}, body: {} } statusCode: 201, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:48 PM     LOG  {/favs/album/e91a6401-0b6f-4083-8516-9d54122d44a3, POST, query: {}, body: {} } statusCode: 201, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:48 PM     LOG  {/favs/artist/ecb9df7d-71dd-4006-81f2-b62780c4f080, POST, query: {}, body: {} } statusCode: 201, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:48 PM     LOG  {/favs, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:48 PM     LOG  {/artist/ecb9df7d-71dd-4006-81f2-b62780c4f080, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [1ms]
+[Nest] 62  - 04/01/2024, 9:05:48 PM     LOG  {/album/e91a6401-0b6f-4083-8516-9d54122d44a3, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:48 PM     LOG  {/track/4e56d8d2-77ea-4d9a-9aa3-cdf132ddc786, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:48 PM     LOG  {/favs, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:48 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:48 PM     LOG  {/favs/artist/454acd85-4851-4e25-b393-f0ced2ff1428, POST, query: {}, body: {} } statusCode: 201, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:48 PM     LOG  {/favs, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:48 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_ALBUM","year":2022,"artistId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:48 PM     LOG  {/favs/album/7d89a8b9-cae0-46e2-8c10-121fdb42b9ce, POST, query: {}, body: {} } statusCode: 201, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:48 PM     LOG  {/favs, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:48 PM     LOG  {/track, POST, query: {}, body: {"name":"Test track","duration":335,"artistId":null,"albumId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:48 PM     LOG  {/favs/track/a754e1e7-927a-41a7-ade9-872140506afe, POST, query: {}, body: {} } statusCode: 201, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:48 PM     LOG  {/favs, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:49 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_ALBUM","year":2022,"artistId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:49 PM     LOG  {/favs/album/5d2473f1-4683-47e3-8bfd-74d9edb885db, POST, query: {}, body: {} } statusCode: 201, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:49 PM     LOG  {/favs/album/5d2473f1-4683-47e3-8bfd-74d9edb885db, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:49 PM     LOG  {/favs, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:49 PM     LOG  {/album/5d2473f1-4683-47e3-8bfd-74d9edb885db, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:49 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:49 PM     LOG  {/favs/artist/0541e89a-a269-4c9b-aa1a-046359118edd, POST, query: {}, body: {} } statusCode: 201, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:49 PM     LOG  {/favs/artist/0541e89a-a269-4c9b-aa1a-046359118edd, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:49 PM     LOG  {/favs, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:49 PM     LOG  {/artist/0541e89a-a269-4c9b-aa1a-046359118edd, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:49 PM     LOG  {/track, POST, query: {}, body: {"name":"Test track","duration":335,"artistId":null,"albumId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:49 PM     LOG  {/favs/track/8eaf7238-b3f0-4948-8f4f-ff697104a9ff, POST, query: {}, body: {} } statusCode: 201, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:49 PM     LOG  {/favs/track/8eaf7238-b3f0-4948-8f4f-ff697104a9ff, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:49 PM     LOG  {/favs, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:49 PM     LOG  {/track/8eaf7238-b3f0-4948-8f4f-ff697104a9ff, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:50 PM     LOG  {/user/cc7cee70-ccbd-449f-a62a-d3dcf26a13f5, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:50 PM     LOG  {/auth/signup, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 201, responseTime: [1ms]
+[Nest] 62  - 04/01/2024, 9:05:50 PM     LOG  {/auth/login, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 200, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:50 PM     LOG  {/artist, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:50 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:50 PM     LOG  {/artist/f7b97fad-afab-4fb2-ad2c-ea4c9f3abe64, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:50 PM     LOG  {/artist/f7b97fad-afab-4fb2-ad2c-ea4c9f3abe64, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:50 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:50 PM     LOG  {/artist/d1099fd8-955c-4ba5-93a2-14b596b44dfc, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:50 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:51 PM     LOG  {/artist/c6c2bd54-ebd6-4592-aeb3-5b02e1954a7c, PUT, query: {}, body: {"name":"TEST_artist","grammy":false} } statusCode: 200, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:51 PM     LOG  {/artist/c6c2bd54-ebd6-4592-aeb3-5b02e1954a7c, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:51 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:51 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:51 PM     LOG  {/artist/6e573ece-f6c5-4d09-9aaa-8ff4e5c9640c, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:51 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:51 PM     LOG  {/track, POST, query: {}, body: {"name":"TEST_track","albumId":null,"artistId":"86201615-2b00-4549-a732-7495bd677758","duration":200} } statusCode: 201, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:51 PM     LOG  {/artist/86201615-2b00-4549-a732-7495bd677758, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:51 PM     LOG  {/track/8075af77-2286-434a-a56e-2432c56a0952, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:51 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:51 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_album","year":2023,"artistId":"782b7ced-4a70-4efa-bb58-459de88db52c"} } statusCode: 201, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:51 PM     LOG  {/artist/782b7ced-4a70-4efa-bb58-459de88db52c, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:51 PM     LOG  {/album/8c0d0b43-f45c-498a-930e-b471df760cd4, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:51 PM     LOG  {/user/875ca58d-c0cc-4763-acf7-ccbfff399ff8, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:52 PM     LOG  {/auth/signup, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 201, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:52 PM     LOG  {/auth/login, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 200, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:52 PM     LOG  {/album, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:52 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_ALBUM","year":2022,"artistId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:52 PM     LOG  {/album/4a8734bb-5eb8-46b8-b2d8-7e1aa271860c, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:52 PM     LOG  {/album/4a8734bb-5eb8-46b8-b2d8-7e1aa271860c, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:52 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_ALBUM","year":2022,"artistId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:52 PM     LOG  {/album/fb1200ed-6e1c-403b-88f0-4d9b5c9c22ed, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:52 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_ALBUM","year":2022,"artistId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:52 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:52 PM     LOG  {/album/48d39c30-f450-4381-9893-15756718d433, PUT, query: {}, body: {"name":"TEST_ALBUM","year":2021,"artistId":"de1d5b5f-2283-438c-bef4-2b9476876538"} } statusCode: 200, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:52 PM     LOG  {/album/48d39c30-f450-4381-9893-15756718d433, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:53 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_ALBUM","year":2022,"artistId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:53 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_ALBUM","year":2022,"artistId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:53 PM     LOG  {/album/084d0e22-e5ac-4a86-9a71-77a116d2124c, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:53 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_ALBUM","year":2022,"artistId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:53 PM     LOG  {/track, POST, query: {}, body: {"name":"TEST_TRACK","duration":199,"artistId":null,"albumId":"0c65bcd7-20ca-4fd9-a4de-d65bff194fbb"} } statusCode: 201, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:53 PM     LOG  {/album/0c65bcd7-20ca-4fd9-a4de-d65bff194fbb, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [1ms]
+[Nest] 62  - 04/01/2024, 9:05:53 PM     LOG  {/track/8102d1c8-c938-4d14-b41d-840c5489b923, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:53 PM     LOG  {/user/eecc5319-eef5-4047-bdd9-683de3571e63, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:53 PM     LOG  {/auth/signup, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 201, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:54 PM     LOG  {/auth/login, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 200, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:54 PM     LOG  {/track, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:54 PM     LOG  {/track, POST, query: {}, body: {"name":"TEST_TRACK","duration":199,"artistId":null,"albumId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:54 PM     LOG  {/track/36b17314-ec4c-4878-9e78-501a8b1260be, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:54 PM     LOG  {/track/36b17314-ec4c-4878-9e78-501a8b1260be, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:54 PM     LOG  {/track, POST, query: {}, body: {"name":"TEST_TRACK","duration":199,"artistId":null,"albumId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:54 PM     LOG  {/track/2a0fd061-742d-41f1-80bd-0a1932b59e6a, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:54 PM     LOG  {/track, POST, query: {}, body: {"name":"TEST_TRACK","duration":199,"artistId":null,"albumId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:54 PM     LOG  {/track/a9293c9a-6272-4ea1-a71a-fa82ab03bd1e, PUT, query: {}, body: {"name":"TEST_TRACK","duration":188,"artistId":null,"albumId":null} } statusCode: 200, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:54 PM     LOG  {/track/a9293c9a-6272-4ea1-a71a-fa82ab03bd1e, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:54 PM     LOG  {/track, POST, query: {}, body: {"name":"TEST_TRACK","duration":199,"artistId":null,"albumId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:54 PM     LOG  {/track, POST, query: {}, body: {"name":"TEST_TRACK","duration":199,"artistId":null,"albumId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:54 PM     LOG  {/track/f9b06b33-541a-40e1-8e4d-85caf96ad27f, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:05:54 PM     LOG  {/user/e7c72618-2bd5-4468-ad0b-218bc755b2c1, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:12 PM     LOG UserController {/user}:
+[Nest] 74  - 04/01/2024, 9:07:12 PM     LOG Mapped {/user, GET} route
+[Nest] 74  - 04/01/2024, 9:07:12 PM     LOG Mapped {/, GET} route
+[Nest] 74  - 04/01/2024, 9:07:12 PM     LOG AppController {/}:
+[Nest] 74  - 04/01/2024, 9:07:12 PM     LOG Mapped {/user/:id, DELETE} route
+[Nest] 74  - 04/01/2024, 9:07:12 PM     LOG Mapped {/user/:id, GET} route
+[Nest] 74  - 04/01/2024, 9:07:12 PM     LOG Mapped {/user, POST} route
+[Nest] 74  - 04/01/2024, 9:07:12 PM     LOG Mapped {/user/:id, PUT} route
+[Nest] 74  - 04/01/2024, 9:07:12 PM     LOG AuthController {/auth}:
+[Nest] 74  - 04/01/2024, 9:07:12 PM     LOG Mapped {/auth/login, POST} route
+[Nest] 74  - 04/01/2024, 9:07:12 PM     LOG Mapped {/auth/signup, POST} route
+[Nest] 74  - 04/01/2024, 9:07:12 PM     LOG Mapped {/auth/refresh, POST} route
+[Nest] 74  - 04/01/2024, 9:07:12 PM     LOG Mapped {/track, POST} route
+[Nest] 74  - 04/01/2024, 9:07:12 PM     LOG Mapped {/track/:id, PUT} route
+[Nest] 74  - 04/01/2024, 9:07:12 PM     LOG TrackController {/track}:
+[Nest] 74  - 04/01/2024, 9:07:12 PM     LOG Mapped {/track/:id, DELETE} route
+[Nest] 74  - 04/01/2024, 9:07:12 PM     LOG Mapped {/track, GET} route
+[Nest] 74  - 04/01/2024, 9:07:12 PM     LOG Mapped {/track/:id, GET} route
+[Nest] 74  - 04/01/2024, 9:07:12 PM     LOG Mapped {/artist, POST} route
+[Nest] 74  - 04/01/2024, 9:07:12 PM     LOG ArtistController {/artist}:
+[Nest] 74  - 04/01/2024, 9:07:12 PM     LOG Mapped {/artist, GET} route
+[Nest] 74  - 04/01/2024, 9:07:12 PM     LOG Mapped {/artist/:id, DELETE} route
+[Nest] 74  - 04/01/2024, 9:07:12 PM     LOG Mapped {/artist/:id, GET} route
+[Nest] 74  - 04/01/2024, 9:07:12 PM     LOG AlbumController {/album}:
+[Nest] 74  - 04/01/2024, 9:07:12 PM     LOG Mapped {/album, POST} route
+[Nest] 74  - 04/01/2024, 9:07:12 PM     LOG Mapped {/artist/:id, PUT} route
+[Nest] 74  - 04/01/2024, 9:07:12 PM     LOG Mapped {/album/:id, DELETE} route
+[Nest] 74  - 04/01/2024, 9:07:12 PM     LOG Mapped {/album, GET} route
+[Nest] 74  - 04/01/2024, 9:07:12 PM     LOG Mapped {/album/:id, PUT} route
+[Nest] 74  - 04/01/2024, 9:07:12 PM     LOG Mapped {/album/:id, GET} route
+[Nest] 74  - 04/01/2024, 9:07:12 PM     LOG Mapped {/favs/track/:id, POST} route
+[Nest] 74  - 04/01/2024, 9:07:12 PM     LOG FavsController {/favs}:
+[Nest] 74  - 04/01/2024, 9:07:12 PM     LOG Mapped {/favs/track/:id, DELETE} route
+[Nest] 74  - 04/01/2024, 9:07:12 PM     LOG Mapped {/favs, GET} route
+[Nest] 74  - 04/01/2024, 9:07:12 PM     LOG Mapped {/favs/artist/:id, POST} route
+[Nest] 74  - 04/01/2024, 9:07:12 PM     LOG Mapped {/favs/album/:id, DELETE} route
+[Nest] 74  - 04/01/2024, 9:07:12 PM     LOG Mapped {/favs/artist/:id, DELETE} route
+[Nest] 74  - 04/01/2024, 9:07:13 PM     LOG Nest application successfully started
+[Nest] 74  - 04/01/2024, 9:07:12 PM     LOG Mapped {/favs/album/:id, POST} route
+[Nest] 74  - 04/01/2024, 9:07:34 PM     LOG  {/auth/signup, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 201, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:34 PM     LOG  {/auth/login, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 200, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:35 PM     LOG  {/user, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:35 PM     LOG  {/user, POST, query: {}, body: {"login":"TEST_LOGIN","password":"TEST_PASSWORD"} } statusCode: 201, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:35 PM     LOG  {/user/c3515052-a157-4cc2-9ba3-5c8624983407, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:35 PM     LOG  {/user/c3515052-a157-4cc2-9ba3-5c8624983407, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:35 PM     LOG  {/user, POST, query: {}, body: {"login":"TEST_LOGIN","password":"TEST_PASSWORD"} } statusCode: 201, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:35 PM     LOG  {/user/a305ac6b-3e89-4c48-9e9d-393365001ace, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:35 PM     LOG  {/user, POST, query: {}, body: {"login":"TEST_LOGIN","password":"TEST_PASSWORD"} } statusCode: 201, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:35 PM     LOG  {/user/71422087-f2a7-47cd-ab92-7bcf7af51c95, PUT, query: {}, body: {"oldPassword":"TEST_PASSWORD","newPassword":"NEW_PASSWORD"} } statusCode: 200, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:36 PM     LOG  {/user/71422087-f2a7-47cd-ab92-7bcf7af51c95, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:36 PM     LOG  {/user, POST, query: {}, body: {"login":"TEST_LOGIN","password":"TEST_PASSWORD"} } statusCode: 201, responseTime: [1ms]
+[Nest] 74  - 04/01/2024, 9:07:36 PM     LOG  {/user/7866b34c-ed9d-416f-9186-71309336a18d, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:36 PM     LOG  {/user/7f33022f-550d-4db9-832b-0a30b9674d26, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:36 PM     LOG  {/auth/signup, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 201, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:36 PM     LOG  {/auth/login, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 200, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:36 PM     LOG  {/favs, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:36 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [1ms]
+[Nest] 74  - 04/01/2024, 9:07:37 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_ALBUM","year":2022,"artistId":"69dbfe2b-5f32-4cea-a82a-0482aec60609"} } statusCode: 201, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:37 PM     LOG  {/track, POST, query: {}, body: {"name":"Test track","duration":335,"artistId":"69dbfe2b-5f32-4cea-a82a-0482aec60609","albumId":"d08357d1-7f2a-4d7b-87ef-c1fe5c21e509"} } statusCode: 201, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:37 PM     LOG  {/favs/track/0fae5468-1be6-40b5-8eaf-f2b8d46cbac1, POST, query: {}, body: {} } statusCode: 201, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:37 PM     LOG  {/favs/album/d08357d1-7f2a-4d7b-87ef-c1fe5c21e509, POST, query: {}, body: {} } statusCode: 201, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:37 PM     LOG  {/favs/artist/69dbfe2b-5f32-4cea-a82a-0482aec60609, POST, query: {}, body: {} } statusCode: 201, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:37 PM     LOG  {/favs, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:37 PM     LOG  {/artist/69dbfe2b-5f32-4cea-a82a-0482aec60609, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:37 PM     LOG  {/album/d08357d1-7f2a-4d7b-87ef-c1fe5c21e509, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:37 PM     LOG  {/track/0fae5468-1be6-40b5-8eaf-f2b8d46cbac1, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:37 PM     LOG  {/favs, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:37 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:37 PM     LOG  {/favs/artist/5f23f89c-8b55-4aff-96f0-caf430532977, POST, query: {}, body: {} } statusCode: 201, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:37 PM     LOG  {/favs, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:37 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_ALBUM","year":2022,"artistId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:37 PM     LOG  {/favs/album/42daec58-de34-4f04-9a9e-4a6808e41a20, POST, query: {}, body: {} } statusCode: 201, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:37 PM     LOG  {/favs, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:37 PM     LOG  {/track, POST, query: {}, body: {"name":"Test track","duration":335,"artistId":null,"albumId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:37 PM     LOG  {/favs/track/34412a71-b7aa-412b-a92c-412cc9baaf8b, POST, query: {}, body: {} } statusCode: 201, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:37 PM     LOG  {/favs, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:37 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_ALBUM","year":2022,"artistId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:37 PM     LOG  {/favs/album/7b4f6895-fd4a-4b81-a203-f54bfc186d66, POST, query: {}, body: {} } statusCode: 201, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:38 PM     LOG  {/favs/album/7b4f6895-fd4a-4b81-a203-f54bfc186d66, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:38 PM     LOG  {/favs, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:38 PM     LOG  {/album/7b4f6895-fd4a-4b81-a203-f54bfc186d66, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:38 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:38 PM     LOG  {/favs/artist/76c0f594-f234-4da3-a373-f9bb34c42df7, POST, query: {}, body: {} } statusCode: 201, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:38 PM     LOG  {/favs/artist/76c0f594-f234-4da3-a373-f9bb34c42df7, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:38 PM     LOG  {/favs, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:38 PM     LOG  {/artist/76c0f594-f234-4da3-a373-f9bb34c42df7, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:38 PM     LOG  {/track, POST, query: {}, body: {"name":"Test track","duration":335,"artistId":null,"albumId":null} } statusCode: 201, responseTime: [1ms]
+[Nest] 74  - 04/01/2024, 9:07:38 PM     LOG  {/favs/track/d5428169-b989-43ce-bf68-6185173a1310, POST, query: {}, body: {} } statusCode: 201, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:38 PM     LOG  {/favs/track/d5428169-b989-43ce-bf68-6185173a1310, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:38 PM     LOG  {/favs, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:38 PM     LOG  {/track/d5428169-b989-43ce-bf68-6185173a1310, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:38 PM     LOG  {/user/83ea146a-04a8-4e28-adc7-36d52bd94f12, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:38 PM     LOG  {/auth/signup, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 201, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:39 PM     LOG  {/auth/login, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 200, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:39 PM     LOG  {/artist, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:39 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:39 PM     LOG  {/artist/4d9ff733-7f20-4c52-8964-ae5b9516e32e, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:39 PM     LOG  {/artist/4d9ff733-7f20-4c52-8964-ae5b9516e32e, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:39 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [1ms]
+[Nest] 74  - 04/01/2024, 9:07:39 PM     LOG  {/artist/df5a464b-1e33-4529-b605-1962308f9fa2, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:39 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:39 PM     LOG  {/artist/8b1c0232-3796-4664-95cf-f1af7a3309b1, PUT, query: {}, body: {"name":"TEST_artist","grammy":false} } statusCode: 200, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:39 PM     LOG  {/artist/8b1c0232-3796-4664-95cf-f1af7a3309b1, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:39 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:39 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:39 PM     LOG  {/artist/c058ee46-22c7-417d-bf71-262aeb4d8153, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:39 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:39 PM     LOG  {/track, POST, query: {}, body: {"name":"TEST_track","albumId":null,"artistId":"fc38ea18-9bb4-471c-893c-e8ed6196d018","duration":200} } statusCode: 201, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:39 PM     LOG  {/artist/fc38ea18-9bb4-471c-893c-e8ed6196d018, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:40 PM     LOG  {/track/d964e951-1c5b-4fb0-aa6b-adbec2dca884, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:40 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:40 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_album","year":2023,"artistId":"98ff69c8-11d9-46e9-84e5-2026722373b7"} } statusCode: 201, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:40 PM     LOG  {/artist/98ff69c8-11d9-46e9-84e5-2026722373b7, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:40 PM     LOG  {/album/2b99eff8-d44e-4705-995e-7fac1e18e488, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:40 PM     LOG  {/user/55381eb6-7bdb-4d56-9123-c5bebf6b7fcc, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:40 PM     LOG  {/auth/signup, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 201, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:40 PM     LOG  {/auth/login, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 200, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:40 PM     LOG  {/album, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:40 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_ALBUM","year":2022,"artistId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:40 PM     LOG  {/album/5ea5b9ce-160d-494f-8924-8e6bb19954d5, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:40 PM     LOG  {/album/5ea5b9ce-160d-494f-8924-8e6bb19954d5, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:40 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_ALBUM","year":2022,"artistId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:40 PM     LOG  {/album/bda87e39-51e4-4deb-b773-9dcb8d1372e5, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:40 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_ALBUM","year":2022,"artistId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:41 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:41 PM     LOG  {/album/8a0fe597-27e2-4eca-a536-1c31e717119f, PUT, query: {}, body: {"name":"TEST_ALBUM","year":2021,"artistId":"c47392ed-54ed-460f-ae49-80250a3d18c8"} } statusCode: 200, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:41 PM     LOG  {/album/8a0fe597-27e2-4eca-a536-1c31e717119f, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:41 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_ALBUM","year":2022,"artistId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:41 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_ALBUM","year":2022,"artistId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:41 PM     LOG  {/album/b686e8a8-6078-4d9a-8278-a0b1890cdbe2, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:41 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_ALBUM","year":2022,"artistId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:41 PM     LOG  {/track, POST, query: {}, body: {"name":"TEST_TRACK","duration":199,"artistId":null,"albumId":"30b25541-5db7-4ed7-b2a9-675076c800e5"} } statusCode: 201, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:41 PM     LOG  {/album/30b25541-5db7-4ed7-b2a9-675076c800e5, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:41 PM     LOG  {/track/c329022b-bf81-417f-907f-7fa733e9758d, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:41 PM     LOG  {/user/4daed020-7ce9-4105-9d0f-c2b6864b5276, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:41 PM     LOG  {/auth/signup, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 201, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:41 PM     LOG  {/auth/login, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 200, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:41 PM     LOG  {/track, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:42 PM     LOG  {/track, POST, query: {}, body: {"name":"TEST_TRACK","duration":199,"artistId":null,"albumId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:42 PM     LOG  {/track/624c0157-6b4c-41f4-bbcf-2f27b7e99154, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:42 PM     LOG  {/track/624c0157-6b4c-41f4-bbcf-2f27b7e99154, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:42 PM     LOG  {/track, POST, query: {}, body: {"name":"TEST_TRACK","duration":199,"artistId":null,"albumId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:42 PM     LOG  {/track/c84ef640-4826-4c59-9a88-8925a6913a17, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:42 PM     LOG  {/track, POST, query: {}, body: {"name":"TEST_TRACK","duration":199,"artistId":null,"albumId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:42 PM     LOG  {/track/0c7c68d4-5cb7-449c-bce9-733dbe19d59a, PUT, query: {}, body: {"name":"TEST_TRACK","duration":188,"artistId":null,"albumId":null} } statusCode: 200, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:42 PM     LOG  {/track/0c7c68d4-5cb7-449c-bce9-733dbe19d59a, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:42 PM     LOG  {/track, POST, query: {}, body: {"name":"TEST_TRACK","duration":199,"artistId":null,"albumId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:42 PM     LOG  {/track, POST, query: {}, body: {"name":"TEST_TRACK","duration":199,"artistId":null,"albumId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:42 PM     LOG  {/track/12bcd5b2-e305-4c67-9ed8-2e686d93bd99, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 74  - 04/01/2024, 9:07:42 PM     LOG  {/user/eba7d9f1-8dee-4d7a-b758-8d13bd59cc2c, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:24 PM     LOG UserController {/user}:
+[Nest] 86  - 04/01/2024, 9:08:24 PM     LOG AppController {/}:
+[Nest] 86  - 04/01/2024, 9:08:24 PM     LOG Mapped {/, GET} route
+[Nest] 86  - 04/01/2024, 9:08:24 PM     LOG Mapped {/user, POST} route
+[Nest] 86  - 04/01/2024, 9:08:24 PM     LOG Mapped {/user/:id, PUT} route
+[Nest] 86  - 04/01/2024, 9:08:24 PM     LOG Mapped {/user, GET} route
+[Nest] 86  - 04/01/2024, 9:08:24 PM     LOG Mapped {/auth/signup, POST} route
+[Nest] 86  - 04/01/2024, 9:08:24 PM     LOG Mapped {/user/:id, GET} route
+[Nest] 86  - 04/01/2024, 9:08:24 PM     LOG Mapped {/auth/login, POST} route
+[Nest] 86  - 04/01/2024, 9:08:24 PM     LOG Mapped {/user/:id, DELETE} route
+[Nest] 86  - 04/01/2024, 9:08:24 PM     LOG AuthController {/auth}:
+[Nest] 86  - 04/01/2024, 9:08:24 PM     LOG Mapped {/auth/refresh, POST} route
+[Nest] 86  - 04/01/2024, 9:08:24 PM     LOG Mapped {/track, POST} route
+[Nest] 86  - 04/01/2024, 9:08:24 PM     LOG Mapped {/track/:id, GET} route
+[Nest] 86  - 04/01/2024, 9:08:24 PM     LOG TrackController {/track}:
+[Nest] 86  - 04/01/2024, 9:08:24 PM     LOG Mapped {/track, GET} route
+[Nest] 86  - 04/01/2024, 9:08:24 PM     LOG Mapped {/track/:id, DELETE} route
+[Nest] 86  - 04/01/2024, 9:08:24 PM     LOG Mapped {/track/:id, PUT} route
+[Nest] 86  - 04/01/2024, 9:08:24 PM     LOG ArtistController {/artist}:
+[Nest] 86  - 04/01/2024, 9:08:24 PM     LOG Mapped {/artist, POST} route
+[Nest] 86  - 04/01/2024, 9:08:24 PM     LOG Mapped {/artist/:id, GET} route
+[Nest] 86  - 04/01/2024, 9:08:24 PM     LOG Mapped {/artist/:id, PUT} route
+[Nest] 86  - 04/01/2024, 9:08:24 PM     LOG AlbumController {/album}:
+[Nest] 86  - 04/01/2024, 9:08:24 PM     LOG Mapped {/artist, GET} route
+[Nest] 86  - 04/01/2024, 9:08:24 PM     LOG Mapped {/artist/:id, DELETE} route
+[Nest] 86  - 04/01/2024, 9:08:24 PM     LOG Mapped {/album, POST} route
+[Nest] 86  - 04/01/2024, 9:08:24 PM     LOG Mapped {/album/:id, GET} route
+[Nest] 86  - 04/01/2024, 9:08:24 PM     LOG Mapped {/album, GET} route
+[Nest] 86  - 04/01/2024, 9:08:24 PM     LOG Mapped {/album/:id, DELETE} route
+[Nest] 86  - 04/01/2024, 9:08:24 PM     LOG FavsController {/favs}:
+[Nest] 86  - 04/01/2024, 9:08:24 PM     LOG Mapped {/album/:id, PUT} route
+[Nest] 86  - 04/01/2024, 9:08:24 PM     LOG Mapped {/favs, GET} route
+[Nest] 86  - 04/01/2024, 9:08:24 PM     LOG Mapped {/favs/track/:id, POST} route
+[Nest] 86  - 04/01/2024, 9:08:24 PM     LOG Mapped {/favs/track/:id, DELETE} route
+[Nest] 86  - 04/01/2024, 9:08:24 PM     LOG Mapped {/favs/album/:id, POST} route
+[Nest] 86  - 04/01/2024, 9:08:24 PM     LOG Mapped {/favs/album/:id, DELETE} route
+[Nest] 86  - 04/01/2024, 9:08:24 PM     LOG Mapped {/favs/artist/:id, DELETE} route
+[Nest] 86  - 04/01/2024, 9:08:24 PM     LOG Mapped {/favs/artist/:id, POST} route
+[Nest] 86  - 04/01/2024, 9:08:24 PM     LOG Nest application successfully started
+[Nest] 86  - 04/01/2024, 9:08:45 PM     LOG  {/auth/signup, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 201, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:45 PM     LOG  {/auth/login, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 200, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:45 PM     LOG  {/user, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:45 PM     LOG  {/user, POST, query: {}, body: {"login":"TEST_LOGIN","password":"TEST_PASSWORD"} } statusCode: 201, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:45 PM     LOG  {/user/c0ea9b27-6f7d-4ec0-b8aa-091ef3d69f5b, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:45 PM     LOG  {/user/c0ea9b27-6f7d-4ec0-b8aa-091ef3d69f5b, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:45 PM     LOG  {/user, POST, query: {}, body: {"login":"TEST_LOGIN","password":"TEST_PASSWORD"} } statusCode: 201, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:45 PM     LOG  {/user/324de974-6219-44da-a86d-13786c6b13f6, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:45 PM     LOG  {/user, POST, query: {}, body: {"login":"TEST_LOGIN","password":"TEST_PASSWORD"} } statusCode: 201, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:46 PM     LOG  {/user/05dae1c9-edd8-4bc3-8d18-5270cb13e6d6, PUT, query: {}, body: {"oldPassword":"TEST_PASSWORD","newPassword":"NEW_PASSWORD"} } statusCode: 200, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:46 PM     LOG  {/user/05dae1c9-edd8-4bc3-8d18-5270cb13e6d6, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:46 PM     LOG  {/user, POST, query: {}, body: {"login":"TEST_LOGIN","password":"TEST_PASSWORD"} } statusCode: 201, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:46 PM     LOG  {/user/eab6d86b-f7a4-456c-948f-d17bd1d13e7b, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:46 PM     LOG  {/user/5a45e760-a01c-4722-a732-8c4466cad417, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:47 PM     LOG  {/auth/signup, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 201, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:47 PM     LOG  {/auth/login, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 200, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:47 PM     LOG  {/favs, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:47 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:47 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_ALBUM","year":2022,"artistId":"320364c3-fa89-4829-870b-325ae7a4701b"} } statusCode: 201, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:47 PM     LOG  {/track, POST, query: {}, body: {"name":"Test track","duration":335,"artistId":"320364c3-fa89-4829-870b-325ae7a4701b","albumId":"584360fd-7320-41ae-aafa-9515e1a2d9be"} } statusCode: 201, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:47 PM     LOG  {/favs/track/95b6c487-3967-4274-9c2d-7ebe66898e26, POST, query: {}, body: {} } statusCode: 201, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:47 PM     LOG  {/favs/album/584360fd-7320-41ae-aafa-9515e1a2d9be, POST, query: {}, body: {} } statusCode: 201, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:47 PM     LOG  {/favs/artist/320364c3-fa89-4829-870b-325ae7a4701b, POST, query: {}, body: {} } statusCode: 201, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:47 PM     LOG  {/favs, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:47 PM     LOG  {/artist/320364c3-fa89-4829-870b-325ae7a4701b, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:47 PM     LOG  {/album/584360fd-7320-41ae-aafa-9515e1a2d9be, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:47 PM     LOG  {/track/95b6c487-3967-4274-9c2d-7ebe66898e26, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:47 PM     LOG  {/favs, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:47 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:47 PM     LOG  {/favs/artist/c744c9a2-2268-4ad6-bda7-7bfe621aa01f, POST, query: {}, body: {} } statusCode: 201, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:48 PM     LOG  {/favs, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:48 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_ALBUM","year":2022,"artistId":null} } statusCode: 201, responseTime: [1ms]
+[Nest] 86  - 04/01/2024, 9:08:48 PM     LOG  {/favs/album/c80a600b-92ed-4d59-ae29-db790c46e0e6, POST, query: {}, body: {} } statusCode: 201, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:48 PM     LOG  {/favs, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:48 PM     LOG  {/track, POST, query: {}, body: {"name":"Test track","duration":335,"artistId":null,"albumId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:48 PM     LOG  {/favs/track/97f7e2c0-8f07-4d1e-bbd2-4d7e30ba075f, POST, query: {}, body: {} } statusCode: 201, responseTime: [1ms]
+[Nest] 86  - 04/01/2024, 9:08:48 PM     LOG  {/favs, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:48 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_ALBUM","year":2022,"artistId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:48 PM     LOG  {/favs/album/43518955-515b-40d4-9fab-ccc22c91d392, POST, query: {}, body: {} } statusCode: 201, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:48 PM     LOG  {/favs/album/43518955-515b-40d4-9fab-ccc22c91d392, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:48 PM     LOG  {/favs, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:48 PM     LOG  {/album/43518955-515b-40d4-9fab-ccc22c91d392, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:48 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:49 PM     LOG  {/favs/artist/1adeac32-c85a-45af-959c-59394aca53f6, POST, query: {}, body: {} } statusCode: 201, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:49 PM     LOG  {/favs/artist/1adeac32-c85a-45af-959c-59394aca53f6, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:49 PM     LOG  {/favs, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:49 PM     LOG  {/artist/1adeac32-c85a-45af-959c-59394aca53f6, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:49 PM     LOG  {/track, POST, query: {}, body: {"name":"Test track","duration":335,"artistId":null,"albumId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:49 PM     LOG  {/favs/track/30221292-86b1-49a5-8882-8a8b22706e83, POST, query: {}, body: {} } statusCode: 201, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:49 PM     LOG  {/favs/track/30221292-86b1-49a5-8882-8a8b22706e83, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:49 PM     LOG  {/favs, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:49 PM     LOG  {/track/30221292-86b1-49a5-8882-8a8b22706e83, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:49 PM     LOG  {/user/9f016555-dfb3-4fe8-9360-2d04fd510420, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:50 PM     LOG  {/auth/signup, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 201, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:50 PM     LOG  {/auth/login, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 200, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:50 PM     LOG  {/artist, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:50 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:50 PM     LOG  {/artist/a8c77456-69ac-4760-9429-3d67dc22d32c, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:50 PM     LOG  {/artist/a8c77456-69ac-4760-9429-3d67dc22d32c, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:50 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:50 PM     LOG  {/artist/ad5bc82e-99ec-49e3-acad-8b4bb9148f08, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:50 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:50 PM     LOG  {/artist/e6985790-dff5-4738-8d19-4b6142d8d33d, PUT, query: {}, body: {"name":"TEST_artist","grammy":false} } statusCode: 200, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:50 PM     LOG  {/artist/e6985790-dff5-4738-8d19-4b6142d8d33d, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:50 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:50 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:50 PM     LOG  {/artist/49358d26-bcf6-48c2-ad35-3e52526f575e, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:50 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:50 PM     LOG  {/track, POST, query: {}, body: {"name":"TEST_track","albumId":null,"artistId":"a832da3b-a00d-45ca-b3d6-83b684a57a23","duration":200} } statusCode: 201, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:51 PM     LOG  {/artist/a832da3b-a00d-45ca-b3d6-83b684a57a23, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:51 PM     LOG  {/track/bc0eca62-6368-4205-82e7-173c7393d333, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:51 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:51 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_album","year":2023,"artistId":"d77164a8-1730-43f8-bb77-1005b2c160da"} } statusCode: 201, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:51 PM     LOG  {/artist/d77164a8-1730-43f8-bb77-1005b2c160da, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:51 PM     LOG  {/album/3645234e-099b-4d27-89fb-e41b1f0e0ccc, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:51 PM     LOG  {/user/faab9a2d-af64-42b6-a3da-801dba9346d7, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:51 PM     LOG  {/auth/signup, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 201, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:51 PM     LOG  {/auth/login, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 200, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:51 PM     LOG  {/album, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:51 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_ALBUM","year":2022,"artistId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:51 PM     LOG  {/album/3b217e1d-10d6-4854-817b-3581ef51e456, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:51 PM     LOG  {/album/3b217e1d-10d6-4854-817b-3581ef51e456, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:51 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_ALBUM","year":2022,"artistId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:51 PM     LOG  {/album/989a7837-5e24-4e69-94e4-a5544a56a74b, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:52 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_ALBUM","year":2022,"artistId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:52 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:52 PM     LOG  {/album/f26f7e4d-23b2-428b-93c8-b1df2d8df5ad, PUT, query: {}, body: {"name":"TEST_ALBUM","year":2021,"artistId":"b3c03e23-a522-427c-a4ce-c6c64f14beb7"} } statusCode: 200, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:52 PM     LOG  {/album/f26f7e4d-23b2-428b-93c8-b1df2d8df5ad, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:52 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_ALBUM","year":2022,"artistId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:52 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_ALBUM","year":2022,"artistId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:52 PM     LOG  {/album/9081cc08-7410-4e0e-bc04-239a80cef596, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:52 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_ALBUM","year":2022,"artistId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:52 PM     LOG  {/track, POST, query: {}, body: {"name":"TEST_TRACK","duration":199,"artistId":null,"albumId":"3762fa3c-cdff-4409-bb03-0f89a11355ac"} } statusCode: 201, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:52 PM     LOG  {/album/3762fa3c-cdff-4409-bb03-0f89a11355ac, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:52 PM     LOG  {/track/65a86141-5a7c-4889-a8cb-37ca820fe344, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:52 PM     LOG  {/user/66f47348-629a-4aeb-afef-2c0fdf153617, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:52 PM     LOG  {/auth/signup, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 201, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:52 PM     LOG  {/auth/login, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 200, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:53 PM     LOG  {/track, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:53 PM     LOG  {/track, POST, query: {}, body: {"name":"TEST_TRACK","duration":199,"artistId":null,"albumId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:53 PM     LOG  {/track/774d2fab-8f97-44fa-b514-58dc695ab116, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:53 PM     LOG  {/track/774d2fab-8f97-44fa-b514-58dc695ab116, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:53 PM     LOG  {/track, POST, query: {}, body: {"name":"TEST_TRACK","duration":199,"artistId":null,"albumId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:53 PM     LOG  {/track/ca4eeb19-bec4-47fa-8899-54da0c4bc625, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:53 PM     LOG  {/track, POST, query: {}, body: {"name":"TEST_TRACK","duration":199,"artistId":null,"albumId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:53 PM     LOG  {/track/99e5431d-dc98-487d-940c-bd0c396cd23a, PUT, query: {}, body: {"name":"TEST_TRACK","duration":188,"artistId":null,"albumId":null} } statusCode: 200, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:53 PM     LOG  {/track/99e5431d-dc98-487d-940c-bd0c396cd23a, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:53 PM     LOG  {/track, POST, query: {}, body: {"name":"TEST_TRACK","duration":199,"artistId":null,"albumId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:53 PM     LOG  {/track, POST, query: {}, body: {"name":"TEST_TRACK","duration":199,"artistId":null,"albumId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:53 PM     LOG  {/track/89bd0c31-5fd8-4d28-879a-5f9fedf7bdf5, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:08:53 PM     LOG  {/user/4284f79f-8477-4b22-acd2-e0fd3df900cb, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:12:31 PM     LOG Mapped {/user, GET} route
+[Nest] 118  - 04/01/2024, 9:12:31 PM     LOG Mapped {/, GET} route
+[Nest] 118  - 04/01/2024, 9:12:31 PM     LOG UserController {/user}:
+[Nest] 118  - 04/01/2024, 9:12:31 PM     LOG AppController {/}:
+[Nest] 118  - 04/01/2024, 9:12:31 PM     LOG Mapped {/user, POST} route
+[Nest] 118  - 04/01/2024, 9:12:31 PM     LOG Mapped {/user/:id, GET} route
+[Nest] 118  - 04/01/2024, 9:12:31 PM     LOG Mapped {/auth/login, POST} route
+[Nest] 118  - 04/01/2024, 9:12:31 PM     LOG Mapped {/user/:id, DELETE} route
+[Nest] 118  - 04/01/2024, 9:12:31 PM     LOG Mapped {/auth/refresh, POST} route
+[Nest] 118  - 04/01/2024, 9:12:31 PM     LOG TrackController {/track}:
+[Nest] 118  - 04/01/2024, 9:12:31 PM     LOG Mapped {/track, POST} route
+[Nest] 118  - 04/01/2024, 9:12:31 PM     LOG Mapped {/track/:id, GET} route
+[Nest] 118  - 04/01/2024, 9:12:31 PM     LOG Mapped {/track/:id, PUT} route
+[Nest] 118  - 04/01/2024, 9:12:31 PM     LOG ArtistController {/artist}:
+[Nest] 118  - 04/01/2024, 9:12:31 PM     LOG Mapped {/user/:id, PUT} route
+[Nest] 118  - 04/01/2024, 9:12:31 PM     LOG AuthController {/auth}:
+[Nest] 118  - 04/01/2024, 9:12:31 PM     LOG Mapped {/auth/signup, POST} route
+[Nest] 118  - 04/01/2024, 9:12:31 PM     LOG Mapped {/track/:id, DELETE} route
+[Nest] 118  - 04/01/2024, 9:12:31 PM     LOG Mapped {/artist, POST} route
+[Nest] 118  - 04/01/2024, 9:12:31 PM     LOG Mapped {/artist, GET} route
+[Nest] 118  - 04/01/2024, 9:12:31 PM     LOG Mapped {/track, GET} route
+[Nest] 118  - 04/01/2024, 9:12:31 PM     LOG Mapped {/artist/:id, GET} route
+[Nest] 118  - 04/01/2024, 9:12:31 PM     LOG Mapped {/artist/:id, PUT} route
+[Nest] 118  - 04/01/2024, 9:12:31 PM     LOG AlbumController {/album}:
+[Nest] 118  - 04/01/2024, 9:12:31 PM     LOG Mapped {/album, POST} route
+[Nest] 118  - 04/01/2024, 9:12:31 PM     LOG Mapped {/artist/:id, DELETE} route
+[Nest] 118  - 04/01/2024, 9:12:31 PM     LOG Mapped {/album/:id, GET} route
+[Nest] 118  - 04/01/2024, 9:12:31 PM     LOG Mapped {/album/:id, DELETE} route
+[Nest] 118  - 04/01/2024, 9:12:31 PM     LOG Mapped {/album, GET} route
+[Nest] 118  - 04/01/2024, 9:12:31 PM     LOG Mapped {/album/:id, PUT} route
+[Nest] 118  - 04/01/2024, 9:12:31 PM     LOG Mapped {/favs/track/:id, POST} route
+[Nest] 118  - 04/01/2024, 9:12:31 PM     LOG Mapped {/favs, GET} route
+[Nest] 118  - 04/01/2024, 9:12:31 PM     LOG FavsController {/favs}:
+[Nest] 118  - 04/01/2024, 9:12:31 PM     LOG Mapped {/favs/album/:id, POST} route
+[Nest] 118  - 04/01/2024, 9:12:31 PM     LOG Mapped {/favs/album/:id, DELETE} route
+[Nest] 118  - 04/01/2024, 9:12:31 PM     LOG Mapped {/favs/artist/:id, DELETE} route
+[Nest] 118  - 04/01/2024, 9:12:31 PM     LOG Nest application successfully started
+[Nest] 118  - 04/01/2024, 9:12:31 PM     LOG Mapped {/favs/track/:id, DELETE} route
+[Nest] 118  - 04/01/2024, 9:12:31 PM     LOG Mapped {/favs/artist/:id, POST} route
+[Nest] 118  - 04/01/2024, 9:12:56 PM     LOG  {/auth/signup, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:12:56 PM     LOG  {/auth/login, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:12:56 PM     LOG  {/user, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:12:56 PM     LOG  {/user, POST, query: {}, body: {"login":"TEST_LOGIN","password":"TEST_PASSWORD"} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:12:56 PM     LOG  {/user/65096837-4432-4020-9407-4464e9903403, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:12:56 PM     LOG  {/user/65096837-4432-4020-9407-4464e9903403, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:12:56 PM     LOG  {/user, POST, query: {}, body: {"login":"TEST_LOGIN","password":"TEST_PASSWORD"} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:12:56 PM     LOG  {/user/00f96fdc-ecd8-4872-af63-2ef807bcedf1, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:12:57 PM     LOG  {/user, POST, query: {}, body: {"login":"TEST_LOGIN","password":"TEST_PASSWORD"} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:12:57 PM     LOG  {/user/8a565bad-ae8b-470e-a0ce-f71bf999fcea, PUT, query: {}, body: {"oldPassword":"TEST_PASSWORD","newPassword":"NEW_PASSWORD"} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:12:57 PM     LOG  {/user/8a565bad-ae8b-470e-a0ce-f71bf999fcea, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [1ms]
+[Nest] 118  - 04/01/2024, 9:12:57 PM     LOG  {/user, POST, query: {}, body: {"login":"TEST_LOGIN","password":"TEST_PASSWORD"} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:12:57 PM     LOG  {/user/e98da331-fde8-46d5-801a-354bcefa6d5a, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:12:57 PM     LOG  {/user/4bfa06c4-caf1-4f9f-b69e-59783e14f3bf, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:12:58 PM     LOG  {/auth/signup, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:12:58 PM     LOG  {/auth/login, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:12:58 PM     LOG  {/favs, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:12:58 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:12:58 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_ALBUM","year":2022,"artistId":"db032095-7e9a-4443-b9b5-e7bc1d0ae3df"} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:12:58 PM     LOG  {/track, POST, query: {}, body: {"name":"Test track","duration":335,"artistId":"db032095-7e9a-4443-b9b5-e7bc1d0ae3df","albumId":"d83a4ac1-3216-4c24-bb8f-d88f7047aadf"} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:12:58 PM     LOG  {/favs/track/2460aed1-9eac-4da8-a912-6f1db834cf98, POST, query: {}, body: {} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:12:58 PM     LOG  {/favs/album/d83a4ac1-3216-4c24-bb8f-d88f7047aadf, POST, query: {}, body: {} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:12:58 PM     LOG  {/favs/artist/db032095-7e9a-4443-b9b5-e7bc1d0ae3df, POST, query: {}, body: {} } statusCode: 201, responseTime: [1ms]
+[Nest] 118  - 04/01/2024, 9:12:58 PM     LOG  {/favs, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:12:58 PM     LOG  {/artist/db032095-7e9a-4443-b9b5-e7bc1d0ae3df, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:12:58 PM     LOG  {/album/d83a4ac1-3216-4c24-bb8f-d88f7047aadf, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:12:58 PM     LOG  {/track/2460aed1-9eac-4da8-a912-6f1db834cf98, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [1ms]
+[Nest] 118  - 04/01/2024, 9:12:58 PM     LOG  {/favs, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:12:58 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:12:58 PM     LOG  {/favs/artist/76f45203-8796-4639-a15a-123c4f38ca70, POST, query: {}, body: {} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:12:58 PM     LOG  {/favs, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:12:58 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_ALBUM","year":2022,"artistId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:12:58 PM     LOG  {/favs/album/bc28e82b-a0c5-40ca-89a5-2feddd345179, POST, query: {}, body: {} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:12:58 PM     LOG  {/favs, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:12:58 PM     LOG  {/track, POST, query: {}, body: {"name":"Test track","duration":335,"artistId":null,"albumId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:12:59 PM     LOG  {/favs/track/1c7637aa-6662-42fb-b066-50f57544bcce, POST, query: {}, body: {} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:12:59 PM     LOG  {/favs, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:12:59 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_ALBUM","year":2022,"artistId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:12:59 PM     LOG  {/favs/album/cafde09f-1a48-4429-97a7-52e7d0978bcd, POST, query: {}, body: {} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:12:59 PM     LOG  {/favs/album/cafde09f-1a48-4429-97a7-52e7d0978bcd, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:12:59 PM     LOG  {/favs, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:12:59 PM     LOG  {/album/cafde09f-1a48-4429-97a7-52e7d0978bcd, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:12:59 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:12:59 PM     LOG  {/favs/artist/30e50f8d-d25a-4c7a-8600-187b4c07da3e, POST, query: {}, body: {} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:12:59 PM     LOG  {/favs/artist/30e50f8d-d25a-4c7a-8600-187b4c07da3e, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:12:59 PM     LOG  {/favs, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:12:59 PM     LOG  {/artist/30e50f8d-d25a-4c7a-8600-187b4c07da3e, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:12:59 PM     LOG  {/track, POST, query: {}, body: {"name":"Test track","duration":335,"artistId":null,"albumId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:12:59 PM     LOG  {/favs/track/cdeceaf0-af93-47fe-8aa6-ecf0719e19d3, POST, query: {}, body: {} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:12:59 PM     LOG  {/favs/track/cdeceaf0-af93-47fe-8aa6-ecf0719e19d3, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:12:59 PM     LOG  {/favs, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:12:59 PM     LOG  {/track/cdeceaf0-af93-47fe-8aa6-ecf0719e19d3, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:12:59 PM     LOG  {/user/b2b7777e-359e-47d8-b640-58ba43399d8d, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:13:00 PM     LOG  {/auth/signup, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:13:00 PM     LOG  {/auth/login, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:13:00 PM     LOG  {/artist, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:13:00 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:13:00 PM     LOG  {/artist/65377a26-540e-4501-90d6-ddf47596c84f, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:13:00 PM     LOG  {/artist/65377a26-540e-4501-90d6-ddf47596c84f, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:13:00 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:13:00 PM     LOG  {/artist/678d67ac-5536-4f19-a304-0cb0b6559cfc, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:13:00 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:13:00 PM     LOG  {/artist/eb1a312f-9ceb-4951-af94-a22cc34f0b31, PUT, query: {}, body: {"name":"TEST_artist","grammy":false} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:13:01 PM     LOG  {/artist/eb1a312f-9ceb-4951-af94-a22cc34f0b31, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:13:01 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:13:01 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:13:01 PM     LOG  {/artist/f4172b3a-a6fa-4374-88ce-0afcec06308f, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:13:01 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:13:01 PM     LOG  {/track, POST, query: {}, body: {"name":"TEST_track","albumId":null,"artistId":"35bf7335-b18f-484c-ae38-2266d4cd828e","duration":200} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:13:01 PM     LOG  {/track/9d05dbfb-030f-47d7-b7d1-ca04b59b1235, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:13:01 PM     LOG  {/artist/35bf7335-b18f-484c-ae38-2266d4cd828e, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:13:01 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:13:01 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_album","year":2023,"artistId":"14a5a2ba-8f59-47de-acf1-321be6888bd3"} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:13:01 PM     LOG  {/artist/14a5a2ba-8f59-47de-acf1-321be6888bd3, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:13:01 PM     LOG  {/album/a3c1a456-2777-4b5a-9ed3-cbbeb0d392bd, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:13:01 PM     LOG  {/user/a2dbd1aa-ac79-4730-8244-c7e8f4b2f6bc, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:13:01 PM     LOG  {/auth/signup, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:13:02 PM     LOG  {/auth/login, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:13:02 PM     LOG  {/album, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:13:02 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_ALBUM","year":2022,"artistId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:13:02 PM     LOG  {/album/3e21b60c-50f6-4540-a835-7cff116ab55b, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:13:02 PM     LOG  {/album/3e21b60c-50f6-4540-a835-7cff116ab55b, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:13:02 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_ALBUM","year":2022,"artistId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:13:02 PM     LOG  {/album/d1727d0a-a11f-4f0b-8872-26eed78fe4f9, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:13:02 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_ALBUM","year":2022,"artistId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:13:02 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:13:02 PM     LOG  {/album/d6b76f8f-5e3e-4999-bd34-d314f348e89d, PUT, query: {}, body: {"name":"TEST_ALBUM","year":2021,"artistId":"5c24b038-49ee-4deb-825e-71a26d65d976"} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:13:02 PM     LOG  {/album/d6b76f8f-5e3e-4999-bd34-d314f348e89d, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:13:02 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_ALBUM","year":2022,"artistId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:13:02 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_ALBUM","year":2022,"artistId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:13:02 PM     LOG  {/album/a92ad782-9192-421a-96d6-ed3e29aab71a, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:13:02 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_ALBUM","year":2022,"artistId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:13:02 PM     LOG  {/track, POST, query: {}, body: {"name":"TEST_TRACK","duration":199,"artistId":null,"albumId":"b117bf7c-7566-4592-8eca-8a7efa0f816b"} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:13:02 PM     LOG  {/album/b117bf7c-7566-4592-8eca-8a7efa0f816b, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:13:02 PM     LOG  {/track/ca7b45d8-e84b-4d2f-9509-9ae47a825045, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:13:02 PM     LOG  {/user/ceb4b44a-d694-403b-b8ef-e00a401771c5, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:13:03 PM     LOG  {/auth/signup, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:13:03 PM     LOG  {/auth/login, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:13:03 PM     LOG  {/track, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:13:03 PM     LOG  {/track, POST, query: {}, body: {"name":"TEST_TRACK","duration":199,"artistId":null,"albumId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:13:03 PM     LOG  {/track/4382b197-dade-492c-8c69-a83093eb6816, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:13:03 PM     LOG  {/track/4382b197-dade-492c-8c69-a83093eb6816, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:13:03 PM     LOG  {/track, POST, query: {}, body: {"name":"TEST_TRACK","duration":199,"artistId":null,"albumId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:13:03 PM     LOG  {/track/768558d3-c9d3-426b-93d5-97f272463f51, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:13:03 PM     LOG  {/track, POST, query: {}, body: {"name":"TEST_TRACK","duration":199,"artistId":null,"albumId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:13:03 PM     LOG  {/track/1a7bb207-0ff9-456c-8325-f91a49a24ce0, PUT, query: {}, body: {"name":"TEST_TRACK","duration":188,"artistId":null,"albumId":null} } statusCode: 200, responseTime: [1ms]
+[Nest] 118  - 04/01/2024, 9:13:03 PM     LOG  {/track/1a7bb207-0ff9-456c-8325-f91a49a24ce0, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:13:04 PM     LOG  {/track, POST, query: {}, body: {"name":"TEST_TRACK","duration":199,"artistId":null,"albumId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:13:04 PM     LOG  {/track, POST, query: {}, body: {"name":"TEST_TRACK","duration":199,"artistId":null,"albumId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:13:04 PM     LOG  {/track/bcd25570-710b-4779-a79b-0243100174e0, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:13:04 PM     LOG  {/user/587686d7-575e-4c47-82f8-d3985bddb176, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:49 PM     LOG  {/auth/signup, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:49 PM     LOG  {/auth/login, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:49 PM     LOG  {/user, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:49 PM     LOG  {/user, POST, query: {}, body: {"login":"TEST_LOGIN","password":"TEST_PASSWORD"} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:49 PM     LOG  {/user/c713222e-d1fe-4ddf-a3c1-c1271ea231a5, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:49 PM     LOG  {/user/c713222e-d1fe-4ddf-a3c1-c1271ea231a5, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:49 PM     LOG  {/user, POST, query: {}, body: {"login":"TEST_LOGIN","password":"TEST_PASSWORD"} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:49 PM     LOG  {/user/1c2c8af2-60c9-4987-9108-42c214c900a3, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:49 PM     LOG  {/user, POST, query: {}, body: {"login":"TEST_LOGIN","password":"TEST_PASSWORD"} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:50 PM     LOG  {/user/c4ad3a53-33fa-490d-b47c-6026e5ecd66c, PUT, query: {}, body: {"oldPassword":"TEST_PASSWORD","newPassword":"NEW_PASSWORD"} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:50 PM     LOG  {/user/c4ad3a53-33fa-490d-b47c-6026e5ecd66c, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:50 PM     LOG  {/user, POST, query: {}, body: {"login":"TEST_LOGIN","password":"TEST_PASSWORD"} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:50 PM     LOG  {/user/7af968c6-9ca8-49d9-8ac8-29695ad7e70c, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:50 PM     LOG  {/user/27d0568e-2622-410e-a55a-8ad37555a985, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:50 PM     LOG  {/auth/signup, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:51 PM     LOG  {/auth/login, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:51 PM     LOG  {/favs, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:51 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:51 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_ALBUM","year":2022,"artistId":"ffb9ccab-4fcf-4eb6-a229-554478dc33d3"} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:51 PM     LOG  {/track, POST, query: {}, body: {"name":"Test track","duration":335,"artistId":"ffb9ccab-4fcf-4eb6-a229-554478dc33d3","albumId":"5440f41f-c3ac-4a97-9094-be5624f4f97d"} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:51 PM     LOG  {/favs/track/01d0a0bb-fe25-4839-ad22-b6694ebe21d6, POST, query: {}, body: {} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:51 PM     LOG  {/favs/album/5440f41f-c3ac-4a97-9094-be5624f4f97d, POST, query: {}, body: {} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:51 PM     LOG  {/favs/artist/ffb9ccab-4fcf-4eb6-a229-554478dc33d3, POST, query: {}, body: {} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:51 PM     LOG  {/favs, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:51 PM     LOG  {/artist/ffb9ccab-4fcf-4eb6-a229-554478dc33d3, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:51 PM     LOG  {/album/5440f41f-c3ac-4a97-9094-be5624f4f97d, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:51 PM     LOG  {/track/01d0a0bb-fe25-4839-ad22-b6694ebe21d6, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:51 PM     LOG  {/favs, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:51 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:51 PM     LOG  {/favs/artist/53451b71-ab87-424c-8df6-9fcd13c8fbb4, POST, query: {}, body: {} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:51 PM     LOG  {/favs, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:51 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_ALBUM","year":2022,"artistId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:51 PM     LOG  {/favs/album/6cfec1c1-db86-44dc-89fc-86eeb2c14020, POST, query: {}, body: {} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:51 PM     LOG  {/favs, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:51 PM     LOG  {/track, POST, query: {}, body: {"name":"Test track","duration":335,"artistId":null,"albumId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:51 PM     LOG  {/favs/track/e544841b-bb14-412e-9718-3216dc9be64f, POST, query: {}, body: {} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:52 PM     LOG  {/favs, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:52 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_ALBUM","year":2022,"artistId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:52 PM     LOG  {/favs/album/a638cf1b-d96b-4d85-817e-ebf20dd09cf1, POST, query: {}, body: {} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:52 PM     LOG  {/favs/album/a638cf1b-d96b-4d85-817e-ebf20dd09cf1, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:52 PM     LOG  {/favs, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:52 PM     LOG  {/album/a638cf1b-d96b-4d85-817e-ebf20dd09cf1, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:52 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:52 PM     LOG  {/favs/artist/0efb14df-b5ec-4ea1-a485-22c5ca7b3b44, POST, query: {}, body: {} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:52 PM     LOG  {/favs/artist/0efb14df-b5ec-4ea1-a485-22c5ca7b3b44, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:52 PM     LOG  {/favs, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:52 PM     LOG  {/artist/0efb14df-b5ec-4ea1-a485-22c5ca7b3b44, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:52 PM     LOG  {/track, POST, query: {}, body: {"name":"Test track","duration":335,"artistId":null,"albumId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:52 PM     LOG  {/favs/track/ffc08fb2-f475-4520-877b-100c591765aa, POST, query: {}, body: {} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:52 PM     LOG  {/favs/track/ffc08fb2-f475-4520-877b-100c591765aa, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:52 PM     LOG  {/favs, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:52 PM     LOG  {/track/ffc08fb2-f475-4520-877b-100c591765aa, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:53 PM     LOG  {/user/64410c96-2761-4ea1-88c9-765075536242, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [1ms]
+[Nest] 118  - 04/01/2024, 9:15:53 PM     LOG  {/auth/signup, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:53 PM     LOG  {/auth/login, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:53 PM     LOG  {/artist, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:53 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:53 PM     LOG  {/artist/3b158a15-870e-470a-8723-ee9455be9594, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:53 PM     LOG  {/artist/3b158a15-870e-470a-8723-ee9455be9594, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:53 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:53 PM     LOG  {/artist/bf6a46d7-6e72-41e8-9915-00c783143b66, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:53 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]

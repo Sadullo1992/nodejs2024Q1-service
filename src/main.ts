@@ -11,7 +11,7 @@ async function bootstrap() {
   const PORT = process.env.PORT || 4000;
 
   const app = await NestFactory.create(AppModule, {
-    logger: ['error'],
+    logger: ['error', 'warn', 'log'],
   });
 
   // Global Logger
