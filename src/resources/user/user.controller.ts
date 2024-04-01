@@ -26,7 +26,6 @@ export class UserController {
 
   @Get()
   findAll() {
-    throw new Error();
     return this.userService.getAll();
   }
 

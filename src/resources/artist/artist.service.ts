@@ -1,7 +1,7 @@
 import { HttpException, HttpStatus, Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
+import { CustomNotFoundException } from 'src/exceptions/custom-not-found.exception';
 import { Repository } from 'typeorm';
-// import { Fav } from '../favs/entities/fav-album.entity';
 import { CreateArtistDto } from './dto/create-artist.dto';
 import { UpdateArtistDto } from './dto/update-artist.dto';
 import { Artist } from './entities/artist.entity';
@@ -37,15 +37,13 @@ export class ArtistService {
 
   async findOne(id: string) {
     const artist = await this.artistRepository.findOne({ where: { id } });
-    if (!artist)
-      throw new HttpException('Artist not found', HttpStatus.NOT_FOUND);
+    if (!artist) throw new CustomNotFoundException('Artist');
     return artist;
   }
 
   async update(id: string, updateArtistDto: UpdateArtistDto) {
     const artist = await this.artistRepository.findOne({ where: { id } });
-    if (!artist)
-      throw new HttpException('Artist not found', HttpStatus.NOT_FOUND);
+    if (!artist) throw new CustomNotFoundException('Artist');
 
     Object.keys(updateArtistDto).forEach((key) => {
       artist[key] = updateArtistDto[key];
@@ -57,8 +55,7 @@ export class ArtistService {
 
   async remove(id: string) {
     const artist = await this.artistRepository.findOne({ where: { id } });
-    if (!artist)
-      throw new HttpException('Artist not found', HttpStatus.NOT_FOUND);
+    if (!artist) throw new CustomNotFoundException('Artist');
     await artist.remove();
   }
 }

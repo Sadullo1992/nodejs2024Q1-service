@@ -1,7 +1,7 @@
 import { HttpException, HttpStatus, Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
+import { CustomNotFoundException } from 'src/exceptions/custom-not-found.exception';
 import { Repository } from 'typeorm';
-// import { Fav } from '../favs/entities/fav-album.entity';
 import { CreateTrackDto } from './dto/create-track.dto';
 import { UpdateTrackDto } from './dto/update-track.dto';
 import { Track } from './entities/track.entity';
@@ -35,15 +35,13 @@ export class TrackService {
 
   async findOne(id: string) {
     const track = await this.trackRepository.findOne({ where: { id } });
-    if (!track)
-      throw new HttpException('Track not found', HttpStatus.NOT_FOUND);
+    if (!track) throw new CustomNotFoundException('Track');
     return track;
   }
 
   async update(id: string, updateTrackDto: UpdateTrackDto) {
     const track = await this.trackRepository.findOne({ where: { id } });
-    if (!track)
-      throw new HttpException('Track not found', HttpStatus.NOT_FOUND);
+    if (!track) throw new CustomNotFoundException('Track');
 
     Object.keys(updateTrackDto).forEach((key) => {
       track[key] = updateTrackDto[key];
@@ -55,8 +53,7 @@ export class TrackService {
 
   async remove(id: string) {
     const track = await this.trackRepository.findOne({ where: { id } });
-    if (!track)
-      throw new HttpException('Track not found', HttpStatus.NOT_FOUND);
+    if (!track) throw new CustomNotFoundException('Track');
     await track.remove();
   }
 }

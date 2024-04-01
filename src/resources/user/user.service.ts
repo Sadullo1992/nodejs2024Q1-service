@@ -1,5 +1,6 @@
 import { HttpException, HttpStatus, Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
+import { CustomNotFoundException } from 'src/exceptions/custom-not-found.exception';
 import { genHashPassword, isMatchPassword } from 'src/helpers/hashPassword';
 import { Repository } from 'typeorm';
 import { CreateUserDto } from './dto/create-user.dto';
@@ -38,7 +39,7 @@ export class UserService {
       where: { id },
     });
 
-    if (!user) throw new HttpException('User not found', HttpStatus.NOT_FOUND);
+    if (!user) throw new CustomNotFoundException('User');
 
     return this.transformUserData(user);
   }
@@ -47,7 +48,7 @@ export class UserService {
     const { oldPassword, newPassword } = updatePasswordDto;
 
     const user = await this.userRepository.findOne({ where: { id } });
-    if (!user) throw new HttpException('User not found', HttpStatus.NOT_FOUND);
+    if (!user) throw new CustomNotFoundException('User');
 
     const isMatch = await isMatchPassword(oldPassword, user.password);
     if (!isMatch)
@@ -68,7 +69,7 @@ export class UserService {
   async remove(id: string) {
     const user = await this.userRepository.findOne({ where: { id } });
     if (!user) {
-      throw new HttpException('User not found', HttpStatus.NOT_FOUND);
+      throw new CustomNotFoundException('User');
     }
     await user.remove();
   }
