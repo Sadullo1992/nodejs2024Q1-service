@@ -32,12 +32,17 @@ export class AuthService {
       login: loginUserDto.login,
     });
 
+    const expireTime = this.configService.get<string>(
+      'TOKEN_REFRESH_EXPIRE_TIME',
+    );
+    const secret = this.configService.get<string>('JWT_SECRET_REFRESH_KEY');
+
     const refreshToken = await this.jwtService.signAsync(
       {
         userId: user.id,
         login: loginUserDto.login,
       },
-      { expiresIn: '60s' },
+      { expiresIn: expireTime, secret },
     );
 
     return { accessToken, refreshToken };
@@ -54,7 +59,7 @@ export class AuthService {
     const { refreshToken } = refreshTokenDto;
 
     try {
-      const secret = this.configService.get<string>('JWT_SECRET_KEY');
+      const secret = this.configService.get<string>('JWT_SECRET_REFRESH_KEY');
       const payload = await this.jwtService.verifyAsync(refreshToken, {
         secret,
       });
