@@ -28,11 +28,15 @@ export class AllExceptionsFilter implements ExceptionFilter {
         ? exception.message
         : 'Internal server error';
 
+    const exceptionRes =
+      statusCode === HttpStatus.BAD_REQUEST ? exception.getResponse() : {};
+
     this.logger.error(message, exception.name);
 
     const responseBody = {
       statusCode,
       message,
+      ...(exceptionRes as object),
     };
 
     this.httpAdapter.reply(ctx.getResponse(), responseBody, statusCode);
