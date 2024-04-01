@@ -1,0 +1,1501 @@
+[Nest] 4073  - 03/31/2024, 8:50:32 PM     ERROR Internal server error
+[Nest] 4073  - 03/31/2024, 8:56:30 PM     ERROR Album ID not found
+[Nest] 4265  - 03/31/2024, 9:05:05 PM     ERROR Internal server error
+[Nest] 4933  - 03/31/2024, 9:30:19 PM     ERROR Internal server error
+[Nest] 4933  - 03/31/2024, 9:30:21 PM     ERROR Internal server error
+[Nest] 62  - 04/01/2024, 4:57:53 AM     ERROR Validation failed (uuid  is expected)
+[Nest] 62  - 04/01/2024, 4:57:53 AM     ERROR Album not found
+[Nest] 62  - 04/01/2024, 4:58:20 AM     ERROR Album not found
+[Nest] 62  - 04/01/2024, 4:58:20 AM     ERROR Validation failed (uuid  is expected)
+[Nest] 62  - 04/01/2024, 4:58:20 AM     ERROR Bad Request Exception
+[Nest] 62  - 04/01/2024, 4:58:20 AM     ERROR Bad Request Exception
+[Nest] 62  - 04/01/2024, 4:58:20 AM     ERROR Bad Request Exception
+[Nest] 62  - 04/01/2024, 4:58:20 AM     ERROR Bad Request Exception
+[Nest] 62  - 04/01/2024, 4:58:20 AM     ERROR Validation failed (uuid  is expected)
+[Nest] 62  - 04/01/2024, 4:58:20 AM     ERROR Bad Request Exception
+[Nest] 62  - 04/01/2024, 4:58:20 AM     ERROR Album not found
+[Nest] 62  - 04/01/2024, 4:58:21 AM     ERROR Album not found
+[Nest] 62  - 04/01/2024, 4:58:21 AM     ERROR Validation failed (uuid  is expected)
+[Nest] 62  - 04/01/2024, 4:58:21 AM     ERROR Album not found
+[Nest] 154  - 04/01/2024, 5:03:22 AM     ERROR Validation failed (uuid  is expected)
+[Nest] 154  - 04/01/2024, 5:03:23 AM     ERROR Validation failed (uuid  is expected)
+[Nest] 154  - 04/01/2024, 5:03:23 AM     ERROR Artist ID not found
+[Nest] 154  - 04/01/2024, 5:03:23 AM     ERROR Validation failed (uuid  is expected)
+[Nest] 154  - 04/01/2024, 5:03:23 AM     ERROR Album ID not found
+[Nest] 154  - 04/01/2024, 5:03:23 AM     ERROR Track ID not found
+[Nest] 154  - 04/01/2024, 5:03:24 AM     ERROR Track not found
+[Nest] 154  - 04/01/2024, 5:03:23 AM     ERROR Validation failed (uuid  is expected)
+[Nest] 154  - 04/01/2024, 5:03:24 AM     ERROR Album not found
+[Nest] 154  - 04/01/2024, 5:03:24 AM     ERROR Artist not found
+[Nest] 154  - 04/01/2024, 5:03:24 AM     ERROR Album not found
+[Nest] 154  - 04/01/2024, 5:03:24 AM     ERROR Validation failed (uuid  is expected)
+[Nest] 154  - 04/01/2024, 5:03:24 AM     ERROR Bad Request Exception
+[Nest] 154  - 04/01/2024, 5:03:24 AM     ERROR Bad Request Exception
+[Nest] 154  - 04/01/2024, 5:03:24 AM     ERROR Bad Request Exception
+[Nest] 154  - 04/01/2024, 5:03:24 AM     ERROR Bad Request Exception
+[Nest] 154  - 04/01/2024, 5:03:25 AM     ERROR Validation failed (uuid  is expected)
+[Nest] 154  - 04/01/2024, 5:03:25 AM     ERROR Album not found
+[Nest] 154  - 04/01/2024, 5:03:25 AM     ERROR Album not found
+[Nest] 154  - 04/01/2024, 5:03:25 AM     ERROR Validation failed (uuid  is expected)
+[Nest] 154  - 04/01/2024, 5:03:25 AM     ERROR Album not found
+[Nest] 154  - 04/01/2024, 5:03:25 AM     ERROR Internal server error
+[Nest] 154  - 04/01/2024, 5:03:26 AM     ERROR User not found
+[Nest] 154  - 04/01/2024, 5:03:26 AM     ERROR Validation failed (uuid  is expected)
+[Nest] 154  - 04/01/2024, 5:03:26 AM     ERROR Bad Request Exception
+[Nest] 154  - 04/01/2024, 5:03:26 AM     ERROR Bad Request Exception
+[Nest] 154  - 04/01/2024, 5:03:26 AM     ERROR Bad Request Exception
+[Nest] 154  - 04/01/2024, 5:03:26 AM     ERROR Bad Request Exception
+[Nest] 154  - 04/01/2024, 5:03:27 AM     ERROR Bad Request Exception
+[Nest] 154  - 04/01/2024, 5:03:27 AM     ERROR User not found
+[Nest] 154  - 04/01/2024, 5:03:27 AM     ERROR Validation failed (uuid  is expected)
+[Nest] 154  - 04/01/2024, 5:03:27 AM     ERROR User not found
+[Nest] 154  - 04/01/2024, 5:03:27 AM     ERROR User not found
+[Nest] 154  - 04/01/2024, 5:03:28 AM     ERROR Validation failed (uuid  is expected)
+[Nest] 154  - 04/01/2024, 5:03:28 AM     ERROR Bad Request Exception
+[Nest] 154  - 04/01/2024, 5:03:28 AM     ERROR Bad Request Exception
+[Nest] 154  - 04/01/2024, 5:03:28 AM     ERROR Bad Request Exception
+[Nest] 154  - 04/01/2024, 5:03:28 AM     ERROR Artist not found
+[Nest] 154  - 04/01/2024, 5:03:28 AM     ERROR Artist not found
+[Nest] 154  - 04/01/2024, 5:03:28 AM     ERROR Validation failed (uuid  is expected)
+[Nest] 154  - 04/01/2024, 5:03:29 AM     ERROR Validation failed (uuid  is expected)
+[Nest] 154  - 04/01/2024, 5:03:29 AM     ERROR Track not found
+[Nest] 154  - 04/01/2024, 5:03:29 AM     ERROR Bad Request Exception
+[Nest] 154  - 04/01/2024, 5:03:29 AM     ERROR Bad Request Exception
+[Nest] 154  - 04/01/2024, 5:03:29 AM     ERROR Bad Request Exception
+[Nest] 154  - 04/01/2024, 5:03:29 AM     ERROR Bad Request Exception
+[Nest] 154  - 04/01/2024, 5:03:30 AM     ERROR Bad Request Exception
+[Nest] 154  - 04/01/2024, 5:03:30 AM     ERROR Validation failed (uuid  is expected)
+[Nest] 154  - 04/01/2024, 5:03:30 AM     ERROR Track not found
+[Nest] 154  - 04/01/2024, 5:03:30 AM     ERROR Track not found
+[Nest] 154  - 04/01/2024, 5:03:30 AM     ERROR Validation failed (uuid  is expected)
+[Nest] 154  - 04/01/2024, 5:03:30 AM     ERROR Track not found
+[Nest] 166  - 04/01/2024, 5:05:34 AM     ERROR Validation failed (uuid  is expected)
+[Nest] 166  - 04/01/2024, 5:05:34 AM     ERROR User not found
+[Nest] 166  - 04/01/2024, 5:05:35 AM     ERROR Bad Request Exception
+[Nest] 166  - 04/01/2024, 5:05:35 AM     ERROR Bad Request Exception
+[Nest] 166  - 04/01/2024, 5:05:35 AM     ERROR Bad Request Exception
+[Nest] 166  - 04/01/2024, 5:05:35 AM     ERROR Bad Request Exception
+[Nest] 166  - 04/01/2024, 5:05:35 AM     ERROR Old password is wrong
+[Nest] 166  - 04/01/2024, 5:05:35 AM     LOG  {/user/6e1467b8-eb26-4079-a24c-ab8c9efe94b8, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 166  - 04/01/2024, 5:05:35 AM     ERROR Validation failed (uuid  is expected)
+[Nest] 166  - 04/01/2024, 5:05:35 AM     ERROR Bad Request Exception
+[Nest] 166  - 04/01/2024, 5:05:35 AM     ERROR User not found
+[Nest] 166  - 04/01/2024, 5:05:36 AM     ERROR User not found
+[Nest] 166  - 04/01/2024, 5:05:36 AM     ERROR Validation failed (uuid  is expected)
+[Nest] 166  - 04/01/2024, 5:05:36 AM     ERROR User not found
+[Nest] 166  - 04/01/2024, 5:05:37 AM     ERROR Artist ID not found
+[Nest] 166  - 04/01/2024, 5:05:37 AM     ERROR Validation failed (uuid  is expected)
+[Nest] 166  - 04/01/2024, 5:05:37 AM     ERROR Validation failed (uuid  is expected)
+[Nest] 166  - 04/01/2024, 5:05:37 AM     ERROR Validation failed (uuid  is expected)
+[Nest] 166  - 04/01/2024, 5:05:38 AM     ERROR Album ID not found
+[Nest] 166  - 04/01/2024, 5:05:38 AM     ERROR Track ID not found
+[Nest] 166  - 04/01/2024, 5:05:39 AM     ERROR Artist not found
+[Nest] 166  - 04/01/2024, 5:05:39 AM     ERROR Validation failed (uuid  is expected)
+[Nest] 166  - 04/01/2024, 5:05:39 AM     ERROR Track not found
+[Nest] 166  - 04/01/2024, 5:05:39 AM     ERROR Album not found
+[Nest] 166  - 04/01/2024, 5:05:39 AM     ERROR Validation failed (uuid  is expected)
+[Nest] 166  - 04/01/2024, 5:05:40 AM     ERROR Bad Request Exception
+[Nest] 166  - 04/01/2024, 5:05:40 AM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 166  - 04/01/2024, 5:05:40 AM     ERROR Validation failed (uuid  is expected)
+[Nest] 166  - 04/01/2024, 5:05:40 AM     ERROR Artist not found
+[Nest] 166  - 04/01/2024, 5:05:40 AM     ERROR Bad Request Exception
+[Nest] 166  - 04/01/2024, 5:05:40 AM     ERROR Artist not found
+[Nest] 166  - 04/01/2024, 5:05:40 AM     ERROR Artist not found
+[Nest] 166  - 04/01/2024, 5:05:40 AM     ERROR Validation failed (uuid  is expected)
+[Nest] 166  - 04/01/2024, 5:05:41 AM     ERROR Album not found
+[Nest] 166  - 04/01/2024, 5:05:41 AM     ERROR Validation failed (uuid  is expected)
+[Nest] 166  - 04/01/2024, 5:05:41 AM     ERROR Bad Request Exception
+[Nest] 166  - 04/01/2024, 5:05:41 AM     ERROR Bad Request Exception
+[Nest] 166  - 04/01/2024, 5:05:41 AM     ERROR Bad Request Exception
+[Nest] 166  - 04/01/2024, 5:05:41 AM     ERROR Bad Request Exception
+[Nest] 166  - 04/01/2024, 5:05:42 AM     ERROR Validation failed (uuid  is expected)
+[Nest] 166  - 04/01/2024, 5:05:42 AM     ERROR Album not found
+[Nest] 166  - 04/01/2024, 5:05:42 AM     ERROR Album not found
+[Nest] 166  - 04/01/2024, 5:05:42 AM     ERROR Album not found
+[Nest] 166  - 04/01/2024, 5:05:42 AM     ERROR Validation failed (uuid  is expected)
+[Nest] 166  - 04/01/2024, 5:05:43 AM     ERROR Track not found
+[Nest] 166  - 04/01/2024, 5:05:43 AM     ERROR Validation failed (uuid  is expected)
+[Nest] 166  - 04/01/2024, 5:05:43 AM     ERROR Bad Request Exception
+[Nest] 166  - 04/01/2024, 5:05:43 AM     ERROR Bad Request Exception
+[Nest] 166  - 04/01/2024, 5:05:43 AM     ERROR Bad Request Exception
+[Nest] 166  - 04/01/2024, 5:05:43 AM     ERROR Bad Request Exception
+[Nest] 166  - 04/01/2024, 5:05:43 AM     ERROR Validation failed (uuid  is expected)
+[Nest] 166  - 04/01/2024, 5:05:43 AM     ERROR Bad Request Exception
+[Nest] 166  - 04/01/2024, 5:05:43 AM     LOG  {/track, POST, query: {}, body: {"name":"TEST_TRACK","duration":199,"artistId":null,"albumId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 166  - 04/01/2024, 5:05:43 AM     ERROR Track not found
+[Nest] 166  - 04/01/2024, 5:05:43 AM     ERROR Track not found
+[Nest] 166  - 04/01/2024, 5:05:43 AM     ERROR Track not found
+[Nest] 166  - 04/01/2024, 5:05:43 AM     ERROR Validation failed (uuid  is expected)
+[Nest] 312  - 04/01/2024, 6:32:34 AM     ERROR Cannot GET /auth
+[Nest] 312  - 04/01/2024, 6:33:07 AM     ERROR Cannot GET /auth/signup
+[Nest] 312  - 04/01/2024, 6:33:19 AM     ERROR Bad Request Exception
+[Nest] 312  - 04/01/2024, 6:34:37 AM     ERROR Bad Request Exception
+[Nest] 312  - 04/01/2024, 6:35:52 AM     ERROR Bad Request Exception
+[Nest] 324  - 04/01/2024, 6:36:19 AM     ERROR Bad Request Exception
+[Nest] 371  - 04/01/2024, 6:43:17 AM     ERROR Bad Request Exception
+[Nest] 383  - 04/01/2024, 6:46:47 AM     ERROR Bad Request Exception
+[Nest] 474  - 04/01/2024, 6:49:59 AM     ERROR Bad Request Exception
+[Nest] 501  - 04/01/2024, 6:54:16 AM     ERROR Bad Request Exception
+[Nest] 589  - 04/01/2024, 6:56:28 AM     ERROR Bad Request Exception
+[Nest] 589  - 04/01/2024, 6:56:38 AM     ERROR Internal server error
+[Nest] 589  - 04/01/2024, 6:56:38 AM     ERROR unhandledRejection
+[Nest] 589  - 04/01/2024, 6:57:01 AM     ERROR unhandledRejection
+[Nest] 589  - 04/01/2024, 6:57:01 AM     ERROR Internal server error
+[Nest] 613  - 04/01/2024, 6:58:06 AM     ERROR unhandledRejection
+[Nest] 613  - 04/01/2024, 6:58:06 AM     ERROR Internal server error
+[Nest] 625  - 04/01/2024, 6:58:30 AM     ERROR Internal server error
+[Nest] 665  - 04/01/2024, 6:59:19 AM     ERROR Internal server error
+[Nest] 665  - 04/01/2024, 6:59:19 AM     ERROR unhandledRejection
+[Nest] 665  - 04/01/2024, 7:00:24 AM     ERROR Bad Request Exception
+[Nest] 665  - 04/01/2024, 7:00:45 AM     ERROR User not found
+[Nest] 665  - 04/01/2024, 7:02:05 AM     ERROR User not found
+[Nest] 665  - 04/01/2024, 7:02:54 AM     ERROR Validation failed (uuid  is expected)
+[Nest] 708  - 04/01/2024, 7:05:11 AM     ERROR Bad Request Exception
+[Nest] 792  - 04/01/2024, 7:09:23 AM     ERROR Bad Request Exception
+[Nest] 792  - 04/01/2024, 7:09:39 AM     ERROR unhandledRejection
+[Nest] 792  - 04/01/2024, 7:09:39 AM     ERROR Internal server error
+[Nest] 804  - 04/01/2024, 7:11:09 AM     ERROR Internal server error
+[Nest] 804  - 04/01/2024, 7:11:09 AM     ERROR unhandledRejection
+[Nest] 823  - 04/01/2024, 7:11:54 AM     ERROR unhandledRejection
+[Nest] 823  - 04/01/2024, 7:11:54 AM     ERROR Internal server error
+[Nest] 835  - 04/01/2024, 7:12:28 AM     ERROR unhandledRejection
+[Nest] 835  - 04/01/2024, 7:12:28 AM     ERROR Internal server error
+[Nest] 847  - 04/01/2024, 7:12:45 AM     ERROR Internal server error
+[Nest] 847  - 04/01/2024, 7:12:45 AM     ERROR unhandledRejection
+[Nest] 907  - 04/01/2024, 7:13:30 AM     ERROR Internal server error
+[Nest] 907  - 04/01/2024, 7:13:40 AM     ERROR Bad Request Exception
+[Nest] 971  - 04/01/2024, 7:17:10 AM     ERROR Bad Request Exception
+[Nest] 1051  - 04/01/2024, 7:20:34 AM     ERROR Bad Request Exception
+ undefined
+[Nest] 1107  - 04/01/2024, 7:32:27 AM     ERROR Cannot POST /user
+[Nest] 1678  - 04/01/2024, 8:25:36 AM     ERROR Unauthorized
+[Nest] 1678  - 04/01/2024, 8:25:49 AM     ERROR Unauthorized
+[Nest] 1678  - 04/01/2024, 8:25:49 AM     ERROR Unauthorized
+[Nest] 1678  - 04/01/2024, 8:25:49 AM     ERROR Unauthorized
+[Nest] 1678  - 04/01/2024, 8:25:49 AM     ERROR Unauthorized
+[Nest] 1678  - 04/01/2024, 8:25:49 AM     ERROR Unauthorized
+[Nest] 1745  - 04/01/2024, 8:28:21 AM     ERROR unhandledRejection
+[Nest] 1745  - 04/01/2024, 8:28:21 AM     ERROR unhandledRejection
+[Nest] 1745  - 04/01/2024, 8:28:21 AM     ERROR unhandledRejection
+[Nest] 1745  - 04/01/2024, 8:28:21 AM     ERROR unhandledRejection
+[Nest] 1745  - 04/01/2024, 8:28:21 AM     ERROR unhandledRejection
+[Nest] 1867  - 04/01/2024, 8:31:31 AM     ERROR Unauthorized
+[Nest] 1867  - 04/01/2024, 8:31:31 AM     ERROR Unauthorized
+[Nest] 1867  - 04/01/2024, 8:31:31 AM     ERROR Unauthorized
+[Nest] 1867  - 04/01/2024, 8:31:31 AM     ERROR Unauthorized
+[Nest] 1867  - 04/01/2024, 8:31:31 AM     ERROR Unauthorized
+[Nest] 1867  - 04/01/2024, 8:31:32 AM     ERROR Unauthorized
+[Nest] 1867  - 04/01/2024, 8:31:32 AM     ERROR Unauthorized
+[Nest] 1867  - 04/01/2024, 8:31:32 AM     ERROR Unauthorized
+[Nest] 1867  - 04/01/2024, 8:31:32 AM     ERROR Unauthorized
+[Nest] 1867  - 04/01/2024, 8:31:32 AM     ERROR Unauthorized
+[Nest] 1867  - 04/01/2024, 8:31:32 AM     ERROR Unauthorized
+[Nest] 1867  - 04/01/2024, 8:31:32 AM     ERROR Unauthorized
+[Nest] 1867  - 04/01/2024, 8:31:32 AM     ERROR Unauthorized
+[Nest] 1867  - 04/01/2024, 8:31:32 AM     ERROR Unauthorized
+[Nest] 1867  - 04/01/2024, 8:31:32 AM     ERROR Unauthorized
+[Nest] 1867  - 04/01/2024, 8:31:32 AM     ERROR Unauthorized
+[Nest] 1867  - 04/01/2024, 8:31:32 AM     ERROR Unauthorized
+[Nest] 1867  - 04/01/2024, 8:31:33 AM     ERROR Unauthorized
+[Nest] 1867  - 04/01/2024, 8:31:33 AM     ERROR Unauthorized
+[Nest] 1867  - 04/01/2024, 8:31:33 AM     ERROR Unauthorized
+[Nest] 1867  - 04/01/2024, 8:31:33 AM     ERROR Unauthorized
+[Nest] 1867  - 04/01/2024, 8:31:33 AM     ERROR Unauthorized
+[Nest] 1867  - 04/01/2024, 8:31:35 AM     ERROR Unauthorized
+[Nest] 1867  - 04/01/2024, 8:31:35 AM     ERROR Unauthorized
+[Nest] 1867  - 04/01/2024, 8:31:35 AM     ERROR Unauthorized
+[Nest] 1867  - 04/01/2024, 8:31:35 AM     ERROR Unauthorized
+[Nest] 1867  - 04/01/2024, 8:31:35 AM     ERROR Unauthorized
+[Nest] 1967  - 04/01/2024, 8:37:46 AM     ERROR Unauthorized
+[Nest] 1967  - 04/01/2024, 8:37:46 AM     ERROR Unauthorized
+[Nest] 1967  - 04/01/2024, 8:37:46 AM     ERROR Unauthorized
+[Nest] 1967  - 04/01/2024, 8:37:46 AM     ERROR Unauthorized
+[Nest] 1967  - 04/01/2024, 8:37:46 AM     ERROR Unauthorized
+[Nest] 1967  - 04/01/2024, 8:37:47 AM     ERROR Unauthorized
+[Nest] 1967  - 04/01/2024, 8:37:47 AM     ERROR Unauthorized
+[Nest] 1967  - 04/01/2024, 8:37:47 AM     ERROR Unauthorized
+[Nest] 1967  - 04/01/2024, 8:37:47 AM     ERROR Unauthorized
+[Nest] 1967  - 04/01/2024, 8:37:47 AM     ERROR Unauthorized
+[Nest] 1967  - 04/01/2024, 8:37:47 AM     ERROR Unauthorized
+[Nest] 1967  - 04/01/2024, 8:37:47 AM     ERROR Unauthorized
+[Nest] 1967  - 04/01/2024, 8:37:47 AM     ERROR Unauthorized
+[Nest] 1967  - 04/01/2024, 8:37:47 AM     ERROR Unauthorized
+[Nest] 1967  - 04/01/2024, 8:37:47 AM     ERROR Unauthorized
+[Nest] 1967  - 04/01/2024, 8:37:47 AM     ERROR Unauthorized
+[Nest] 1967  - 04/01/2024, 8:37:47 AM     ERROR Unauthorized
+[Nest] 1967  - 04/01/2024, 8:37:47 AM     ERROR Unauthorized
+[Nest] 1967  - 04/01/2024, 8:37:47 AM     ERROR Unauthorized
+[Nest] 1967  - 04/01/2024, 8:37:47 AM     ERROR Unauthorized
+[Nest] 1967  - 04/01/2024, 8:37:47 AM     ERROR Unauthorized
+[Nest] 1967  - 04/01/2024, 8:37:47 AM     ERROR Unauthorized
+[Nest] 1967  - 04/01/2024, 8:37:48 AM     ERROR Unauthorized
+[Nest] 1967  - 04/01/2024, 8:37:48 AM     ERROR Unauthorized
+[Nest] 1967  - 04/01/2024, 8:37:48 AM     ERROR Unauthorized
+[Nest] 1967  - 04/01/2024, 8:37:48 AM     ERROR Unauthorized
+[Nest] 1967  - 04/01/2024, 8:37:48 AM     ERROR Unauthorized
+[Nest] 1967  - 04/01/2024, 8:41:48 AM     ERROR User not found.
+[Nest] 1967  - 04/01/2024, 8:42:15 AM     ERROR User not found.
+[Nest] 1967  - 04/01/2024, 8:45:12 AM     ERROR Unauthorized
+[Nest] 1995  - 04/01/2024, 8:47:09 AM     ERROR User not found.
+[Nest] 74  - 04/01/2024, 9:03:10 AM     ERROR Unauthorized
+[Nest] 74  - 04/01/2024, 9:03:10 AM     ERROR Unauthorized
+[Nest] 74  - 04/01/2024, 9:03:10 AM     ERROR Unauthorized
+[Nest] 74  - 04/01/2024, 9:03:10 AM     ERROR Unauthorized
+[Nest] 74  - 04/01/2024, 9:03:10 AM     ERROR Unauthorized
+[Nest] 74  - 04/01/2024, 9:03:10 AM     ERROR Unauthorized
+[Nest] 74  - 04/01/2024, 9:03:10 AM     ERROR Unauthorized
+[Nest] 86  - 04/01/2024, 9:03:59 AM     ERROR User not found
+[Nest] 86  - 04/01/2024, 9:03:59 AM     ERROR Validation failed (uuid  is expected)
+[Nest] 86  - 04/01/2024, 9:04:00 AM     ERROR Bad Request Exception
+[Nest] 86  - 04/01/2024, 9:04:00 AM     ERROR Bad Request Exception
+[Nest] 86  - 04/01/2024, 9:04:00 AM     ERROR Bad Request Exception
+[Nest] 86  - 04/01/2024, 9:04:00 AM     ERROR Bad Request Exception
+[Nest] 86  - 04/01/2024, 9:04:00 AM     ERROR Old password is wrong
+[Nest] 86  - 04/01/2024, 9:04:00 AM     ERROR User not found
+[Nest] 86  - 04/01/2024, 9:04:00 AM     ERROR Validation failed (uuid  is expected)
+[Nest] 86  - 04/01/2024, 9:04:00 AM     ERROR Bad Request Exception
+[Nest] 86  - 04/01/2024, 9:04:01 AM     ERROR Validation failed (uuid  is expected)
+[Nest] 86  - 04/01/2024, 9:04:01 AM     ERROR User not found
+[Nest] 86  - 04/01/2024, 9:04:01 AM     ERROR User not found
+[Nest] 86  - 04/01/2024, 9:04:01 AM     ERROR Validation failed (uuid  is expected)
+[Nest] 86  - 04/01/2024, 9:04:02 AM     ERROR Artist not found
+[Nest] 86  - 04/01/2024, 9:04:02 AM     ERROR Bad Request Exception
+[Nest] 86  - 04/01/2024, 9:04:02 AM     ERROR Bad Request Exception
+[Nest] 86  - 04/01/2024, 9:04:02 AM     ERROR Bad Request Exception
+[Nest] 86  - 04/01/2024, 9:04:02 AM     ERROR Bad Request Exception
+[Nest] 86  - 04/01/2024, 9:04:02 AM     ERROR Validation failed (uuid  is expected)
+[Nest] 86  - 04/01/2024, 9:04:02 AM     ERROR Bad Request Exception
+[Nest] 86  - 04/01/2024, 9:04:02 AM     ERROR Artist not found
+[Nest] 86  - 04/01/2024, 9:04:02 AM     ERROR Artist not found
+[Nest] 86  - 04/01/2024, 9:04:02 AM     ERROR Validation failed (uuid  is expected)
+[Nest] 86  - 04/01/2024, 9:04:02 AM     ERROR Artist not found
+[Nest] 86  - 04/01/2024, 9:04:04 AM     ERROR Validation failed (uuid  is expected)
+[Nest] 86  - 04/01/2024, 9:04:04 AM     ERROR Validation failed (uuid  is expected)
+[Nest] 86  - 04/01/2024, 9:04:04 AM     ERROR Validation failed (uuid  is expected)
+[Nest] 86  - 04/01/2024, 9:04:04 AM     ERROR Artist ID not found
+[Nest] 86  - 04/01/2024, 9:04:04 AM     ERROR Album ID not found
+[Nest] 86  - 04/01/2024, 9:04:04 AM     ERROR Track ID not found
+[Nest] 86  - 04/01/2024, 9:04:05 AM     ERROR Validation failed (uuid  is expected)
+[Nest] 86  - 04/01/2024, 9:04:05 AM     ERROR Album not found
+[Nest] 86  - 04/01/2024, 9:04:05 AM     ERROR Artist not found
+[Nest] 86  - 04/01/2024, 9:04:05 AM     ERROR Track not found
+[Nest] 86  - 04/01/2024, 9:04:06 AM     ERROR Validation failed (uuid  is expected)
+[Nest] 86  - 04/01/2024, 9:04:06 AM     ERROR Track not found
+[Nest] 86  - 04/01/2024, 9:04:06 AM     ERROR Bad Request Exception
+[Nest] 86  - 04/01/2024, 9:04:06 AM     ERROR Bad Request Exception
+[Nest] 86  - 04/01/2024, 9:04:06 AM     ERROR Bad Request Exception
+[Nest] 86  - 04/01/2024, 9:04:06 AM     ERROR Bad Request Exception
+[Nest] 86  - 04/01/2024, 9:04:06 AM     ERROR Validation failed (uuid  is expected)
+[Nest] 86  - 04/01/2024, 9:04:06 AM     ERROR Bad Request Exception
+[Nest] 86  - 04/01/2024, 9:04:06 AM     ERROR Track not found
+[Nest] 86  - 04/01/2024, 9:04:06 AM     LOG  {/track, POST, query: {}, body: {"name":"TEST_TRACK","duration":199,"artistId":null,"albumId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:04:06 AM     ERROR Track not found
+[Nest] 86  - 04/01/2024, 9:04:06 AM     LOG  {/track/28928d4b-1908-446c-8362-e4fa934e8af0, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:04:06 AM     ERROR Track not found
+[Nest] 86  - 04/01/2024, 9:04:06 AM     ERROR Validation failed (uuid  is expected)
+[Nest] 86  - 04/01/2024, 9:04:07 AM     ERROR Album not found
+[Nest] 86  - 04/01/2024, 9:04:07 AM     ERROR Validation failed (uuid  is expected)
+[Nest] 86  - 04/01/2024, 9:04:07 AM     LOG  {/album, POST, query: {}, body: {"name":"TEST_ALBUM","year":2022,"artistId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:04:07 AM     LOG  {/album/7f4615f9-ce43-4623-b1a4-2b1892b46760, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:04:07 AM     ERROR Bad Request Exception
+[Nest] 86  - 04/01/2024, 9:04:07 AM     ERROR Bad Request Exception
+[Nest] 86  - 04/01/2024, 9:04:07 AM     ERROR Bad Request Exception
+[Nest] 86  - 04/01/2024, 9:04:07 AM     ERROR Bad Request Exception
+[Nest] 86  - 04/01/2024, 9:04:08 AM     ERROR Validation failed (uuid  is expected)
+[Nest] 86  - 04/01/2024, 9:04:08 AM     ERROR Bad Request Exception
+[Nest] 86  - 04/01/2024, 9:04:08 AM     ERROR Album not found
+[Nest] 86  - 04/01/2024, 9:04:08 AM     LOG  {/album/256a9414-4679-49c9-84d6-9ef425f024df, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 86  - 04/01/2024, 9:04:08 AM     ERROR Album not found
+[Nest] 86  - 04/01/2024, 9:04:08 AM     ERROR Album not found
+[Nest] 86  - 04/01/2024, 9:04:08 AM     ERROR Validation failed (uuid  is expected)
+[Nest] 86  - 04/01/2024, 9:04:09 AM     ERROR Unauthorized
+[Nest] 86  - 04/01/2024, 9:04:09 AM     ERROR Unauthorized
+[Nest] 86  - 04/01/2024, 9:04:09 AM     ERROR Unauthorized
+[Nest] 86  - 04/01/2024, 9:04:09 AM     ERROR Unauthorized
+[Nest] 86  - 04/01/2024, 9:04:09 AM     ERROR Unauthorized
+[Nest] 86  - 04/01/2024, 9:04:09 AM     ERROR Unauthorized
+[Nest] 86  - 04/01/2024, 9:04:09 AM     ERROR Unauthorized
+[Nest] 86  - 04/01/2024, 9:04:09 AM     ERROR Unauthorized
+[Nest] 86  - 04/01/2024, 9:04:09 AM     ERROR Unauthorized
+[Nest] 86  - 04/01/2024, 9:04:09 AM     ERROR Unauthorized
+[Nest] 86  - 04/01/2024, 9:04:09 AM     ERROR Unauthorized
+[Nest] 86  - 04/01/2024, 9:04:09 AM     ERROR Unauthorized
+[Nest] 86  - 04/01/2024, 9:04:09 AM     ERROR Unauthorized
+[Nest] 86  - 04/01/2024, 9:04:09 AM     ERROR Unauthorized
+[Nest] 86  - 04/01/2024, 9:04:09 AM     ERROR Unauthorized
+[Nest] 86  - 04/01/2024, 9:04:09 AM     ERROR Unauthorized
+[Nest] 86  - 04/01/2024, 9:04:09 AM     ERROR Unauthorized
+[Nest] 86  - 04/01/2024, 9:04:09 AM     ERROR Unauthorized
+[Nest] 86  - 04/01/2024, 9:04:09 AM     ERROR Unauthorized
+[Nest] 86  - 04/01/2024, 9:04:09 AM     ERROR Unauthorized
+[Nest] 86  - 04/01/2024, 9:04:09 AM     ERROR Unauthorized
+[Nest] 86  - 04/01/2024, 9:04:09 AM     ERROR Unauthorized
+[Nest] 86  - 04/01/2024, 9:04:10 AM     ERROR Unauthorized
+[Nest] 86  - 04/01/2024, 9:04:10 AM     ERROR Unauthorized
+[Nest] 86  - 04/01/2024, 9:04:10 AM     ERROR Unauthorized
+[Nest] 86  - 04/01/2024, 9:04:10 AM     ERROR Unauthorized
+[Nest] 86  - 04/01/2024, 9:04:10 AM     ERROR Unauthorized
+[Nest] 656  - 04/01/2024, 6:14:52 PM     ERROR User not found.
+[Nest] 656  - 04/01/2024, 6:16:35 PM     ERROR Unauthorized
+[Nest] 656  - 04/01/2024, 6:17:00 PM     ERROR Unauthorized
+[Nest] 656  - 04/01/2024, 6:18:06 PM     ERROR Unauthorized
+[Nest] 696  - 04/01/2024, 6:19:40 PM     ERROR Unauthorized
+[Nest] 696  - 04/01/2024, 6:20:04 PM     ERROR Unauthorized
+[Nest] 696  - 04/01/2024, 6:20:55 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 696  - 04/01/2024, 6:20:55 PM     ERROR User not found
+[Nest] 696  - 04/01/2024, 6:20:55 PM     ERROR Bad Request Exception
+[Nest] 696  - 04/01/2024, 6:20:55 PM     ERROR Bad Request Exception
+[Nest] 696  - 04/01/2024, 6:20:56 PM     ERROR Bad Request Exception
+[Nest] 696  - 04/01/2024, 6:20:55 PM     ERROR Bad Request Exception
+[Nest] 696  - 04/01/2024, 6:20:56 PM     ERROR Old password is wrong
+[Nest] 696  - 04/01/2024, 6:20:56 PM     ERROR User not found
+[Nest] 696  - 04/01/2024, 6:20:56 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 696  - 04/01/2024, 6:20:56 PM     ERROR Bad Request Exception
+[Nest] 696  - 04/01/2024, 6:20:56 PM     ERROR User not found
+[Nest] 696  - 04/01/2024, 6:20:56 PM     ERROR User not found
+[Nest] 696  - 04/01/2024, 6:20:56 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 696  - 04/01/2024, 6:20:57 PM     ERROR Unauthorized
+[Nest] 696  - 04/01/2024, 6:20:57 PM     ERROR Unauthorized
+[Nest] 696  - 04/01/2024, 6:20:57 PM     ERROR Unauthorized
+[Nest] 696  - 04/01/2024, 6:20:57 PM     ERROR Unauthorized
+[Nest] 696  - 04/01/2024, 6:20:57 PM     ERROR Unauthorized
+[Nest] 696  - 04/01/2024, 6:20:58 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 696  - 04/01/2024, 6:20:58 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 696  - 04/01/2024, 6:20:58 PM     ERROR Artist ID not found
+[Nest] 696  - 04/01/2024, 6:20:58 PM     ERROR Album ID not found
+[Nest] 696  - 04/01/2024, 6:20:58 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 696  - 04/01/2024, 6:20:58 PM     ERROR Track ID not found
+[Nest] 696  - 04/01/2024, 6:20:59 PM     ERROR Album not found
+[Nest] 696  - 04/01/2024, 6:20:59 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 696  - 04/01/2024, 6:20:59 PM     ERROR Artist not found
+[Nest] 696  - 04/01/2024, 6:21:00 PM     ERROR Track not found
+[Nest] 696  - 04/01/2024, 6:21:00 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 696  - 04/01/2024, 6:21:00 PM     ERROR Album not found
+[Nest] 696  - 04/01/2024, 6:21:00 PM     ERROR Bad Request Exception
+[Nest] 696  - 04/01/2024, 6:21:00 PM     ERROR Bad Request Exception
+[Nest] 696  - 04/01/2024, 6:21:00 PM     ERROR Bad Request Exception
+[Nest] 696  - 04/01/2024, 6:21:00 PM     ERROR Bad Request Exception
+[Nest] 696  - 04/01/2024, 6:21:01 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_ALBUM","year":2022,"artistId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 696  - 04/01/2024, 6:21:01 PM     ERROR Bad Request Exception
+[Nest] 696  - 04/01/2024, 6:21:01 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 696  - 04/01/2024, 6:21:01 PM     ERROR Album not found
+[Nest] 696  - 04/01/2024, 6:21:01 PM     ERROR Album not found
+[Nest] 696  - 04/01/2024, 6:21:01 PM     ERROR Album not found
+[Nest] 696  - 04/01/2024, 6:21:01 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 696  - 04/01/2024, 6:21:02 PM     ERROR Artist not found
+[Nest] 696  - 04/01/2024, 6:21:02 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 696  - 04/01/2024, 6:21:02 PM     ERROR Bad Request Exception
+[Nest] 696  - 04/01/2024, 6:21:02 PM     ERROR Bad Request Exception
+[Nest] 696  - 04/01/2024, 6:21:02 PM     ERROR Bad Request Exception
+[Nest] 696  - 04/01/2024, 6:21:02 PM     ERROR Bad Request Exception
+[Nest] 696  - 04/01/2024, 6:21:02 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 696  - 04/01/2024, 6:21:02 PM     ERROR Bad Request Exception
+[Nest] 696  - 04/01/2024, 6:21:02 PM     ERROR Artist not found
+[Nest] 696  - 04/01/2024, 6:21:03 PM     ERROR Artist not found
+[Nest] 696  - 04/01/2024, 6:21:03 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 696  - 04/01/2024, 6:21:03 PM     ERROR Artist not found
+[Nest] 696  - 04/01/2024, 6:21:04 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 696  - 04/01/2024, 6:21:04 PM     ERROR Track not found
+[Nest] 696  - 04/01/2024, 6:21:04 PM     ERROR Bad Request Exception
+[Nest] 696  - 04/01/2024, 6:21:04 PM     ERROR Bad Request Exception
+[Nest] 696  - 04/01/2024, 6:21:04 PM     ERROR Bad Request Exception
+[Nest] 696  - 04/01/2024, 6:21:04 PM     ERROR Bad Request Exception
+[Nest] 696  - 04/01/2024, 6:21:04 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 696  - 04/01/2024, 6:21:04 PM     ERROR Bad Request Exception
+[Nest] 696  - 04/01/2024, 6:21:04 PM     ERROR Track not found
+[Nest] 696  - 04/01/2024, 6:21:04 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 696  - 04/01/2024, 6:21:04 PM     ERROR Track not found
+[Nest] 696  - 04/01/2024, 6:21:04 PM     ERROR Track not found
+[Nest] 696  - 04/01/2024, 6:21:05 PM     ERROR Unauthorized
+[Nest] 696  - 04/01/2024, 6:21:05 PM     ERROR Unauthorized
+[Nest] 696  - 04/01/2024, 6:21:05 PM     ERROR Unauthorized
+[Nest] 696  - 04/01/2024, 6:21:05 PM     ERROR Unauthorized
+[Nest] 696  - 04/01/2024, 6:21:05 PM     ERROR Unauthorized
+[Nest] 696  - 04/01/2024, 6:21:05 PM     ERROR Unauthorized
+[Nest] 696  - 04/01/2024, 6:21:05 PM     ERROR Unauthorized
+[Nest] 696  - 04/01/2024, 6:21:05 PM     ERROR Unauthorized
+[Nest] 696  - 04/01/2024, 6:21:05 PM     ERROR Unauthorized
+[Nest] 696  - 04/01/2024, 6:21:05 PM     ERROR Unauthorized
+[Nest] 696  - 04/01/2024, 6:21:05 PM     ERROR Unauthorized
+[Nest] 696  - 04/01/2024, 6:21:05 PM     ERROR Unauthorized
+[Nest] 696  - 04/01/2024, 6:21:05 PM     ERROR Unauthorized
+[Nest] 696  - 04/01/2024, 6:21:05 PM     ERROR Unauthorized
+[Nest] 696  - 04/01/2024, 6:21:05 PM     ERROR Unauthorized
+[Nest] 696  - 04/01/2024, 6:21:05 PM     ERROR Unauthorized
+[Nest] 696  - 04/01/2024, 6:21:05 PM     ERROR Unauthorized
+[Nest] 696  - 04/01/2024, 6:21:05 PM     ERROR Unauthorized
+[Nest] 696  - 04/01/2024, 6:21:05 PM     ERROR Unauthorized
+[Nest] 696  - 04/01/2024, 6:21:06 PM     ERROR Unauthorized
+[Nest] 696  - 04/01/2024, 6:21:06 PM     ERROR Unauthorized
+[Nest] 696  - 04/01/2024, 6:21:06 PM     ERROR Unauthorized
+[Nest] 716  - 04/01/2024, 6:26:09 PM     ERROR User not found
+[Nest] 716  - 04/01/2024, 6:26:09 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 716  - 04/01/2024, 6:26:09 PM     ERROR Bad Request Exception
+[Nest] 716  - 04/01/2024, 6:26:09 PM     ERROR Bad Request Exception
+[Nest] 716  - 04/01/2024, 6:26:09 PM     ERROR Bad Request Exception
+[Nest] 716  - 04/01/2024, 6:26:09 PM     ERROR Bad Request Exception
+[Nest] 716  - 04/01/2024, 6:26:10 PM     ERROR Old password is wrong
+[Nest] 716  - 04/01/2024, 6:26:10 PM     ERROR User not found
+[Nest] 716  - 04/01/2024, 6:26:10 PM     ERROR Bad Request Exception
+[Nest] 716  - 04/01/2024, 6:26:10 PM     ERROR User not found
+[Nest] 716  - 04/01/2024, 6:26:10 PM     ERROR User not found
+[Nest] 716  - 04/01/2024, 6:26:10 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 716  - 04/01/2024, 6:26:12 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 716  - 04/01/2024, 6:26:12 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 716  - 04/01/2024, 6:26:12 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 716  - 04/01/2024, 6:26:12 PM     ERROR Artist ID not found
+[Nest] 716  - 04/01/2024, 6:26:12 PM     ERROR Album ID not found
+[Nest] 716  - 04/01/2024, 6:26:12 PM     ERROR Track ID not found
+[Nest] 716  - 04/01/2024, 6:26:13 PM     ERROR Artist not found
+[Nest] 716  - 04/01/2024, 6:26:13 PM     ERROR Track not found
+[Nest] 716  - 04/01/2024, 6:26:13 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 716  - 04/01/2024, 6:26:13 PM     ERROR Album not found
+[Nest] 716  - 04/01/2024, 6:26:14 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 716  - 04/01/2024, 6:26:14 PM     ERROR Artist not found
+[Nest] 716  - 04/01/2024, 6:26:14 PM     ERROR Bad Request Exception
+[Nest] 716  - 04/01/2024, 6:26:14 PM     ERROR Bad Request Exception
+[Nest] 716  - 04/01/2024, 6:26:14 PM     ERROR Bad Request Exception
+[Nest] 716  - 04/01/2024, 6:26:14 PM     ERROR Bad Request Exception
+[Nest] 716  - 04/01/2024, 6:26:14 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 716  - 04/01/2024, 6:26:15 PM     ERROR Artist not found
+[Nest] 716  - 04/01/2024, 6:26:15 PM     ERROR Artist not found
+[Nest] 716  - 04/01/2024, 6:26:15 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 716  - 04/01/2024, 6:26:15 PM     ERROR Artist not found
+[Nest] 716  - 04/01/2024, 6:26:16 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 716  - 04/01/2024, 6:26:16 PM     ERROR Album not found
+[Nest] 716  - 04/01/2024, 6:26:16 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_ALBUM","year":2022,"artistId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 716  - 04/01/2024, 6:26:16 PM     ERROR Bad Request Exception
+[Nest] 716  - 04/01/2024, 6:26:16 PM     ERROR Bad Request Exception
+[Nest] 716  - 04/01/2024, 6:26:16 PM     ERROR Bad Request Exception
+[Nest] 716  - 04/01/2024, 6:26:16 PM     ERROR Bad Request Exception
+[Nest] 716  - 04/01/2024, 6:26:16 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 716  - 04/01/2024, 6:26:16 PM     ERROR Album not found
+[Nest] 716  - 04/01/2024, 6:26:17 PM     LOG  {/album/35e1f439-7644-47e9-8651-32139fdc9cd7, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [1ms]
+[Nest] 716  - 04/01/2024, 6:26:17 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 716  - 04/01/2024, 6:26:17 PM     ERROR Album not found
+[Nest] 716  - 04/01/2024, 6:26:17 PM     ERROR Album not found
+[Nest] 716  - 04/01/2024, 6:26:17 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 716  - 04/01/2024, 6:26:18 PM     ERROR Track not found
+[Nest] 716  - 04/01/2024, 6:26:18 PM     ERROR Bad Request Exception
+[Nest] 716  - 04/01/2024, 6:26:18 PM     ERROR Bad Request Exception
+[Nest] 716  - 04/01/2024, 6:26:18 PM     ERROR Bad Request Exception
+[Nest] 716  - 04/01/2024, 6:26:18 PM     ERROR Bad Request Exception
+[Nest] 716  - 04/01/2024, 6:26:18 PM     ERROR Bad Request Exception
+[Nest] 716  - 04/01/2024, 6:26:18 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 716  - 04/01/2024, 6:26:18 PM     LOG  {/track, POST, query: {}, body: {"name":"TEST_TRACK","duration":199,"artistId":null,"albumId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 716  - 04/01/2024, 6:26:18 PM     ERROR Track not found
+[Nest] 716  - 04/01/2024, 6:26:18 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 716  - 04/01/2024, 6:26:18 PM     ERROR Track not found
+[Nest] 716  - 04/01/2024, 6:26:18 PM     ERROR Track not found
+[Nest] 716  - 04/01/2024, 6:26:19 PM     ERROR Unauthorized
+[Nest] 716  - 04/01/2024, 6:26:19 PM     ERROR Unauthorized
+[Nest] 716  - 04/01/2024, 6:26:19 PM     ERROR Unauthorized
+[Nest] 716  - 04/01/2024, 6:26:19 PM     ERROR Unauthorized
+[Nest] 716  - 04/01/2024, 6:26:19 PM     ERROR Unauthorized
+[Nest] 716  - 04/01/2024, 6:26:19 PM     ERROR Unauthorized
+[Nest] 716  - 04/01/2024, 6:26:19 PM     ERROR Unauthorized
+[Nest] 716  - 04/01/2024, 6:26:19 PM     ERROR Unauthorized
+[Nest] 716  - 04/01/2024, 6:26:19 PM     ERROR Unauthorized
+[Nest] 716  - 04/01/2024, 6:26:19 PM     ERROR Unauthorized
+[Nest] 716  - 04/01/2024, 6:26:19 PM     ERROR Unauthorized
+[Nest] 716  - 04/01/2024, 6:26:19 PM     ERROR Unauthorized
+[Nest] 716  - 04/01/2024, 6:26:19 PM     ERROR Unauthorized
+[Nest] 716  - 04/01/2024, 6:26:19 PM     ERROR Unauthorized
+[Nest] 716  - 04/01/2024, 6:26:19 PM     ERROR Unauthorized
+[Nest] 716  - 04/01/2024, 6:26:19 PM     ERROR Unauthorized
+[Nest] 716  - 04/01/2024, 6:26:19 PM     ERROR Unauthorized
+[Nest] 716  - 04/01/2024, 6:26:20 PM     ERROR Unauthorized
+[Nest] 716  - 04/01/2024, 6:26:20 PM     ERROR Unauthorized
+[Nest] 716  - 04/01/2024, 6:26:20 PM     ERROR Unauthorized
+[Nest] 716  - 04/01/2024, 6:26:20 PM     ERROR Unauthorized
+[Nest] 716  - 04/01/2024, 6:26:20 PM     ERROR Unauthorized
+[Nest] 716  - 04/01/2024, 6:26:20 PM     ERROR Unauthorized
+[Nest] 716  - 04/01/2024, 6:26:20 PM     ERROR Unauthorized
+[Nest] 716  - 04/01/2024, 6:26:20 PM     ERROR Unauthorized
+[Nest] 716  - 04/01/2024, 6:26:20 PM     ERROR Unauthorized
+[Nest] 716  - 04/01/2024, 6:26:20 PM     ERROR Unauthorized
+[Nest] 728  - 04/01/2024, 6:28:32 PM     ERROR User not found
+[Nest] 728  - 04/01/2024, 6:28:32 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 728  - 04/01/2024, 6:28:32 PM     ERROR Bad Request Exception
+[Nest] 728  - 04/01/2024, 6:28:32 PM     ERROR Bad Request Exception
+[Nest] 728  - 04/01/2024, 6:28:32 PM     ERROR Bad Request Exception
+[Nest] 728  - 04/01/2024, 6:28:32 PM     ERROR Bad Request Exception
+[Nest] 728  - 04/01/2024, 6:28:32 PM     ERROR Old password is wrong
+[Nest] 728  - 04/01/2024, 6:28:32 PM     LOG  {/user/8ae5c0e7-ee9f-4c5f-adba-3a0220faff48, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 728  - 04/01/2024, 6:28:32 PM     ERROR Bad Request Exception
+[Nest] 728  - 04/01/2024, 6:28:33 PM     ERROR User not found
+[Nest] 728  - 04/01/2024, 6:28:33 PM     ERROR User not found
+[Nest] 728  - 04/01/2024, 6:28:33 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 728  - 04/01/2024, 6:28:33 PM     ERROR User not found
+[Nest] 728  - 04/01/2024, 6:28:34 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 728  - 04/01/2024, 6:28:35 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 728  - 04/01/2024, 6:28:35 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 728  - 04/01/2024, 6:28:35 PM     ERROR Artist ID not found
+[Nest] 728  - 04/01/2024, 6:28:35 PM     ERROR Album ID not found
+[Nest] 728  - 04/01/2024, 6:28:35 PM     ERROR Track ID not found
+[Nest] 728  - 04/01/2024, 6:28:36 PM     ERROR Artist not found
+[Nest] 728  - 04/01/2024, 6:28:36 PM     ERROR Album not found
+[Nest] 728  - 04/01/2024, 6:28:36 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 728  - 04/01/2024, 6:28:36 PM     ERROR Track not found
+[Nest] 728  - 04/01/2024, 6:28:36 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 728  - 04/01/2024, 6:28:36 PM     ERROR Artist not found
+[Nest] 728  - 04/01/2024, 6:28:37 PM     ERROR Bad Request Exception
+[Nest] 728  - 04/01/2024, 6:28:37 PM     ERROR Bad Request Exception
+[Nest] 728  - 04/01/2024, 6:28:37 PM     ERROR Bad Request Exception
+[Nest] 728  - 04/01/2024, 6:28:37 PM     ERROR Bad Request Exception
+[Nest] 728  - 04/01/2024, 6:28:37 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 728  - 04/01/2024, 6:28:37 PM     ERROR Bad Request Exception
+[Nest] 728  - 04/01/2024, 6:28:37 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 728  - 04/01/2024, 6:28:37 PM     ERROR Artist not found
+[Nest] 728  - 04/01/2024, 6:28:37 PM     ERROR Artist not found
+[Nest] 728  - 04/01/2024, 6:28:37 PM     ERROR Artist not found
+[Nest] 728  - 04/01/2024, 6:28:37 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 728  - 04/01/2024, 6:28:38 PM     ERROR Album not found
+[Nest] 728  - 04/01/2024, 6:28:38 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 728  - 04/01/2024, 6:28:38 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_ALBUM","year":2022,"artistId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 728  - 04/01/2024, 6:28:38 PM     ERROR Bad Request Exception
+[Nest] 728  - 04/01/2024, 6:28:38 PM     ERROR Bad Request Exception
+[Nest] 728  - 04/01/2024, 6:28:38 PM     ERROR Bad Request Exception
+[Nest] 728  - 04/01/2024, 6:28:38 PM     ERROR Bad Request Exception
+[Nest] 728  - 04/01/2024, 6:28:39 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 728  - 04/01/2024, 6:28:39 PM     ERROR Bad Request Exception
+[Nest] 728  - 04/01/2024, 6:28:39 PM     ERROR Album not found
+[Nest] 728  - 04/01/2024, 6:28:39 PM     ERROR Album not found
+[Nest] 728  - 04/01/2024, 6:28:39 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 728  - 04/01/2024, 6:28:39 PM     ERROR Album not found
+[Nest] 728  - 04/01/2024, 6:28:40 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 728  - 04/01/2024, 6:28:40 PM     ERROR Track not found
+[Nest] 728  - 04/01/2024, 6:28:40 PM     ERROR Bad Request Exception
+[Nest] 728  - 04/01/2024, 6:28:40 PM     ERROR Bad Request Exception
+[Nest] 728  - 04/01/2024, 6:28:40 PM     ERROR Bad Request Exception
+[Nest] 728  - 04/01/2024, 6:28:40 PM     ERROR Bad Request Exception
+[Nest] 728  - 04/01/2024, 6:28:40 PM     ERROR Track not found
+[Nest] 728  - 04/01/2024, 6:28:40 PM     ERROR Bad Request Exception
+[Nest] 728  - 04/01/2024, 6:28:40 PM     ERROR Track not found
+[Nest] 728  - 04/01/2024, 6:28:40 PM     ERROR Track not found
+[Nest] 728  - 04/01/2024, 6:28:40 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 728  - 04/01/2024, 6:28:41 PM     ERROR Unauthorized
+[Nest] 728  - 04/01/2024, 6:28:41 PM     ERROR Unauthorized
+[Nest] 728  - 04/01/2024, 6:28:41 PM     ERROR Unauthorized
+[Nest] 728  - 04/01/2024, 6:28:41 PM     ERROR Unauthorized
+[Nest] 728  - 04/01/2024, 6:28:41 PM     ERROR Unauthorized
+[Nest] 728  - 04/01/2024, 6:28:41 PM     ERROR Unauthorized
+[Nest] 728  - 04/01/2024, 6:28:41 PM     ERROR Unauthorized
+[Nest] 728  - 04/01/2024, 6:28:41 PM     ERROR Unauthorized
+[Nest] 728  - 04/01/2024, 6:28:41 PM     ERROR Unauthorized
+[Nest] 728  - 04/01/2024, 6:28:41 PM     ERROR Unauthorized
+[Nest] 728  - 04/01/2024, 6:28:41 PM     ERROR Unauthorized
+[Nest] 728  - 04/01/2024, 6:28:41 PM     ERROR Unauthorized
+[Nest] 728  - 04/01/2024, 6:28:41 PM     ERROR Unauthorized
+[Nest] 728  - 04/01/2024, 6:28:41 PM     ERROR Unauthorized
+[Nest] 728  - 04/01/2024, 6:28:41 PM     ERROR Unauthorized
+[Nest] 728  - 04/01/2024, 6:28:41 PM     ERROR Unauthorized
+[Nest] 728  - 04/01/2024, 6:28:41 PM     ERROR Unauthorized
+[Nest] 728  - 04/01/2024, 6:28:42 PM     ERROR Unauthorized
+[Nest] 728  - 04/01/2024, 6:28:42 PM     ERROR Unauthorized
+[Nest] 728  - 04/01/2024, 6:28:42 PM     ERROR Unauthorized
+[Nest] 728  - 04/01/2024, 6:28:42 PM     ERROR Unauthorized
+[Nest] 728  - 04/01/2024, 6:28:42 PM     ERROR Unauthorized
+[Nest] 728  - 04/01/2024, 6:28:42 PM     ERROR Unauthorized
+[Nest] 728  - 04/01/2024, 6:28:42 PM     ERROR Unauthorized
+[Nest] 728  - 04/01/2024, 6:28:42 PM     ERROR Unauthorized
+[Nest] 728  - 04/01/2024, 6:28:42 PM     ERROR Unauthorized
+[Nest] 728  - 04/01/2024, 6:28:42 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:45 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:45 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:45 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:45 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:45 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:45 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:45 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:45 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:45 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:45 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:45 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:45 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:46 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:46 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:46 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:46 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:46 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:46 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:46 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:46 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:46 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:46 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:46 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:46 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:46 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:46 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:46 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:46 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:46 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:46 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:47 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:47 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:47 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:47 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:47 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:47 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:47 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:47 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:47 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:47 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:47 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:47 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:47 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:47 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:47 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:47 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:47 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:47 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:47 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:48 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:48 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:48 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:48 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:48 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:48 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:48 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:48 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:48 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:48 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:48 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:48 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:48 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:48 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:48 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:48 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:48 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:48 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:49 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:49 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:49 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:49 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:49 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:49 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:49 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:49 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:49 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:49 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:49 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:49 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:49 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:49 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:49 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:49 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:49 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:50 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:50 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:50 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:50 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:50 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:50 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:50 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:50 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:50 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:50 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:50 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:50 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:50 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:50 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:51 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:51 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:51 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:51 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:51 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:51 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:51 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:51 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:51 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:51 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:51 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:51 PM     ERROR Unauthorized
+[Nest] 820  - 04/01/2024, 6:30:51 PM     ERROR Unauthorized
+[Nest] 1012  - 04/01/2024, 6:44:55 PM     ERROR Bad Request Exception
+[Nest] 1012  - 04/01/2024, 6:44:55 PM     ERROR Bad Request Exception
+[Nest] 1012  - 04/01/2024, 6:44:55 PM     ERROR Bad Request Exception
+[Nest] 1012  - 04/01/2024, 6:44:55 PM     ERROR Bad Request Exception
+[Nest] 1012  - 04/01/2024, 6:45:50 PM     ERROR User not found
+[Nest] 1012  - 04/01/2024, 6:45:50 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 1012  - 04/01/2024, 6:45:50 PM     ERROR Bad Request Exception
+[Nest] 1012  - 04/01/2024, 6:45:50 PM     ERROR Bad Request Exception
+[Nest] 1012  - 04/01/2024, 6:45:50 PM     ERROR Bad Request Exception
+[Nest] 1012  - 04/01/2024, 6:45:50 PM     ERROR Bad Request Exception
+[Nest] 1012  - 04/01/2024, 6:45:50 PM     ERROR Old password is wrong
+[Nest] 1012  - 04/01/2024, 6:45:50 PM     ERROR Bad Request Exception
+[Nest] 1012  - 04/01/2024, 6:45:50 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 1012  - 04/01/2024, 6:45:50 PM     ERROR User not found
+[Nest] 1012  - 04/01/2024, 6:45:51 PM     ERROR User not found
+[Nest] 1012  - 04/01/2024, 6:45:51 PM     ERROR User not found
+[Nest] 1012  - 04/01/2024, 6:45:51 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 1012  - 04/01/2024, 6:45:52 PM     ERROR Track not found
+[Nest] 1012  - 04/01/2024, 6:45:52 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 1012  - 04/01/2024, 6:45:52 PM     ERROR Bad Request Exception
+[Nest] 1012  - 04/01/2024, 6:45:52 PM     ERROR Bad Request Exception
+[Nest] 1012  - 04/01/2024, 6:45:52 PM     ERROR Bad Request Exception
+[Nest] 1012  - 04/01/2024, 6:45:52 PM     ERROR Bad Request Exception
+[Nest] 1012  - 04/01/2024, 6:45:52 PM     ERROR Track not found
+[Nest] 1012  - 04/01/2024, 6:45:52 PM     ERROR Bad Request Exception
+[Nest] 1012  - 04/01/2024, 6:45:52 PM     ERROR Track not found
+[Nest] 1012  - 04/01/2024, 6:45:52 PM     ERROR Track not found
+[Nest] 1012  - 04/01/2024, 6:45:52 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 1012  - 04/01/2024, 6:45:53 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 1012  - 04/01/2024, 6:45:53 PM     ERROR Album not found
+[Nest] 1012  - 04/01/2024, 6:45:53 PM     ERROR Bad Request Exception
+[Nest] 1012  - 04/01/2024, 6:45:53 PM     ERROR Bad Request Exception
+[Nest] 1012  - 04/01/2024, 6:45:53 PM     ERROR Bad Request Exception
+[Nest] 1012  - 04/01/2024, 6:45:53 PM     ERROR Bad Request Exception
+[Nest] 1012  - 04/01/2024, 6:45:53 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 1012  - 04/01/2024, 6:45:53 PM     ERROR Bad Request Exception
+[Nest] 1012  - 04/01/2024, 6:45:53 PM     ERROR Album not found
+[Nest] 1012  - 04/01/2024, 6:45:53 PM     ERROR Album not found
+[Nest] 1012  - 04/01/2024, 6:45:53 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 1012  - 04/01/2024, 6:45:54 PM     ERROR Artist not found
+[Nest] 1012  - 04/01/2024, 6:45:54 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 1012  - 04/01/2024, 6:45:54 PM     LOG  {/artist/95781375-725e-45c2-bfc2-6a5efaef0e4d, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 1012  - 04/01/2024, 6:45:54 PM     ERROR Bad Request Exception
+[Nest] 1012  - 04/01/2024, 6:45:54 PM     ERROR Bad Request Exception
+[Nest] 1012  - 04/01/2024, 6:45:55 PM     ERROR Bad Request Exception
+[Nest] 1012  - 04/01/2024, 6:45:55 PM     ERROR Bad Request Exception
+[Nest] 1012  - 04/01/2024, 6:45:55 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 1012  - 04/01/2024, 6:45:55 PM     ERROR Artist not found
+[Nest] 1012  - 04/01/2024, 6:45:55 PM     ERROR Artist not found
+[Nest] 1012  - 04/01/2024, 6:45:55 PM     ERROR Artist not found
+[Nest] 1012  - 04/01/2024, 6:45:55 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 1012  - 04/01/2024, 6:45:57 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 1012  - 04/01/2024, 6:45:57 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 1012  - 04/01/2024, 6:45:57 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 1012  - 04/01/2024, 6:45:57 PM     ERROR Artist ID not found
+[Nest] 1012  - 04/01/2024, 6:45:57 PM     ERROR Album ID not found
+[Nest] 1012  - 04/01/2024, 6:45:57 PM     ERROR Track ID not found
+[Nest] 1012  - 04/01/2024, 6:45:57 PM     ERROR Album not found
+[Nest] 1012  - 04/01/2024, 6:45:57 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 1012  - 04/01/2024, 6:45:57 PM     ERROR Artist not found
+[Nest] 1012  - 04/01/2024, 6:45:57 PM     ERROR Track not found
+[Nest] 1012  - 04/01/2024, 6:45:58 PM     ERROR Unauthorized
+[Nest] 1012  - 04/01/2024, 6:45:58 PM     ERROR Unauthorized
+[Nest] 1012  - 04/01/2024, 6:45:58 PM     ERROR Unauthorized
+[Nest] 1012  - 04/01/2024, 6:45:58 PM     ERROR Unauthorized
+[Nest] 1012  - 04/01/2024, 6:45:58 PM     ERROR Unauthorized
+[Nest] 1012  - 04/01/2024, 6:45:58 PM     ERROR Unauthorized
+[Nest] 1012  - 04/01/2024, 6:45:58 PM     ERROR Unauthorized
+[Nest] 1012  - 04/01/2024, 6:45:58 PM     ERROR Unauthorized
+[Nest] 1012  - 04/01/2024, 6:45:58 PM     ERROR Unauthorized
+[Nest] 1012  - 04/01/2024, 6:45:58 PM     ERROR Unauthorized
+[Nest] 1012  - 04/01/2024, 6:45:58 PM     ERROR Unauthorized
+[Nest] 1012  - 04/01/2024, 6:45:58 PM     ERROR Unauthorized
+[Nest] 1012  - 04/01/2024, 6:45:58 PM     ERROR Unauthorized
+[Nest] 1012  - 04/01/2024, 6:45:58 PM     ERROR Unauthorized
+[Nest] 1012  - 04/01/2024, 6:45:58 PM     ERROR Unauthorized
+[Nest] 1012  - 04/01/2024, 6:45:58 PM     ERROR Unauthorized
+[Nest] 1012  - 04/01/2024, 6:45:58 PM     ERROR Unauthorized
+[Nest] 1012  - 04/01/2024, 6:45:58 PM     ERROR Unauthorized
+[Nest] 1012  - 04/01/2024, 6:45:58 PM     ERROR Unauthorized
+[Nest] 1012  - 04/01/2024, 6:45:58 PM     ERROR Unauthorized
+[Nest] 1012  - 04/01/2024, 6:45:58 PM     ERROR Unauthorized
+[Nest] 1012  - 04/01/2024, 6:45:59 PM     ERROR Unauthorized
+[Nest] 1012  - 04/01/2024, 6:45:59 PM     ERROR Unauthorized
+[Nest] 1012  - 04/01/2024, 6:45:59 PM     ERROR Unauthorized
+[Nest] 1012  - 04/01/2024, 6:45:59 PM     ERROR Unauthorized
+[Nest] 1012  - 04/01/2024, 6:45:59 PM     ERROR Unauthorized
+[Nest] 1012  - 04/01/2024, 6:45:59 PM     ERROR Unauthorized
+[Nest] 1012  - 04/01/2024, 6:48:04 PM     ERROR Bad Request Exception
+[Nest] 1036  - 04/01/2024, 6:52:12 PM     ERROR refreshToken is not exist in body
+[Nest] 1036  - 04/01/2024, 6:52:35 PM     ERROR Refresh token is invalid or expired
+[Nest] 1036  - 04/01/2024, 6:58:55 PM     ERROR Refresh token is invalid or expired
+[Nest] 1036  - 04/01/2024, 6:58:55 PM     ERROR refreshToken is not exist in body
+[Nest] 1111  - 04/01/2024, 7:03:49 PM     ERROR Refresh token is invalid or expired
+[Nest] 1111  - 04/01/2024, 7:03:49 PM     ERROR Refresh token is invalid or expired
+[Nest] 1111  - 04/01/2024, 7:03:49 PM     ERROR refreshToken is not exist in body
+[Nest] 1111  - 04/01/2024, 7:04:15 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 1111  - 04/01/2024, 7:04:15 PM     ERROR User not found
+[Nest] 1111  - 04/01/2024, 7:04:15 PM     ERROR Bad Request Exception
+[Nest] 1111  - 04/01/2024, 7:04:15 PM     ERROR Bad Request Exception
+[Nest] 1111  - 04/01/2024, 7:04:15 PM     ERROR Bad Request Exception
+[Nest] 1111  - 04/01/2024, 7:04:15 PM     ERROR Bad Request Exception
+[Nest] 1111  - 04/01/2024, 7:04:16 PM     ERROR Old password is wrong
+[Nest] 1111  - 04/01/2024, 7:04:16 PM     ERROR Bad Request Exception
+[Nest] 1111  - 04/01/2024, 7:04:16 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 1111  - 04/01/2024, 7:04:16 PM     ERROR User not found
+[Nest] 1111  - 04/01/2024, 7:04:16 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 1111  - 04/01/2024, 7:04:16 PM     ERROR User not found
+[Nest] 1111  - 04/01/2024, 7:04:16 PM     ERROR User not found
+[Nest] 1111  - 04/01/2024, 7:04:17 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 1111  - 04/01/2024, 7:04:17 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 1111  - 04/01/2024, 7:04:17 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 1111  - 04/01/2024, 7:04:17 PM     ERROR Artist ID not found
+[Nest] 1111  - 04/01/2024, 7:04:18 PM     ERROR Album ID not found
+[Nest] 1111  - 04/01/2024, 7:04:18 PM     ERROR Track ID not found
+[Nest] 1111  - 04/01/2024, 7:04:18 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 1111  - 04/01/2024, 7:04:18 PM     ERROR Album not found
+[Nest] 1111  - 04/01/2024, 7:04:18 PM     ERROR Artist not found
+[Nest] 1111  - 04/01/2024, 7:04:18 PM     ERROR Track not found
+[Nest] 1111  - 04/01/2024, 7:04:19 PM     ERROR Artist not found
+[Nest] 1111  - 04/01/2024, 7:04:19 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 1111  - 04/01/2024, 7:04:19 PM     ERROR Bad Request Exception
+[Nest] 1111  - 04/01/2024, 7:04:19 PM     ERROR Bad Request Exception
+[Nest] 1111  - 04/01/2024, 7:04:19 PM     ERROR Bad Request Exception
+[Nest] 1111  - 04/01/2024, 7:04:19 PM     ERROR Bad Request Exception
+[Nest] 1111  - 04/01/2024, 7:04:19 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 1111  - 04/01/2024, 7:04:19 PM     ERROR Artist not found
+[Nest] 1111  - 04/01/2024, 7:04:19 PM     ERROR Bad Request Exception
+[Nest] 1111  - 04/01/2024, 7:04:20 PM     ERROR Artist not found
+[Nest] 1111  - 04/01/2024, 7:04:20 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 1111  - 04/01/2024, 7:04:20 PM     ERROR Artist not found
+[Nest] 1111  - 04/01/2024, 7:04:21 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 1111  - 04/01/2024, 7:04:21 PM     ERROR Album not found
+[Nest] 1111  - 04/01/2024, 7:04:21 PM     ERROR Bad Request Exception
+[Nest] 1111  - 04/01/2024, 7:04:21 PM     ERROR Bad Request Exception
+[Nest] 1111  - 04/01/2024, 7:04:21 PM     ERROR Bad Request Exception
+[Nest] 1111  - 04/01/2024, 7:04:21 PM     ERROR Bad Request Exception
+[Nest] 1111  - 04/01/2024, 7:04:21 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_ALBUM","year":2022,"artistId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 1111  - 04/01/2024, 7:04:21 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 1111  - 04/01/2024, 7:04:21 PM     ERROR Bad Request Exception
+[Nest] 1111  - 04/01/2024, 7:04:21 PM     ERROR Album not found
+[Nest] 1111  - 04/01/2024, 7:04:21 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 1111  - 04/01/2024, 7:04:21 PM     ERROR Album not found
+[Nest] 1111  - 04/01/2024, 7:04:21 PM     ERROR Album not found
+[Nest] 1111  - 04/01/2024, 7:04:22 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 1111  - 04/01/2024, 7:04:22 PM     ERROR Track not found
+[Nest] 1111  - 04/01/2024, 7:04:22 PM     ERROR Bad Request Exception
+[Nest] 1111  - 04/01/2024, 7:04:22 PM     ERROR Bad Request Exception
+[Nest] 1111  - 04/01/2024, 7:04:22 PM     ERROR Bad Request Exception
+[Nest] 1111  - 04/01/2024, 7:04:22 PM     ERROR Bad Request Exception
+[Nest] 1111  - 04/01/2024, 7:04:22 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 1111  - 04/01/2024, 7:04:23 PM     ERROR Track not found
+[Nest] 1111  - 04/01/2024, 7:04:23 PM     ERROR Bad Request Exception
+[Nest] 1111  - 04/01/2024, 7:04:23 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 1111  - 04/01/2024, 7:04:23 PM     ERROR Track not found
+[Nest] 1111  - 04/01/2024, 7:04:23 PM     ERROR Track not found
+[Nest] 1111  - 04/01/2024, 7:04:23 PM     ERROR Unauthorized
+[Nest] 1111  - 04/01/2024, 7:04:23 PM     ERROR Unauthorized
+[Nest] 1111  - 04/01/2024, 7:04:23 PM     ERROR Unauthorized
+[Nest] 1111  - 04/01/2024, 7:04:23 PM     ERROR Unauthorized
+[Nest] 1111  - 04/01/2024, 7:04:23 PM     ERROR Unauthorized
+[Nest] 1111  - 04/01/2024, 7:04:23 PM     ERROR Unauthorized
+[Nest] 1111  - 04/01/2024, 7:04:23 PM     ERROR Unauthorized
+[Nest] 1111  - 04/01/2024, 7:04:23 PM     ERROR Unauthorized
+[Nest] 1111  - 04/01/2024, 7:04:23 PM     ERROR Unauthorized
+[Nest] 1111  - 04/01/2024, 7:04:23 PM     ERROR Unauthorized
+[Nest] 1111  - 04/01/2024, 7:04:23 PM     ERROR Unauthorized
+[Nest] 1111  - 04/01/2024, 7:04:23 PM     ERROR Unauthorized
+[Nest] 1111  - 04/01/2024, 7:04:24 PM     ERROR Unauthorized
+[Nest] 1111  - 04/01/2024, 7:04:24 PM     ERROR Unauthorized
+[Nest] 1111  - 04/01/2024, 7:04:24 PM     ERROR Unauthorized
+[Nest] 1111  - 04/01/2024, 7:04:24 PM     ERROR Unauthorized
+[Nest] 1111  - 04/01/2024, 7:04:24 PM     ERROR Unauthorized
+[Nest] 1111  - 04/01/2024, 7:04:24 PM     ERROR Unauthorized
+[Nest] 1111  - 04/01/2024, 7:04:24 PM     ERROR Unauthorized
+[Nest] 1111  - 04/01/2024, 7:04:24 PM     ERROR Unauthorized
+[Nest] 1111  - 04/01/2024, 7:04:24 PM     ERROR Unauthorized
+[Nest] 1111  - 04/01/2024, 7:04:24 PM     ERROR Unauthorized
+[Nest] 1111  - 04/01/2024, 7:04:24 PM     ERROR Unauthorized
+[Nest] 1111  - 04/01/2024, 7:04:24 PM     ERROR Unauthorized
+[Nest] 1111  - 04/01/2024, 7:04:24 PM     ERROR Unauthorized
+[Nest] 1111  - 04/01/2024, 7:04:24 PM     ERROR Unauthorized
+[Nest] 1111  - 04/01/2024, 7:04:24 PM     ERROR Unauthorized
+[Nest] 1154  - 04/01/2024, 7:18:20 PM     ERROR Unauthorized
+[Nest] 1154  - 04/01/2024, 7:18:20 PM     ERROR Unauthorized
+[Nest] 1154  - 04/01/2024, 7:18:20 PM     ERROR Unauthorized
+[Nest] 1154  - 04/01/2024, 7:18:20 PM     ERROR Unauthorized
+[Nest] 1154  - 04/01/2024, 7:20:34 PM     ERROR Cannot POST /auth
+[Nest] 1154  - 04/01/2024, 7:20:44 PM     ERROR Unauthorized
+[Nest] 1478  - 04/01/2024, 8:03:01 PM     ERROR Refresh token is invalid or expired
+[Nest] 1478  - 04/01/2024, 8:03:01 PM     ERROR Refresh token is invalid or expired
+[Nest] 1478  - 04/01/2024, 8:03:01 PM     ERROR refreshToken is not exist in body
+[Nest] 1478  - 04/01/2024, 8:03:22 PM     ERROR User not found
+[Nest] 1478  - 04/01/2024, 8:03:22 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 1478  - 04/01/2024, 8:03:22 PM     ERROR Bad Request Exception
+[Nest] 1478  - 04/01/2024, 8:03:22 PM     ERROR Bad Request Exception
+[Nest] 1478  - 04/01/2024, 8:03:22 PM     ERROR Bad Request Exception
+[Nest] 1478  - 04/01/2024, 8:03:22 PM     ERROR Bad Request Exception
+[Nest] 1478  - 04/01/2024, 8:03:23 PM     ERROR Old password is wrong
+[Nest] 1478  - 04/01/2024, 8:03:23 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 1478  - 04/01/2024, 8:03:23 PM     ERROR Bad Request Exception
+[Nest] 1478  - 04/01/2024, 8:03:23 PM     ERROR User not found
+[Nest] 1478  - 04/01/2024, 8:03:23 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 1478  - 04/01/2024, 8:03:23 PM     ERROR User not found
+[Nest] 1478  - 04/01/2024, 8:03:23 PM     ERROR User not found
+[Nest] 1478  - 04/01/2024, 8:03:24 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 1478  - 04/01/2024, 8:03:24 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 1478  - 04/01/2024, 8:03:24 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 1478  - 04/01/2024, 8:03:24 PM     ERROR Artist ID not found
+[Nest] 1478  - 04/01/2024, 8:03:24 PM     ERROR Album ID not found
+[Nest] 1478  - 04/01/2024, 8:03:24 PM     ERROR Track ID not found
+[Nest] 1478  - 04/01/2024, 8:03:25 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 1478  - 04/01/2024, 8:03:25 PM     ERROR Album not found
+[Nest] 1478  - 04/01/2024, 8:03:25 PM     ERROR Artist not found
+[Nest] 1478  - 04/01/2024, 8:03:26 PM     ERROR Track not found
+[Nest] 1478  - 04/01/2024, 8:03:26 PM     ERROR Artist not found
+[Nest] 1478  - 04/01/2024, 8:03:26 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 1478  - 04/01/2024, 8:03:26 PM     ERROR Bad Request Exception
+[Nest] 1478  - 04/01/2024, 8:03:26 PM     ERROR Bad Request Exception
+[Nest] 1478  - 04/01/2024, 8:03:26 PM     ERROR Bad Request Exception
+[Nest] 1478  - 04/01/2024, 8:03:26 PM     ERROR Bad Request Exception
+[Nest] 1478  - 04/01/2024, 8:03:27 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 1478  - 04/01/2024, 8:03:27 PM     ERROR Artist not found
+[Nest] 1478  - 04/01/2024, 8:03:27 PM     ERROR Artist not found
+[Nest] 1478  - 04/01/2024, 8:03:27 PM     ERROR Artist not found
+[Nest] 1478  - 04/01/2024, 8:03:27 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 1478  - 04/01/2024, 8:03:28 PM     ERROR Album not found
+[Nest] 1478  - 04/01/2024, 8:03:28 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 1478  - 04/01/2024, 8:03:28 PM     ERROR Bad Request Exception
+[Nest] 1478  - 04/01/2024, 8:03:28 PM     ERROR Bad Request Exception
+[Nest] 1478  - 04/01/2024, 8:03:28 PM     ERROR Bad Request Exception
+[Nest] 1478  - 04/01/2024, 8:03:28 PM     ERROR Bad Request Exception
+[Nest] 1478  - 04/01/2024, 8:03:28 PM     ERROR Album not found
+[Nest] 1478  - 04/01/2024, 8:03:28 PM     ERROR Bad Request Exception
+[Nest] 1478  - 04/01/2024, 8:03:28 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 1478  - 04/01/2024, 8:03:28 PM     ERROR Album not found
+[Nest] 1478  - 04/01/2024, 8:03:29 PM     ERROR Album not found
+[Nest] 1478  - 04/01/2024, 8:03:29 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 1478  - 04/01/2024, 8:03:29 PM     ERROR Track not found
+[Nest] 1478  - 04/01/2024, 8:03:29 PM     ERROR Bad Request Exception
+[Nest] 1478  - 04/01/2024, 8:03:29 PM     ERROR Bad Request Exception
+[Nest] 1478  - 04/01/2024, 8:03:29 PM     ERROR Bad Request Exception
+[Nest] 1478  - 04/01/2024, 8:03:29 PM     ERROR Bad Request Exception
+[Nest] 1478  - 04/01/2024, 8:03:30 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 1478  - 04/01/2024, 8:03:30 PM     ERROR Track not found
+[Nest] 1478  - 04/01/2024, 8:03:30 PM     ERROR Track not found
+[Nest] 1478  - 04/01/2024, 8:03:30 PM     ERROR Track not found
+[Nest] 1478  - 04/01/2024, 8:03:30 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 1478  - 04/01/2024, 8:03:30 PM     ERROR Unauthorized
+[Nest] 1478  - 04/01/2024, 8:03:30 PM     ERROR Unauthorized
+[Nest] 1478  - 04/01/2024, 8:03:30 PM     ERROR Unauthorized
+[Nest] 1478  - 04/01/2024, 8:03:30 PM     ERROR Unauthorized
+[Nest] 1478  - 04/01/2024, 8:03:30 PM     ERROR Unauthorized
+[Nest] 1478  - 04/01/2024, 8:03:30 PM     ERROR Unauthorized
+[Nest] 1478  - 04/01/2024, 8:03:30 PM     ERROR Unauthorized
+[Nest] 1478  - 04/01/2024, 8:03:30 PM     ERROR Unauthorized
+[Nest] 1478  - 04/01/2024, 8:03:30 PM     ERROR Unauthorized
+[Nest] 1478  - 04/01/2024, 8:03:30 PM     ERROR Unauthorized
+[Nest] 1478  - 04/01/2024, 8:03:31 PM     ERROR Unauthorized
+[Nest] 1478  - 04/01/2024, 8:03:31 PM     ERROR Unauthorized
+[Nest] 1478  - 04/01/2024, 8:03:31 PM     ERROR Unauthorized
+[Nest] 1478  - 04/01/2024, 8:03:31 PM     ERROR Unauthorized
+[Nest] 1478  - 04/01/2024, 8:03:31 PM     ERROR Unauthorized
+[Nest] 1478  - 04/01/2024, 8:03:31 PM     ERROR Unauthorized
+[Nest] 1478  - 04/01/2024, 8:03:31 PM     ERROR Unauthorized
+[Nest] 1478  - 04/01/2024, 8:03:31 PM     ERROR Unauthorized
+[Nest] 1478  - 04/01/2024, 8:03:31 PM     ERROR Unauthorized
+[Nest] 1478  - 04/01/2024, 8:03:31 PM     ERROR Unauthorized
+[Nest] 1478  - 04/01/2024, 8:03:31 PM     ERROR Unauthorized
+[Nest] 1478  - 04/01/2024, 8:03:31 PM     ERROR Unauthorized
+[Nest] 1478  - 04/01/2024, 8:03:31 PM     ERROR Unauthorized
+[Nest] 1478  - 04/01/2024, 8:03:31 PM     ERROR Unauthorized
+[Nest] 1478  - 04/01/2024, 8:03:31 PM     ERROR Unauthorized
+[Nest] 1478  - 04/01/2024, 8:03:31 PM     ERROR Unauthorized
+[Nest] 1478  - 04/01/2024, 8:03:31 PM     ERROR Unauthorized
+[Nest] 98  - 04/01/2024, 8:16:20 PM     ERROR Cannot GET /auth/signup
+[Nest] 106  - 04/01/2024, 8:54:55 PM     ERROR Cannot GET /auth/signup
+[Nest] 106  - 04/01/2024, 8:55:03 PM     ERROR Cannot GET /auth/signup
+[Nest] 106  - 04/01/2024, 8:55:35 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 9:04:39 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 9:04:51 PM     ERROR Cannot GET /favs/album/57ea0411-cf2c-4c71-9047-099531be38a1
+[Nest] 62  - 04/01/2024, 9:05:45 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 62  - 04/01/2024, 9:05:45 PM     ERROR User not found
+[Nest] 62  - 04/01/2024, 9:05:46 PM     ERROR Bad Request Exception
+[Nest] 62  - 04/01/2024, 9:05:46 PM     ERROR Bad Request Exception
+[Nest] 62  - 04/01/2024, 9:05:46 PM     ERROR Bad Request Exception
+[Nest] 62  - 04/01/2024, 9:05:46 PM     ERROR Bad Request Exception
+[Nest] 62  - 04/01/2024, 9:05:46 PM     ERROR Old password is wrong
+[Nest] 62  - 04/01/2024, 9:05:46 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 62  - 04/01/2024, 9:05:46 PM     ERROR Bad Request Exception
+[Nest] 62  - 04/01/2024, 9:05:46 PM     ERROR User not found
+[Nest] 62  - 04/01/2024, 9:05:47 PM     ERROR User not found
+[Nest] 62  - 04/01/2024, 9:05:47 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 62  - 04/01/2024, 9:05:47 PM     ERROR User not found
+[Nest] 62  - 04/01/2024, 9:05:48 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 62  - 04/01/2024, 9:05:48 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 62  - 04/01/2024, 9:05:49 PM     ERROR Artist ID not found
+[Nest] 62  - 04/01/2024, 9:05:48 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 62  - 04/01/2024, 9:05:49 PM     ERROR Album ID not found
+[Nest] 62  - 04/01/2024, 9:05:49 PM     ERROR Track ID not found
+[Nest] 62  - 04/01/2024, 9:05:49 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 62  - 04/01/2024, 9:05:49 PM     ERROR Album not found
+[Nest] 62  - 04/01/2024, 9:05:49 PM     ERROR Artist not found
+[Nest] 62  - 04/01/2024, 9:05:50 PM     ERROR Track not found
+[Nest] 62  - 04/01/2024, 9:05:50 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 62  - 04/01/2024, 9:05:50 PM     ERROR Artist not found
+[Nest] 62  - 04/01/2024, 9:05:50 PM     ERROR Bad Request Exception
+[Nest] 62  - 04/01/2024, 9:05:50 PM     ERROR Bad Request Exception
+[Nest] 62  - 04/01/2024, 9:05:50 PM     ERROR Bad Request Exception
+[Nest] 62  - 04/01/2024, 9:05:50 PM     ERROR Bad Request Exception
+[Nest] 62  - 04/01/2024, 9:05:51 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 62  - 04/01/2024, 9:05:51 PM     ERROR Bad Request Exception
+[Nest] 62  - 04/01/2024, 9:05:51 PM     ERROR Artist not found
+[Nest] 62  - 04/01/2024, 9:05:51 PM     ERROR Artist not found
+[Nest] 62  - 04/01/2024, 9:05:51 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 62  - 04/01/2024, 9:05:51 PM     ERROR Artist not found
+[Nest] 62  - 04/01/2024, 9:05:52 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 62  - 04/01/2024, 9:05:52 PM     ERROR Album not found
+[Nest] 62  - 04/01/2024, 9:05:52 PM     ERROR Bad Request Exception
+[Nest] 62  - 04/01/2024, 9:05:52 PM     ERROR Bad Request Exception
+[Nest] 62  - 04/01/2024, 9:05:52 PM     ERROR Bad Request Exception
+[Nest] 62  - 04/01/2024, 9:05:52 PM     ERROR Bad Request Exception
+[Nest] 62  - 04/01/2024, 9:05:52 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 62  - 04/01/2024, 9:05:53 PM     ERROR Bad Request Exception
+[Nest] 62  - 04/01/2024, 9:05:53 PM     ERROR Album not found
+[Nest] 62  - 04/01/2024, 9:05:53 PM     ERROR Album not found
+[Nest] 62  - 04/01/2024, 9:05:53 PM     ERROR Album not found
+[Nest] 62  - 04/01/2024, 9:05:53 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 62  - 04/01/2024, 9:05:54 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 62  - 04/01/2024, 9:05:54 PM     ERROR Track not found
+[Nest] 62  - 04/01/2024, 9:05:54 PM     ERROR Bad Request Exception
+[Nest] 62  - 04/01/2024, 9:05:54 PM     ERROR Bad Request Exception
+[Nest] 62  - 04/01/2024, 9:05:54 PM     ERROR Bad Request Exception
+[Nest] 62  - 04/01/2024, 9:05:54 PM     ERROR Bad Request Exception
+[Nest] 62  - 04/01/2024, 9:05:54 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 62  - 04/01/2024, 9:05:54 PM     ERROR Bad Request Exception
+[Nest] 62  - 04/01/2024, 9:05:54 PM     ERROR Track not found
+[Nest] 62  - 04/01/2024, 9:05:54 PM     ERROR Track not found
+[Nest] 62  - 04/01/2024, 9:05:54 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 62  - 04/01/2024, 9:05:54 PM     ERROR Track not found
+[Nest] 62  - 04/01/2024, 9:05:55 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 9:05:55 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 9:05:55 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 9:05:55 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 9:05:55 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 9:05:55 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 9:05:55 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 9:05:55 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 9:05:55 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 9:05:55 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 9:05:55 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 9:05:55 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 9:05:55 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 9:05:55 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 9:05:55 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 9:05:55 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 9:05:55 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 9:05:56 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 9:05:56 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 9:05:56 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 9:05:56 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 9:05:56 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 9:05:56 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 9:05:56 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 9:05:56 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 9:05:56 PM     ERROR Unauthorized
+[Nest] 62  - 04/01/2024, 9:05:56 PM     ERROR Unauthorized
+[Nest] 74  - 04/01/2024, 9:07:35 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 74  - 04/01/2024, 9:07:35 PM     ERROR User not found
+[Nest] 74  - 04/01/2024, 9:07:35 PM     ERROR Bad Request Exception
+[Nest] 74  - 04/01/2024, 9:07:35 PM     ERROR Bad Request Exception
+[Nest] 74  - 04/01/2024, 9:07:35 PM     ERROR Bad Request Exception
+[Nest] 74  - 04/01/2024, 9:07:35 PM     ERROR Bad Request Exception
+[Nest] 74  - 04/01/2024, 9:07:36 PM     ERROR Old password is wrong
+[Nest] 74  - 04/01/2024, 9:07:36 PM     ERROR Bad Request Exception
+[Nest] 74  - 04/01/2024, 9:07:36 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 74  - 04/01/2024, 9:07:36 PM     ERROR User not found
+[Nest] 74  - 04/01/2024, 9:07:36 PM     ERROR User not found
+[Nest] 74  - 04/01/2024, 9:07:36 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 74  - 04/01/2024, 9:07:36 PM     ERROR User not found
+[Nest] 74  - 04/01/2024, 9:07:37 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 74  - 04/01/2024, 9:07:37 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 74  - 04/01/2024, 9:07:37 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 74  - 04/01/2024, 9:07:37 PM     ERROR Artist ID not found
+[Nest] 74  - 04/01/2024, 9:07:37 PM     ERROR Album ID not found
+[Nest] 74  - 04/01/2024, 9:07:37 PM     ERROR Track ID not found
+[Nest] 74  - 04/01/2024, 9:07:38 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 74  - 04/01/2024, 9:07:38 PM     ERROR Album not found
+[Nest] 74  - 04/01/2024, 9:07:38 PM     ERROR Artist not found
+[Nest] 74  - 04/01/2024, 9:07:38 PM     ERROR Track not found
+[Nest] 74  - 04/01/2024, 9:07:39 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 74  - 04/01/2024, 9:07:39 PM     ERROR Artist not found
+[Nest] 74  - 04/01/2024, 9:07:39 PM     ERROR Bad Request Exception
+[Nest] 74  - 04/01/2024, 9:07:39 PM     ERROR Bad Request Exception
+[Nest] 74  - 04/01/2024, 9:07:39 PM     ERROR Bad Request Exception
+[Nest] 74  - 04/01/2024, 9:07:39 PM     ERROR Bad Request Exception
+[Nest] 74  - 04/01/2024, 9:07:39 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 74  - 04/01/2024, 9:07:39 PM     ERROR Bad Request Exception
+[Nest] 74  - 04/01/2024, 9:07:39 PM     ERROR Artist not found
+[Nest] 74  - 04/01/2024, 9:07:39 PM     ERROR Artist not found
+[Nest] 74  - 04/01/2024, 9:07:39 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 74  - 04/01/2024, 9:07:39 PM     ERROR Artist not found
+[Nest] 74  - 04/01/2024, 9:07:40 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 74  - 04/01/2024, 9:07:40 PM     ERROR Album not found
+[Nest] 74  - 04/01/2024, 9:07:40 PM     ERROR Bad Request Exception
+[Nest] 74  - 04/01/2024, 9:07:40 PM     ERROR Bad Request Exception
+[Nest] 74  - 04/01/2024, 9:07:40 PM     ERROR Bad Request Exception
+[Nest] 74  - 04/01/2024, 9:07:40 PM     ERROR Bad Request Exception
+[Nest] 74  - 04/01/2024, 9:07:41 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 74  - 04/01/2024, 9:07:41 PM     ERROR Bad Request Exception
+[Nest] 74  - 04/01/2024, 9:07:41 PM     ERROR Album not found
+[Nest] 74  - 04/01/2024, 9:07:41 PM     ERROR Album not found
+[Nest] 74  - 04/01/2024, 9:07:41 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 74  - 04/01/2024, 9:07:41 PM     ERROR Album not found
+[Nest] 74  - 04/01/2024, 9:07:42 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 74  - 04/01/2024, 9:07:42 PM     ERROR Track not found
+[Nest] 74  - 04/01/2024, 9:07:42 PM     ERROR Bad Request Exception
+[Nest] 74  - 04/01/2024, 9:07:42 PM     ERROR Bad Request Exception
+[Nest] 74  - 04/01/2024, 9:07:42 PM     ERROR Bad Request Exception
+[Nest] 74  - 04/01/2024, 9:07:42 PM     ERROR Bad Request Exception
+[Nest] 74  - 04/01/2024, 9:07:42 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 74  - 04/01/2024, 9:07:42 PM     ERROR Bad Request Exception
+[Nest] 74  - 04/01/2024, 9:07:42 PM     ERROR Track not found
+[Nest] 74  - 04/01/2024, 9:07:42 PM     ERROR Track not found
+[Nest] 74  - 04/01/2024, 9:07:42 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 74  - 04/01/2024, 9:07:42 PM     ERROR Track not found
+[Nest] 74  - 04/01/2024, 9:07:42 PM     ERROR Unauthorized
+[Nest] 74  - 04/01/2024, 9:07:43 PM     ERROR Unauthorized
+[Nest] 74  - 04/01/2024, 9:07:43 PM     ERROR Unauthorized
+[Nest] 74  - 04/01/2024, 9:07:43 PM     ERROR Unauthorized
+[Nest] 74  - 04/01/2024, 9:07:43 PM     ERROR Unauthorized
+[Nest] 74  - 04/01/2024, 9:07:43 PM     ERROR Unauthorized
+[Nest] 74  - 04/01/2024, 9:07:43 PM     ERROR Unauthorized
+[Nest] 74  - 04/01/2024, 9:07:43 PM     ERROR Unauthorized
+[Nest] 74  - 04/01/2024, 9:07:43 PM     ERROR Unauthorized
+[Nest] 74  - 04/01/2024, 9:07:43 PM     ERROR Unauthorized
+[Nest] 74  - 04/01/2024, 9:07:43 PM     ERROR Unauthorized
+[Nest] 74  - 04/01/2024, 9:07:43 PM     ERROR Unauthorized
+[Nest] 74  - 04/01/2024, 9:07:43 PM     ERROR Unauthorized
+[Nest] 74  - 04/01/2024, 9:07:43 PM     ERROR Unauthorized
+[Nest] 74  - 04/01/2024, 9:07:43 PM     ERROR Unauthorized
+[Nest] 74  - 04/01/2024, 9:07:43 PM     ERROR Unauthorized
+[Nest] 74  - 04/01/2024, 9:07:43 PM     ERROR Unauthorized
+[Nest] 74  - 04/01/2024, 9:07:43 PM     ERROR Unauthorized
+[Nest] 74  - 04/01/2024, 9:07:43 PM     ERROR Unauthorized
+[Nest] 74  - 04/01/2024, 9:07:43 PM     ERROR Unauthorized
+[Nest] 74  - 04/01/2024, 9:07:43 PM     ERROR Unauthorized
+[Nest] 74  - 04/01/2024, 9:07:44 PM     ERROR Unauthorized
+[Nest] 74  - 04/01/2024, 9:07:44 PM     ERROR Unauthorized
+[Nest] 74  - 04/01/2024, 9:07:44 PM     ERROR Unauthorized
+[Nest] 74  - 04/01/2024, 9:07:44 PM     ERROR Unauthorized
+[Nest] 74  - 04/01/2024, 9:07:44 PM     ERROR Unauthorized
+[Nest] 74  - 04/01/2024, 9:07:44 PM     ERROR Unauthorized
+[Nest] 86  - 04/01/2024, 9:08:45 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 86  - 04/01/2024, 9:08:45 PM     ERROR User not found
+[Nest] 86  - 04/01/2024, 9:08:45 PM     ERROR Bad Request Exception
+[Nest] 86  - 04/01/2024, 9:08:45 PM     ERROR Bad Request Exception
+[Nest] 86  - 04/01/2024, 9:08:45 PM     ERROR Bad Request Exception
+[Nest] 86  - 04/01/2024, 9:08:45 PM     ERROR Bad Request Exception
+[Nest] 86  - 04/01/2024, 9:08:46 PM     ERROR Old password is wrong
+[Nest] 86  - 04/01/2024, 9:08:46 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 86  - 04/01/2024, 9:08:46 PM     ERROR Bad Request Exception
+[Nest] 86  - 04/01/2024, 9:08:46 PM     ERROR User not found
+[Nest] 86  - 04/01/2024, 9:08:46 PM     ERROR User not found
+[Nest] 86  - 04/01/2024, 9:08:46 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 86  - 04/01/2024, 9:08:46 PM     ERROR User not found
+[Nest] 86  - 04/01/2024, 9:08:48 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 86  - 04/01/2024, 9:08:48 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 86  - 04/01/2024, 9:08:48 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 86  - 04/01/2024, 9:08:48 PM     ERROR Artist ID not found
+[Nest] 86  - 04/01/2024, 9:08:48 PM     ERROR Album ID not found
+[Nest] 86  - 04/01/2024, 9:08:48 PM     ERROR Track ID not found
+[Nest] 86  - 04/01/2024, 9:08:49 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 86  - 04/01/2024, 9:08:49 PM     ERROR Album not found
+[Nest] 86  - 04/01/2024, 9:08:49 PM     ERROR Track not found
+[Nest] 86  - 04/01/2024, 9:08:49 PM     ERROR Artist not found
+[Nest] 86  - 04/01/2024, 9:08:50 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 86  - 04/01/2024, 9:08:50 PM     ERROR Artist not found
+[Nest] 86  - 04/01/2024, 9:08:50 PM     ERROR Bad Request Exception
+[Nest] 86  - 04/01/2024, 9:08:50 PM     ERROR Bad Request Exception
+[Nest] 86  - 04/01/2024, 9:08:50 PM     ERROR Bad Request Exception
+[Nest] 86  - 04/01/2024, 9:08:50 PM     ERROR Bad Request Exception
+[Nest] 86  - 04/01/2024, 9:08:50 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 86  - 04/01/2024, 9:08:50 PM     ERROR Bad Request Exception
+[Nest] 86  - 04/01/2024, 9:08:50 PM     ERROR Artist not found
+[Nest] 86  - 04/01/2024, 9:08:50 PM     ERROR Artist not found
+[Nest] 86  - 04/01/2024, 9:08:50 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 86  - 04/01/2024, 9:08:50 PM     ERROR Artist not found
+[Nest] 86  - 04/01/2024, 9:08:51 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 86  - 04/01/2024, 9:08:51 PM     ERROR Album not found
+[Nest] 86  - 04/01/2024, 9:08:51 PM     ERROR Bad Request Exception
+[Nest] 86  - 04/01/2024, 9:08:51 PM     ERROR Bad Request Exception
+[Nest] 86  - 04/01/2024, 9:08:51 PM     ERROR Bad Request Exception
+[Nest] 86  - 04/01/2024, 9:08:51 PM     ERROR Bad Request Exception
+[Nest] 86  - 04/01/2024, 9:08:52 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 86  - 04/01/2024, 9:08:52 PM     ERROR Bad Request Exception
+[Nest] 86  - 04/01/2024, 9:08:52 PM     ERROR Album not found
+[Nest] 86  - 04/01/2024, 9:08:52 PM     ERROR Album not found
+[Nest] 86  - 04/01/2024, 9:08:52 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 86  - 04/01/2024, 9:08:52 PM     ERROR Album not found
+[Nest] 86  - 04/01/2024, 9:08:53 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 86  - 04/01/2024, 9:08:53 PM     ERROR Track not found
+[Nest] 86  - 04/01/2024, 9:08:53 PM     ERROR Bad Request Exception
+[Nest] 86  - 04/01/2024, 9:08:53 PM     ERROR Bad Request Exception
+[Nest] 86  - 04/01/2024, 9:08:53 PM     ERROR Bad Request Exception
+[Nest] 86  - 04/01/2024, 9:08:53 PM     ERROR Bad Request Exception
+[Nest] 86  - 04/01/2024, 9:08:53 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 86  - 04/01/2024, 9:08:53 PM     ERROR Bad Request Exception
+[Nest] 86  - 04/01/2024, 9:08:53 PM     ERROR Track not found
+[Nest] 86  - 04/01/2024, 9:08:53 PM     ERROR Track not found
+[Nest] 86  - 04/01/2024, 9:08:53 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 86  - 04/01/2024, 9:08:53 PM     ERROR Track not found
+[Nest] 86  - 04/01/2024, 9:08:53 PM     ERROR Unauthorized
+[Nest] 86  - 04/01/2024, 9:08:53 PM     ERROR Unauthorized
+[Nest] 86  - 04/01/2024, 9:08:54 PM     ERROR Unauthorized
+[Nest] 86  - 04/01/2024, 9:08:54 PM     ERROR Unauthorized
+[Nest] 86  - 04/01/2024, 9:08:54 PM     ERROR Unauthorized
+[Nest] 86  - 04/01/2024, 9:08:54 PM     ERROR Unauthorized
+[Nest] 86  - 04/01/2024, 9:08:54 PM     ERROR Unauthorized
+[Nest] 86  - 04/01/2024, 9:08:54 PM     ERROR Unauthorized
+[Nest] 86  - 04/01/2024, 9:08:54 PM     ERROR Unauthorized
+[Nest] 86  - 04/01/2024, 9:08:54 PM     ERROR Unauthorized
+[Nest] 86  - 04/01/2024, 9:08:54 PM     ERROR Unauthorized
+[Nest] 86  - 04/01/2024, 9:08:54 PM     ERROR Unauthorized
+[Nest] 86  - 04/01/2024, 9:08:54 PM     ERROR Unauthorized
+[Nest] 86  - 04/01/2024, 9:08:54 PM     ERROR Unauthorized
+[Nest] 86  - 04/01/2024, 9:08:54 PM     ERROR Unauthorized
+[Nest] 86  - 04/01/2024, 9:08:54 PM     ERROR Unauthorized
+[Nest] 86  - 04/01/2024, 9:08:54 PM     ERROR Unauthorized
+[Nest] 86  - 04/01/2024, 9:08:54 PM     ERROR Unauthorized
+[Nest] 86  - 04/01/2024, 9:08:54 PM     ERROR Unauthorized
+[Nest] 86  - 04/01/2024, 9:08:54 PM     ERROR Unauthorized
+[Nest] 86  - 04/01/2024, 9:08:55 PM     ERROR Unauthorized
+[Nest] 86  - 04/01/2024, 9:08:55 PM     ERROR Unauthorized
+[Nest] 86  - 04/01/2024, 9:08:55 PM     ERROR Unauthorized
+[Nest] 86  - 04/01/2024, 9:08:55 PM     ERROR Unauthorized
+[Nest] 86  - 04/01/2024, 9:08:55 PM     ERROR Unauthorized
+[Nest] 86  - 04/01/2024, 9:08:55 PM     ERROR Unauthorized
+[Nest] 86  - 04/01/2024, 9:08:55 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:12:56 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 118  - 04/01/2024, 9:12:56 PM     ERROR User not found
+[Nest] 118  - 04/01/2024, 9:12:56 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:12:56 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:12:56 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:12:56 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:12:57 PM     ERROR Old password is wrong
+[Nest] 118  - 04/01/2024, 9:12:57 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 118  - 04/01/2024, 9:12:57 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:12:57 PM     ERROR User not found
+[Nest] 118  - 04/01/2024, 9:12:57 PM     ERROR User not found
+[Nest] 118  - 04/01/2024, 9:12:57 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 118  - 04/01/2024, 9:12:57 PM     ERROR User not found
+[Nest] 118  - 04/01/2024, 9:12:59 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 118  - 04/01/2024, 9:12:59 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 118  - 04/01/2024, 9:12:59 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 118  - 04/01/2024, 9:12:59 PM     ERROR Artist ID not found
+[Nest] 118  - 04/01/2024, 9:12:59 PM     ERROR Album ID not found
+[Nest] 118  - 04/01/2024, 9:12:59 PM     ERROR Track ID not found
+[Nest] 118  - 04/01/2024, 9:12:59 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 118  - 04/01/2024, 9:12:59 PM     ERROR Album not found
+[Nest] 118  - 04/01/2024, 9:12:59 PM     ERROR Artist not found
+[Nest] 118  - 04/01/2024, 9:12:59 PM     ERROR Track not found
+[Nest] 118  - 04/01/2024, 9:13:00 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 118  - 04/01/2024, 9:13:00 PM     ERROR Artist not found
+[Nest] 118  - 04/01/2024, 9:13:00 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:13:00 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:13:00 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:13:00 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:13:01 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 118  - 04/01/2024, 9:13:01 PM     ERROR Artist not found
+[Nest] 118  - 04/01/2024, 9:13:01 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:13:01 PM     ERROR Artist not found
+[Nest] 118  - 04/01/2024, 9:13:01 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 118  - 04/01/2024, 9:13:01 PM     ERROR Artist not found
+[Nest] 118  - 04/01/2024, 9:13:02 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 118  - 04/01/2024, 9:13:02 PM     ERROR Album not found
+[Nest] 118  - 04/01/2024, 9:13:02 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:13:02 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:13:02 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:13:02 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:13:02 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 118  - 04/01/2024, 9:13:02 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:13:02 PM     ERROR Album not found
+[Nest] 118  - 04/01/2024, 9:13:02 PM     ERROR Album not found
+[Nest] 118  - 04/01/2024, 9:13:02 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 118  - 04/01/2024, 9:13:02 PM     ERROR Album not found
+[Nest] 118  - 04/01/2024, 9:13:03 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 118  - 04/01/2024, 9:13:03 PM     ERROR Track not found
+[Nest] 118  - 04/01/2024, 9:13:03 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:13:03 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:13:03 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:13:03 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:13:03 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 118  - 04/01/2024, 9:13:04 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:13:04 PM     ERROR Track not found
+[Nest] 118  - 04/01/2024, 9:13:04 PM     ERROR Track not found
+[Nest] 118  - 04/01/2024, 9:13:04 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 118  - 04/01/2024, 9:13:04 PM     ERROR Track not found
+[Nest] 118  - 04/01/2024, 9:13:04 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:13:04 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:13:04 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:13:04 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:13:04 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:13:04 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:13:04 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:13:04 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:13:04 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:13:04 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:13:04 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:13:04 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:13:05 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:13:05 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:13:05 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:13:05 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:13:05 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:13:05 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:13:05 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:13:05 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:13:05 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:13:05 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:13:05 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:13:05 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:13:05 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:13:05 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:13:05 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:15:49 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 118  - 04/01/2024, 9:15:49 PM     ERROR User not found
+[Nest] 118  - 04/01/2024, 9:15:49 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:15:49 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:15:49 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:15:49 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:15:50 PM     ERROR Old password is wrong
+[Nest] 118  - 04/01/2024, 9:15:50 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 118  - 04/01/2024, 9:15:50 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:15:50 PM     ERROR User not found
+[Nest] 118  - 04/01/2024, 9:15:50 PM     ERROR User not found
+[Nest] 118  - 04/01/2024, 9:15:50 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 118  - 04/01/2024, 9:15:50 PM     ERROR User not found
+[Nest] 118  - 04/01/2024, 9:15:52 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 118  - 04/01/2024, 9:15:52 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 118  - 04/01/2024, 9:15:52 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 118  - 04/01/2024, 9:15:52 PM     ERROR Artist ID not found
+[Nest] 118  - 04/01/2024, 9:15:52 PM     ERROR Album ID not found
+[Nest] 118  - 04/01/2024, 9:15:52 PM     ERROR Track ID not found
+[Nest] 118  - 04/01/2024, 9:15:52 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 118  - 04/01/2024, 9:15:52 PM     ERROR Album not found
+[Nest] 118  - 04/01/2024, 9:15:52 PM     ERROR Artist not found
+[Nest] 118  - 04/01/2024, 9:15:52 PM     ERROR Track not found
+[Nest] 118  - 04/01/2024, 9:15:53 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 118  - 04/01/2024, 9:15:53 PM     ERROR Artist not found
+[Nest] 118  - 04/01/2024, 9:15:53 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:15:53 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:15:53 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:15:53 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:15:53 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 118  - 04/01/2024, 9:15:54 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:15:54 PM     ERROR Artist not found
+[Nest] 118  - 04/01/2024, 9:15:54 PM     ERROR Artist not found
+[Nest] 118  - 04/01/2024, 9:15:54 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 118  - 04/01/2024, 9:15:54 PM     ERROR Artist not found
+[Nest] 118  - 04/01/2024, 9:15:55 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 118  - 04/01/2024, 9:15:55 PM     ERROR Album not found
+[Nest] 118  - 04/01/2024, 9:15:55 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:15:55 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:15:55 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:15:55 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:15:55 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 118  - 04/01/2024, 9:15:55 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:15:55 PM     ERROR Album not found
+[Nest] 118  - 04/01/2024, 9:15:55 PM     ERROR Album not found
+[Nest] 118  - 04/01/2024, 9:15:56 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 118  - 04/01/2024, 9:15:56 PM     ERROR Album not found
+[Nest] 118  - 04/01/2024, 9:15:56 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 118  - 04/01/2024, 9:15:56 PM     ERROR Track not found
+[Nest] 118  - 04/01/2024, 9:15:56 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:15:56 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:15:56 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:15:56 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:15:57 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 118  - 04/01/2024, 9:15:57 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:15:57 PM     ERROR Track not found
+[Nest] 118  - 04/01/2024, 9:15:57 PM     ERROR Track not found
+[Nest] 118  - 04/01/2024, 9:15:57 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 118  - 04/01/2024, 9:15:57 PM     ERROR Track not found
+[Nest] 118  - 04/01/2024, 9:15:57 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:15:57 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:15:57 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:15:57 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:15:57 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:15:57 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:15:57 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:15:57 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:15:57 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:15:58 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:15:58 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:15:58 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:15:58 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:15:58 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:15:58 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:15:58 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:15:58 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:15:58 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:15:58 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:15:58 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:15:58 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:15:58 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:15:58 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:15:58 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:15:58 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:15:58 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:15:59 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:16:52 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 118  - 04/01/2024, 9:16:52 PM     ERROR User not found
+[Nest] 118  - 04/01/2024, 9:16:52 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:16:52 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:16:52 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:16:52 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:16:53 PM     ERROR Old password is wrong
+[Nest] 118  - 04/01/2024, 9:16:53 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 118  - 04/01/2024, 9:16:53 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:16:53 PM     ERROR User not found
+[Nest] 118  - 04/01/2024, 9:16:53 PM     ERROR User not found
+[Nest] 118  - 04/01/2024, 9:16:54 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 118  - 04/01/2024, 9:16:54 PM     ERROR User not found
+[Nest] 118  - 04/01/2024, 9:16:55 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 118  - 04/01/2024, 9:16:55 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 118  - 04/01/2024, 9:16:55 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 118  - 04/01/2024, 9:16:55 PM     ERROR Artist ID not found
+[Nest] 118  - 04/01/2024, 9:16:55 PM     ERROR Album ID not found
+[Nest] 118  - 04/01/2024, 9:16:55 PM     ERROR Track ID not found
+[Nest] 118  - 04/01/2024, 9:16:56 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 118  - 04/01/2024, 9:16:56 PM     ERROR Album not found
+[Nest] 118  - 04/01/2024, 9:16:56 PM     ERROR Artist not found
+[Nest] 118  - 04/01/2024, 9:16:56 PM     ERROR Track not found
+[Nest] 118  - 04/01/2024, 9:16:57 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 118  - 04/01/2024, 9:16:57 PM     ERROR Album not found
+[Nest] 118  - 04/01/2024, 9:16:57 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:16:57 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:16:57 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:16:57 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:16:57 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 118  - 04/01/2024, 9:16:57 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:16:57 PM     ERROR Album not found
+[Nest] 118  - 04/01/2024, 9:16:57 PM     ERROR Album not found
+[Nest] 118  - 04/01/2024, 9:16:57 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 118  - 04/01/2024, 9:16:57 PM     ERROR Album not found
+[Nest] 118  - 04/01/2024, 9:16:58 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 118  - 04/01/2024, 9:16:58 PM     ERROR Artist not found
+[Nest] 118  - 04/01/2024, 9:16:58 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:16:58 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:16:58 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:16:58 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:16:58 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 118  - 04/01/2024, 9:16:59 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:16:59 PM     ERROR Artist not found
+[Nest] 118  - 04/01/2024, 9:16:59 PM     ERROR Artist not found
+[Nest] 118  - 04/01/2024, 9:16:59 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 118  - 04/01/2024, 9:16:59 PM     ERROR Artist not found
+[Nest] 118  - 04/01/2024, 9:17:00 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 118  - 04/01/2024, 9:17:00 PM     ERROR Track not found
+[Nest] 118  - 04/01/2024, 9:17:00 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:17:00 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:17:00 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:17:00 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:17:00 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 118  - 04/01/2024, 9:17:00 PM     ERROR Bad Request Exception
+[Nest] 118  - 04/01/2024, 9:17:00 PM     ERROR Track not found
+[Nest] 118  - 04/01/2024, 9:17:00 PM     ERROR Track not found
+[Nest] 118  - 04/01/2024, 9:17:00 PM     ERROR Validation failed (uuid  is expected)
+[Nest] 118  - 04/01/2024, 9:17:00 PM     ERROR Track not found
+[Nest] 118  - 04/01/2024, 9:17:01 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:17:01 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:17:01 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:17:01 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:17:01 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:17:01 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:17:01 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:17:01 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:17:01 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:17:01 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:17:01 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:17:01 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:17:01 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:17:01 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:17:01 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:17:01 PM     ERROR Unauthorized
+[Nest] 118  - 04/01/2024, 9:17:02 PM     ERROR Unauthorized

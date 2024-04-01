@@ -1,0 +1,1175 @@
+[Nest] 118  - 04/01/2024, 9:15:53 PM     LOG  {/artist/ed8ed549-a2c7-402a-bc2d-681a17b6ad09, PUT, query: {}, body: {"name":"TEST_artist","grammy":false} } statusCode: 200, responseTime: [1ms]
+[Nest] 118  - 04/01/2024, 9:15:53 PM     LOG  {/artist/ed8ed549-a2c7-402a-bc2d-681a17b6ad09, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:54 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:54 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:54 PM     LOG  {/artist/9f497587-fdf6-4d48-8967-23cc96a0a13a, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:54 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:54 PM     LOG  {/track, POST, query: {}, body: {"name":"TEST_track","albumId":null,"artistId":"2de0408d-7f5e-4d97-8f9e-a14b0e9aa6fb","duration":200} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:54 PM     LOG  {/artist/2de0408d-7f5e-4d97-8f9e-a14b0e9aa6fb, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:54 PM     LOG  {/track/c4c7e6ab-1d09-421b-add6-ae47a3783cf3, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:54 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [1ms]
+[Nest] 118  - 04/01/2024, 9:15:54 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_album","year":2023,"artistId":"7d4c88df-2447-4bc9-9351-41158d7fcdb8"} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:54 PM     LOG  {/album/a4008695-c1a6-45c7-b2ae-2314530665ec, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:54 PM     LOG  {/artist/7d4c88df-2447-4bc9-9351-41158d7fcdb8, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:54 PM     LOG  {/user/f4ba6ff8-ed54-4590-8386-f4496dee37cb, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:55 PM     LOG  {/auth/signup, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:55 PM     LOG  {/auth/login, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:55 PM     LOG  {/album, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:55 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_ALBUM","year":2022,"artistId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:55 PM     LOG  {/album/b27f2cb0-31d6-4ca3-a98d-bbe64b5d81cd, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:55 PM     LOG  {/album/b27f2cb0-31d6-4ca3-a98d-bbe64b5d81cd, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [1ms]
+[Nest] 118  - 04/01/2024, 9:15:55 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_ALBUM","year":2022,"artistId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:55 PM     LOG  {/album/a1b287b7-c63f-4bb4-a6d6-7e29a96e14de, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:55 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_ALBUM","year":2022,"artistId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:55 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:55 PM     LOG  {/album/ca6b9f2f-fa76-4473-8d6d-b8c0cec7ba5b, PUT, query: {}, body: {"name":"TEST_ALBUM","year":2021,"artistId":"def709de-1eae-4881-a259-990ac3ce523d"} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:55 PM     LOG  {/album/ca6b9f2f-fa76-4473-8d6d-b8c0cec7ba5b, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:55 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_ALBUM","year":2022,"artistId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:55 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_ALBUM","year":2022,"artistId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:55 PM     LOG  {/album/350c0699-84f1-4755-b160-8313f3a1337f, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:56 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_ALBUM","year":2022,"artistId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:56 PM     LOG  {/track, POST, query: {}, body: {"name":"TEST_TRACK","duration":199,"artistId":null,"albumId":"ebe4c0ee-84f7-4a11-8381-e1b602609a1b"} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:56 PM     LOG  {/album/ebe4c0ee-84f7-4a11-8381-e1b602609a1b, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:56 PM     LOG  {/track/1d7af199-580c-4219-8364-03124bfaf271, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:56 PM     LOG  {/user/6250e561-b0f9-4f73-97b4-12db398470a3, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:56 PM     LOG  {/auth/signup, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:56 PM     LOG  {/auth/login, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:56 PM     LOG  {/track, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:56 PM     LOG  {/track, POST, query: {}, body: {"name":"TEST_TRACK","duration":199,"artistId":null,"albumId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:56 PM     LOG  {/track/039c016d-8ec0-4cbd-b833-a67aafdfe6b1, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:56 PM     LOG  {/track/039c016d-8ec0-4cbd-b833-a67aafdfe6b1, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:56 PM     LOG  {/track, POST, query: {}, body: {"name":"TEST_TRACK","duration":199,"artistId":null,"albumId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:56 PM     LOG  {/track/1631f7ce-425e-4208-a13d-d6f5630dc905, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:56 PM     LOG  {/track, POST, query: {}, body: {"name":"TEST_TRACK","duration":199,"artistId":null,"albumId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:57 PM     LOG  {/track/19319ea1-2743-4775-a0f6-596a5c9047e6, PUT, query: {}, body: {"name":"TEST_TRACK","duration":188,"artistId":null,"albumId":null} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:57 PM     LOG  {/track/19319ea1-2743-4775-a0f6-596a5c9047e6, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:57 PM     LOG  {/track, POST, query: {}, body: {"name":"TEST_TRACK","duration":199,"artistId":null,"albumId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:57 PM     LOG  {/track, POST, query: {}, body: {"name":"TEST_TRACK","duration":199,"artistId":null,"albumId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:57 PM     LOG  {/track/bba60b12-b2a6-4e62-ae37-a577b7dd8478, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:15:57 PM     LOG  {/user/375696dc-427d-4e78-9656-5e07de222624, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:52 PM     LOG  {/auth/signup, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:52 PM     LOG  {/auth/login, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:52 PM     LOG  {/user, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:52 PM     LOG  {/user, POST, query: {}, body: {"login":"TEST_LOGIN","password":"TEST_PASSWORD"} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:52 PM     LOG  {/user/8d9092c4-9493-490e-bffa-4de977b23230, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:52 PM     LOG  {/user/8d9092c4-9493-490e-bffa-4de977b23230, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:52 PM     LOG  {/user, POST, query: {}, body: {"login":"TEST_LOGIN","password":"TEST_PASSWORD"} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:52 PM     LOG  {/user/d619938b-7cfe-478c-aae7-8a86b07905f6, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:53 PM     LOG  {/user, POST, query: {}, body: {"login":"TEST_LOGIN","password":"TEST_PASSWORD"} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:53 PM     LOG  {/user/cbc61d89-4b01-491b-ad4c-cec202bd73d8, PUT, query: {}, body: {"oldPassword":"TEST_PASSWORD","newPassword":"NEW_PASSWORD"} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:53 PM     LOG  {/user/cbc61d89-4b01-491b-ad4c-cec202bd73d8, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:53 PM     LOG  {/user, POST, query: {}, body: {"login":"TEST_LOGIN","password":"TEST_PASSWORD"} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:53 PM     LOG  {/user/26bad1de-b732-46e0-a9d7-cc2cef6bcc88, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:54 PM     LOG  {/user/6b70e7a1-6c58-417d-8f33-560a71b409c5, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:54 PM     LOG  {/auth/signup, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:54 PM     LOG  {/auth/login, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:54 PM     LOG  {/favs, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:54 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:54 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_ALBUM","year":2022,"artistId":"1885b5cf-cb75-4da3-b2de-336469003704"} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:54 PM     LOG  {/track, POST, query: {}, body: {"name":"Test track","duration":335,"artistId":"1885b5cf-cb75-4da3-b2de-336469003704","albumId":"abbac1a1-6f7f-40eb-9633-5b03c58d3ca9"} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:54 PM     LOG  {/favs/track/351e9759-a38c-4246-9ca3-2a29a66d7d11, POST, query: {}, body: {} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:54 PM     LOG  {/favs/album/abbac1a1-6f7f-40eb-9633-5b03c58d3ca9, POST, query: {}, body: {} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:54 PM     LOG  {/favs/artist/1885b5cf-cb75-4da3-b2de-336469003704, POST, query: {}, body: {} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:54 PM     LOG  {/favs, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:54 PM     LOG  {/artist/1885b5cf-cb75-4da3-b2de-336469003704, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:54 PM     LOG  {/album/abbac1a1-6f7f-40eb-9633-5b03c58d3ca9, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:54 PM     LOG  {/track/351e9759-a38c-4246-9ca3-2a29a66d7d11, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:55 PM     LOG  {/favs, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:55 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:55 PM     LOG  {/favs/artist/c9e9a87d-7555-4bd0-9f52-c253ea94a567, POST, query: {}, body: {} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:55 PM     LOG  {/favs, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:55 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_ALBUM","year":2022,"artistId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:55 PM     LOG  {/favs/album/b958a929-008a-415e-b02f-a78f4289aec1, POST, query: {}, body: {} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:55 PM     LOG  {/favs, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:55 PM     LOG  {/track, POST, query: {}, body: {"name":"Test track","duration":335,"artistId":null,"albumId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:55 PM     LOG  {/favs/track/3971158a-ce80-4806-815a-9f32dd8b2c16, POST, query: {}, body: {} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:55 PM     LOG  {/favs, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:55 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_ALBUM","year":2022,"artistId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:55 PM     LOG  {/favs/album/eac27743-6005-4441-badf-c87373c5cca6, POST, query: {}, body: {} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:55 PM     LOG  {/favs/album/eac27743-6005-4441-badf-c87373c5cca6, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:55 PM     LOG  {/favs, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:55 PM     LOG  {/album/eac27743-6005-4441-badf-c87373c5cca6, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:55 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:55 PM     LOG  {/favs/artist/f4ce9b8b-dacb-4d5e-8c62-74384a025bb3, POST, query: {}, body: {} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:55 PM     LOG  {/favs/artist/f4ce9b8b-dacb-4d5e-8c62-74384a025bb3, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:55 PM     LOG  {/favs, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:55 PM     LOG  {/artist/f4ce9b8b-dacb-4d5e-8c62-74384a025bb3, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:56 PM     LOG  {/track, POST, query: {}, body: {"name":"Test track","duration":335,"artistId":null,"albumId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:56 PM     LOG  {/favs/track/8974a853-0575-45a4-ba8d-bbc2dab814cf, POST, query: {}, body: {} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:56 PM     LOG  {/favs/track/8974a853-0575-45a4-ba8d-bbc2dab814cf, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:56 PM     LOG  {/favs, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:56 PM     LOG  {/track/8974a853-0575-45a4-ba8d-bbc2dab814cf, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:56 PM     LOG  {/user/5e9bf8b7-d46f-4e6c-9179-c5e295fa2eec, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:56 PM     LOG  {/auth/signup, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:57 PM     LOG  {/auth/login, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:57 PM     LOG  {/album, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:57 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_ALBUM","year":2022,"artistId":null} } statusCode: 201, responseTime: [1ms]
+[Nest] 118  - 04/01/2024, 9:16:57 PM     LOG  {/album/b585f897-dd4e-42ec-8194-11d6d6c63cf5, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:57 PM     LOG  {/album/b585f897-dd4e-42ec-8194-11d6d6c63cf5, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:57 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_ALBUM","year":2022,"artistId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:57 PM     LOG  {/album/320db775-79b3-4e76-a074-4cf523471e68, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:57 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_ALBUM","year":2022,"artistId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:57 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:57 PM     LOG  {/album/f26dd4ad-ed98-4fe4-b110-991ff99dab51, PUT, query: {}, body: {"name":"TEST_ALBUM","year":2021,"artistId":"d0d50351-722e-4d6f-966c-2804706cbad4"} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:57 PM     LOG  {/album/f26dd4ad-ed98-4fe4-b110-991ff99dab51, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:57 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_ALBUM","year":2022,"artistId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:57 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_ALBUM","year":2022,"artistId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:57 PM     LOG  {/album/bfeab4b2-4a54-4279-85f1-52a652fd45ff, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:57 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_ALBUM","year":2022,"artistId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:57 PM     LOG  {/track, POST, query: {}, body: {"name":"TEST_TRACK","duration":199,"artistId":null,"albumId":"0c3c1300-90a5-46dc-8015-e2a9f2d58f58"} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:57 PM     LOG  {/album/0c3c1300-90a5-46dc-8015-e2a9f2d58f58, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:57 PM     LOG  {/track/3e59febd-f0e2-4d08-a86a-a4ab8cdfaf4f, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:58 PM     LOG  {/user/668be5dc-9016-4308-896f-92aaac424686, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:58 PM     LOG  {/auth/signup, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:58 PM     LOG  {/auth/login, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:58 PM     LOG  {/artist, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:58 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:58 PM     LOG  {/artist/63db4010-5a43-4226-a038-9a0f5b68e5d2, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:58 PM     LOG  {/artist/63db4010-5a43-4226-a038-9a0f5b68e5d2, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:58 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:58 PM     LOG  {/artist/efa38690-9f3f-41a3-a7ff-81afbed340cc, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:58 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:58 PM     LOG  {/artist/a3dd198e-6d53-47ff-a40b-44aff6daa271, PUT, query: {}, body: {"name":"TEST_artist","grammy":false} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:58 PM     LOG  {/artist/a3dd198e-6d53-47ff-a40b-44aff6daa271, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:58 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:59 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:59 PM     LOG  {/artist/cbb5e28e-f91d-43a8-a195-05c71bfa115f, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:59 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:59 PM     LOG  {/track, POST, query: {}, body: {"name":"TEST_track","albumId":null,"artistId":"bad4a255-d211-423e-84bc-95c9b2113842","duration":200} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:59 PM     LOG  {/artist/bad4a255-d211-423e-84bc-95c9b2113842, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:59 PM     LOG  {/track/a892b94f-767d-4af7-b8a2-6378592637ca, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:59 PM     LOG  {/artist, POST, query: {}, body: {"name":"TEST_artist","grammy":true} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:59 PM     LOG  {/album, POST, query: {}, body: {"name":"TEST_album","year":2023,"artistId":"e4254a01-a3ef-4c0f-9fa7-7731fa310257"} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:59 PM     LOG  {/artist/e4254a01-a3ef-4c0f-9fa7-7731fa310257, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:59 PM     LOG  {/album/cf131788-600b-4ada-a41f-6a7315b505aa, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:59 PM     LOG  {/user/abb2ef77-66df-4b07-8f68-95681bc6249e, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:16:59 PM     LOG  {/auth/signup, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:17:00 PM     LOG  {/auth/login, POST, query: {}, body: {"login":"TEST_AUTH_LOGIN","password":"Tu6!@#%&"} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:17:00 PM     LOG  {/track, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:17:00 PM     LOG  {/track, POST, query: {}, body: {"name":"TEST_TRACK","duration":199,"artistId":null,"albumId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:17:00 PM     LOG  {/track/82dbbed7-0ad3-4766-a0ce-747e3f2fe704, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:17:00 PM     LOG  {/track/82dbbed7-0ad3-4766-a0ce-747e3f2fe704, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:17:00 PM     LOG  {/track, POST, query: {}, body: {"name":"TEST_TRACK","duration":199,"artistId":null,"albumId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:17:00 PM     LOG  {/track/75a38762-38d6-4f37-a306-24ae53e13cb5, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:17:00 PM     LOG  {/track, POST, query: {}, body: {"name":"TEST_TRACK","duration":199,"artistId":null,"albumId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:17:00 PM     LOG  {/track/de29c628-e6dd-4539-bee8-5ee034467fd7, PUT, query: {}, body: {"name":"TEST_TRACK","duration":188,"artistId":null,"albumId":null} } statusCode: 200, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:17:00 PM     LOG  {/track/de29c628-e6dd-4539-bee8-5ee034467fd7, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:17:00 PM     LOG  {/track, POST, query: {}, body: {"name":"TEST_TRACK","duration":199,"artistId":null,"albumId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:17:00 PM     LOG  {/track, POST, query: {}, body: {"name":"TEST_TRACK","duration":199,"artistId":null,"albumId":null} } statusCode: 201, responseTime: [0ms]
+[Nest] 118  - 04/01/2024, 9:17:00 PM     LOG  {/track/d3916d85-ce0e-433e-83dd-df608598c057, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [1ms]
+[Nest] 118  - 04/01/2024, 9:17:00 PM     LOG  {/user/6995066e-b466-4ca7-9a68-24b72c6a16a0, DELETE, query: {}, body: {} } statusCode: 204, responseTime: [0ms]
+[Nest] 62  - 04/01/2024, 9:46:53 PM     LOG AppController {/}:
+[Nest] 62  - 04/01/2024, 9:46:53 PM     LOG UserController {/user}:
+[Nest] 62  - 04/01/2024, 9:46:53 PM     LOG Mapped {/, GET} route
+[Nest] 62  - 04/01/2024, 9:46:53 PM     LOG Mapped {/user, POST} route
+[Nest] 62  - 04/01/2024, 9:46:53 PM     LOG Mapped {/user, GET} route
+[Nest] 62  - 04/01/2024, 9:46:53 PM     LOG Mapped {/user/:id, GET} route
+[Nest] 62  - 04/01/2024, 9:46:53 PM     LOG AuthController {/auth}:
+[Nest] 62  - 04/01/2024, 9:46:53 PM     LOG Mapped {/auth/signup, POST} route
+[Nest] 62  - 04/01/2024, 9:46:53 PM     LOG Mapped {/auth/login, POST} route
+[Nest] 62  - 04/01/2024, 9:46:53 PM     LOG Mapped {/user/:id, PUT} route
+[Nest] 62  - 04/01/2024, 9:46:53 PM     LOG Mapped {/user/:id, DELETE} route
+[Nest] 62  - 04/01/2024, 9:46:53 PM     LOG Mapped {/auth/refresh, POST} route
+[Nest] 62  - 04/01/2024, 9:46:53 PM     LOG TrackController {/track}:
+[Nest] 62  - 04/01/2024, 9:46:53 PM     LOG Mapped {/track, GET} route
+[Nest] 62  - 04/01/2024, 9:46:53 PM     LOG Mapped {/track, POST} route
+[Nest] 62  - 04/01/2024, 9:46:53 PM     LOG Mapped {/track/:id, PUT} route
+[Nest] 62  - 04/01/2024, 9:46:53 PM     LOG Mapped {/track/:id, GET} route
+[Nest] 62  - 04/01/2024, 9:46:53 PM     LOG Mapped {/track/:id, DELETE} route
+[Nest] 62  - 04/01/2024, 9:46:53 PM     LOG ArtistController {/artist}:
+[Nest] 62  - 04/01/2024, 9:46:53 PM     LOG Mapped {/artist, POST} route
+[Nest] 62  - 04/01/2024, 9:46:53 PM     LOG Mapped {/artist, GET} route
+[Nest] 62  - 04/01/2024, 9:46:53 PM     LOG Mapped {/artist/:id, GET} route
+[Nest] 62  - 04/01/2024, 9:46:53 PM     LOG Mapped {/artist/:id, PUT} route
+[Nest] 62  - 04/01/2024, 9:46:53 PM     LOG Mapped {/artist/:id, DELETE} route
+[Nest] 62  - 04/01/2024, 9:46:53 PM     LOG AlbumController {/album}:
+[Nest] 62  - 04/01/2024, 9:46:53 PM     LOG Mapped {/album, GET} route
+[Nest] 62  - 04/01/2024, 9:46:53 PM     LOG Mapped {/album, POST} route
+[Nest] 62  - 04/01/2024, 9:46:53 PM     LOG Mapped {/album/:id, PUT} route
+[Nest] 62  - 04/01/2024, 9:46:53 PM     LOG FavsController {/favs}:
+[Nest] 62  - 04/01/2024, 9:46:53 PM     LOG Mapped {/album/:id, GET} route
+[Nest] 62  - 04/01/2024, 9:46:53 PM     LOG Mapped {/album/:id, DELETE} route
+[Nest] 62  - 04/01/2024, 9:46:53 PM     LOG Mapped {/favs, GET} route
+[Nest] 62  - 04/01/2024, 9:46:53 PM     LOG Mapped {/favs/track/:id, POST} route
+[Nest] 62  - 04/01/2024, 9:46:53 PM     LOG Mapped {/favs/track/:id, DELETE} route
+[Nest] 62  - 04/01/2024, 9:46:53 PM     LOG Mapped {/favs/album/:id, POST} route
+[Nest] 62  - 04/01/2024, 9:46:53 PM     LOG Mapped {/favs/album/:id, DELETE} route
+[Nest] 62  - 04/01/2024, 9:46:53 PM     LOG Mapped {/favs/artist/:id, POST} route
+[Nest] 62  - 04/01/2024, 9:46:53 PM     LOG Mapped {/favs/artist/:id, DELETE} route
+[Nest] 62  - 04/01/2024, 9:46:53 PM     LOG Nest application successfully started
+[Nest] 63  - 04/01/2024, 9:54:39 PM     LOG AppController {/}:
+[Nest] 63  - 04/01/2024, 9:54:39 PM     LOG Mapped {/, GET} route
+[Nest] 63  - 04/01/2024, 9:54:39 PM     LOG Mapped {/user, POST} route
+[Nest] 63  - 04/01/2024, 9:54:39 PM     LOG UserController {/user}:
+[Nest] 63  - 04/01/2024, 9:54:39 PM     LOG AuthController {/auth}:
+[Nest] 63  - 04/01/2024, 9:54:39 PM     LOG Mapped {/user/:id, GET} route
+[Nest] 63  - 04/01/2024, 9:54:39 PM     LOG Mapped {/user, GET} route
+[Nest] 63  - 04/01/2024, 9:54:39 PM     LOG Mapped {/user/:id, PUT} route
+[Nest] 63  - 04/01/2024, 9:54:39 PM     LOG Mapped {/user/:id, DELETE} route
+[Nest] 63  - 04/01/2024, 9:54:39 PM     LOG Mapped {/auth/signup, POST} route
+[Nest] 63  - 04/01/2024, 9:54:39 PM     LOG Mapped {/auth/login, POST} route
+[Nest] 63  - 04/01/2024, 9:54:39 PM     LOG Mapped {/auth/refresh, POST} route
+[Nest] 63  - 04/01/2024, 9:54:39 PM     LOG TrackController {/track}:
+[Nest] 63  - 04/01/2024, 9:54:39 PM     LOG Mapped {/track, GET} route
+[Nest] 63  - 04/01/2024, 9:54:39 PM     LOG Mapped {/track, POST} route
+[Nest] 63  - 04/01/2024, 9:54:39 PM     LOG Mapped {/track/:id, GET} route
+[Nest] 63  - 04/01/2024, 9:54:39 PM     LOG Mapped {/track/:id, PUT} route
+[Nest] 63  - 04/01/2024, 9:54:39 PM     LOG Mapped {/track/:id, DELETE} route
+[Nest] 63  - 04/01/2024, 9:54:39 PM     LOG ArtistController {/artist}:
+[Nest] 63  - 04/01/2024, 9:54:39 PM     LOG Mapped {/artist, POST} route
+[Nest] 63  - 04/01/2024, 9:54:39 PM     LOG Mapped {/artist, GET} route
+[Nest] 63  - 04/01/2024, 9:54:39 PM     LOG Mapped {/artist/:id, GET} route
+[Nest] 63  - 04/01/2024, 9:54:39 PM     LOG Mapped {/artist/:id, PUT} route
+[Nest] 63  - 04/01/2024, 9:54:39 PM     LOG Mapped {/artist/:id, DELETE} route
+[Nest] 63  - 04/01/2024, 9:54:39 PM     LOG AlbumController {/album}:
+[Nest] 63  - 04/01/2024, 9:54:39 PM     LOG Mapped {/album/:id, PUT} route
+[Nest] 63  - 04/01/2024, 9:54:39 PM     LOG Mapped {/album, POST} route
+[Nest] 63  - 04/01/2024, 9:54:39 PM     LOG Mapped {/album/:id, GET} route
+[Nest] 63  - 04/01/2024, 9:54:39 PM     LOG Mapped {/album/:id, DELETE} route
+[Nest] 63  - 04/01/2024, 9:54:39 PM     LOG Mapped {/album, GET} route
+[Nest] 63  - 04/01/2024, 9:54:39 PM     LOG Mapped {/favs, GET} route
+[Nest] 63  - 04/01/2024, 9:54:39 PM     LOG Mapped {/favs/track/:id, POST} route
+[Nest] 63  - 04/01/2024, 9:54:39 PM     LOG Mapped {/favs/track/:id, DELETE} route
+[Nest] 63  - 04/01/2024, 9:54:39 PM     LOG FavsController {/favs}:
+[Nest] 63  - 04/01/2024, 9:54:39 PM     LOG Mapped {/favs/album/:id, DELETE} route
+[Nest] 63  - 04/01/2024, 9:54:39 PM     LOG Mapped {/favs/artist/:id, DELETE} route
+[Nest] 63  - 04/01/2024, 9:54:39 PM     LOG Mapped {/favs/album/:id, POST} route
+[Nest] 63  - 04/01/2024, 9:54:39 PM     LOG Mapped {/favs/artist/:id, POST} route
+[Nest] 63  - 04/01/2024, 9:54:39 PM     LOG Nest application successfully started
+[Nest] 63  - 04/01/2024, 9:54:48 PM     LOG  {/, GET, query: {}, body: {} } statusCode: 200, responseTime: [0ms]
+[Nest] 75  - 04/01/2024, 10:13:55 PM     LOG AppController {/}:
+[Nest] 75  - 04/01/2024, 10:13:55 PM     LOG UserController {/user}:
+[Nest] 75  - 04/01/2024, 10:13:55 PM     LOG Mapped {/, GET} route
+[Nest] 75  - 04/01/2024, 10:13:55 PM     LOG Mapped {/user/:id, PUT} route
+[Nest] 75  - 04/01/2024, 10:13:55 PM     LOG Mapped {/user, GET} route
+[Nest] 75  - 04/01/2024, 10:13:55 PM     LOG Mapped {/user/:id, GET} route
+[Nest] 75  - 04/01/2024, 10:13:55 PM     LOG Mapped {/user/:id, DELETE} route
+[Nest] 75  - 04/01/2024, 10:13:55 PM     LOG AuthController {/auth}:
+[Nest] 75  - 04/01/2024, 10:13:55 PM     LOG Mapped {/auth/login, POST} route
+[Nest] 75  - 04/01/2024, 10:13:55 PM     LOG Mapped {/auth/signup, POST} route
+[Nest] 75  - 04/01/2024, 10:13:55 PM     LOG Mapped {/track/:id, GET} route
+[Nest] 75  - 04/01/2024, 10:13:55 PM     LOG Mapped {/auth/refresh, POST} route
+[Nest] 75  - 04/01/2024, 10:13:55 PM     LOG TrackController {/track}:
+[Nest] 75  - 04/01/2024, 10:13:55 PM     LOG Mapped {/user, POST} route
+[Nest] 75  - 04/01/2024, 10:13:55 PM     LOG Mapped {/track/:id, PUT} route
+[Nest] 75  - 04/01/2024, 10:13:55 PM     LOG Mapped {/track, POST} route
+[Nest] 75  - 04/01/2024, 10:13:55 PM     LOG Mapped {/track, GET} route
+[Nest] 75  - 04/01/2024, 10:13:55 PM     LOG Mapped {/track/:id, DELETE} route
+[Nest] 75  - 04/01/2024, 10:13:55 PM     LOG Mapped {/artist, GET} route
+[Nest] 75  - 04/01/2024, 10:13:55 PM     LOG Mapped {/artist/:id, DELETE} route
+[Nest] 75  - 04/01/2024, 10:13:55 PM     LOG Mapped {/artist/:id, GET} route
+[Nest] 75  - 04/01/2024, 10:13:55 PM     LOG ArtistController {/artist}:
+[Nest] 75  - 04/01/2024, 10:13:55 PM     LOG Mapped {/artist, POST} route
+[Nest] 75  - 04/01/2024, 10:13:55 PM     LOG Mapped {/artist/:id, PUT} route
+[Nest] 75  - 04/01/2024, 10:13:55 PM     LOG AlbumController {/album}:
+[Nest] 75  - 04/01/2024, 10:13:55 PM     LOG Mapped {/album, GET} route
+[Nest] 75  - 04/01/2024, 10:13:55 PM     LOG Mapped {/album/:id, DELETE} route
+[Nest] 75  - 04/01/2024, 10:13:55 PM     LOG Mapped {/album/:id, PUT} route
+[Nest] 75  - 04/01/2024, 10:13:55 PM     LOG Mapped {/album, POST} route
+[Nest] 75  - 04/01/2024, 10:13:55 PM     LOG Mapped {/favs/track/:id, POST} route
+[Nest] 75  - 04/01/2024, 10:13:55 PM     LOG FavsController {/favs}:
+[Nest] 75  - 04/01/2024, 10:13:55 PM     LOG Mapped {/album/:id, GET} route
+[Nest] 75  - 04/01/2024, 10:13:55 PM     LOG Mapped {/favs/album/:id, DELETE} route
+[Nest] 75  - 04/01/2024, 10:13:55 PM     LOG Mapped {/favs/album/:id, POST} route
+[Nest] 75  - 04/01/2024, 10:13:55 PM     LOG Mapped {/favs, GET} route
+[Nest] 75  - 04/01/2024, 10:13:55 PM     LOG Mapped {/favs/track/:id, DELETE} route
+[Nest] 75  - 04/01/2024, 10:13:55 PM     LOG Mapped {/favs/artist/:id, POST} route
+[Nest] 75  - 04/01/2024, 10:13:55 PM     LOG Mapped {/favs/artist/:id, DELETE} route
+[Nest] 75  - 04/01/2024, 10:13:55 PM     LOG Nest application successfully started
+[Nest] 107  - 04/01/2024, 10:15:11 PM     LOG AppController {/}:
+[Nest] 107  - 04/01/2024, 10:15:11 PM     LOG UserController {/user}:
+[Nest] 107  - 04/01/2024, 10:15:11 PM     LOG Mapped {/, GET} route
+[Nest] 107  - 04/01/2024, 10:15:11 PM     LOG Mapped {/user/:id, GET} route
+[Nest] 107  - 04/01/2024, 10:15:11 PM     LOG Mapped {/user, POST} route
+[Nest] 107  - 04/01/2024, 10:15:11 PM     LOG Mapped {/user, GET} route
+[Nest] 107  - 04/01/2024, 10:15:11 PM     LOG Mapped {/user/:id, DELETE} route
+[Nest] 107  - 04/01/2024, 10:15:11 PM     LOG Mapped {/user/:id, PUT} route
+[Nest] 107  - 04/01/2024, 10:15:11 PM     LOG AuthController {/auth}:
+[Nest] 107  - 04/01/2024, 10:15:11 PM     LOG Mapped {/auth/signup, POST} route
+[Nest] 107  - 04/01/2024, 10:15:11 PM     LOG Mapped {/auth/login, POST} route
+[Nest] 107  - 04/01/2024, 10:15:11 PM     LOG Mapped {/auth/refresh, POST} route
+[Nest] 107  - 04/01/2024, 10:15:11 PM     LOG Mapped {/track, POST} route
+[Nest] 107  - 04/01/2024, 10:15:11 PM     LOG TrackController {/track}:
+[Nest] 107  - 04/01/2024, 10:15:11 PM     LOG Mapped {/track, GET} route
+[Nest] 107  - 04/01/2024, 10:15:11 PM     LOG Mapped {/track/:id, GET} route
+[Nest] 107  - 04/01/2024, 10:15:11 PM     LOG Mapped {/track/:id, PUT} route
+[Nest] 107  - 04/01/2024, 10:15:11 PM     LOG Mapped {/track/:id, DELETE} route
+[Nest] 107  - 04/01/2024, 10:15:11 PM     LOG Mapped {/artist, POST} route
+[Nest] 107  - 04/01/2024, 10:15:11 PM     LOG ArtistController {/artist}:
+[Nest] 107  - 04/01/2024, 10:15:11 PM     LOG Mapped {/artist/:id, GET} route
+[Nest] 107  - 04/01/2024, 10:15:11 PM     LOG Mapped {/artist, GET} route
+[Nest] 107  - 04/01/2024, 10:15:11 PM     LOG Mapped {/artist/:id, PUT} route
+[Nest] 107  - 04/01/2024, 10:15:11 PM     LOG Mapped {/artist/:id, DELETE} route
+[Nest] 107  - 04/01/2024, 10:15:12 PM     LOG Mapped {/album, POST} route
+[Nest] 107  - 04/01/2024, 10:15:11 PM     LOG AlbumController {/album}:
+[Nest] 107  - 04/01/2024, 10:15:12 PM     LOG Mapped {/album, GET} route
+[Nest] 107  - 04/01/2024, 10:15:12 PM     LOG Mapped {/album/:id, GET} route
+[Nest] 107  - 04/01/2024, 10:15:12 PM     LOG Mapped {/album/:id, DELETE} route
+[Nest] 107  - 04/01/2024, 10:15:12 PM     LOG Mapped {/album/:id, PUT} route
+[Nest] 107  - 04/01/2024, 10:15:12 PM     LOG Mapped {/favs, GET} route
+[Nest] 107  - 04/01/2024, 10:15:12 PM     LOG FavsController {/favs}:
+[Nest] 107  - 04/01/2024, 10:15:12 PM     LOG Mapped {/favs/track/:id, POST} route
+[Nest] 107  - 04/01/2024, 10:15:12 PM     LOG Mapped {/favs/track/:id, DELETE} route
+[Nest] 107  - 04/01/2024, 10:15:12 PM     LOG Mapped {/favs/album/:id, POST} route
+[Nest] 107  - 04/01/2024, 10:15:12 PM     LOG Mapped {/favs/artist/:id, POST} route
+[Nest] 107  - 04/01/2024, 10:15:12 PM     LOG Mapped {/favs/album/:id, DELETE} route
+[Nest] 107  - 04/01/2024, 10:15:12 PM     LOG Mapped {/favs/artist/:id, DELETE} route
+[Nest] 107  - 04/01/2024, 10:15:12 PM     LOG Nest application successfully started
+[Nest] 159  - 04/01/2024, 10:16:30 PM     LOG UserController {/user}:
+[Nest] 159  - 04/01/2024, 10:16:30 PM     LOG Mapped {/, GET} route
+[Nest] 159  - 04/01/2024, 10:16:30 PM     LOG Mapped {/user, POST} route
+[Nest] 159  - 04/01/2024, 10:16:30 PM     LOG AppController {/}:
+[Nest] 159  - 04/01/2024, 10:16:30 PM     LOG Mapped {/user/:id, DELETE} route
+[Nest] 159  - 04/01/2024, 10:16:30 PM     LOG Mapped {/auth/signup, POST} route
+[Nest] 159  - 04/01/2024, 10:16:30 PM     LOG Mapped {/user, GET} route
+[Nest] 159  - 04/01/2024, 10:16:30 PM     LOG Mapped {/user/:id, GET} route
+[Nest] 159  - 04/01/2024, 10:16:30 PM     LOG Mapped {/auth/login, POST} route
+[Nest] 159  - 04/01/2024, 10:16:30 PM     LOG Mapped {/track, POST} route
+[Nest] 159  - 04/01/2024, 10:16:30 PM     LOG Mapped {/track/:id, GET} route
+[Nest] 159  - 04/01/2024, 10:16:30 PM     LOG Mapped {/user/:id, PUT} route
+[Nest] 159  - 04/01/2024, 10:16:30 PM     LOG Mapped {/track/:id, PUT} route
+[Nest] 159  - 04/01/2024, 10:16:30 PM     LOG Mapped {/track, GET} route
+[Nest] 159  - 04/01/2024, 10:16:30 PM     LOG Mapped {/track/:id, DELETE} route
+[Nest] 159  - 04/01/2024, 10:16:30 PM     LOG ArtistController {/artist}:
+[Nest] 159  - 04/01/2024, 10:16:30 PM     LOG TrackController {/track}:
+[Nest] 159  - 04/01/2024, 10:16:30 PM     LOG AuthController {/auth}:
+[Nest] 159  - 04/01/2024, 10:16:30 PM     LOG Mapped {/artist/:id, GET} route
+[Nest] 159  - 04/01/2024, 10:16:30 PM     LOG Mapped {/artist, POST} route
+[Nest] 159  - 04/01/2024, 10:16:30 PM     LOG Mapped {/artist/:id, PUT} route
+[Nest] 159  - 04/01/2024, 10:16:30 PM     LOG Mapped {/artist/:id, DELETE} route
+[Nest] 159  - 04/01/2024, 10:16:30 PM     LOG Mapped {/auth/refresh, POST} route
+[Nest] 159  - 04/01/2024, 10:16:30 PM     LOG Mapped {/album, GET} route
+[Nest] 159  - 04/01/2024, 10:16:30 PM     LOG Mapped {/album, POST} route
+[Nest] 159  - 04/01/2024, 10:16:30 PM     LOG Mapped {/album/:id, PUT} route
+[Nest] 159  - 04/01/2024, 10:16:30 PM     LOG Mapped {/album/:id, DELETE} route
+[Nest] 159  - 04/01/2024, 10:16:30 PM     LOG Mapped {/favs, GET} route
+[Nest] 159  - 04/01/2024, 10:16:30 PM     LOG FavsController {/favs}:
+[Nest] 159  - 04/01/2024, 10:16:30 PM     LOG Mapped {/album/:id, GET} route
+[Nest] 159  - 04/01/2024, 10:16:30 PM     LOG Mapped {/favs/track/:id, DELETE} route
+[Nest] 159  - 04/01/2024, 10:16:30 PM     LOG Mapped {/favs/artist/:id, POST} route
+[Nest] 159  - 04/01/2024, 10:16:30 PM     LOG Mapped {/favs/track/:id, POST} route
+[Nest] 159  - 04/01/2024, 10:16:30 PM     LOG Mapped {/favs/artist/:id, DELETE} route
+[Nest] 159  - 04/01/2024, 10:16:30 PM     LOG Mapped {/favs/album/:id, DELETE} route
+[Nest] 159  - 04/01/2024, 10:16:30 PM     LOG Nest application successfully started
+[Nest] 159  - 04/01/2024, 10:16:30 PM     LOG Mapped {/favs/album/:id, POST} route
+[Nest] 159  - 04/01/2024, 10:16:30 PM     LOG Mapped {/artist, GET} route
+[Nest] 159  - 04/01/2024, 10:16:30 PM     LOG AlbumController {/album}:
+[Nest] 171  - 04/01/2024, 10:19:43 PM     LOG AppController {/}:
+[Nest] 171  - 04/01/2024, 10:19:43 PM     LOG Mapped {/user, POST} route
+[Nest] 171  - 04/01/2024, 10:19:43 PM     LOG UserController {/user}:
+[Nest] 171  - 04/01/2024, 10:19:43 PM     LOG Mapped {/, GET} route
+[Nest] 171  - 04/01/2024, 10:19:43 PM     LOG Mapped {/user/:id, PUT} route
+[Nest] 171  - 04/01/2024, 10:19:43 PM     LOG Mapped {/user, GET} route
+[Nest] 171  - 04/01/2024, 10:19:43 PM     LOG Mapped {/user/:id, GET} route
+[Nest] 171  - 04/01/2024, 10:19:43 PM     LOG Mapped {/user/:id, DELETE} route
+[Nest] 171  - 04/01/2024, 10:19:43 PM     LOG AuthController {/auth}:
+[Nest] 171  - 04/01/2024, 10:19:43 PM     LOG Mapped {/auth/signup, POST} route
+[Nest] 171  - 04/01/2024, 10:19:43 PM     LOG Mapped {/auth/refresh, POST} route
+[Nest] 171  - 04/01/2024, 10:19:43 PM     LOG Mapped {/auth/login, POST} route
+[Nest] 171  - 04/01/2024, 10:19:43 PM     LOG Mapped {/track, POST} route
+[Nest] 171  - 04/01/2024, 10:19:43 PM     LOG TrackController {/track}:
+[Nest] 171  - 04/01/2024, 10:19:43 PM     LOG Mapped {/track, GET} route
+[Nest] 171  - 04/01/2024, 10:19:43 PM     LOG Mapped {/track/:id, GET} route
+[Nest] 171  - 04/01/2024, 10:19:43 PM     LOG ArtistController {/artist}:
+[Nest] 171  - 04/01/2024, 10:19:43 PM     LOG Mapped {/track/:id, PUT} route
+[Nest] 171  - 04/01/2024, 10:19:43 PM     LOG Mapped {/track/:id, DELETE} route
+[Nest] 171  - 04/01/2024, 10:19:43 PM     LOG Mapped {/artist, POST} route
+[Nest] 171  - 04/01/2024, 10:19:43 PM     LOG Mapped {/artist, GET} route
+[Nest] 171  - 04/01/2024, 10:19:43 PM     LOG Mapped {/artist/:id, GET} route
+[Nest] 171  - 04/01/2024, 10:19:43 PM     LOG Mapped {/artist/:id, PUT} route
+[Nest] 171  - 04/01/2024, 10:19:43 PM     LOG Mapped {/artist/:id, DELETE} route
+[Nest] 171  - 04/01/2024, 10:19:43 PM     LOG AlbumController {/album}:
+[Nest] 171  - 04/01/2024, 10:19:43 PM     LOG Mapped {/album, GET} route
+[Nest] 171  - 04/01/2024, 10:19:43 PM     LOG Mapped {/album, POST} route
+[Nest] 171  - 04/01/2024, 10:19:43 PM     LOG Mapped {/album/:id, GET} route
+[Nest] 171  - 04/01/2024, 10:19:43 PM     LOG Mapped {/album/:id, PUT} route
+[Nest] 171  - 04/01/2024, 10:19:43 PM     LOG Mapped {/album/:id, DELETE} route
+[Nest] 171  - 04/01/2024, 10:19:43 PM     LOG FavsController {/favs}:
+[Nest] 171  - 04/01/2024, 10:19:43 PM     LOG Mapped {/favs, GET} route
+[Nest] 171  - 04/01/2024, 10:19:43 PM     LOG Mapped {/favs/track/:id, DELETE} route
+[Nest] 171  - 04/01/2024, 10:19:43 PM     LOG Mapped {/favs/album/:id, POST} route
+[Nest] 171  - 04/01/2024, 10:19:43 PM     LOG Mapped {/favs/track/:id, POST} route
+[Nest] 171  - 04/01/2024, 10:19:43 PM     LOG Mapped {/favs/artist/:id, POST} route
+[Nest] 171  - 04/01/2024, 10:19:43 PM     LOG Mapped {/favs/album/:id, DELETE} route
+[Nest] 171  - 04/01/2024, 10:19:43 PM     LOG Mapped {/favs/artist/:id, DELETE} route
+[Nest] 171  - 04/01/2024, 10:19:43 PM     LOG Nest application successfully started
+[Nest] 183  - 04/01/2024, 10:23:25 PM     LOG Mapped {/, GET} route
+[Nest] 183  - 04/01/2024, 10:23:25 PM     LOG AppController {/}:
+[Nest] 183  - 04/01/2024, 10:23:25 PM     LOG UserController {/user}:
+[Nest] 183  - 04/01/2024, 10:23:25 PM     LOG Mapped {/user, POST} route
+[Nest] 183  - 04/01/2024, 10:23:25 PM     LOG Mapped {/user/:id, GET} route
+[Nest] 183  - 04/01/2024, 10:23:25 PM     LOG Mapped {/user, GET} route
+[Nest] 183  - 04/01/2024, 10:23:25 PM     LOG Mapped {/auth/signup, POST} route
+[Nest] 183  - 04/01/2024, 10:23:25 PM     LOG Mapped {/user/:id, DELETE} route
+[Nest] 183  - 04/01/2024, 10:23:25 PM     LOG AuthController {/auth}:
+[Nest] 183  - 04/01/2024, 10:23:25 PM     LOG Mapped {/user/:id, PUT} route
+[Nest] 183  - 04/01/2024, 10:23:25 PM     LOG Mapped {/track, POST} route
+[Nest] 183  - 04/01/2024, 10:23:25 PM     LOG Mapped {/auth/refresh, POST} route
+[Nest] 183  - 04/01/2024, 10:23:25 PM     LOG Mapped {/auth/login, POST} route
+[Nest] 183  - 04/01/2024, 10:23:25 PM     LOG Mapped {/track/:id, GET} route
+[Nest] 183  - 04/01/2024, 10:23:25 PM     LOG Mapped {/track/:id, PUT} route
+[Nest] 183  - 04/01/2024, 10:23:25 PM     LOG Mapped {/track/:id, DELETE} route
+[Nest] 183  - 04/01/2024, 10:23:25 PM     LOG Mapped {/artist, POST} route
+[Nest] 183  - 04/01/2024, 10:23:25 PM     LOG Mapped {/artist, GET} route
+[Nest] 183  - 04/01/2024, 10:23:25 PM     LOG Mapped {/artist/:id, GET} route
+[Nest] 183  - 04/01/2024, 10:23:25 PM     LOG Mapped {/artist/:id, PUT} route
+[Nest] 183  - 04/01/2024, 10:23:25 PM     LOG Mapped {/artist/:id, DELETE} route
+[Nest] 183  - 04/01/2024, 10:23:25 PM     LOG AlbumController {/album}:
+[Nest] 183  - 04/01/2024, 10:23:25 PM     LOG Mapped {/track, GET} route
+[Nest] 183  - 04/01/2024, 10:23:25 PM     LOG TrackController {/track}:
+[Nest] 183  - 04/01/2024, 10:23:25 PM     LOG Mapped {/album, POST} route
+[Nest] 183  - 04/01/2024, 10:23:25 PM     LOG Mapped {/album/:id, GET} route
+[Nest] 183  - 04/01/2024, 10:23:25 PM     LOG Mapped {/album, GET} route
+[Nest] 183  - 04/01/2024, 10:23:25 PM     LOG Mapped {/album/:id, PUT} route
+[Nest] 183  - 04/01/2024, 10:23:25 PM     LOG FavsController {/favs}:
+[Nest] 183  - 04/01/2024, 10:23:25 PM     LOG Mapped {/album/:id, DELETE} route
+[Nest] 183  - 04/01/2024, 10:23:25 PM     LOG Mapped {/favs, GET} route
+[Nest] 183  - 04/01/2024, 10:23:25 PM     LOG Mapped {/favs/track/:id, DELETE} route
+[Nest] 183  - 04/01/2024, 10:23:25 PM     LOG Mapped {/favs/track/:id, POST} route
+[Nest] 183  - 04/01/2024, 10:23:25 PM     LOG Mapped {/favs/album/:id, DELETE} route
+[Nest] 183  - 04/01/2024, 10:23:25 PM     LOG Mapped {/favs/album/:id, POST} route
+[Nest] 183  - 04/01/2024, 10:23:25 PM     LOG Mapped {/favs/artist/:id, POST} route
+[Nest] 183  - 04/01/2024, 10:23:25 PM     LOG Mapped {/favs/artist/:id, DELETE} route
+[Nest] 183  - 04/01/2024, 10:23:25 PM     LOG Nest application successfully started
+[Nest] 183  - 04/01/2024, 10:23:25 PM     LOG ArtistController {/artist}:
+[Nest] 195  - 04/01/2024, 10:25:20 PM     LOG Mapped {/, GET} route
+[Nest] 195  - 04/01/2024, 10:25:20 PM     LOG UserController {/user}:
+[Nest] 195  - 04/01/2024, 10:25:20 PM     LOG Mapped {/user, GET} route
+[Nest] 195  - 04/01/2024, 10:25:20 PM     LOG AuthController {/auth}:
+[Nest] 195  - 04/01/2024, 10:25:20 PM     LOG Mapped {/auth/signup, POST} route
+[Nest] 195  - 04/01/2024, 10:25:20 PM     LOG Mapped {/user/:id, DELETE} route
+[Nest] 195  - 04/01/2024, 10:25:20 PM     LOG Mapped {/user/:id, PUT} route
+[Nest] 195  - 04/01/2024, 10:25:20 PM     LOG Mapped {/user, POST} route
+[Nest] 195  - 04/01/2024, 10:25:20 PM     LOG Mapped {/auth/refresh, POST} route
+[Nest] 195  - 04/01/2024, 10:25:20 PM     LOG AppController {/}:
+[Nest] 195  - 04/01/2024, 10:25:20 PM     LOG Mapped {/user/:id, GET} route
+[Nest] 195  - 04/01/2024, 10:25:20 PM     LOG TrackController {/track}:
+[Nest] 195  - 04/01/2024, 10:25:20 PM     LOG Mapped {/track, GET} route
+[Nest] 195  - 04/01/2024, 10:25:20 PM     LOG Mapped {/track/:id, GET} route
+[Nest] 195  - 04/01/2024, 10:25:20 PM     LOG Mapped {/track, POST} route
+[Nest] 195  - 04/01/2024, 10:25:20 PM     LOG Mapped {/auth/login, POST} route
+[Nest] 195  - 04/01/2024, 10:25:20 PM     LOG ArtistController {/artist}:
+[Nest] 195  - 04/01/2024, 10:25:20 PM     LOG Mapped {/track/:id, DELETE} route
+[Nest] 195  - 04/01/2024, 10:25:20 PM     LOG Mapped {/track/:id, PUT} route
+[Nest] 195  - 04/01/2024, 10:25:20 PM     LOG Mapped {/artist/:id, PUT} route
+[Nest] 195  - 04/01/2024, 10:25:20 PM     LOG Mapped {/artist/:id, GET} route
+[Nest] 195  - 04/01/2024, 10:25:20 PM     LOG Mapped {/artist, GET} route
+[Nest] 195  - 04/01/2024, 10:25:20 PM     LOG Mapped {/artist, POST} route
+[Nest] 195  - 04/01/2024, 10:25:20 PM     LOG AlbumController {/album}:
+[Nest] 195  - 04/01/2024, 10:25:20 PM     LOG Mapped {/artist/:id, DELETE} route
+[Nest] 195  - 04/01/2024, 10:25:20 PM     LOG Mapped {/album, POST} route
+[Nest] 195  - 04/01/2024, 10:25:20 PM     LOG Mapped {/album, GET} route
+[Nest] 195  - 04/01/2024, 10:25:20 PM     LOG Mapped {/album/:id, PUT} route
+[Nest] 195  - 04/01/2024, 10:25:20 PM     LOG Mapped {/album/:id, DELETE} route
+[Nest] 195  - 04/01/2024, 10:25:20 PM     LOG Mapped {/album/:id, GET} route
+[Nest] 195  - 04/01/2024, 10:25:20 PM     LOG Mapped {/favs/track/:id, DELETE} route
+[Nest] 195  - 04/01/2024, 10:25:20 PM     LOG FavsController {/favs}:
+[Nest] 195  - 04/01/2024, 10:25:20 PM     LOG Mapped {/favs, GET} route
+[Nest] 195  - 04/01/2024, 10:25:20 PM     LOG Mapped {/favs/album/:id, POST} route
+[Nest] 195  - 04/01/2024, 10:25:20 PM     LOG Mapped {/favs/track/:id, POST} route
+[Nest] 195  - 04/01/2024, 10:25:20 PM     LOG Mapped {/favs/artist/:id, POST} route
+[Nest] 195  - 04/01/2024, 10:25:20 PM     LOG Mapped {/favs/album/:id, DELETE} route
+[Nest] 195  - 04/01/2024, 10:25:20 PM     LOG Mapped {/favs/artist/:id, DELETE} route
+[Nest] 195  - 04/01/2024, 10:25:20 PM     LOG Nest application successfully started
+[Nest] 239  - 04/01/2024, 10:28:41 PM     LOG AppController {/}:
+[Nest] 239  - 04/01/2024, 10:28:41 PM     LOG Mapped {/user, POST} route
+[Nest] 239  - 04/01/2024, 10:28:41 PM     LOG UserController {/user}:
+[Nest] 239  - 04/01/2024, 10:28:41 PM     LOG Mapped {/, GET} route
+[Nest] 239  - 04/01/2024, 10:28:41 PM     LOG Mapped {/user/:id, GET} route
+[Nest] 239  - 04/01/2024, 10:28:41 PM     LOG Mapped {/user/:id, PUT} route
+[Nest] 239  - 04/01/2024, 10:28:41 PM     LOG AuthController {/auth}:
+[Nest] 239  - 04/01/2024, 10:28:41 PM     LOG Mapped {/user/:id, DELETE} route
+[Nest] 239  - 04/01/2024, 10:28:41 PM     LOG Mapped {/user, GET} route
+[Nest] 239  - 04/01/2024, 10:28:41 PM     LOG Mapped {/auth/login, POST} route
+[Nest] 239  - 04/01/2024, 10:28:41 PM     LOG Mapped {/auth/refresh, POST} route
+[Nest] 239  - 04/01/2024, 10:28:41 PM     LOG Mapped {/auth/signup, POST} route
+[Nest] 239  - 04/01/2024, 10:28:41 PM     LOG TrackController {/track}:
+[Nest] 239  - 04/01/2024, 10:28:41 PM     LOG Mapped {/track, GET} route
+[Nest] 239  - 04/01/2024, 10:28:41 PM     LOG Mapped {/track/:id, GET} route
+[Nest] 239  - 04/01/2024, 10:28:41 PM     LOG Mapped {/track, POST} route
+[Nest] 239  - 04/01/2024, 10:28:41 PM     LOG Mapped {/track/:id, PUT} route
+[Nest] 239  - 04/01/2024, 10:28:41 PM     LOG Mapped {/track/:id, DELETE} route
+[Nest] 239  - 04/01/2024, 10:28:41 PM     LOG ArtistController {/artist}:
+[Nest] 239  - 04/01/2024, 10:28:41 PM     LOG Mapped {/artist, POST} route
+[Nest] 239  - 04/01/2024, 10:28:41 PM     LOG Mapped {/artist/:id, GET} route
+[Nest] 239  - 04/01/2024, 10:28:41 PM     LOG Mapped {/artist, GET} route
+[Nest] 239  - 04/01/2024, 10:28:41 PM     LOG AlbumController {/album}:
+[Nest] 239  - 04/01/2024, 10:28:41 PM     LOG Mapped {/artist/:id, PUT} route
+[Nest] 239  - 04/01/2024, 10:28:41 PM     LOG Mapped {/artist/:id, DELETE} route
+[Nest] 239  - 04/01/2024, 10:28:41 PM     LOG Mapped {/album, POST} route
+[Nest] 239  - 04/01/2024, 10:28:41 PM     LOG Mapped {/album/:id, PUT} route
+[Nest] 239  - 04/01/2024, 10:28:41 PM     LOG Mapped {/album, GET} route
+[Nest] 239  - 04/01/2024, 10:28:41 PM     LOG Mapped {/album/:id, DELETE} route
+[Nest] 239  - 04/01/2024, 10:28:41 PM     LOG Mapped {/favs/track/:id, POST} route
+[Nest] 239  - 04/01/2024, 10:28:41 PM     LOG FavsController {/favs}:
+[Nest] 239  - 04/01/2024, 10:28:41 PM     LOG Mapped {/favs, GET} route
+[Nest] 239  - 04/01/2024, 10:28:41 PM     LOG Mapped {/favs/album/:id, DELETE} route
+[Nest] 239  - 04/01/2024, 10:28:41 PM     LOG Mapped {/album/:id, GET} route
+[Nest] 239  - 04/01/2024, 10:28:41 PM     LOG Mapped {/favs/album/:id, POST} route
+[Nest] 239  - 04/01/2024, 10:28:41 PM     LOG Mapped {/favs/artist/:id, POST} route
+[Nest] 239  - 04/01/2024, 10:28:41 PM     LOG Nest application successfully started
+[Nest] 239  - 04/01/2024, 10:28:41 PM     LOG Mapped {/favs/track/:id, DELETE} route
+[Nest] 239  - 04/01/2024, 10:28:41 PM     LOG Mapped {/favs/artist/:id, DELETE} route
+[Nest] 251  - 04/01/2024, 10:29:46 PM     LOG AppController {/}:
+[Nest] 251  - 04/01/2024, 10:29:46 PM     LOG Mapped {/user, POST} route
+[Nest] 251  - 04/01/2024, 10:29:46 PM     LOG Mapped {/, GET} route
+[Nest] 251  - 04/01/2024, 10:29:46 PM     LOG UserController {/user}:
+[Nest] 251  - 04/01/2024, 10:29:46 PM     LOG Mapped {/user/:id, GET} route
+[Nest] 251  - 04/01/2024, 10:29:46 PM     LOG Mapped {/user/:id, PUT} route
+[Nest] 251  - 04/01/2024, 10:29:46 PM     LOG AuthController {/auth}:
+[Nest] 251  - 04/01/2024, 10:29:46 PM     LOG Mapped {/track, GET} route
+[Nest] 251  - 04/01/2024, 10:29:46 PM     LOG Mapped {/user/:id, DELETE} route
+[Nest] 251  - 04/01/2024, 10:29:46 PM     LOG Mapped {/auth/login, POST} route
+[Nest] 251  - 04/01/2024, 10:29:46 PM     LOG Mapped {/track, POST} route
+[Nest] 251  - 04/01/2024, 10:29:46 PM     LOG Mapped {/track/:id, DELETE} route
+[Nest] 251  - 04/01/2024, 10:29:46 PM     LOG Mapped {/user, GET} route
+[Nest] 251  - 04/01/2024, 10:29:46 PM     LOG Mapped {/auth/refresh, POST} route
+[Nest] 251  - 04/01/2024, 10:29:46 PM     LOG Mapped {/track/:id, PUT} route
+[Nest] 251  - 04/01/2024, 10:29:46 PM     LOG Mapped {/auth/signup, POST} route
+[Nest] 251  - 04/01/2024, 10:29:46 PM     LOG Mapped {/artist, POST} route
+[Nest] 251  - 04/01/2024, 10:29:46 PM     LOG ArtistController {/artist}:
+[Nest] 251  - 04/01/2024, 10:29:46 PM     LOG Mapped {/artist/:id, GET} route
+[Nest] 251  - 04/01/2024, 10:29:46 PM     LOG Mapped {/artist, GET} route
+[Nest] 251  - 04/01/2024, 10:29:46 PM     LOG TrackController {/track}:
+[Nest] 251  - 04/01/2024, 10:29:46 PM     LOG Mapped {/artist/:id, DELETE} route
+[Nest] 251  - 04/01/2024, 10:29:46 PM     LOG Mapped {/track/:id, GET} route
+[Nest] 251  - 04/01/2024, 10:29:46 PM     LOG Mapped {/album, POST} route
+[Nest] 251  - 04/01/2024, 10:29:46 PM     LOG FavsController {/favs}:
+[Nest] 251  - 04/01/2024, 10:29:46 PM     LOG Mapped {/album, GET} route
+[Nest] 251  - 04/01/2024, 10:29:46 PM     LOG Mapped {/artist/:id, PUT} route
+[Nest] 251  - 04/01/2024, 10:29:46 PM     LOG AlbumController {/album}:
+[Nest] 251  - 04/01/2024, 10:29:46 PM     LOG Mapped {/album/:id, DELETE} route
+[Nest] 251  - 04/01/2024, 10:29:46 PM     LOG Mapped {/album/:id, GET} route
+[Nest] 251  - 04/01/2024, 10:29:46 PM     LOG Mapped {/album/:id, PUT} route
+[Nest] 251  - 04/01/2024, 10:29:46 PM     LOG Mapped {/favs/track/:id, POST} route
+[Nest] 251  - 04/01/2024, 10:29:46 PM     LOG Mapped {/favs, GET} route
+[Nest] 251  - 04/01/2024, 10:29:46 PM     LOG Mapped {/favs/album/:id, POST} route
+[Nest] 251  - 04/01/2024, 10:29:46 PM     LOG Mapped {/favs/artist/:id, POST} route
+[Nest] 251  - 04/01/2024, 10:29:46 PM     LOG Mapped {/favs/track/:id, DELETE} route
+[Nest] 251  - 04/01/2024, 10:29:46 PM     LOG Mapped {/favs/artist/:id, DELETE} route
+[Nest] 251  - 04/01/2024, 10:29:46 PM     LOG Mapped {/favs/album/:id, DELETE} route
+[Nest] 251  - 04/01/2024, 10:29:46 PM     LOG Nest application successfully started
+[Nest] 275  - 04/01/2024, 10:32:44 PM     LOG AppController {/}:
+[Nest] 275  - 04/01/2024, 10:32:44 PM     LOG Mapped {/user, GET} route
+[Nest] 275  - 04/01/2024, 10:32:44 PM     LOG Mapped {/user, POST} route
+[Nest] 275  - 04/01/2024, 10:32:44 PM     LOG Mapped {/, GET} route
+[Nest] 275  - 04/01/2024, 10:32:45 PM     LOG Mapped {/user/:id, PUT} route
+[Nest] 275  - 04/01/2024, 10:32:45 PM     LOG Mapped {/user/:id, DELETE} route
+[Nest] 275  - 04/01/2024, 10:32:45 PM     LOG AuthController {/auth}:
+[Nest] 275  - 04/01/2024, 10:32:44 PM     LOG UserController {/user}:
+[Nest] 275  - 04/01/2024, 10:32:45 PM     LOG Mapped {/auth/signup, POST} route
+[Nest] 275  - 04/01/2024, 10:32:45 PM     LOG Mapped {/user/:id, GET} route
+[Nest] 275  - 04/01/2024, 10:32:45 PM     LOG Mapped {/auth/login, POST} route
+[Nest] 275  - 04/01/2024, 10:32:45 PM     LOG Mapped {/auth/refresh, POST} route
+[Nest] 275  - 04/01/2024, 10:32:45 PM     LOG TrackController {/track}:
+[Nest] 275  - 04/01/2024, 10:32:45 PM     LOG Mapped {/track, POST} route
+[Nest] 275  - 04/01/2024, 10:32:45 PM     LOG Mapped {/track/:id, GET} route
+[Nest] 275  - 04/01/2024, 10:32:45 PM     LOG ArtistController {/artist}:
+[Nest] 275  - 04/01/2024, 10:32:45 PM     LOG Mapped {/track, GET} route
+[Nest] 275  - 04/01/2024, 10:32:45 PM     LOG Mapped {/artist, GET} route
+[Nest] 275  - 04/01/2024, 10:32:45 PM     LOG Mapped {/artist/:id, GET} route
+[Nest] 275  - 04/01/2024, 10:32:45 PM     LOG AlbumController {/album}:
+[Nest] 275  - 04/01/2024, 10:32:45 PM     LOG Mapped {/artist, POST} route
+[Nest] 275  - 04/01/2024, 10:32:45 PM     LOG Mapped {/artist/:id, PUT} route
+[Nest] 275  - 04/01/2024, 10:32:45 PM     LOG Mapped {/album, POST} route
+[Nest] 275  - 04/01/2024, 10:32:45 PM     LOG Mapped {/album, GET} route
+[Nest] 275  - 04/01/2024, 10:32:45 PM     LOG Mapped {/album/:id, DELETE} route
+[Nest] 275  - 04/01/2024, 10:32:45 PM     LOG Mapped {/album/:id, GET} route
+[Nest] 275  - 04/01/2024, 10:32:45 PM     LOG Mapped {/artist/:id, DELETE} route
+[Nest] 275  - 04/01/2024, 10:32:45 PM     LOG Mapped {/favs, GET} route
+[Nest] 275  - 04/01/2024, 10:32:45 PM     LOG FavsController {/favs}:
+[Nest] 275  - 04/01/2024, 10:32:45 PM     LOG Mapped {/album/:id, PUT} route
+[Nest] 275  - 04/01/2024, 10:32:45 PM     LOG Mapped {/favs/track/:id, DELETE} route
+[Nest] 275  - 04/01/2024, 10:32:45 PM     LOG Mapped {/favs/track/:id, POST} route
+[Nest] 275  - 04/01/2024, 10:32:45 PM     LOG Mapped {/favs/artist/:id, DELETE} route
+[Nest] 275  - 04/01/2024, 10:32:45 PM     LOG Mapped {/favs/artist/:id, POST} route
+[Nest] 275  - 04/01/2024, 10:32:45 PM     LOG Mapped {/favs/album/:id, DELETE} route
+[Nest] 275  - 04/01/2024, 10:32:45 PM     LOG Mapped {/favs/album/:id, POST} route
+[Nest] 275  - 04/01/2024, 10:32:45 PM     LOG Nest application successfully started
+[Nest] 275  - 04/01/2024, 10:32:45 PM     LOG Mapped {/track/:id, DELETE} route
+[Nest] 275  - 04/01/2024, 10:32:45 PM     LOG Mapped {/track/:id, PUT} route
+[Nest] 303  - 04/01/2024, 10:33:00 PM     LOG Mapped {/, GET} route
+[Nest] 303  - 04/01/2024, 10:33:00 PM     LOG UserController {/user}:
+[Nest] 303  - 04/01/2024, 10:33:00 PM     LOG AppController {/}:
+[Nest] 303  - 04/01/2024, 10:33:00 PM     LOG Mapped {/user, GET} route
+[Nest] 303  - 04/01/2024, 10:33:00 PM     LOG Mapped {/user/:id, PUT} route
+[Nest] 303  - 04/01/2024, 10:33:00 PM     LOG Mapped {/user/:id, GET} route
+[Nest] 303  - 04/01/2024, 10:33:00 PM     LOG AuthController {/auth}:
+[Nest] 303  - 04/01/2024, 10:33:00 PM     LOG Mapped {/user/:id, DELETE} route
+[Nest] 303  - 04/01/2024, 10:33:00 PM     LOG Mapped {/user, POST} route
+[Nest] 303  - 04/01/2024, 10:33:00 PM     LOG Mapped {/auth/login, POST} route
+[Nest] 303  - 04/01/2024, 10:33:00 PM     LOG TrackController {/track}:
+[Nest] 303  - 04/01/2024, 10:33:00 PM     LOG Mapped {/track, POST} route
+[Nest] 303  - 04/01/2024, 10:33:00 PM     LOG Mapped {/track/:id, GET} route
+[Nest] 303  - 04/01/2024, 10:33:00 PM     LOG Mapped {/auth/signup, POST} route
+[Nest] 303  - 04/01/2024, 10:33:00 PM     LOG Mapped {/track, GET} route
+[Nest] 303  - 04/01/2024, 10:33:00 PM     LOG Mapped {/track/:id, PUT} route
+[Nest] 303  - 04/01/2024, 10:33:00 PM     LOG Mapped {/track/:id, DELETE} route
+[Nest] 303  - 04/01/2024, 10:33:00 PM     LOG Mapped {/artist, POST} route
+[Nest] 303  - 04/01/2024, 10:33:00 PM     LOG ArtistController {/artist}:
+[Nest] 303  - 04/01/2024, 10:33:00 PM     LOG Mapped {/auth/refresh, POST} route
+[Nest] 303  - 04/01/2024, 10:33:00 PM     LOG Mapped {/artist/:id, PUT} route
+[Nest] 303  - 04/01/2024, 10:33:00 PM     LOG Mapped {/artist/:id, GET} route
+[Nest] 303  - 04/01/2024, 10:33:00 PM     LOG Mapped {/artist, GET} route
+[Nest] 303  - 04/01/2024, 10:33:00 PM     LOG Mapped {/artist/:id, DELETE} route
+[Nest] 303  - 04/01/2024, 10:33:00 PM     LOG AlbumController {/album}:
+[Nest] 303  - 04/01/2024, 10:33:00 PM     LOG Mapped {/album, POST} route
+[Nest] 303  - 04/01/2024, 10:33:00 PM     LOG Mapped {/album/:id, GET} route
+[Nest] 303  - 04/01/2024, 10:33:00 PM     LOG Mapped {/album/:id, PUT} route
+[Nest] 303  - 04/01/2024, 10:33:00 PM     LOG Mapped {/album, GET} route
+[Nest] 303  - 04/01/2024, 10:33:00 PM     LOG Mapped {/album/:id, DELETE} route
+[Nest] 303  - 04/01/2024, 10:33:00 PM     LOG FavsController {/favs}:
+[Nest] 303  - 04/01/2024, 10:33:00 PM     LOG Mapped {/favs/track/:id, DELETE} route
+[Nest] 303  - 04/01/2024, 10:33:00 PM     LOG Mapped {/favs/track/:id, POST} route
+[Nest] 303  - 04/01/2024, 10:33:00 PM     LOG Mapped {/favs, GET} route
+[Nest] 303  - 04/01/2024, 10:33:00 PM     LOG Mapped {/favs/album/:id, POST} route
+[Nest] 303  - 04/01/2024, 10:33:00 PM     LOG Mapped {/favs/album/:id, DELETE} route
+[Nest] 303  - 04/01/2024, 10:33:00 PM     LOG Mapped {/favs/artist/:id, POST} route
+[Nest] 303  - 04/01/2024, 10:33:00 PM     LOG Nest application successfully started
+[Nest] 303  - 04/01/2024, 10:33:00 PM     LOG Mapped {/favs/artist/:id, DELETE} route
+[Nest] 315  - 04/01/2024, 10:33:10 PM     LOG AppController {/}:
+[Nest] 315  - 04/01/2024, 10:33:10 PM     LOG Mapped {/user, POST} route
+[Nest] 315  - 04/01/2024, 10:33:10 PM     LOG Mapped {/, GET} route
+[Nest] 315  - 04/01/2024, 10:33:10 PM     LOG Mapped {/user/:id, GET} route
+[Nest] 315  - 04/01/2024, 10:33:10 PM     LOG Mapped {/user/:id, DELETE} route
+[Nest] 315  - 04/01/2024, 10:33:10 PM     LOG Mapped {/user/:id, PUT} route
+[Nest] 315  - 04/01/2024, 10:33:10 PM     LOG AuthController {/auth}:
+[Nest] 315  - 04/01/2024, 10:33:10 PM     LOG TrackController {/track}:
+[Nest] 315  - 04/01/2024, 10:33:10 PM     LOG Mapped {/auth/signup, POST} route
+[Nest] 315  - 04/01/2024, 10:33:10 PM     LOG Mapped {/auth/refresh, POST} route
+[Nest] 315  - 04/01/2024, 10:33:10 PM     LOG Mapped {/auth/login, POST} route
+[Nest] 315  - 04/01/2024, 10:33:10 PM     LOG Mapped {/track, GET} route
+[Nest] 315  - 04/01/2024, 10:33:10 PM     LOG Mapped {/track, POST} route
+[Nest] 315  - 04/01/2024, 10:33:10 PM     LOG Mapped {/track/:id, PUT} route
+[Nest] 315  - 04/01/2024, 10:33:10 PM     LOG Mapped {/track/:id, GET} route
+[Nest] 315  - 04/01/2024, 10:33:10 PM     LOG Mapped {/track/:id, DELETE} route
+[Nest] 315  - 04/01/2024, 10:33:10 PM     LOG Mapped {/artist, GET} route
+[Nest] 315  - 04/01/2024, 10:33:10 PM     LOG ArtistController {/artist}:
+[Nest] 315  - 04/01/2024, 10:33:10 PM     LOG Mapped {/artist, POST} route
+[Nest] 315  - 04/01/2024, 10:33:10 PM     LOG Mapped {/artist/:id, DELETE} route
+[Nest] 315  - 04/01/2024, 10:33:10 PM     LOG Mapped {/artist/:id, GET} route
+[Nest] 315  - 04/01/2024, 10:33:10 PM     LOG AlbumController {/album}:
+[Nest] 315  - 04/01/2024, 10:33:10 PM     LOG Mapped {/artist/:id, PUT} route
+[Nest] 315  - 04/01/2024, 10:33:10 PM     LOG Mapped {/album, POST} route
+[Nest] 315  - 04/01/2024, 10:33:10 PM     LOG Mapped {/album/:id, PUT} route
+[Nest] 315  - 04/01/2024, 10:33:10 PM     LOG Mapped {/album/:id, DELETE} route
+[Nest] 315  - 04/01/2024, 10:33:10 PM     LOG Mapped {/album, GET} route
+[Nest] 315  - 04/01/2024, 10:33:10 PM     LOG FavsController {/favs}:
+[Nest] 315  - 04/01/2024, 10:33:10 PM     LOG Mapped {/album/:id, GET} route
+[Nest] 315  - 04/01/2024, 10:33:10 PM     LOG Mapped {/favs/track/:id, POST} route
+[Nest] 315  - 04/01/2024, 10:33:10 PM     LOG Mapped {/favs, GET} route
+[Nest] 315  - 04/01/2024, 10:33:10 PM     LOG Mapped {/favs/track/:id, DELETE} route
+[Nest] 315  - 04/01/2024, 10:33:10 PM     LOG Mapped {/favs/album/:id, POST} route
+[Nest] 315  - 04/01/2024, 10:33:10 PM     LOG Mapped {/favs/album/:id, DELETE} route
+[Nest] 315  - 04/01/2024, 10:33:10 PM     LOG UserController {/user}:
+[Nest] 315  - 04/01/2024, 10:33:10 PM     LOG Mapped {/favs/artist/:id, POST} route
+[Nest] 315  - 04/01/2024, 10:33:10 PM     LOG Mapped {/favs/artist/:id, DELETE} route
+[Nest] 315  - 04/01/2024, 10:33:10 PM     LOG Mapped {/user, GET} route
+[Nest] 315  - 04/01/2024, 10:33:10 PM     LOG Nest application successfully started
+[Nest] 327  - 04/01/2024, 10:33:41 PM     LOG Mapped {/, GET} route
+[Nest] 327  - 04/01/2024, 10:33:41 PM     LOG UserController {/user}:
+[Nest] 327  - 04/01/2024, 10:33:41 PM     LOG AppController {/}:
+[Nest] 327  - 04/01/2024, 10:33:41 PM     LOG Mapped {/user, POST} route
+[Nest] 327  - 04/01/2024, 10:33:41 PM     LOG Mapped {/user, GET} route
+[Nest] 327  - 04/01/2024, 10:33:41 PM     LOG Mapped {/user/:id, GET} route
+[Nest] 327  - 04/01/2024, 10:33:41 PM     LOG Mapped {/user/:id, PUT} route
+[Nest] 327  - 04/01/2024, 10:33:41 PM     LOG AuthController {/auth}:
+[Nest] 327  - 04/01/2024, 10:33:41 PM     LOG Mapped {/auth/signup, POST} route
+[Nest] 327  - 04/01/2024, 10:33:41 PM     LOG TrackController {/track}:
+[Nest] 327  - 04/01/2024, 10:33:41 PM     LOG Mapped {/user/:id, DELETE} route
+[Nest] 327  - 04/01/2024, 10:33:41 PM     LOG Mapped {/auth/login, POST} route
+[Nest] 327  - 04/01/2024, 10:33:41 PM     LOG Mapped {/track, POST} route
+[Nest] 327  - 04/01/2024, 10:33:41 PM     LOG Mapped {/auth/refresh, POST} route
+[Nest] 327  - 04/01/2024, 10:33:41 PM     LOG Mapped {/track/:id, GET} route
+[Nest] 327  - 04/01/2024, 10:33:41 PM     LOG Mapped {/track, GET} route
+[Nest] 327  - 04/01/2024, 10:33:41 PM     LOG Mapped {/track/:id, PUT} route
+[Nest] 327  - 04/01/2024, 10:33:41 PM     LOG Mapped {/track/:id, DELETE} route
+[Nest] 327  - 04/01/2024, 10:33:41 PM     LOG Mapped {/artist, GET} route
+[Nest] 327  - 04/01/2024, 10:33:41 PM     LOG Mapped {/artist, POST} route
+[Nest] 327  - 04/01/2024, 10:33:41 PM     LOG Mapped {/artist/:id, GET} route
+[Nest] 327  - 04/01/2024, 10:33:41 PM     LOG ArtistController {/artist}:
+[Nest] 327  - 04/01/2024, 10:33:41 PM     LOG Mapped {/artist/:id, PUT} route
+[Nest] 327  - 04/01/2024, 10:33:41 PM     LOG AlbumController {/album}:
+[Nest] 327  - 04/01/2024, 10:33:41 PM     LOG Mapped {/album, POST} route
+[Nest] 327  - 04/01/2024, 10:33:41 PM     LOG Mapped {/artist/:id, DELETE} route
+[Nest] 327  - 04/01/2024, 10:33:41 PM     LOG Mapped {/album/:id, PUT} route
+[Nest] 327  - 04/01/2024, 10:33:41 PM     LOG Mapped {/album/:id, GET} route
+[Nest] 327  - 04/01/2024, 10:33:41 PM     LOG Mapped {/album, GET} route
+[Nest] 327  - 04/01/2024, 10:33:41 PM     LOG Mapped {/album/:id, DELETE} route
+[Nest] 327  - 04/01/2024, 10:33:41 PM     LOG Mapped {/favs, GET} route
+[Nest] 327  - 04/01/2024, 10:33:41 PM     LOG FavsController {/favs}:
+[Nest] 327  - 04/01/2024, 10:33:41 PM     LOG Mapped {/favs/track/:id, DELETE} route
+[Nest] 327  - 04/01/2024, 10:33:41 PM     LOG Mapped {/favs/album/:id, POST} route
+[Nest] 327  - 04/01/2024, 10:33:41 PM     LOG Mapped {/favs/track/:id, POST} route
+[Nest] 327  - 04/01/2024, 10:33:41 PM     LOG Mapped {/favs/album/:id, DELETE} route
+[Nest] 327  - 04/01/2024, 10:33:41 PM     LOG Mapped {/favs/artist/:id, DELETE} route
+[Nest] 327  - 04/01/2024, 10:33:41 PM     LOG Nest application successfully started
+[Nest] 327  - 04/01/2024, 10:33:41 PM     LOG Mapped {/favs/artist/:id, POST} route
+[Nest] 347  - 04/01/2024, 10:34:27 PM     LOG AppController {/}:
+[Nest] 347  - 04/01/2024, 10:34:27 PM     LOG Mapped {/user/:id, GET} route
+[Nest] 347  - 04/01/2024, 10:34:27 PM     LOG Mapped {/user, GET} route
+[Nest] 347  - 04/01/2024, 10:34:27 PM     LOG UserController {/user}:
+[Nest] 347  - 04/01/2024, 10:34:27 PM     LOG Mapped {/user/:id, DELETE} route
+[Nest] 347  - 04/01/2024, 10:34:27 PM     LOG Mapped {/user/:id, PUT} route
+[Nest] 347  - 04/01/2024, 10:34:27 PM     LOG Mapped {/auth/signup, POST} route
+[Nest] 347  - 04/01/2024, 10:34:27 PM     LOG AuthController {/auth}:
+[Nest] 347  - 04/01/2024, 10:34:27 PM     LOG Mapped {/, GET} route
+[Nest] 347  - 04/01/2024, 10:34:27 PM     LOG Mapped {/user, POST} route
+[Nest] 347  - 04/01/2024, 10:34:27 PM     LOG Mapped {/auth/login, POST} route
+[Nest] 347  - 04/01/2024, 10:34:27 PM     LOG Mapped {/auth/refresh, POST} route
+[Nest] 347  - 04/01/2024, 10:34:27 PM     LOG TrackController {/track}:
+[Nest] 347  - 04/01/2024, 10:34:27 PM     LOG Mapped {/track, POST} route
+[Nest] 347  - 04/01/2024, 10:34:27 PM     LOG Mapped {/track, GET} route
+[Nest] 347  - 04/01/2024, 10:34:27 PM     LOG Mapped {/track/:id, PUT} route
+[Nest] 347  - 04/01/2024, 10:34:27 PM     LOG Mapped {/track/:id, DELETE} route
+[Nest] 347  - 04/01/2024, 10:34:27 PM     LOG Mapped {/artist, GET} route
+[Nest] 347  - 04/01/2024, 10:34:27 PM     LOG Mapped {/track/:id, GET} route
+[Nest] 347  - 04/01/2024, 10:34:27 PM     LOG Mapped {/artist/:id, GET} route
+[Nest] 347  - 04/01/2024, 10:34:27 PM     LOG ArtistController {/artist}:
+[Nest] 347  - 04/01/2024, 10:34:27 PM     LOG Mapped {/artist, POST} route
+[Nest] 347  - 04/01/2024, 10:34:27 PM     LOG Mapped {/album, POST} route
+[Nest] 347  - 04/01/2024, 10:34:27 PM     LOG Mapped {/artist/:id, PUT} route
+[Nest] 347  - 04/01/2024, 10:34:27 PM     LOG Mapped {/artist/:id, DELETE} route
+[Nest] 347  - 04/01/2024, 10:34:27 PM     LOG Mapped {/album, GET} route
+[Nest] 347  - 04/01/2024, 10:34:27 PM     LOG Mapped {/album/:id, GET} route
+[Nest] 347  - 04/01/2024, 10:34:27 PM     LOG AlbumController {/album}:
+[Nest] 347  - 04/01/2024, 10:34:28 PM     LOG Mapped {/album/:id, DELETE} route
+[Nest] 347  - 04/01/2024, 10:34:28 PM     LOG Mapped {/album/:id, PUT} route
+[Nest] 347  - 04/01/2024, 10:34:28 PM     LOG FavsController {/favs}:
+[Nest] 347  - 04/01/2024, 10:34:28 PM     LOG Mapped {/favs/track/:id, POST} route
+[Nest] 347  - 04/01/2024, 10:34:28 PM     LOG Mapped {/favs/album/:id, DELETE} route
+[Nest] 347  - 04/01/2024, 10:34:28 PM     LOG Mapped {/favs/artist/:id, POST} route
+[Nest] 347  - 04/01/2024, 10:34:28 PM     LOG Mapped {/favs, GET} route
+[Nest] 347  - 04/01/2024, 10:34:28 PM     LOG Mapped {/favs/album/:id, POST} route
+[Nest] 347  - 04/01/2024, 10:34:28 PM     LOG Mapped {/favs/track/:id, DELETE} route
+[Nest] 347  - 04/01/2024, 10:34:28 PM     LOG Nest application successfully started
+[Nest] 347  - 04/01/2024, 10:34:28 PM     LOG Mapped {/favs/artist/:id, DELETE} route
+[Nest] 359  - 04/01/2024, 10:34:52 PM     LOG AppController {/}:
+[Nest] 359  - 04/01/2024, 10:34:52 PM     LOG Mapped {/user, POST} route
+[Nest] 359  - 04/01/2024, 10:34:52 PM     LOG UserController {/user}:
+[Nest] 359  - 04/01/2024, 10:34:52 PM     LOG Mapped {/, GET} route
+[Nest] 359  - 04/01/2024, 10:34:52 PM     LOG Mapped {/user/:id, PUT} route
+[Nest] 359  - 04/01/2024, 10:34:52 PM     LOG Mapped {/user/:id, GET} route
+[Nest] 359  - 04/01/2024, 10:34:52 PM     LOG Mapped {/user/:id, DELETE} route
+[Nest] 359  - 04/01/2024, 10:34:52 PM     LOG Mapped {/user, GET} route
+[Nest] 359  - 04/01/2024, 10:34:52 PM     LOG AuthController {/auth}:
+[Nest] 359  - 04/01/2024, 10:34:52 PM     LOG Mapped {/auth/signup, POST} route
+[Nest] 359  - 04/01/2024, 10:34:52 PM     LOG Mapped {/auth/login, POST} route
+[Nest] 359  - 04/01/2024, 10:34:52 PM     LOG Mapped {/auth/refresh, POST} route
+[Nest] 359  - 04/01/2024, 10:34:52 PM     LOG TrackController {/track}:
+[Nest] 359  - 04/01/2024, 10:34:52 PM     LOG Mapped {/track, POST} route
+[Nest] 359  - 04/01/2024, 10:34:52 PM     LOG Mapped {/track, GET} route
+[Nest] 359  - 04/01/2024, 10:34:52 PM     LOG Mapped {/track/:id, GET} route
+[Nest] 359  - 04/01/2024, 10:34:52 PM     LOG Mapped {/track/:id, PUT} route
+[Nest] 359  - 04/01/2024, 10:34:52 PM     LOG Mapped {/track/:id, DELETE} route
+[Nest] 359  - 04/01/2024, 10:34:52 PM     LOG ArtistController {/artist}:
+[Nest] 359  - 04/01/2024, 10:34:52 PM     LOG Mapped {/artist/:id, GET} route
+[Nest] 359  - 04/01/2024, 10:34:52 PM     LOG Mapped {/artist, POST} route
+[Nest] 359  - 04/01/2024, 10:34:52 PM     LOG Mapped {/artist, GET} route
+[Nest] 359  - 04/01/2024, 10:34:52 PM     LOG Mapped {/artist/:id, PUT} route
+[Nest] 359  - 04/01/2024, 10:34:52 PM     LOG Mapped {/artist/:id, DELETE} route
+[Nest] 359  - 04/01/2024, 10:34:52 PM     LOG Mapped {/album, POST} route
+[Nest] 359  - 04/01/2024, 10:34:52 PM     LOG AlbumController {/album}:
+[Nest] 359  - 04/01/2024, 10:34:52 PM     LOG Mapped {/album/:id, GET} route
+[Nest] 359  - 04/01/2024, 10:34:52 PM     LOG Mapped {/album, GET} route
+[Nest] 359  - 04/01/2024, 10:34:52 PM     LOG FavsController {/favs}:
+[Nest] 359  - 04/01/2024, 10:34:52 PM     LOG Mapped {/album/:id, PUT} route
+[Nest] 359  - 04/01/2024, 10:34:52 PM     LOG Mapped {/album/:id, DELETE} route
+[Nest] 359  - 04/01/2024, 10:34:52 PM     LOG Mapped {/favs, GET} route
+[Nest] 359  - 04/01/2024, 10:34:52 PM     LOG Mapped {/favs/track/:id, POST} route
+[Nest] 359  - 04/01/2024, 10:34:52 PM     LOG Mapped {/favs/album/:id, POST} route
+[Nest] 359  - 04/01/2024, 10:34:52 PM     LOG Mapped {/favs/track/:id, DELETE} route
+[Nest] 359  - 04/01/2024, 10:34:52 PM     LOG Mapped {/favs/album/:id, DELETE} route
+[Nest] 359  - 04/01/2024, 10:34:52 PM     LOG Mapped {/favs/artist/:id, POST} route
+[Nest] 359  - 04/01/2024, 10:34:52 PM     LOG Mapped {/favs/artist/:id, DELETE} route
+[Nest] 359  - 04/01/2024, 10:34:52 PM     LOG Nest application successfully started
+[Nest] 383  - 04/01/2024, 10:39:31 PM     LOG Mapped {/user, POST} route
+[Nest] 383  - 04/01/2024, 10:39:31 PM     LOG AppController {/}:
+[Nest] 383  - 04/01/2024, 10:39:31 PM     LOG Mapped {/user/:id, GET} route
+[Nest] 383  - 04/01/2024, 10:39:31 PM     LOG Mapped {/user, GET} route
+[Nest] 383  - 04/01/2024, 10:39:31 PM     LOG Mapped {/, GET} route
+[Nest] 383  - 04/01/2024, 10:39:31 PM     LOG Mapped {/user/:id, DELETE} route
+[Nest] 383  - 04/01/2024, 10:39:31 PM     LOG UserController {/user}:
+[Nest] 383  - 04/01/2024, 10:39:31 PM     LOG Mapped {/user/:id, PUT} route
+[Nest] 383  - 04/01/2024, 10:39:31 PM     LOG Mapped {/auth/signup, POST} route
+[Nest] 383  - 04/01/2024, 10:39:31 PM     LOG AuthController {/auth}:
+[Nest] 383  - 04/01/2024, 10:39:31 PM     LOG Mapped {/auth/login, POST} route
+[Nest] 383  - 04/01/2024, 10:39:31 PM     LOG Mapped {/auth/refresh, POST} route
+[Nest] 383  - 04/01/2024, 10:39:31 PM     LOG Mapped {/track, GET} route
+[Nest] 383  - 04/01/2024, 10:39:31 PM     LOG Mapped {/track, POST} route
+[Nest] 383  - 04/01/2024, 10:39:31 PM     LOG TrackController {/track}:
+[Nest] 383  - 04/01/2024, 10:39:31 PM     LOG Mapped {/track/:id, GET} route
+[Nest] 383  - 04/01/2024, 10:39:31 PM     LOG Mapped {/track/:id, DELETE} route
+[Nest] 383  - 04/01/2024, 10:39:31 PM     LOG ArtistController {/artist}:
+[Nest] 383  - 04/01/2024, 10:39:31 PM     LOG Mapped {/track/:id, PUT} route
+[Nest] 383  - 04/01/2024, 10:39:31 PM     LOG Mapped {/artist, GET} route
+[Nest] 383  - 04/01/2024, 10:39:31 PM     LOG Mapped {/artist/:id, GET} route
+[Nest] 383  - 04/01/2024, 10:39:31 PM     LOG Mapped {/artist, POST} route
+[Nest] 383  - 04/01/2024, 10:39:31 PM     LOG Mapped {/artist/:id, PUT} route
+[Nest] 383  - 04/01/2024, 10:39:31 PM     LOG Mapped {/album, POST} route
+[Nest] 383  - 04/01/2024, 10:39:31 PM     LOG AlbumController {/album}:
+[Nest] 383  - 04/01/2024, 10:39:31 PM     LOG Mapped {/artist/:id, DELETE} route
+[Nest] 383  - 04/01/2024, 10:39:31 PM     LOG Mapped {/album, GET} route
+[Nest] 383  - 04/01/2024, 10:39:31 PM     LOG Mapped {/album/:id, PUT} route
+[Nest] 383  - 04/01/2024, 10:39:31 PM     LOG Mapped {/album/:id, GET} route
+[Nest] 383  - 04/01/2024, 10:39:31 PM     LOG Mapped {/album/:id, DELETE} route
+[Nest] 383  - 04/01/2024, 10:39:31 PM     LOG Mapped {/favs, GET} route
+[Nest] 383  - 04/01/2024, 10:39:31 PM     LOG Mapped {/favs/album/:id, POST} route
+[Nest] 383  - 04/01/2024, 10:39:31 PM     LOG FavsController {/favs}:
+[Nest] 383  - 04/01/2024, 10:39:31 PM     LOG Mapped {/favs/track/:id, DELETE} route
+[Nest] 383  - 04/01/2024, 10:39:31 PM     LOG Mapped {/favs/track/:id, POST} route
+[Nest] 383  - 04/01/2024, 10:39:31 PM     LOG Mapped {/favs/album/:id, DELETE} route
+[Nest] 383  - 04/01/2024, 10:39:31 PM     LOG Mapped {/favs/artist/:id, POST} route
+[Nest] 383  - 04/01/2024, 10:39:31 PM     LOG Mapped {/favs/artist/:id, DELETE} route
+[Nest] 383  - 04/01/2024, 10:39:31 PM     LOG Nest application successfully started
+[Nest] 403  - 04/01/2024, 10:39:47 PM     LOG UserController {/user}:
+[Nest] 403  - 04/01/2024, 10:39:47 PM     LOG Mapped {/, GET} route
+[Nest] 403  - 04/01/2024, 10:39:47 PM     LOG AppController {/}:
+[Nest] 403  - 04/01/2024, 10:39:47 PM     LOG Mapped {/user/:id, GET} route
+[Nest] 403  - 04/01/2024, 10:39:47 PM     LOG Mapped {/user/:id, DELETE} route
+[Nest] 403  - 04/01/2024, 10:39:47 PM     LOG Mapped {/user/:id, PUT} route
+[Nest] 403  - 04/01/2024, 10:39:47 PM     LOG AuthController {/auth}:
+[Nest] 403  - 04/01/2024, 10:39:47 PM     LOG Mapped {/auth/login, POST} route
+[Nest] 403  - 04/01/2024, 10:39:47 PM     LOG Mapped {/auth/signup, POST} route
+[Nest] 403  - 04/01/2024, 10:39:47 PM     LOG Mapped {/auth/refresh, POST} route
+[Nest] 403  - 04/01/2024, 10:39:47 PM     LOG TrackController {/track}:
+[Nest] 403  - 04/01/2024, 10:39:47 PM     LOG Mapped {/track, GET} route
+[Nest] 403  - 04/01/2024, 10:39:47 PM     LOG Mapped {/track, POST} route
+[Nest] 403  - 04/01/2024, 10:39:47 PM     LOG Mapped {/user, GET} route
+[Nest] 403  - 04/01/2024, 10:39:47 PM     LOG Mapped {/track/:id, GET} route
+[Nest] 403  - 04/01/2024, 10:39:47 PM     LOG Mapped {/track/:id, PUT} route
+[Nest] 403  - 04/01/2024, 10:39:47 PM     LOG Mapped {/track/:id, DELETE} route
+[Nest] 403  - 04/01/2024, 10:39:47 PM     LOG ArtistController {/artist}:
+[Nest] 403  - 04/01/2024, 10:39:47 PM     LOG Mapped {/artist, POST} route
+[Nest] 403  - 04/01/2024, 10:39:47 PM     LOG Mapped {/user, POST} route
+[Nest] 403  - 04/01/2024, 10:39:47 PM     LOG Mapped {/artist, GET} route
+[Nest] 403  - 04/01/2024, 10:39:47 PM     LOG Mapped {/artist/:id, PUT} route
+[Nest] 403  - 04/01/2024, 10:39:47 PM     LOG Mapped {/artist/:id, GET} route
+[Nest] 403  - 04/01/2024, 10:39:47 PM     LOG Mapped {/artist/:id, DELETE} route
+[Nest] 403  - 04/01/2024, 10:39:47 PM     LOG AlbumController {/album}:
+[Nest] 403  - 04/01/2024, 10:39:47 PM     LOG Mapped {/album, POST} route
+[Nest] 403  - 04/01/2024, 10:39:47 PM     LOG Mapped {/album, GET} route
+[Nest] 403  - 04/01/2024, 10:39:47 PM     LOG Mapped {/album/:id, PUT} route
+[Nest] 403  - 04/01/2024, 10:39:47 PM     LOG Mapped {/album/:id, GET} route
+[Nest] 403  - 04/01/2024, 10:39:47 PM     LOG Mapped {/album/:id, DELETE} route
+[Nest] 403  - 04/01/2024, 10:39:47 PM     LOG FavsController {/favs}:
+[Nest] 403  - 04/01/2024, 10:39:47 PM     LOG Mapped {/favs/track/:id, POST} route
+[Nest] 403  - 04/01/2024, 10:39:47 PM     LOG Mapped {/favs, GET} route
+[Nest] 403  - 04/01/2024, 10:39:47 PM     LOG Mapped {/favs/track/:id, DELETE} route
+[Nest] 403  - 04/01/2024, 10:39:47 PM     LOG Mapped {/favs/album/:id, DELETE} route
+[Nest] 403  - 04/01/2024, 10:39:47 PM     LOG Mapped {/favs/artist/:id, POST} route
+[Nest] 403  - 04/01/2024, 10:39:47 PM     LOG Mapped {/favs/artist/:id, DELETE} route
+[Nest] 403  - 04/01/2024, 10:39:47 PM     LOG Nest application successfully started
+[Nest] 403  - 04/01/2024, 10:39:47 PM     LOG Mapped {/favs/album/:id, POST} route
+[Nest] 423  - 04/01/2024, 10:40:04 PM     LOG Mapped {/user, POST} route
+[Nest] 423  - 04/01/2024, 10:40:04 PM     LOG Mapped {/, GET} route
+[Nest] 423  - 04/01/2024, 10:40:04 PM     LOG UserController {/user}:
+[Nest] 423  - 04/01/2024, 10:40:04 PM     LOG AppController {/}:
+[Nest] 423  - 04/01/2024, 10:40:04 PM     LOG Mapped {/user/:id, GET} route
+[Nest] 423  - 04/01/2024, 10:40:04 PM     LOG Mapped {/user, GET} route
+[Nest] 423  - 04/01/2024, 10:40:04 PM     LOG Mapped {/user/:id, PUT} route
+[Nest] 423  - 04/01/2024, 10:40:04 PM     LOG Mapped {/auth/signup, POST} route
+[Nest] 423  - 04/01/2024, 10:40:04 PM     LOG Mapped {/user/:id, DELETE} route
+[Nest] 423  - 04/01/2024, 10:40:04 PM     LOG Mapped {/auth/refresh, POST} route
+[Nest] 423  - 04/01/2024, 10:40:04 PM     LOG AuthController {/auth}:
+[Nest] 423  - 04/01/2024, 10:40:04 PM     LOG Mapped {/auth/login, POST} route
+[Nest] 423  - 04/01/2024, 10:40:04 PM     LOG TrackController {/track}:
+[Nest] 423  - 04/01/2024, 10:40:04 PM     LOG Mapped {/track, POST} route
+[Nest] 423  - 04/01/2024, 10:40:04 PM     LOG Mapped {/track, GET} route
+[Nest] 423  - 04/01/2024, 10:40:04 PM     LOG Mapped {/track/:id, GET} route
+[Nest] 423  - 04/01/2024, 10:40:04 PM     LOG Mapped {/track/:id, PUT} route
+[Nest] 423  - 04/01/2024, 10:40:04 PM     LOG Mapped {/track/:id, DELETE} route
+[Nest] 423  - 04/01/2024, 10:40:04 PM     LOG Mapped {/artist, GET} route
+[Nest] 423  - 04/01/2024, 10:40:04 PM     LOG ArtistController {/artist}:
+[Nest] 423  - 04/01/2024, 10:40:04 PM     LOG Mapped {/artist/:id, GET} route
+[Nest] 423  - 04/01/2024, 10:40:04 PM     LOG Mapped {/artist, POST} route
+[Nest] 423  - 04/01/2024, 10:40:04 PM     LOG Mapped {/artist/:id, PUT} route
+[Nest] 423  - 04/01/2024, 10:40:04 PM     LOG Mapped {/artist/:id, DELETE} route
+[Nest] 423  - 04/01/2024, 10:40:04 PM     LOG AlbumController {/album}:
+[Nest] 423  - 04/01/2024, 10:40:04 PM     LOG Mapped {/album, GET} route
+[Nest] 423  - 04/01/2024, 10:40:04 PM     LOG Mapped {/album, POST} route
+[Nest] 423  - 04/01/2024, 10:40:04 PM     LOG Mapped {/album/:id, GET} route
+[Nest] 423  - 04/01/2024, 10:40:04 PM     LOG FavsController {/favs}:
+[Nest] 423  - 04/01/2024, 10:40:04 PM     LOG Mapped {/favs, GET} route
+[Nest] 423  - 04/01/2024, 10:40:04 PM     LOG Mapped {/album/:id, DELETE} route
+[Nest] 423  - 04/01/2024, 10:40:04 PM     LOG Mapped {/album/:id, PUT} route
+[Nest] 423  - 04/01/2024, 10:40:04 PM     LOG Mapped {/favs/track/:id, POST} route
+[Nest] 423  - 04/01/2024, 10:40:04 PM     LOG Mapped {/favs/track/:id, DELETE} route
+[Nest] 423  - 04/01/2024, 10:40:04 PM     LOG Mapped {/favs/album/:id, POST} route
+[Nest] 423  - 04/01/2024, 10:40:04 PM     LOG Mapped {/favs/artist/:id, POST} route
+[Nest] 423  - 04/01/2024, 10:40:04 PM     LOG Mapped {/favs/album/:id, DELETE} route
+[Nest] 423  - 04/01/2024, 10:40:04 PM     LOG Mapped {/favs/artist/:id, DELETE} route
+[Nest] 423  - 04/01/2024, 10:40:04 PM     LOG Nest application successfully started
+[Nest] 435  - 04/01/2024, 10:40:33 PM     LOG AppController {/}:
+[Nest] 435  - 04/01/2024, 10:40:33 PM     LOG Mapped {/user, GET} route
+[Nest] 435  - 04/01/2024, 10:40:33 PM     LOG Mapped {/user, POST} route
+[Nest] 435  - 04/01/2024, 10:40:33 PM     LOG UserController {/user}:
+[Nest] 435  - 04/01/2024, 10:40:33 PM     LOG Mapped {/user/:id, PUT} route
+[Nest] 435  - 04/01/2024, 10:40:33 PM     LOG Mapped {/user/:id, GET} route
+[Nest] 435  - 04/01/2024, 10:40:33 PM     LOG AuthController {/auth}:
+[Nest] 435  - 04/01/2024, 10:40:33 PM     LOG Mapped {/user/:id, DELETE} route
+[Nest] 435  - 04/01/2024, 10:40:33 PM     LOG Mapped {/auth/signup, POST} route
+[Nest] 435  - 04/01/2024, 10:40:33 PM     LOG Mapped {/auth/login, POST} route
+[Nest] 435  - 04/01/2024, 10:40:33 PM     LOG Mapped {/auth/refresh, POST} route
+[Nest] 435  - 04/01/2024, 10:40:33 PM     LOG TrackController {/track}:
+[Nest] 435  - 04/01/2024, 10:40:33 PM     LOG Mapped {/, GET} route
+[Nest] 435  - 04/01/2024, 10:40:33 PM     LOG Mapped {/track, GET} route
+[Nest] 435  - 04/01/2024, 10:40:33 PM     LOG Mapped {/track, POST} route
+[Nest] 435  - 04/01/2024, 10:40:33 PM     LOG Mapped {/track/:id, GET} route
+[Nest] 435  - 04/01/2024, 10:40:33 PM     LOG ArtistController {/artist}:
+[Nest] 435  - 04/01/2024, 10:40:33 PM     LOG Mapped {/track/:id, PUT} route
+[Nest] 435  - 04/01/2024, 10:40:33 PM     LOG Mapped {/track/:id, DELETE} route
+[Nest] 435  - 04/01/2024, 10:40:33 PM     LOG Mapped {/artist, POST} route
+[Nest] 435  - 04/01/2024, 10:40:33 PM     LOG Mapped {/artist, GET} route
+[Nest] 435  - 04/01/2024, 10:40:33 PM     LOG Mapped {/artist/:id, GET} route
+[Nest] 435  - 04/01/2024, 10:40:33 PM     LOG Mapped {/artist/:id, PUT} route
+[Nest] 435  - 04/01/2024, 10:40:33 PM     LOG Mapped {/artist/:id, DELETE} route
+[Nest] 435  - 04/01/2024, 10:40:33 PM     LOG AlbumController {/album}:
+[Nest] 435  - 04/01/2024, 10:40:33 PM     LOG Mapped {/album, GET} route
+[Nest] 435  - 04/01/2024, 10:40:33 PM     LOG Mapped {/album/:id, GET} route
+[Nest] 435  - 04/01/2024, 10:40:33 PM     LOG Mapped {/album, POST} route
+[Nest] 435  - 04/01/2024, 10:40:33 PM     LOG Mapped {/favs, GET} route
+[Nest] 435  - 04/01/2024, 10:40:33 PM     LOG Mapped {/favs/track/:id, POST} route
+[Nest] 435  - 04/01/2024, 10:40:33 PM     LOG FavsController {/favs}:
+[Nest] 435  - 04/01/2024, 10:40:33 PM     LOG Mapped {/album/:id, PUT} route
+[Nest] 435  - 04/01/2024, 10:40:33 PM     LOG Mapped {/album/:id, DELETE} route
+[Nest] 435  - 04/01/2024, 10:40:33 PM     LOG Mapped {/favs/track/:id, DELETE} route
+[Nest] 435  - 04/01/2024, 10:40:33 PM     LOG Mapped {/favs/album/:id, POST} route
+[Nest] 435  - 04/01/2024, 10:40:33 PM     LOG Mapped {/favs/album/:id, DELETE} route
+[Nest] 435  - 04/01/2024, 10:40:33 PM     LOG Nest application successfully started
+[Nest] 435  - 04/01/2024, 10:40:33 PM     LOG Mapped {/favs/artist/:id, POST} route
+[Nest] 435  - 04/01/2024, 10:40:33 PM     LOG Mapped {/favs/artist/:id, DELETE} route
+[Nest] 467  - 04/01/2024, 10:41:20 PM     LOG AppController {/}:
+[Nest] 467  - 04/01/2024, 10:41:20 PM     LOG UserController {/user}:
+[Nest] 467  - 04/01/2024, 10:41:20 PM     LOG Mapped {/user, POST} route
+[Nest] 467  - 04/01/2024, 10:41:20 PM     LOG Mapped {/user, GET} route
+[Nest] 467  - 04/01/2024, 10:41:20 PM     LOG Mapped {/user/:id, GET} route
+[Nest] 467  - 04/01/2024, 10:41:20 PM     LOG Mapped {/user/:id, PUT} route
+[Nest] 467  - 04/01/2024, 10:41:20 PM     LOG AuthController {/auth}:
+[Nest] 467  - 04/01/2024, 10:41:20 PM     LOG Mapped {/auth/signup, POST} route
+[Nest] 467  - 04/01/2024, 10:41:20 PM     LOG TrackController {/track}:
+[Nest] 467  - 04/01/2024, 10:41:20 PM     LOG Mapped {/, GET} route
+[Nest] 467  - 04/01/2024, 10:41:20 PM     LOG Mapped {/user/:id, DELETE} route
+[Nest] 467  - 04/01/2024, 10:41:20 PM     LOG Mapped {/track, POST} route
+[Nest] 467  - 04/01/2024, 10:41:20 PM     LOG Mapped {/track/:id, DELETE} route
+[Nest] 467  - 04/01/2024, 10:41:20 PM     LOG Mapped {/track/:id, PUT} route
+[Nest] 467  - 04/01/2024, 10:41:20 PM     LOG Mapped {/auth/refresh, POST} route
+[Nest] 467  - 04/01/2024, 10:41:20 PM     LOG Mapped {/track, GET} route
+[Nest] 467  - 04/01/2024, 10:41:20 PM     LOG Mapped {/track/:id, GET} route
+[Nest] 467  - 04/01/2024, 10:41:20 PM     LOG Mapped {/auth/login, POST} route
+[Nest] 467  - 04/01/2024, 10:41:20 PM     LOG Mapped {/artist, GET} route
+[Nest] 467  - 04/01/2024, 10:41:20 PM     LOG Mapped {/artist/:id, GET} route
+[Nest] 467  - 04/01/2024, 10:41:20 PM     LOG Mapped {/artist/:id, DELETE} route
+[Nest] 467  - 04/01/2024, 10:41:20 PM     LOG Mapped {/artist/:id, PUT} route
+[Nest] 467  - 04/01/2024, 10:41:20 PM     LOG ArtistController {/artist}:
+[Nest] 467  - 04/01/2024, 10:41:20 PM     LOG Mapped {/artist, POST} route
+[Nest] 467  - 04/01/2024, 10:41:20 PM     LOG AlbumController {/album}:
+[Nest] 467  - 04/01/2024, 10:41:20 PM     LOG Mapped {/album, GET} route
+[Nest] 467  - 04/01/2024, 10:41:20 PM     LOG Mapped {/album, POST} route
+[Nest] 467  - 04/01/2024, 10:41:20 PM     LOG Mapped {/album/:id, GET} route
+[Nest] 467  - 04/01/2024, 10:41:20 PM     LOG Mapped {/album/:id, PUT} route
+[Nest] 467  - 04/01/2024, 10:41:20 PM     LOG Mapped {/album/:id, DELETE} route
+[Nest] 467  - 04/01/2024, 10:41:20 PM     LOG FavsController {/favs}:
+[Nest] 467  - 04/01/2024, 10:41:20 PM     LOG Mapped {/favs, GET} route
+[Nest] 467  - 04/01/2024, 10:41:20 PM     LOG Mapped {/favs/track/:id, DELETE} route
+[Nest] 467  - 04/01/2024, 10:41:20 PM     LOG Mapped {/favs/artist/:id, POST} route
+[Nest] 467  - 04/01/2024, 10:41:20 PM     LOG Mapped {/favs/album/:id, DELETE} route
+[Nest] 467  - 04/01/2024, 10:41:20 PM     LOG Mapped {/favs/track/:id, POST} route
+[Nest] 467  - 04/01/2024, 10:41:20 PM     LOG Mapped {/favs/album/:id, POST} route
+[Nest] 467  - 04/01/2024, 10:41:20 PM     LOG Nest application successfully started
+[Nest] 467  - 04/01/2024, 10:41:20 PM     LOG Mapped {/favs/artist/:id, DELETE} route
+[Nest] 491  - 04/01/2024, 10:41:43 PM     LOG Mapped {/, GET} route
+[Nest] 491  - 04/01/2024, 10:41:43 PM     LOG Mapped {/user, POST} route
+[Nest] 491  - 04/01/2024, 10:41:43 PM     LOG AppController {/}:
+[Nest] 491  - 04/01/2024, 10:41:43 PM     LOG Mapped {/user/:id, GET} route
+[Nest] 491  - 04/01/2024, 10:41:43 PM     LOG UserController {/user}:
+[Nest] 491  - 04/01/2024, 10:41:43 PM     LOG Mapped {/user/:id, PUT} route
+[Nest] 491  - 04/01/2024, 10:41:43 PM     LOG Mapped {/user, GET} route
+[Nest] 491  - 04/01/2024, 10:41:43 PM     LOG Mapped {/user/:id, DELETE} route
+[Nest] 491  - 04/01/2024, 10:41:43 PM     LOG Mapped {/auth/signup, POST} route
+[Nest] 491  - 04/01/2024, 10:41:43 PM     LOG AuthController {/auth}:
+[Nest] 491  - 04/01/2024, 10:41:43 PM     LOG Mapped {/auth/login, POST} route
+[Nest] 491  - 04/01/2024, 10:41:43 PM     LOG TrackController {/track}:
+[Nest] 491  - 04/01/2024, 10:41:43 PM     LOG Mapped {/track, POST} route
+[Nest] 491  - 04/01/2024, 10:41:43 PM     LOG Mapped {/track/:id, GET} route
+[Nest] 491  - 04/01/2024, 10:41:43 PM     LOG Mapped {/track, GET} route
+[Nest] 491  - 04/01/2024, 10:41:43 PM     LOG Mapped {/auth/refresh, POST} route
+[Nest] 491  - 04/01/2024, 10:41:43 PM     LOG ArtistController {/artist}:
+[Nest] 491  - 04/01/2024, 10:41:43 PM     LOG Mapped {/artist/:id, PUT} route
+[Nest] 491  - 04/01/2024, 10:41:43 PM     LOG Mapped {/track/:id, PUT} route
+[Nest] 491  - 04/01/2024, 10:41:43 PM     LOG Mapped {/track/:id, DELETE} route
+[Nest] 491  - 04/01/2024, 10:41:43 PM     LOG AlbumController {/album}:
+[Nest] 491  - 04/01/2024, 10:41:43 PM     LOG Mapped {/artist/:id, DELETE} route
+[Nest] 491  - 04/01/2024, 10:41:43 PM     LOG Mapped {/album, POST} route
+[Nest] 491  - 04/01/2024, 10:41:43 PM     LOG Mapped {/album, GET} route
+[Nest] 491  - 04/01/2024, 10:41:43 PM     LOG Mapped {/artist/:id, GET} route
+[Nest] 491  - 04/01/2024, 10:41:43 PM     LOG Mapped {/album/:id, GET} route
+[Nest] 491  - 04/01/2024, 10:41:43 PM     LOG Mapped {/artist, GET} route
+[Nest] 491  - 04/01/2024, 10:41:43 PM     LOG Mapped {/artist, POST} route
+[Nest] 491  - 04/01/2024, 10:41:43 PM     LOG Mapped {/album/:id, PUT} route
+[Nest] 491  - 04/01/2024, 10:41:43 PM     LOG Mapped {/album/:id, DELETE} route
+[Nest] 491  - 04/01/2024, 10:41:43 PM     LOG Mapped {/favs, GET} route
+[Nest] 491  - 04/01/2024, 10:41:43 PM     LOG Mapped {/favs/album/:id, DELETE} route
+[Nest] 491  - 04/01/2024, 10:41:43 PM     LOG FavsController {/favs}:
+[Nest] 491  - 04/01/2024, 10:41:43 PM     LOG Mapped {/favs/album/:id, POST} route
+[Nest] 491  - 04/01/2024, 10:41:43 PM     LOG Mapped {/favs/track/:id, POST} route
+[Nest] 491  - 04/01/2024, 10:41:43 PM     LOG Mapped {/favs/artist/:id, DELETE} route
+[Nest] 491  - 04/01/2024, 10:41:43 PM     LOG Mapped {/favs/track/:id, DELETE} route
+[Nest] 491  - 04/01/2024, 10:41:43 PM     LOG Mapped {/favs/artist/:id, POST} route
+[Nest] 491  - 04/01/2024, 10:41:43 PM     LOG Nest application successfully started
+[Nest] 62  - 04/01/2024, 10:44:32 PM     LOG UserController {/user}:
+[Nest] 62  - 04/01/2024, 10:44:32 PM     LOG Mapped {/, GET} route
+[Nest] 62  - 04/01/2024, 10:44:32 PM     LOG Mapped {/user/:id, GET} route
+[Nest] 62  - 04/01/2024, 10:44:32 PM     LOG Mapped {/user, POST} route
+[Nest] 62  - 04/01/2024, 10:44:32 PM     LOG AppController {/}:
+[Nest] 62  - 04/01/2024, 10:44:32 PM     LOG Mapped {/user, GET} route
+[Nest] 62  - 04/01/2024, 10:44:32 PM     LOG AuthController {/auth}:
+[Nest] 62  - 04/01/2024, 10:44:32 PM     LOG Mapped {/user/:id, DELETE} route
+[Nest] 62  - 04/01/2024, 10:44:32 PM     LOG Mapped {/user/:id, PUT} route
+[Nest] 62  - 04/01/2024, 10:44:32 PM     LOG Mapped {/auth/signup, POST} route
+[Nest] 62  - 04/01/2024, 10:44:32 PM     LOG Mapped {/auth/refresh, POST} route
+[Nest] 62  - 04/01/2024, 10:44:32 PM     LOG Mapped {/track, GET} route
+[Nest] 62  - 04/01/2024, 10:44:32 PM     LOG Mapped {/track, POST} route
+[Nest] 62  - 04/01/2024, 10:44:32 PM     LOG Mapped {/track/:id, PUT} route
+[Nest] 62  - 04/01/2024, 10:44:32 PM     LOG ArtistController {/artist}:
+[Nest] 62  - 04/01/2024, 10:44:32 PM     LOG Mapped {/track/:id, GET} route
+[Nest] 62  - 04/01/2024, 10:44:32 PM     LOG Mapped {/track/:id, DELETE} route
+[Nest] 62  - 04/01/2024, 10:44:32 PM     LOG TrackController {/track}:
+[Nest] 62  - 04/01/2024, 10:44:32 PM     LOG Mapped {/artist/:id, GET} route
+[Nest] 62  - 04/01/2024, 10:44:32 PM     LOG Mapped {/artist, GET} route
+[Nest] 62  - 04/01/2024, 10:44:32 PM     LOG Mapped {/artist/:id, PUT} route
+[Nest] 62  - 04/01/2024, 10:44:32 PM     LOG AlbumController {/album}:
+[Nest] 62  - 04/01/2024, 10:44:32 PM     LOG Mapped {/album, GET} route
+[Nest] 62  - 04/01/2024, 10:44:32 PM     LOG Mapped {/album/:id, GET} route
+[Nest] 62  - 04/01/2024, 10:44:32 PM     LOG Mapped {/album, POST} route
+[Nest] 62  - 04/01/2024, 10:44:32 PM     LOG Mapped {/auth/login, POST} route
+[Nest] 62  - 04/01/2024, 10:44:32 PM     LOG Mapped {/artist, POST} route
+[Nest] 62  - 04/01/2024, 10:44:32 PM     LOG FavsController {/favs}:
+[Nest] 62  - 04/01/2024, 10:44:32 PM     LOG Mapped {/album/:id, DELETE} route
+[Nest] 62  - 04/01/2024, 10:44:32 PM     LOG Mapped {/favs/track/:id, POST} route
+[Nest] 62  - 04/01/2024, 10:44:32 PM     LOG Mapped {/favs/track/:id, DELETE} route
+[Nest] 62  - 04/01/2024, 10:44:32 PM     LOG Mapped {/favs/album/:id, POST} route
+[Nest] 62  - 04/01/2024, 10:44:32 PM     LOG Mapped {/favs, GET} route
+[Nest] 62  - 04/01/2024, 10:44:32 PM     LOG Mapped {/favs/album/:id, DELETE} route
+[Nest] 62  - 04/01/2024, 10:44:32 PM     LOG Mapped {/favs/artist/:id, POST} route
+[Nest] 62  - 04/01/2024, 10:44:32 PM     LOG Mapped {/favs/artist/:id, DELETE} route
+[Nest] 62  - 04/01/2024, 10:44:32 PM     LOG Mapped {/artist/:id, DELETE} route
+[Nest] 62  - 04/01/2024, 10:44:32 PM     LOG Mapped {/album/:id, PUT} route
+[Nest] 62  - 04/01/2024, 10:44:32 PM     LOG Nest application successfully started
+[Nest] 74  - 04/01/2024, 10:46:48 PM     LOG AppController {/}:
+[Nest] 74  - 04/01/2024, 10:46:48 PM     LOG Mapped {/, GET} route
+[Nest] 74  - 04/01/2024, 10:46:48 PM     LOG Mapped {/user, POST} route
+[Nest] 74  - 04/01/2024, 10:46:48 PM     LOG Mapped {/user, GET} route
+[Nest] 74  - 04/01/2024, 10:46:48 PM     LOG Mapped {/user/:id, GET} route
+[Nest] 74  - 04/01/2024, 10:46:48 PM     LOG AuthController {/auth}:
+[Nest] 74  - 04/01/2024, 10:46:48 PM     LOG Mapped {/user/:id, DELETE} route
+[Nest] 74  - 04/01/2024, 10:46:48 PM     LOG Mapped {/user/:id, PUT} route
+[Nest] 74  - 04/01/2024, 10:46:48 PM     LOG Mapped {/auth/login, POST} route
+[Nest] 74  - 04/01/2024, 10:46:48 PM     LOG Mapped {/auth/signup, POST} route
+[Nest] 74  - 04/01/2024, 10:46:48 PM     LOG Mapped {/track, POST} route
+[Nest] 74  - 04/01/2024, 10:46:48 PM     LOG TrackController {/track}:
+[Nest] 74  - 04/01/2024, 10:46:48 PM     LOG Mapped {/auth/refresh, POST} route
+[Nest] 74  - 04/01/2024, 10:46:48 PM     LOG Mapped {/track/:id, GET} route
+[Nest] 74  - 04/01/2024, 10:46:48 PM     LOG Mapped {/track/:id, PUT} route
+[Nest] 74  - 04/01/2024, 10:46:48 PM     LOG Mapped {/track/:id, DELETE} route
+[Nest] 74  - 04/01/2024, 10:46:48 PM     LOG UserController {/user}:
+[Nest] 74  - 04/01/2024, 10:46:48 PM     LOG ArtistController {/artist}:
+[Nest] 74  - 04/01/2024, 10:46:48 PM     LOG Mapped {/track, GET} route
+[Nest] 74  - 04/01/2024, 10:46:48 PM     LOG Mapped {/artist/:id, PUT} route
+[Nest] 74  - 04/01/2024, 10:46:48 PM     LOG Mapped {/artist, POST} route
+[Nest] 74  - 04/01/2024, 10:46:48 PM     LOG Mapped {/artist/:id, GET} route
+[Nest] 74  - 04/01/2024, 10:46:48 PM     LOG Mapped {/artist/:id, DELETE} route
+[Nest] 74  - 04/01/2024, 10:46:48 PM     LOG Mapped {/album, POST} route
+[Nest] 74  - 04/01/2024, 10:46:48 PM     LOG AlbumController {/album}:
+[Nest] 74  - 04/01/2024, 10:46:48 PM     LOG Mapped {/album, GET} route
+[Nest] 74  - 04/01/2024, 10:46:48 PM     LOG Mapped {/album/:id, PUT} route
+[Nest] 74  - 04/01/2024, 10:46:48 PM     LOG Mapped {/artist, GET} route
+[Nest] 74  - 04/01/2024, 10:46:48 PM     LOG Mapped {/album/:id, DELETE} route
+[Nest] 74  - 04/01/2024, 10:46:48 PM     LOG Mapped {/album/:id, GET} route
+[Nest] 74  - 04/01/2024, 10:46:48 PM     LOG Mapped {/favs, GET} route
+[Nest] 74  - 04/01/2024, 10:46:48 PM     LOG Mapped {/favs/album/:id, DELETE} route
+[Nest] 74  - 04/01/2024, 10:46:48 PM     LOG Mapped {/favs/track/:id, DELETE} route
+[Nest] 74  - 04/01/2024, 10:46:48 PM     LOG Mapped {/favs/album/:id, POST} route
+[Nest] 74  - 04/01/2024, 10:46:48 PM     LOG Mapped {/favs/track/:id, POST} route
+[Nest] 74  - 04/01/2024, 10:46:48 PM     LOG FavsController {/favs}:
+[Nest] 74  - 04/01/2024, 10:46:48 PM     LOG Nest application successfully started
+[Nest] 74  - 04/01/2024, 10:46:48 PM     LOG Mapped {/favs/artist/:id, POST} route
+[Nest] 74  - 04/01/2024, 10:46:48 PM     LOG Mapped {/favs/artist/:id, DELETE} route
+[Nest] 86  - 04/01/2024, 10:48:03 PM     LOG Mapped {/, GET} route
+[Nest] 86  - 04/01/2024, 10:48:03 PM     LOG AppController {/}:
+[Nest] 86  - 04/01/2024, 10:48:03 PM     LOG UserController {/user}:
+[Nest] 86  - 04/01/2024, 10:48:03 PM     LOG Mapped {/user, POST} route
+[Nest] 86  - 04/01/2024, 10:48:03 PM     LOG Mapped {/user/:id, GET} route
+[Nest] 86  - 04/01/2024, 10:48:03 PM     LOG Mapped {/user, GET} route
+[Nest] 86  - 04/01/2024, 10:48:03 PM     LOG Mapped {/user/:id, DELETE} route
+[Nest] 86  - 04/01/2024, 10:48:03 PM     LOG Mapped {/user/:id, PUT} route
+[Nest] 86  - 04/01/2024, 10:48:03 PM     LOG Mapped {/auth/login, POST} route
+[Nest] 86  - 04/01/2024, 10:48:03 PM     LOG Mapped {/track, POST} route
+[Nest] 86  - 04/01/2024, 10:48:03 PM     LOG Mapped {/auth/refresh, POST} route
+[Nest] 86  - 04/01/2024, 10:48:03 PM     LOG Mapped {/auth/signup, POST} route
+[Nest] 86  - 04/01/2024, 10:48:03 PM     LOG AuthController {/auth}:
+[Nest] 86  - 04/01/2024, 10:48:03 PM     LOG TrackController {/track}:
+[Nest] 86  - 04/01/2024, 10:48:03 PM     LOG Mapped {/track/:id, PUT} route
+[Nest] 86  - 04/01/2024, 10:48:03 PM     LOG Mapped {/track, GET} route
+[Nest] 86  - 04/01/2024, 10:48:03 PM     LOG Mapped {/track/:id, GET} route
+[Nest] 86  - 04/01/2024, 10:48:03 PM     LOG Mapped {/track/:id, DELETE} route
+[Nest] 86  - 04/01/2024, 10:48:03 PM     LOG Mapped {/artist, POST} route
+[Nest] 86  - 04/01/2024, 10:48:03 PM     LOG Mapped {/artist, GET} route
+[Nest] 86  - 04/01/2024, 10:48:03 PM     LOG Mapped {/artist/:id, GET} route
+[Nest] 86  - 04/01/2024, 10:48:03 PM     LOG ArtistController {/artist}:
+[Nest] 86  - 04/01/2024, 10:48:03 PM     LOG Mapped {/artist/:id, PUT} route
+[Nest] 86  - 04/01/2024, 10:48:03 PM     LOG AlbumController {/album}:
+[Nest] 86  - 04/01/2024, 10:48:03 PM     LOG Mapped {/artist/:id, DELETE} route
+[Nest] 86  - 04/01/2024, 10:48:03 PM     LOG Mapped {/album/:id, GET} route
+[Nest] 86  - 04/01/2024, 10:48:03 PM     LOG Mapped {/album, GET} route
+[Nest] 86  - 04/01/2024, 10:48:03 PM     LOG Mapped {/album, POST} route
+[Nest] 86  - 04/01/2024, 10:48:03 PM     LOG Mapped {/album/:id, DELETE} route
+[Nest] 86  - 04/01/2024, 10:48:03 PM     LOG Mapped {/album/:id, PUT} route
+[Nest] 86  - 04/01/2024, 10:48:03 PM     LOG Mapped {/favs/track/:id, POST} route
+[Nest] 86  - 04/01/2024, 10:48:03 PM     LOG FavsController {/favs}:
+[Nest] 86  - 04/01/2024, 10:48:03 PM     LOG Mapped {/favs/artist/:id, POST} route
+[Nest] 86  - 04/01/2024, 10:48:03 PM     LOG Mapped {/favs, GET} route
+[Nest] 86  - 04/01/2024, 10:48:03 PM     LOG Mapped {/favs/album/:id, POST} route
+[Nest] 86  - 04/01/2024, 10:48:03 PM     LOG Nest application successfully started
+[Nest] 86  - 04/01/2024, 10:48:03 PM     LOG Mapped {/favs/album/:id, DELETE} route
+[Nest] 86  - 04/01/2024, 10:48:03 PM     LOG Mapped {/favs/artist/:id, DELETE} route
+[Nest] 86  - 04/01/2024, 10:48:03 PM     LOG Mapped {/favs/track/:id, DELETE} route
+[Nest] 106  - 04/01/2024, 10:50:28 PM     LOG AppController {/}:
+[Nest] 106  - 04/01/2024, 10:50:28 PM     LOG UserController {/user}:
+[Nest] 106  - 04/01/2024, 10:50:28 PM     LOG Mapped {/, GET} route
+[Nest] 106  - 04/01/2024, 10:50:28 PM     LOG Mapped {/user, POST} route
+[Nest] 106  - 04/01/2024, 10:50:28 PM     LOG Mapped {/user/:id, GET} route
+[Nest] 106  - 04/01/2024, 10:50:28 PM     LOG Mapped {/user, GET} route
+[Nest] 106  - 04/01/2024, 10:50:28 PM     LOG Mapped {/user/:id, DELETE} route
+[Nest] 106  - 04/01/2024, 10:50:28 PM     LOG Mapped {/user/:id, PUT} route
+[Nest] 106  - 04/01/2024, 10:50:28 PM     LOG AuthController {/auth}:
+[Nest] 106  - 04/01/2024, 10:50:28 PM     LOG Mapped {/auth/signup, POST} route
+[Nest] 106  - 04/01/2024, 10:50:28 PM     LOG Mapped {/track, POST} route
+[Nest] 106  - 04/01/2024, 10:50:28 PM     LOG Mapped {/auth/login, POST} route
+[Nest] 106  - 04/01/2024, 10:50:28 PM     LOG TrackController {/track}:
+[Nest] 106  - 04/01/2024, 10:50:28 PM     LOG Mapped {/track/:id, GET} route
+[Nest] 106  - 04/01/2024, 10:50:28 PM     LOG Mapped {/auth/refresh, POST} route
+[Nest] 106  - 04/01/2024, 10:50:28 PM     LOG Mapped {/track, GET} route
+[Nest] 106  - 04/01/2024, 10:50:28 PM     LOG Mapped {/track/:id, PUT} route
+[Nest] 106  - 04/01/2024, 10:50:28 PM     LOG Mapped {/track/:id, DELETE} route
+[Nest] 106  - 04/01/2024, 10:50:28 PM     LOG Mapped {/artist, GET} route
+[Nest] 106  - 04/01/2024, 10:50:28 PM     LOG ArtistController {/artist}:
+[Nest] 106  - 04/01/2024, 10:50:28 PM     LOG Mapped {/artist/:id, GET} route
+[Nest] 106  - 04/01/2024, 10:50:28 PM     LOG Mapped {/artist, POST} route
+[Nest] 106  - 04/01/2024, 10:50:28 PM     LOG Mapped {/artist/:id, DELETE} route
+[Nest] 106  - 04/01/2024, 10:50:28 PM     LOG Mapped {/album, POST} route
+[Nest] 106  - 04/01/2024, 10:50:28 PM     LOG Mapped {/artist/:id, PUT} route
+[Nest] 106  - 04/01/2024, 10:50:28 PM     LOG Mapped {/album, GET} route
+[Nest] 106  - 04/01/2024, 10:50:28 PM     LOG AlbumController {/album}:
+[Nest] 106  - 04/01/2024, 10:50:28 PM     LOG Mapped {/album/:id, PUT} route
+[Nest] 106  - 04/01/2024, 10:50:28 PM     LOG Mapped {/favs, GET} route
+[Nest] 106  - 04/01/2024, 10:50:28 PM     LOG Mapped {/album/:id, GET} route
+[Nest] 106  - 04/01/2024, 10:50:28 PM     LOG Mapped {/album/:id, DELETE} route
+[Nest] 106  - 04/01/2024, 10:50:28 PM     LOG FavsController {/favs}:
+[Nest] 106  - 04/01/2024, 10:50:28 PM     LOG Mapped {/favs/artist/:id, POST} route
+[Nest] 106  - 04/01/2024, 10:50:28 PM     LOG Mapped {/favs/track/:id, DELETE} route
+[Nest] 106  - 04/01/2024, 10:50:28 PM     LOG Mapped {/favs/track/:id, POST} route
+[Nest] 106  - 04/01/2024, 10:50:28 PM     LOG Mapped {/favs/album/:id, DELETE} route
+[Nest] 106  - 04/01/2024, 10:50:28 PM     LOG Mapped {/favs/album/:id, POST} route
+[Nest] 106  - 04/01/2024, 10:50:28 PM     LOG Mapped {/favs/artist/:id, DELETE} route
+[Nest] 106  - 04/01/2024, 10:50:28 PM     LOG Nest application successfully started
