@@ -9,6 +9,7 @@ import { AlbumModule } from './resources/album/album.module';
 import { FavsModule } from './resources/favs/favs.module';
 import { AppDataSource } from '../ormconfig';
 import { LoggerModule } from './logger/logger.module';
+import { AuthModule } from './resources/auth/auth.module';
 
 const ormConfig = AppDataSource.options;
 @Module({
@@ -28,6 +29,7 @@ const ormConfig = AppDataSource.options;
     AlbumModule,
     FavsModule,
     LoggerModule,
+    AuthModule,
   ],
   controllers: [AppController],
 })
