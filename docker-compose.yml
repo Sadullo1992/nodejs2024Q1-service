@@ -1,0 +1,45 @@
+version: '3.7'
+services:
+  node:
+    container_name: app
+    restart: unless-stopped
+    build: .
+    ports:
+      - ${PORT}:${PORT}
+    depends_on:
+      - db
+    env_file:
+      - .env
+    environment:
+      PORT: ${PORT}
+    volumes:
+      - ./:/usr/app
+      - ignore:/usr/app/node_modules
+    networks:
+      - app-network
+  db:
+    container_name: db
+    restart: unless-stopped
+    build: ./database/
+    ports:
+      - ${POSTGRES_PORT}:${POSTGRES_PORT}
+    env_file:
+      - .env
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_HOST: ${POSTGRES_HOST}
+    command: ['-c', 'logging_collector=on']
+    networks:
+      - app-network
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      
+networks:
+  app-network:
+    driver: bridge
+
+volumes:
+  ignore:
+  pgdata:
